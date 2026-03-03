@@ -152,6 +152,27 @@ footer a { color:var(--accent); text-decoration:none; }
 .profile-card-info { flex:1; min-width:0; }
 .profile-card-name { font-weight:600; font-size:0.95rem; }
 .profile-card-detail { color:var(--muted); font-size:0.8rem; }
+
+/* Vote categories */
+.cat-pill { display:inline-block; padding:2px 8px; border-radius:4px; font-size:0.7rem; font-weight:500; white-space:nowrap; letter-spacing:0.02em; }
+.cat-budzet { background:rgba(37,99,235,0.12); color:#2563eb; }
+.cat-inwestycje { background:rgba(22,163,74,0.12); color:#16a34a; }
+.cat-planowanie { background:rgba(124,58,237,0.12); color:#7c3aed; }
+.cat-nieruchomosci { background:rgba(180,83,9,0.12); color:#b45309; }
+.cat-transport { background:rgba(234,88,12,0.12); color:#ea580c; }
+.cat-oswiata { background:rgba(202,138,4,0.12); color:#ca8a04; }
+.cat-zdrowie { background:rgba(219,39,119,0.12); color:#db2777; }
+.cat-srodowisko { background:rgba(5,150,105,0.12); color:#059669; }
+.cat-kultura { background:rgba(6,182,212,0.12); color:#0891b2; }
+.cat-skarga { background:rgba(107,114,128,0.15); color:#6b7280; }
+.cat-nazwy { background:rgba(156,163,175,0.12); color:#9ca3af; }
+.cat-procedura { background:rgba(156,163,175,0.1); color:#9ca3af; }
+.cat-inne { background:rgba(107,114,128,0.08); color:#9ca3af; }
+.cat-group { margin-bottom:20px; }
+.cat-group-header { display:flex; align-items:center; gap:8px; margin-bottom:8px; padding:8px 0; border-bottom:1px solid var(--border); }
+.cat-group-header .cat-pill { font-size:0.8rem; padding:3px 10px; }
+.cat-group-count { color:var(--muted); font-size:0.8rem; }
+.cat-summary { display:flex; flex-wrap:wrap; gap:4px; margin-bottom:12px; }
 </style>
 </head>
 <body>
@@ -286,6 +307,48 @@ let currentSort = { key: 'frekwencja', asc: false };
 let clubFilter = 'all';
 let profileClubFilter = 'all';
 let currentSession = 'all';
+
+// Vote categories — auto-classification by topic keywords
+const VOTE_CATS = {
+  budzet:       { label: 'Budżet',           order: 1 },
+  inwestycje:   { label: 'Inwestycje',       order: 2 },
+  planowanie:   { label: 'Planowanie',        order: 3 },
+  nieruchomosci:{ label: 'Nieruchomości',     order: 4 },
+  transport:    { label: 'Transport',         order: 5 },
+  oswiata:      { label: 'Oświata',           order: 6 },
+  zdrowie:      { label: 'Zdrowie/Społeczne', order: 7 },
+  srodowisko:   { label: 'Środowisko',        order: 8 },
+  kultura:      { label: 'Kultura',           order: 9 },
+  skarga:       { label: 'Skargi/Petycje',    order: 10 },
+  nazwy:        { label: 'Nazwy',             order: 11 },
+  procedura:    { label: 'Proceduralne',      order: 12 },
+  inne:         { label: 'Inne',              order: 13 },
+};
+const CAT_RULES = [
+  ['budzet',       /budże[tc]|finansow|dochodów|wydatków|podatk|opłat|skarbnik|absolutorium|WPF|wieloletni.*prognoz|dotacj|umarzani.*spłat|rozkładani.*rat|kredyt|pożyczk|zaciągnięci|stawek.*jednostkow|ekwiwalent.*pienięż|średni.*cen.*paliw|czynszów|odpłatności za pobyt/i],
+  ['inwestycje',   /inwestycj|budow[aąęy]|przebudow|remont|modernizacj|spółk.*kapitał|objęci.*udziałów/i],
+  ['planowanie',   /plan.*zagospodarowania|miejscowego planu|studium|zagospodarowania przestrzennego|rewitaliz|obszar.*zdegradowan/i],
+  ['nieruchomosci',/nieruchom|gruntu|działk|dzierżaw|użytkowania wieczyst|sprzedaż.*lokalu|bonifikat|lokali użytkow|zasad.*gospodarowan.*zasob|lokali.*mieszkaln|wynajmowan.*lokali|mieszkaniow/i],
+  ['transport',    /transport|komunikacj|kategorii dróg|drogi gminnej|tramwaj|autobus|metro|parking|ścieżk.*rowerow|stref.*płatnego parkowania|elektromobil|zarząd.*dróg/i],
+  ['oswiata',      /szkoł|przedszkol|żłob|oświat|edukacj|stypend|nadania imienia|sieci.*szkół|liceum|branżow.*szkół|godzin zajęć|nagrod.*edukacyjn/i],
+  ['zdrowie',      /zdrow|szpital|społeczn|pomoc.*społeczn|bezdomn|niepełnospraw|senioraln|opiek|alkohol|profilaktyk|piecz.*zastępcz|mieszkani.*wspomagany|mieszkani.*chronionych|organizacj.*pozarządow/i],
+  ['srodowisko',   /środowisk|zieleń|park[uói]|ekolog|odpady|klimat|wycink|kąpielisk|sezon.*kąpielow/i],
+  ['kultura',      /kultur|bibliotek|zabytk|pomnik|muzeum|teatr|nagrod.*miasta|nagrody.*miasta|konkurs.*literack|konserwatorsk|nagrod.*historyczn|nagrod.*literack/i],
+  ['skarga',       /skarg|petycj|rozpatrzenia skargi|rozpatrzenia wniosku/i],
+  ['nazwy',        /nadania nazwy|nazwy? obiektowi|nazewnictw|zniesieni.*nazwy?|zmiany? nazw|nadania ulic/i],
+  ['procedura',    /protokoł|porządk.*obrad|ślubowani|włącz?enie druku|komisj.*rewizyjn|powołani|regulamin|statut.*dzielnicy|statut.*zakładu|przyjęci.*regulamin|odesłanie do komisji|zamknięci.*obrad|otwarci.*sesji|okręg.*wyborczy|podział.*dzielnicy|ławnik|rezolucj|oświadczeni|apel|upoważnien.*dyrektor|tekst.*jednolity|stanowisko nr|przewodniczą|wiceprzewodniczą|porozumieni.*gmin|współdziałan.*gmin|kasyn.*gry|wyrażeni.*opinii|stwierdzeni.*nieważności|wyznaczeni.*termin|przedstawiciel.*rady|powierzeni|referendum|zmian.*siedziby|członk.*jury|kandydat.*na członk/i],
+];
+function categorizeVote(topic) {
+  if (!topic) return 'inne';
+  for (const [cat, re] of CAT_RULES) {
+    if (re.test(topic)) return cat;
+  }
+  return 'inne';
+}
+function catPill(cat) {
+  const c = VOTE_CATS[cat] || VOTE_CATS.inne;
+  return `<span class="cat-pill cat-${cat}">${c.label}</span>`;
+}
 
 // Gender detection — female councilors (based on first name ending in 'a')
 function isFemale(name) {
@@ -951,7 +1014,7 @@ function renderVotesTable() {
     const passed = (c.za||0) > total/2;
     return `<tr class="vote-row" onclick="showVote('${v.id || ''}')">
       <td style="color:var(--muted)">${i+1}</td>
-      <td>${v.topic ? v.topic.substring(0,120) : '?'}${v.druk ? ` <span style="color:var(--muted)">(druk ${v.druk})</span>` : ''}</td>
+      <td>${catPill(categorizeVote(v.topic))} ${v.topic ? v.topic.substring(0,120) : '?'}${v.druk ? ` <span style="color:var(--muted)">(druk ${v.druk})</span>` : ''}</td>
       <td><span class="pill pill-za">${c.za||0}</span></td>
       <td>${c.przeciw ? `<span class="pill pill-przeciw">${c.przeciw}</span>` : '0'}</td>
       <td>${c.wstrzymal_sie ? `<span class="pill pill-wstrzymal">${c.wstrzymal_sie}</span>` : '0'}</td>
@@ -1161,26 +1224,50 @@ function showSession(sessionDate) {
     html += `</div>`;
   }
 
-  // Votes list
+  // Votes grouped by category
+  const grouped = {};
+  sessionVotes.forEach(v => {
+    const cat = categorizeVote(v.topic);
+    if (!grouped[cat]) grouped[cat] = [];
+    grouped[cat].push(v);
+  });
+  const catOrder = Object.keys(grouped).sort((a,b) => (VOTE_CATS[a]?.order||99) - (VOTE_CATS[b]?.order||99));
+
+  // Category summary
   html += `<div class="section">
     <h2>Głosowania (${sessionVotes.length})</h2>
-    <table class="ranking-table">
-      <thead><tr><th>#</th><th>Temat</th><th>Za</th><th>Przeciw</th><th>Wstrzym.</th><th>Wynik</th></tr></thead>
-      <tbody>`;
-  sessionVotes.forEach((v, i) => {
-    const c = v.counts || {};
-    const total = (c.za||0) + (c.przeciw||0) + (c.wstrzymal_sie||0);
-    const ok = (c.za||0) > total/2;
-    html += `<tr class="vote-row" onclick="showVote('${v.id}')">
-      <td>${i+1}</td>
-      <td style="text-align:left">${v.topic || '—'}</td>
-      <td><span class="pill pill-za">${c.za||0}</span></td>
-      <td>${c.przeciw ? `<span class="pill pill-przeciw">${c.przeciw}</span>` : '0'}</td>
-      <td>${c.wstrzymal_sie ? `<span class="pill pill-wstrzymal">${c.wstrzymal_sie}</span>` : '0'}</td>
-      <td style="color:${ok?'var(--green)':'var(--red)'};font-weight:600">${ok?'✓':'✗'}</td>
-    </tr>`;
+    <div class="cat-summary">`;
+  catOrder.forEach(cat => {
+    html += `${catPill(cat)} <span style="color:var(--muted);font-size:0.75rem;margin-right:6px">${grouped[cat].length}</span>`;
   });
-  html += `</tbody></table></div>`;
+  html += `</div>`;
+
+  // Grouped tables
+  let globalIdx = 0;
+  catOrder.forEach(cat => {
+    const votes = grouped[cat];
+    html += `<div class="cat-group">
+      <div class="cat-group-header">${catPill(cat)} <span class="cat-group-count">${votes.length} głosowań</span></div>
+      <table class="ranking-table">
+        <thead><tr><th>#</th><th>Temat</th><th>Za</th><th>Przeciw</th><th>Wstrzym.</th><th>Wynik</th></tr></thead>
+        <tbody>`;
+    votes.forEach(v => {
+      globalIdx++;
+      const c = v.counts || {};
+      const total = (c.za||0) + (c.przeciw||0) + (c.wstrzymal_sie||0);
+      const ok = (c.za||0) > total/2;
+      html += `<tr class="vote-row" onclick="showVote('${v.id}')">
+        <td>${globalIdx}</td>
+        <td style="text-align:left">${v.topic || '—'}</td>
+        <td><span class="pill pill-za">${c.za||0}</span></td>
+        <td>${c.przeciw ? `<span class="pill pill-przeciw">${c.przeciw}</span>` : '0'}</td>
+        <td>${c.wstrzymal_sie ? `<span class="pill pill-wstrzymal">${c.wstrzymal_sie}</span>` : '0'}</td>
+        <td style="color:${ok?'var(--green)':'var(--red)'};font-weight:600">${ok?'✓':'✗'}</td>
+      </tr>`;
+    });
+    html += `</tbody></table></div>`;
+  });
+  html += `</div>`;
 
   // Attendance
   html += `<div class="section">
