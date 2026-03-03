@@ -73,8 +73,11 @@ header p { color:var(--muted); margin-top:4px; }
 .section { margin-bottom:40px; }
 .section h2 { font-size:1.3rem; font-weight:600; margin-bottom:16px; padding-bottom:8px; border-bottom:1px solid var(--border); }
 table { width:100%; border-collapse:collapse; font-size:0.9rem; }
-th { text-align:left; padding:10px 12px; background:var(--surface); color:var(--muted); font-weight:500; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.05em; position:sticky; top:0; cursor:pointer; }
+th { text-align:left; padding:10px 12px; background:var(--surface); color:var(--muted); font-weight:500; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.05em; position:sticky; top:0; cursor:pointer; user-select:none; }
 th:hover { color:var(--accent); }
+th .sort-arrow { display:inline-block; margin-left:4px; font-size:0.7rem; opacity:0.4; }
+th.sorted .sort-arrow { opacity:1; color:var(--accent); }
+th.sorted { color:var(--text); }
 td { padding:10px 12px; border-bottom:1px solid var(--border); }
 tr:hover td { background:rgba(99,102,241,0.05); }
 .club { display:inline-block; padding:2px 8px; border-radius:4px; font-size:0.75rem; font-weight:600; }
@@ -132,6 +135,7 @@ footer a { color:var(--accent); text-decoration:none; }
 .vote-cat-header { font-size:0.9rem; font-weight:600; margin:16px 0 8px; padding:6px 0; border-bottom:1px solid var(--border); }
 .session-pill { padding:4px 10px; border-radius:6px; border:1px solid var(--border); background:transparent; color:var(--muted); cursor:pointer; font-size:0.8rem; white-space:nowrap; }
 .session-pill.active { background:var(--accent); color:white; border-color:var(--accent); }
+.session-pill.cat-pill { font-size:0.75rem; padding:3px 10px; }
 .session-pill .pill-count { font-size:0.7rem; opacity:0.7; margin-left:2px; }
 .vote-row { cursor:pointer; }
 .vote-row:hover td { background:rgba(99,102,241,0.1); }
@@ -207,16 +211,16 @@ footer a { color:var(--accent); text-decoration:none; }
         <table id="councilor-table">
           <thead>
             <tr>
-              <th data-sort="name">Radny/a</th>
-              <th data-sort="club">Klub</th>
-              <th data-sort="frekwencja">Frekwencja</th>
-              <th data-sort="aktywnosc">Aktywność</th>
-              <th data-sort="zgodnosc_z_klubem">Zgodność z&nbsp;klubem</th>
-              <th data-sort="votes_za">Za</th>
-              <th data-sort="votes_przeciw">Przeciw</th>
-              <th data-sort="votes_wstrzymal">Wstrzym.</th>
-              <th data-sort="votes_brak">Brak&nbsp;gł.</th>
-              <th data-sort="rebellion_count">Wbrew&nbsp;klubowi</th>
+              <th data-sort="name">Radny/a <span class="sort-arrow"></span></th>
+              <th data-sort="club">Klub <span class="sort-arrow"></span></th>
+              <th data-sort="frekwencja">Frekwencja <span class="sort-arrow"></span></th>
+              <th data-sort="aktywnosc">Aktywność <span class="sort-arrow"></span></th>
+              <th data-sort="zgodnosc_z_klubem">Zgodność z&nbsp;klubem <span class="sort-arrow"></span></th>
+              <th data-sort="votes_za">Za <span class="sort-arrow"></span></th>
+              <th data-sort="votes_przeciw">Przeciw <span class="sort-arrow"></span></th>
+              <th data-sort="votes_wstrzymal">Wstrzym. <span class="sort-arrow"></span></th>
+              <th data-sort="votes_brak">Brak&nbsp;gł. <span class="sort-arrow"></span></th>
+              <th data-sort="rebellion_count">Wbrew&nbsp;klubowi <span class="sort-arrow"></span></th>
             </tr>
           </thead>
           <tbody></tbody>
@@ -249,6 +253,7 @@ footer a { color:var(--accent); text-decoration:none; }
     </div>
 
     <div id="tab-votes" class="section" style="display:none">
+      <div class="filter-bar" id="cat-filter" style="margin-bottom:8px;flex-wrap:wrap"></div>
       <div class="filter-bar" id="session-filter" style="margin-bottom:16px;flex-wrap:wrap"></div>
       <table id="votes-table">
         <thead>
@@ -307,6 +312,7 @@ let currentSort = { key: 'frekwencja', asc: false };
 let clubFilter = 'all';
 let profileClubFilter = 'all';
 let currentSession = 'all';
+let currentCatFilter = 'all';
 
 // Vote categories — auto-classification by topic keywords
 const VOTE_CATS = {
@@ -348,6 +354,16 @@ function categorizeVote(topic) {
 function catPill(cat) {
   const c = VOTE_CATS[cat] || VOTE_CATS.inne;
   return `<span class="cat-pill cat-${cat}">${c.label}</span>`;
+}
+
+// Sort names by last name, then first name
+function sortByLastName(names) {
+  return [...names].sort((a, b) => {
+    const pa = a.split(' '), pb = b.split(' ');
+    const lastA = pa[pa.length - 1], lastB = pb[pb.length - 1];
+    const cmp = lastA.localeCompare(lastB, 'pl');
+    return cmp !== 0 ? cmp : a.localeCompare(b, 'pl');
+  });
 }
 
 // Gender detection — female councilors (based on first name ending in 'a')
@@ -447,6 +463,7 @@ function selectKadencjaQuiet(kid) {
   clubFilter = 'all';
   profileClubFilter = 'all';
   currentSession = 'all';
+  currentCatFilter = 'all';
   render();
 }
 
@@ -570,6 +587,11 @@ function renderCouncilorTable() {
 
   data = [...data].sort((a,b) => {
     let va = a[currentSort.key], vb = b[currentSort.key];
+    if (currentSort.key === 'name') {
+      const pa = va.split(' '), pb = vb.split(' ');
+      const cmp = pa[pa.length-1].localeCompare(pb[pb.length-1], 'pl') || va.localeCompare(vb, 'pl');
+      return currentSort.asc ? cmp : -cmp;
+    }
     if (typeof va === 'string') return currentSort.asc ? va.localeCompare(vb) : vb.localeCompare(va);
     return currentSort.asc ? va - vb : vb - va;
   });
@@ -588,6 +610,18 @@ function renderCouncilorTable() {
       <td>${c.rebellion_count > 0 ? `<span class="pill pill-przeciw">${c.rebellion_count}</span>` : '0'}</td>
     </tr>`;
   }).join('');
+
+  // Update sort indicators
+  document.querySelectorAll('#councilor-table th[data-sort]').forEach(th => {
+    const arrow = th.querySelector('.sort-arrow');
+    if (th.dataset.sort === currentSort.key) {
+      th.classList.add('sorted');
+      arrow.textContent = currentSort.asc ? '▲' : '▼';
+    } else {
+      th.classList.remove('sorted');
+      arrow.textContent = '';
+    }
+  });
 }
 
 function renderProfilesGrid() {
@@ -605,7 +639,12 @@ function renderProfilesGrid() {
   });
 
   let filtered = profileClubFilter === 'all' ? allProfiles : allProfiles.filter(p => p.club === profileClubFilter);
-  filtered.sort((a,b) => a.name.localeCompare(b.name));
+  filtered.sort((a,b) => {
+    const pa = a.name.split(' '), pb = b.name.split(' ');
+    const lastA = pa[pa.length - 1], lastB = pb[pb.length - 1];
+    const cmp = lastA.localeCompare(lastB, 'pl');
+    return cmp !== 0 ? cmp : a.name.localeCompare(b.name, 'pl');
+  });
 
   const grid = document.getElementById('profiles-grid');
   grid.innerHTML = filtered.map(p => {
@@ -822,50 +861,97 @@ function showProfile(name) {
     }
 
     // Votes grouped by session
+    let allPersonVotes = [];
+    let profCatCounts = {};
+    const profCatOrder = Object.keys(VOTE_CATS).sort((a,b) => (VOTE_CATS[a]?.order||99) - (VOTE_CATS[b]?.order||99));
     if (hasVotes) {
       const kadData = RAW.kadencje.find(k => k.id === kid);
       if (kadData) {
         const sessions = [...(kadData.sessions || [])].sort((a,b) => b.date.localeCompare(a.date));
         const voteLabel = (v) => ({za:'za',przeciw:'przeciw',wstrzymal_sie:isFemale(profile.name)?'wstrzymała się':'wstrzymał się',brak_glosu:'brak głosu',nieobecny:isFemale(profile.name)?'nieobecna':'nieobecny'})[v]||v||'—';
         const votePillClass = (v) => ({za:'za',przeciw:'przeciw',wstrzymal_sie:'wstrzymal',brak_glosu:'wstrzymal',nieobecny:'wstrzymal'})[v]||'wstrzymal';
-
-        html += `<div class="section">
-          <h2>Głosy na sesjach</h2>`;
         for (const sess of sessions) {
           const sessionVotes = kadData.votes.filter(v => v.session_date === sess.date);
           if (sessionVotes.length === 0) continue;
           const personVotes = sessionVotes.map(v => {
             const nv = v.named_votes || {};
-            const allNames = [...(nv.za||[]),...(nv.przeciw||[]),...(nv.wstrzymal_sie||[]),...(nv.brak_glosu||[]),...(nv.nieobecni||[])];
             let pv = null;
             if ((nv.za||[]).includes(profile.name)) pv = 'za';
             else if ((nv.przeciw||[]).includes(profile.name)) pv = 'przeciw';
             else if ((nv.wstrzymal_sie||[]).includes(profile.name)) pv = 'wstrzymal_sie';
             else if ((nv.brak_glosu||[]).includes(profile.name)) pv = 'brak_glosu';
             else if ((nv.nieobecni||[]).includes(profile.name)) pv = 'nieobecny';
-            return { vote: v, pv };
+            return { vote: v, pv, cat: categorizeVote(v.topic), sess };
           }).filter(x => x.pv !== null);
-          if (personVotes.length === 0) continue;
+          allPersonVotes.push(...personVotes);
+        }
 
-          html += `<div style="margin-bottom:16px">
+        // Category counts for filter
+        allPersonVotes.forEach(x => { profCatCounts[x.cat] = (profCatCounts[x.cat]||0) + 1; });
+
+        html += `<div class="section">
+          <h2>Głosy na sesjach</h2>
+          <div class="filter-bar" id="profile-cat-filter" style="margin-bottom:12px;flex-wrap:wrap"></div>
+          <div id="profile-votes-container">`;
+
+        // Group by session
+        const sessGroups = {};
+        allPersonVotes.forEach(x => {
+          const key = x.sess.date;
+          if (!sessGroups[key]) sessGroups[key] = { sess: x.sess, votes: [] };
+          sessGroups[key].votes.push(x);
+        });
+        const sessKeys = Object.keys(sessGroups).sort((a,b) => b.localeCompare(a));
+
+        for (const sk of sessKeys) {
+          const { sess, votes: pvs } = sessGroups[sk];
+          html += `<div class="profile-sess-group" data-sessdate="${sess.date}" style="margin-bottom:16px">
             <div style="font-weight:600;margin-bottom:6px;font-size:0.9rem">
               <a class="name-link" href="/sesja/${sess.date}" onclick="event.preventDefault();showSession('${sess.date}')">Sesja ${sess.number} · ${sess.date}</a>
-              <span style="color:var(--muted);font-weight:400;margin-left:8px">(${personVotes.length} głosowań)</span>
+              <span class="sess-vote-count" style="color:var(--muted);font-weight:400;margin-left:8px">(${pvs.length} głosowań)</span>
             </div>
             <table><tbody>`;
-          personVotes.forEach(({vote: v, pv}) => {
-            html += `<tr class="vote-row" onclick="showVote('${v.id}')">
+          pvs.forEach(({vote: v, pv, cat}) => {
+            html += `<tr class="vote-row" data-vcat="${cat}" onclick="showVote('${v.id}')">
               <td style="width:100px"><span class="pill pill-${votePillClass(pv)}">${voteLabel(pv)}</span></td>
-              <td style="text-align:left;font-size:0.85rem">${catPill(categorizeVote(v.topic))} ${v.topic || '—'}</td>
+              <td style="text-align:left;font-size:0.85rem">${catPill(cat)} ${v.topic || '—'}</td>
             </tr>`;
           });
           html += `</tbody></table></div>`;
         }
-        html += `</div>`;
+        html += `</div></div>`;
       }
     }
 
     view.innerHTML = html;
+
+    // Wire up profile category filter
+    const profCatBar = document.getElementById('profile-cat-filter');
+    if (profCatBar) {
+      let pf = `<button class="session-pill active" data-pcat="all">Wszystkie <span class="pill-count">(${allPersonVotes.length})</span></button>`;
+      for (const cat of profCatOrder) {
+        if (!profCatCounts[cat]) continue;
+        pf += `<button class="session-pill cat-pill cat-${cat}" data-pcat="${cat}">${VOTE_CATS[cat]?.label||cat} <span class="pill-count">(${profCatCounts[cat]})</span></button>`;
+      }
+      profCatBar.innerHTML = pf;
+      profCatBar.querySelectorAll('.session-pill').forEach(btn => {
+        btn.onclick = () => {
+          profCatBar.querySelectorAll('.session-pill').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          const cat = btn.dataset.pcat;
+          document.querySelectorAll('#profile-votes-container .vote-row').forEach(tr => {
+            tr.style.display = (cat === 'all' || tr.dataset.vcat === cat) ? '' : 'none';
+          });
+          // Hide empty session groups and update counts
+          document.querySelectorAll('.profile-sess-group').forEach(g => {
+            const visible = g.querySelectorAll('tr.vote-row:not([style*="display: none"])').length;
+            g.style.display = visible ? '' : 'none';
+            const cnt = g.querySelector('.sess-vote-count');
+            if (cnt) cnt.textContent = `(${visible} głosowań)`;
+          });
+        };
+      });
+    }
 
     // Draw pie chart if has voting data
     if (hasVotes) {
@@ -977,6 +1063,27 @@ function renderSessionsTable() {
 }
 
 function renderVotesTable() {
+  // Build category filter pills
+  const catBar = document.getElementById('cat-filter');
+  const catCounts = {};
+  K.votes.forEach(v => {
+    const cat = categorizeVote(v.topic);
+    catCounts[cat] = (catCounts[cat] || 0) + 1;
+  });
+  const catOrder = Object.keys(VOTE_CATS).sort((a,b) => (VOTE_CATS[a]?.order||99) - (VOTE_CATS[b]?.order||99));
+  let catPills = `<button class="session-pill ${currentCatFilter==='all'?'active':''}" data-cat="all">Wszystkie <span class="pill-count">(${K.votes.length})</span></button>`;
+  for (const cat of catOrder) {
+    if (!catCounts[cat]) continue;
+    catPills += `<button class="session-pill cat-pill cat-${cat} ${currentCatFilter===cat?'active':''}" data-cat="${cat}">${VOTE_CATS[cat]?.label||cat} <span class="pill-count">(${catCounts[cat]})</span></button>`;
+  }
+  catBar.innerHTML = catPills;
+  catBar.querySelectorAll('.session-pill').forEach(btn => {
+    btn.onclick = () => {
+      currentCatFilter = btn.dataset.cat;
+      renderVotesTable();
+    };
+  });
+
   // Build session filter pills
   const sessions = K.sessions || [];
   const filterBar = document.getElementById('session-filter');
@@ -1004,6 +1111,9 @@ function renderVotesTable() {
 
   // Filter votes
   let votes = K.votes;
+  if (currentCatFilter !== 'all') {
+    votes = votes.filter(v => categorizeVote(v.topic) === currentCatFilter);
+  }
   if (currentSession !== 'all') {
     votes = votes.filter(v => v.session_date === currentSession);
   }
@@ -1053,7 +1163,7 @@ function showVote(voteId) {
 
   function renderNameList(names, bgColor) {
     if (!names || names.length === 0) return '<div style="color:var(--muted);font-size:0.85rem">—</div>';
-    return `<div class="vote-names-grid">${names.map(n => {
+    return `<div class="vote-names-grid">${sortByLastName(names).map(n => {
       const cl = clubMap[n] || '?';
       return `<div class="vote-name-item" style="background:${bgColor}">
         <span class="club ${clubClass(cl)}">${cl}</span>
@@ -1165,7 +1275,7 @@ function showSession(sessionDate) {
   // Get all councilors for this kadencja to find absent ones
   const allNames = new Set(sessKad.councilors.map(c => c.name));
   const present = new Set(sess.attendees || []);
-  const absent = [...allNames].filter(n => !present.has(n)).sort();
+  const absent = sortByLastName([...allNames].filter(n => !present.has(n)));
 
   // Session votes
   const sessionVotes = sessKad.votes.filter(v => v.session_date === sessionDate);
@@ -1234,12 +1344,13 @@ function showSession(sessionDate) {
   });
   const catOrder = Object.keys(grouped).sort((a,b) => (VOTE_CATS[a]?.order||99) - (VOTE_CATS[b]?.order||99));
 
-  // Category summary
+  // Category summary with filter
   html += `<div class="section">
     <h2>Głosowania (${sessionVotes.length})</h2>
-    <div class="cat-summary">`;
+    <div class="filter-bar" id="session-cat-filter" style="margin-bottom:12px;flex-wrap:wrap">
+      <button class="session-pill active" data-scat="all">Wszystkie <span class="pill-count">(${sessionVotes.length})</span></button>`;
   catOrder.forEach(cat => {
-    html += `${catPill(cat)} <span style="color:var(--muted);font-size:0.75rem;margin-right:6px">${grouped[cat].length}</span>`;
+    html += `<button class="session-pill cat-pill cat-${cat}" data-scat="${cat}">${VOTE_CATS[cat]?.label||cat} <span class="pill-count">(${grouped[cat].length})</span></button>`;
   });
   html += `</div>`;
 
@@ -1247,7 +1358,7 @@ function showSession(sessionDate) {
   let globalIdx = 0;
   catOrder.forEach(cat => {
     const votes = grouped[cat];
-    html += `<div class="cat-group">
+    html += `<div class="cat-group" data-catgroup="${cat}">
       <div class="cat-group-header">${catPill(cat)} <span class="cat-group-count">${votes.length} głosowań</span></div>
       <table class="ranking-table">
         <thead><tr><th>#</th><th>Temat</th><th>Za</th><th>Przeciw</th><th>Wstrzym.</th><th>Wynik</th></tr></thead>
@@ -1274,7 +1385,7 @@ function showSession(sessionDate) {
   html += `<div class="section">
     <h2>Obecni (${present.size})</h2>
     <div class="session-attendees">`;
-  [...present].sort().forEach(n => {
+  sortByLastName([...present]).forEach(n => {
     const cl = clubMap[n] || '?';
     html += `<div class="session-attendee"><span class="club ${clubClass(cl)}">${cl}</span> <a class="name-link" href="/profil/${profileSlug(n)}" onclick="event.preventDefault();showProfile('${n.replace(/'/g, "\\'")}')">${n}</a></div>`;
   });
@@ -1292,6 +1403,21 @@ function showSession(sessionDate) {
   }
 
   view.innerHTML = html;
+
+  // Wire up session category filter
+  const sCatBar = document.getElementById('session-cat-filter');
+  if (sCatBar) {
+    sCatBar.querySelectorAll('.session-pill').forEach(btn => {
+      btn.onclick = () => {
+        sCatBar.querySelectorAll('.session-pill').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const cat = btn.dataset.scat;
+        document.querySelectorAll('.cat-group').forEach(g => {
+          g.style.display = (cat === 'all' || g.dataset.catgroup === cat) ? '' : 'none';
+        });
+      };
+    });
+  }
 }
 
 function renderSimilarity() {
