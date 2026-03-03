@@ -811,7 +811,7 @@ function showProfile(name) {
         const topicHtml = matchVote ? `<a class="name-link" href="/glosowanie/${matchVote.id}" onclick="event.preventDefault();showVote('${matchVote.id}')">${r.topic}</a>` : r.topic;
         return `<div class="rebellion-item">
           <div class="reb-date">${r.session} · głos: <span class="pill pill-${r.their_vote === 'przeciw' ? 'przeciw' : 'wstrzymal'}">${({za:'za',przeciw:'przeciw',wstrzymal_sie:isFemale(profile.name)?'wstrzymała się':'wstrzymał się'})[r.their_vote]||r.their_vote}</span> (klub: ${({za:'za',przeciw:'przeciw',wstrzymal_sie:'wstrzymał się'})[r.club_majority]||r.club_majority})</div>
-          <div>${topicHtml}</div>
+          <div>${catPill(categorizeVote(r.topic))} ${topicHtml}</div>
         </div>`;
       }).join('');
       if (kd.rebellion_count > rebs.length) {
@@ -855,7 +855,7 @@ function showProfile(name) {
           personVotes.forEach(({vote: v, pv}) => {
             html += `<tr class="vote-row" onclick="showVote('${v.id}')">
               <td style="width:100px"><span class="pill pill-${votePillClass(pv)}">${voteLabel(pv)}</span></td>
-              <td style="text-align:left;font-size:0.85rem">${v.topic || '—'}</td>
+              <td style="text-align:left;font-size:0.85rem">${catPill(categorizeVote(v.topic))} ${v.topic || '—'}</td>
             </tr>`;
           });
           html += `</tbody></table></div>`;
