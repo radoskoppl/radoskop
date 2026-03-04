@@ -139,6 +139,17 @@ footer a { color:var(--accent); text-decoration:none; }
 .session-pill .pill-count { font-size:0.7rem; opacity:0.7; margin-left:2px; }
 .vote-row { cursor:pointer; }
 .vote-row:hover td { background:rgba(99,102,241,0.1); }
+.votes-sess-group { margin-bottom:20px; border:1px solid var(--border); border-radius:10px; overflow:hidden; }
+.votes-sess-header { display:flex; align-items:center; justify-content:space-between; padding:10px 14px; background:var(--surface); cursor:pointer; user-select:none; gap:12px; }
+.votes-sess-header:hover { background:rgba(99,102,241,0.06); }
+.votes-sess-title { font-weight:600; font-size:0.9rem; }
+.votes-sess-title a { color:var(--text); text-decoration:none; }
+.votes-sess-stats { display:flex; gap:10px; align-items:center; font-size:0.8rem; color:var(--muted); flex-shrink:0; }
+.votes-sess-body { border-top:1px solid var(--border); }
+.votes-sess-body table { margin:0; }
+.votes-sess-toggle { font-size:0.7rem; color:var(--muted); transition:transform 0.2s; }
+.votes-sess-group.collapsed .votes-sess-body { display:none; }
+.votes-sess-group.collapsed .votes-sess-toggle { transform:rotate(-90deg); }
 
 /* Session detail */
 .session-attendees { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:6px; margin-top:8px; }
@@ -253,21 +264,8 @@ footer a { color:var(--accent); text-decoration:none; }
     </div>
 
     <div id="tab-votes" class="section" style="display:none">
-      <div class="filter-bar" id="cat-filter" style="margin-bottom:8px;flex-wrap:wrap"></div>
-      <div class="filter-bar" id="session-filter" style="margin-bottom:16px;flex-wrap:wrap"></div>
-      <table id="votes-table">
-        <thead>
-          <tr>
-            <th style="width:40px">#</th>
-            <th>Temat</th>
-            <th>Za</th>
-            <th>Przeciw</th>
-            <th>Wstrzym.</th>
-            <th>Wynik</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
+      <div class="filter-bar" id="cat-filter" style="margin-bottom:12px;flex-wrap:wrap"></div>
+      <div id="votes-grouped"></div>
     </div>
 
     <div id="tab-similarity" class="section" style="display:none">
@@ -1096,56 +1094,63 @@ function renderVotesTable() {
     };
   });
 
-  // Build session filter pills
-  const sessions = K.sessions || [];
-  const filterBar = document.getElementById('session-filter');
-  const sessionCounts = {};
-  K.votes.forEach(v => {
-    const key = `${v.session_number} (${v.session_date})`;
-    sessionCounts[key] = (sessionCounts[key] || 0) + 1;
-  });
-
-  let pills = `<button class="session-pill ${currentSession==='all'?'active':''}" data-sess="all">Wszystkie <span class="pill-count">(${K.votes.length})</span></button>`;
-  // Sort sessions by date
-  const sortedSessions = [...sessions].sort((a,b) => a.date.localeCompare(b.date));
-  for (const s of sortedSessions) {
-    const key = `${s.number} (${s.date})`;
-    const cnt = sessionCounts[key] || s.vote_count;
-    pills += `<button class="session-pill ${currentSession===s.number?'active':''}" data-sess="${s.number}">${s.number || '?'} · ${s.date} <span class="pill-count">(${cnt})</span></button>`;
-  }
-  filterBar.innerHTML = pills;
-  filterBar.querySelectorAll('.session-pill').forEach(btn => {
-    btn.onclick = () => {
-      currentSession = btn.dataset.sess;
-      renderVotesTable();
-    };
-  });
-
-  // Filter votes
+  // Filter votes by category
   let votes = K.votes;
   if (currentCatFilter !== 'all') {
     votes = votes.filter(v => categorizeVote(v.topic) === currentCatFilter);
   }
-  if (currentSession !== 'all') {
-    const selSess = K.sessions.find(s => s.number === currentSession);
-    const sessVoteIds = selSess ? new Set(getSessionVotes(K.votes, K.sessions, selSess).map(v => v.id)) : null;
-    votes = sessVoteIds ? votes.filter(v => sessVoteIds.has(v.id)) : votes.filter(v => v.session_number === currentSession);
+
+  // Group votes by session (newest first)
+  const sessions = [...(K.sessions || [])].sort((a,b) => b.date.localeCompare(a.date));
+  const container = document.getElementById('votes-grouped');
+  let html = '';
+
+  for (const s of sessions) {
+    const sessAllVotes = getSessionVotes(K.votes, K.sessions, s);
+    const sessVoteIds = new Set(sessAllVotes.map(v => v.id));
+    const sessVotes = votes.filter(v => sessVoteIds.has(v.id));
+    if (sessVotes.length === 0) continue;
+
+    const passedCount = sessVotes.filter(v => {
+      const c = v.counts || {};
+      const total = (c.za||0) + (c.przeciw||0) + (c.wstrzymal_sie||0);
+      return (c.za||0) > total/2;
+    }).length;
+    const rejectedCount = sessVotes.length - passedCount;
+
+    html += `<div class="votes-sess-group" data-sess="${s.number}">
+      <div class="votes-sess-header" onclick="this.parentElement.classList.toggle('collapsed')">
+        <div class="votes-sess-title">
+          <span class="votes-sess-toggle">▼</span>
+          <a href="/sesja/${encodeURIComponent(s.number)}" onclick="event.preventDefault();event.stopPropagation();showSession('${s.number}')">Sesja ${s.number} · ${s.date}</a>
+        </div>
+        <div class="votes-sess-stats">
+          <span>${sessVotes.length} głos.</span>
+          <span class="pill pill-za" style="font-size:0.75rem">${passedCount}</span>
+          ${rejectedCount > 0 ? `<span class="pill pill-przeciw" style="font-size:0.75rem">${rejectedCount}</span>` : ''}
+        </div>
+      </div>
+      <div class="votes-sess-body">
+        <table><tbody>`;
+
+    sessVotes.forEach((v, i) => {
+      const c = v.counts || {};
+      const total = (c.za||0) + (c.przeciw||0) + (c.wstrzymal_sie||0);
+      const passed = (c.za||0) > total/2;
+      html += `<tr class="vote-row" onclick="showVote('${v.id || ''}')">
+        <td style="color:var(--muted);width:30px">${i+1}</td>
+        <td>${catPill(categorizeVote(v.topic))} ${v.topic ? v.topic.substring(0,120) : '?'}${v.druk ? ` <span style="color:var(--muted)">(druk ${v.druk})</span>` : ''}</td>
+        <td><span class="pill pill-za">${c.za||0}</span></td>
+        <td>${c.przeciw ? `<span class="pill pill-przeciw">${c.przeciw}</span>` : '0'}</td>
+        <td>${c.wstrzymal_sie ? `<span class="pill pill-wstrzymal">${c.wstrzymal_sie}</span>` : '0'}</td>
+        <td><span style="color:${passed?'var(--green)':'var(--red)'};font-weight:600;font-size:0.8rem">${passed?'Przyjęte':'Odrzucone'}</span></td>
+      </tr>`;
+    });
+
+    html += `</tbody></table></div></div>`;
   }
 
-  const tbody = document.querySelector('#votes-table tbody');
-  tbody.innerHTML = votes.map((v, i) => {
-    const c = v.counts || {};
-    const total = (c.za||0) + (c.przeciw||0) + (c.wstrzymal_sie||0);
-    const passed = (c.za||0) > total/2;
-    return `<tr class="vote-row" onclick="showVote('${v.id || ''}')">
-      <td style="color:var(--muted)">${i+1}</td>
-      <td>${catPill(categorizeVote(v.topic))} ${v.topic ? v.topic.substring(0,120) : '?'}${v.druk ? ` <span style="color:var(--muted)">(druk ${v.druk})</span>` : ''}</td>
-      <td><span class="pill pill-za">${c.za||0}</span></td>
-      <td>${c.przeciw ? `<span class="pill pill-przeciw">${c.przeciw}</span>` : '0'}</td>
-      <td>${c.wstrzymal_sie ? `<span class="pill pill-wstrzymal">${c.wstrzymal_sie}</span>` : '0'}</td>
-      <td><span style="color:${passed?'var(--green)':'var(--red)'};font-weight:600;font-size:0.8rem">${passed?'Przyjęte':'Odrzucone'}</span></td>
-    </tr>`;
-  }).join('');
+  container.innerHTML = html;
 }
 
 function showVote(voteId) {
