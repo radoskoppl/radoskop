@@ -223,21 +223,21 @@ a.vote-item:hover { border-color:var(--accent); box-shadow:0 2px 12px rgba(79,70
 
   <div class="budget" id="budget">
     <h3>Budżety miast</h3>
-    <p class="budget-subtitle">Porównanie budżetów Gdańska i Warszawy — dane z uchwalonych budżetów (2020–2025)</p>
+    <p class="budget-subtitle">Porównanie budżetów trzech miast — dane z uchwalonych budżetów i sprawozdań (2020–2025)</p>
 
     <div class="comp-table-wrap">
       <table class="comp-table">
         <thead>
-          <tr><th></th><th>Gdańsk</th><th>Warszawa</th></tr>
+          <tr><th></th><th>Gdańsk</th><th>Warszawa</th><th>Kraków</th></tr>
         </thead>
         <tbody>
-          <tr><td class="label">Dochody (2025)</td><td>5,43 mld zł</td><td>26,28 mld zł</td></tr>
-          <tr><td class="label">Wydatki (2025)</td><td>6,03 mld zł</td><td>29,48 mld zł</td></tr>
-          <tr class="highlight"><td class="label">Deficyt (2025)</td><td>−0,60 mld zł</td><td>−3,20 mld zł</td></tr>
-          <tr class="highlight"><td class="label">Wydatki per capita (2025)</td><td>12 803 zł</td><td class="best">15 849 zł</td></tr>
-          <tr><td class="label">Wzrost dochodów 2020→2025</td><td>+14,3%</td><td class="best">+44,5%</td></tr>
-          <tr><td class="label">Wzrost wydatków 2020→2025</td><td>+18,2%</td><td class="best">+47,9%</td></tr>
-          <tr><td class="label">Głosowania budżetowe</td><td>96</td><td>34</td></tr>
+          <tr><td class="label">Dochody (2025)</td><td>5,43 mld zł</td><td>26,28 mld zł</td><td>9,07 mld zł</td></tr>
+          <tr><td class="label">Wydatki (2025)</td><td>6,03 mld zł</td><td>29,48 mld zł</td><td>9,80 mld zł</td></tr>
+          <tr class="highlight"><td class="label">Deficyt (2025)</td><td>−0,60 mld zł</td><td>−3,20 mld zł</td><td>−0,73 mld zł</td></tr>
+          <tr class="highlight"><td class="label">Wydatki per capita (2025)</td><td>12 803 zł</td><td class="best">15 849 zł</td><td>12 249 zł</td></tr>
+          <tr><td class="label">Wzrost dochodów 2020→2025</td><td>+14,3%</td><td>+44,5%</td><td class="best">+46,4%</td></tr>
+          <tr><td class="label">Wzrost wydatków 2020→2025</td><td>+18,2%</td><td class="best">+47,9%</td><td>+47,0%</td></tr>
+          <tr><td class="label">Głosowania budżetowe</td><td>96</td><td>34</td><td>13</td></tr>
         </tbody>
       </table>
     </div>
@@ -249,14 +249,17 @@ a.vote-item:hover { border-color:var(--accent); box-shadow:0 2px 12px rgba(79,70
         <span><svg width="28" height="12"><line x1="0" y1="6" x2="28" y2="6" stroke="#4f46e5" stroke-width="2.5" stroke-dasharray="6 3"/></svg> Gdańsk — wydatki</span>
         <span><svg width="28" height="12"><line x1="0" y1="6" x2="28" y2="6" stroke="#dc2626" stroke-width="2.5"/></svg> Warszawa — dochody</span>
         <span><svg width="28" height="12"><line x1="0" y1="6" x2="28" y2="6" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="6 3"/></svg> Warszawa — wydatki</span>
+        <span><svg width="28" height="12"><line x1="0" y1="6" x2="28" y2="6" stroke="#16a34a" stroke-width="2.5"/></svg> Kraków — dochody</span>
+        <span><svg width="28" height="12"><line x1="0" y1="6" x2="28" y2="6" stroke="#16a34a" stroke-width="2.5" stroke-dasharray="6 3"/></svg> Kraków — wydatki</span>
       </div>
     </div>
 
     <div class="budget-links">
       <a href="https://gdansk.radoskop.pl/budzet">Budżet Gdańska →</a>
       <a href="https://warszawa.radoskop.pl/budzet">Budżet Warszawy →</a>
+      <a href="https://krakow.radoskop.pl/budzet">Budżet Krakowa →</a>
     </div>
-    <p class="budget-note">Źródło: BIP Gdańska i m.st. Warszawy. Kwoty w miliardach złotych. Per capita: Gdańsk ~471 tys. mieszkańców, Warszawa ~1,86 mln (GUS 2024).</p>
+    <p class="budget-note">Źródło: BIP Gdańska, m.st. Warszawy i Krakowa. Kwoty w miliardach złotych. Per capita: Gdańsk ~471 tys., Warszawa ~1,86 mln, Kraków ~800 tys. mieszkańców (GUS 2024).</p>
   </div>
 
   <div class="controversial" id="controversial">
@@ -425,6 +428,8 @@ const budgetChart = new Chart(document.getElementById('chartBudgetTrend'), {
     datasets: [
       { label: 'Gdańsk — dochody', data: [4.75,4.85,5.10,4.89,5.16,5.43], borderColor: '#4f46e5', backgroundColor: 'rgba(79,70,229,0.08)', fill: true, tension: 0.3, pointRadius: 4, pointStyle: 'circle', borderWidth: 2.5 },
       { label: 'Gdańsk — wydatki', data: [5.10,5.25,5.50,5.38,5.71,6.03], borderColor: '#4f46e5', backgroundColor: 'transparent', fill: false, tension: 0.3, pointRadius: 4, pointStyle: 'rect', borderWidth: 2.5, borderDash: [8,4] },
+      { label: 'Kraków — dochody', data: [6.20,7.19,7.22,7.33,9.01,9.07], borderColor: '#16a34a', backgroundColor: 'rgba(22,163,74,0.08)', fill: true, tension: 0.3, pointRadius: 4, pointStyle: 'circle', borderWidth: 2.5 },
+      { label: 'Kraków — wydatki', data: [6.67,7.45,8.05,8.98,9.86,9.80], borderColor: '#16a34a', backgroundColor: 'transparent', fill: false, tension: 0.3, pointRadius: 4, pointStyle: 'rect', borderWidth: 2.5, borderDash: [8,4] },
       { label: 'Warszawa — dochody', data: [18.19,20.57,19.21,20.22,24.52,26.28], borderColor: '#dc2626', backgroundColor: 'rgba(220,38,38,0.08)', fill: true, tension: 0.3, pointRadius: 4, pointStyle: 'circle', borderWidth: 2.5 },
       { label: 'Warszawa — wydatki', data: [19.93,21.63,21.42,24.37,27.77,29.48], borderColor: '#dc2626', backgroundColor: 'transparent', fill: false, tension: 0.3, pointRadius: 4, pointStyle: 'rect', borderWidth: 2.5, borderDash: [8,4] }
     ]
