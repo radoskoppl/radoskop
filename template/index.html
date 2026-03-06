@@ -481,6 +481,7 @@ function activateTab(tabName) {
     if (el) el.style.display = (t === tabName) ? 'block' : 'none';
   });
   document.getElementById('kadencja-bar').style.display = tabName === 'budget' ? 'none' : '';
+  setTitle(TAB_TITLES[tabName] || '');
 }
 
 function hideAllViews() {
@@ -495,6 +496,12 @@ const TAB_SLUGS = {ranking:'ranking',profiles:'radni',sessions:'sesje',votes:'gl
 const SLUG_TABS = Object.fromEntries(Object.entries(TAB_SLUGS).map(([k,v])=>[v,k]));
 const KAD_SLUGS = {'2018-2023':'viii','2024-2029':'ix'};
 const SLUG_KADS = Object.fromEntries(Object.entries(KAD_SLUGS).map(([k,v])=>[v,k]));
+
+const BASE_TITLE = '{{SITE_TITLE}}';
+const TAB_TITLES = {ranking:'Ranking radnych',profiles:'Profile radnych',sessions:'Sesje',votes:'Głosowania',similarity:'Podobieństwo',budget:'Budżet'};
+function setTitle(subtitle) {
+  document.title = subtitle ? subtitle + ' — ' + BASE_TITLE : BASE_TITLE;
+}
 
 function mainPath(tab, kid) {
   tab = tab || currentTab;
@@ -525,6 +532,7 @@ function showMain() {
   hideAllViews();
   document.getElementById('app').style.display = 'block';
   navigateTo(mainPath());
+  setTitle(TAB_TITLES[currentTab] || '');
 }
 
 function render() {
@@ -678,6 +686,7 @@ function showProfile(name) {
   const view = document.getElementById('profile-view');
   view.style.display = 'block';
   navigateTo('/profil/' + profile.slug);
+  setTitle(profile.name);
 
   // Find which kadencje this person has data for
   const kids = Object.keys(profile.kadencje);
@@ -1166,6 +1175,7 @@ function showVote(voteId) {
   const view = document.getElementById('vote-view');
   view.style.display = 'block';
   navigateTo('/glosowanie/' + voteId);
+  setTitle('Głosowanie: ' + (vote.topic || voteId).substring(0, 60));
 
   const c = vote.counts || {};
   const nv = vote.named_votes || {};
@@ -1294,6 +1304,7 @@ function showSession(sessionNumber) {
   const view = document.getElementById('session-view');
   view.style.display = 'block';
   navigateTo('/sesja/' + encodeURIComponent(sessionNumber));
+  setTitle('Sesja ' + sessionNumber + (sess.date ? ' (' + sess.date + ')' : ''));
 
   // Club lookup
   const clubMap = {};
