@@ -97,13 +97,14 @@ footer a:hover { text-decoration:underline; }
 .sessions-feed { border-top:1px solid var(--border); padding:40px 0; }
 .sessions-feed h3 { font-size:1.3rem; font-weight:700; margin-bottom:4px; }
 .sessions-feed .comparison-subtitle { margin-bottom:20px; }
-.feed-grid { display:grid; grid-template-columns:repeat(4, 1fr); gap:16px; margin-bottom:16px; }
+.feed-grid { display:grid; grid-template-columns:repeat(5, 1fr); gap:16px; margin-bottom:16px; }
 .feed-city { display:flex; flex-direction:column; gap:0; }
 .feed-city-name { font-size:0.78rem; font-weight:700; text-transform:uppercase; letter-spacing:0.04em; color:var(--muted); padding-bottom:8px; border-bottom:2px solid var(--border); margin-bottom:4px; }
 .feed-city-name.gd { border-color:#4f46e5; color:#4f46e5; }
 .feed-city-name.waw { border-color:#0284c7; color:#0284c7; }
 .feed-city-name.krk { border-color:#16a34a; color:#16a34a; }
 .feed-city-name.gdy { border-color:#d97706; color:#d97706; }
+.feed-city-name.sop { border-color:#ec4899; color:#ec4899; }
 .feed-item { display:flex; justify-content:space-between; align-items:center; padding:8px 0; border-bottom:1px solid var(--border); text-decoration:none; color:var(--text); transition:background 0.1s; gap:6px; }
 .feed-item:hover { background:rgba(79,70,229,0.03); }
 .feed-item .sess-label { font-size:0.82rem; font-weight:500; white-space:nowrap; }
@@ -122,6 +123,7 @@ a.vote-item:hover { border-color:var(--accent); box-shadow:0 2px 12px rgba(79,70
 .vote-city.waw { background:rgba(2,132,199,0.1); color:#0284c7; }
 .vote-city.krk { background:rgba(22,163,74,0.1); color:#16a34a; }
 .vote-city.gdy { background:rgba(217,119,6,0.1); color:#d97706; }
+.vote-city.sop { background:rgba(236,72,153,0.1); color:#ec4899; }
 .vote-item .vote-date { font-size:0.78rem; color:var(--muted); }
 .vote-item .vote-topic { font-size:0.88rem; line-height:1.5; }
 .vote-item .vote-result { display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin-top:2px; }
@@ -193,12 +195,12 @@ a.vote-item:hover { border-color:var(--accent); box-shadow:0 2px 12px rgba(79,70
         </thead>
         <tbody>
           <tr><td class="label">Radni</td><td>36</td><td>63</td><td>47</td><td>28</td><td>21</td></tr>
-          <tr><td class="label">Sesje</td><td>21</td><td>32</td><td>39</td><td>22</td><td>—</td></tr>
-          <tr><td class="label">Głosowania</td><td>709</td><td>1 398</td><td>1 144</td><td>628</td><td>—</td></tr>
-          <tr class="highlight"><td class="label">Śr. frekwencja</td><td class="best">93,6%</td><td>69,0%</td><td>84,7%</td><td>89,0%</td><td>—</td></tr>
-          <tr class="highlight"><td class="label">Śr. aktywność</td><td class="best">92,6%</td><td>88,3%</td><td>80,4%</td><td>87,1%</td><td>—</td></tr>
-          <tr><td class="label">Śr. zgodność z klubem</td><td class="best">98,8%</td><td>92,6%</td><td>89,7%</td><td>96,6%</td><td>—</td></tr>
-          <tr><td class="label">Śr. buntów / radny</td><td>8,1</td><td>33,2</td><td>16,8</td><td>17,4</td><td>—</td></tr>
+          <tr><td class="label">Sesje</td><td>21</td><td>32</td><td>39</td><td>26</td><td>20</td></tr>
+          <tr><td class="label">Głosowania</td><td>709</td><td>1 398</td><td>1 144</td><td>628</td><td>529</td></tr>
+          <tr class="highlight"><td class="label">Śr. frekwencja</td><td>93,6%</td><td>69,0%</td><td>84,7%</td><td>69,9%</td><td class="best">98,3%</td></tr>
+          <tr class="highlight"><td class="label">Śr. aktywność</td><td>92,6%</td><td>88,3%</td><td>80,4%</td><td>86,5%</td><td class="best">95,7%</td></tr>
+          <tr><td class="label">Śr. zgodność z klubem</td><td class="best">98,8%</td><td>92,6%</td><td>89,7%</td><td>96,5%</td><td>95,1%</td></tr>
+          <tr><td class="label">Śr. buntów / radny</td><td>8,1</td><td>33,2</td><td>16,8</td><td>18,9</td><td>24,0</td></tr>
         </tbody>
       </table>
     </div>
@@ -247,6 +249,14 @@ a.vote-item:hover { border-color:var(--accent); box-shadow:0 2px 12px rgba(79,70
         <a class="feed-item" href="https://gdynia.radoskop.pl/sesja/XXIV"><span class="sess-label">Sesja XXIV</span><span class="sess-date">26.11.2025</span><span class="sess-votes">43 gł.</span></a>
         <a class="feed-item" href="https://gdynia.radoskop.pl/sesja/XXIII"><span class="sess-label">Sesja XXIII</span><span class="sess-date">22.10.2025</span><span class="sess-votes">35 gł.</span></a>
         <a class="feed-item" href="https://gdynia.radoskop.pl/sesja/XXII"><span class="sess-label">Sesja XXII</span><span class="sess-date">24.09.2025</span><span class="sess-votes">22 gł.</span></a>
+      </div>
+      <div class="feed-city">
+        <div class="feed-city-name sop">Sopot</div>
+        <a class="feed-item" href="https://sopot.radoskop.pl/sesja/XX"><span class="sess-label">Sesja XX</span><span class="sess-date">19.02.2026</span><span class="sess-votes">25 gł.</span></a>
+        <a class="feed-item" href="https://sopot.radoskop.pl/sesja/XIX"><span class="sess-label">Sesja XIX</span><span class="sess-date">15.01.2026</span><span class="sess-votes">22 gł.</span></a>
+        <a class="feed-item" href="https://sopot.radoskop.pl/sesja/XVIII"><span class="sess-label">Sesja XVIII</span><span class="sess-date">18.12.2025</span><span class="sess-votes">20 gł.</span></a>
+        <a class="feed-item" href="https://sopot.radoskop.pl/sesja/XVII"><span class="sess-label">Sesja XVII</span><span class="sess-date">27.11.2025</span><span class="sess-votes">20 gł.</span></a>
+        <a class="feed-item" href="https://sopot.radoskop.pl/sesja/XVI"><span class="sess-label">Sesja XVI</span><span class="sess-date">23.10.2025</span><span class="sess-votes">33 gł.</span></a>
       </div>
     </div>
   </div>
@@ -411,9 +421,9 @@ a.vote-item:hover { border-color:var(--accent); box-shadow:0 2px 12px rgba(79,70
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script>
-const cities = ['Gdańsk','Warszawa','Kraków','Gdynia'];
-const colors = ['#4f46e5','#0284c7','#16a34a','#d97706'];
-const bgColors = ['rgba(79,70,229,0.15)','rgba(2,132,199,0.15)','rgba(22,163,74,0.15)','rgba(217,119,6,0.15)'];
+const cities = ['Gdańsk','Warszawa','Kraków','Gdynia','Sopot'];
+const colors = ['#4f46e5','#0284c7','#16a34a','#d97706','#ec4899'];
+const bgColors = ['rgba(79,70,229,0.15)','rgba(2,132,199,0.15)','rgba(22,163,74,0.15)','rgba(217,119,6,0.15)','rgba(236,72,153,0.15)'];
 
 const commonOpts = {
   responsive: true,
@@ -427,7 +437,7 @@ new Chart(document.getElementById('chartFrekwencja'), {
     labels: cities,
     datasets: [{
       label: 'Średnia frekwencja (%)',
-      data: [93.6, 69.0, 84.7, 89.0],
+      data: [93.6, 69.0, 84.7, 69.9, 98.3],
       backgroundColor: bgColors,
       borderColor: colors,
       borderWidth: 2,
@@ -443,8 +453,8 @@ new Chart(document.getElementById('chartAktywnosc'), {
   data: {
     labels: cities,
     datasets: [
-      { label: 'Aktywność (%)', data: [92.6, 88.3, 80.4, 87.1], backgroundColor: bgColors, borderColor: colors, borderWidth: 2, borderRadius: 6, barPercentage: 0.5 },
-      { label: 'Zgodność z klubem (%)', data: [98.8, 92.6, 89.7, 96.6], backgroundColor: ['rgba(79,70,229,0.05)','rgba(2,132,199,0.05)','rgba(22,163,74,0.05)','rgba(217,119,6,0.05)'], borderColor: colors, borderWidth: 2, borderRadius: 6, borderDash: [4,4], barPercentage: 0.5 }
+      { label: 'Aktywność (%)', data: [92.6, 88.3, 80.4, 86.5, 95.7], backgroundColor: bgColors, borderColor: colors, borderWidth: 2, borderRadius: 6, barPercentage: 0.5 },
+      { label: 'Zgodność z klubem (%)', data: [98.8, 92.6, 89.7, 96.5, 95.1], backgroundColor: ['rgba(79,70,229,0.05)','rgba(2,132,199,0.05)','rgba(22,163,74,0.05)','rgba(217,119,6,0.05)','rgba(236,72,153,0.05)'], borderColor: colors, borderWidth: 2, borderRadius: 6, borderDash: [4,4], barPercentage: 0.5 }
     ]
   },
   options: { ...commonOpts, plugins: { ...commonOpts.plugins, title: { display: true, text: 'Aktywność i zgodność z klubem', font: { size: 14, weight: 600 } } } }

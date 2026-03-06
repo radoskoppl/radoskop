@@ -270,6 +270,180 @@
           "count": 67
         }
       ]
+    },
+    {
+      "name": "Gdynia",
+      "slug": "gdynia",
+      "url": "https://gdynia.radoskop.pl",
+      "kadencja": "2024-2029",
+      "total_sessions": 26,
+      "total_votes": 628,
+      "total_councilors": 28,
+      "avg_frekwencja": 69.9,
+      "avg_aktywnosc": 86.5,
+      "avg_zgodnosc": 96.5,
+      "avg_rebellions": 18.9,
+      "clubs": {
+        "Gdyński Dialog": {
+          "count": 7,
+          "avg_frekwencja": 68.9,
+          "avg_aktywnosc": 84.6,
+          "avg_zgodnosc": 94.3
+        },
+        "KORMiL": {
+          "count": 13,
+          "avg_frekwencja": 70.9,
+          "avg_aktywnosc": 88.2,
+          "avg_zgodnosc": 97.2
+        },
+        "PiS": {
+          "count": 3,
+          "avg_frekwencja": 71.4,
+          "avg_aktywnosc": 89.0,
+          "avg_zgodnosc": 99.1
+        },
+        "Samorządność": {
+          "count": 5,
+          "avg_frekwencja": 67.9,
+          "avg_aktywnosc": 83.4,
+          "avg_zgodnosc": 96.0
+        }
+      },
+      "top_frekwencja": [
+        {
+          "name": "Norbert Anisowicz",
+          "club": "KORMiL",
+          "value": 78.6
+        },
+        {
+          "name": "Dawid Biernacik",
+          "club": "Gdyński Dialog",
+          "value": 78.6
+        },
+        {
+          "name": "Larysa Kramin",
+          "club": "KORMiL",
+          "value": 78.6
+        }
+      ],
+      "bottom_frekwencja": [
+        {
+          "name": "Ewa Krym",
+          "club": "Samorządność",
+          "value": 50.0
+        },
+        {
+          "name": "Jakub Żynis",
+          "club": "KORMiL",
+          "value": 39.3
+        },
+        {
+          "name": "Mariola Śrubarczyk - Cichowska",
+          "club": "Gdyński Dialog",
+          "value": 32.1
+        }
+      ],
+      "top_rebels": [
+        {
+          "name": "Beata Zastawna",
+          "club": "KORMiL",
+          "count": 58
+        },
+        {
+          "name": "Ireneusz Trojanowicz",
+          "club": "Samorządność",
+          "count": 54
+        },
+        {
+          "name": "Anna Salomon",
+          "club": "Gdyński Dialog",
+          "count": 46
+        }
+      ]
+    },
+    {
+      "name": "Sopot",
+      "slug": "sopot",
+      "url": "https://sopot.radoskop.pl",
+      "kadencja": "2024-2029",
+      "total_sessions": 20,
+      "total_votes": 529,
+      "total_councilors": 21,
+      "avg_frekwencja": 98.3,
+      "avg_aktywnosc": 95.7,
+      "avg_zgodnosc": 95.1,
+      "avg_rebellions": 24.0,
+      "clubs": {
+        "Koalicja Dla Sopotu": {
+          "count": 14,
+          "avg_frekwencja": 98.2,
+          "avg_aktywnosc": 95.2,
+          "avg_zgodnosc": 98.2
+        },
+        "Kocham Sopot": {
+          "count": 3,
+          "avg_frekwencja": 98.3,
+          "avg_aktywnosc": 96.3,
+          "avg_zgodnosc": 88.0
+        },
+        "Prawo i Sprawiedliwość": {
+          "count": 4,
+          "avg_frekwencja": 98.8,
+          "avg_aktywnosc": 97.0,
+          "avg_zgodnosc": 89.3
+        }
+      },
+      "top_frekwencja": [
+        {
+          "name": "Piotr Bagiński",
+          "club": "Koalicja Dla Sopotu",
+          "value": 100.0
+        },
+        {
+          "name": "Barbara Brzezicka",
+          "club": "Koalicja Dla Sopotu",
+          "value": 100.0
+        },
+        {
+          "name": "Wojciech Fułek",
+          "club": "Kocham Sopot",
+          "value": 100.0
+        }
+      ],
+      "bottom_frekwencja": [
+        {
+          "name": "Piotr Kurdziel",
+          "club": "Koalicja Dla Sopotu",
+          "value": 95.0
+        },
+        {
+          "name": "Karolina Niemczyk-Bałtowska",
+          "club": "Koalicja Dla Sopotu",
+          "value": 95.0
+        },
+        {
+          "name": "Jerzy Smolarek",
+          "club": "Koalicja Dla Sopotu",
+          "value": 90.0
+        }
+      ],
+      "top_rebels": [
+        {
+          "name": "Jakub Świderski",
+          "club": "Prawo i Sprawiedliwość",
+          "count": 107
+        },
+        {
+          "name": "Wojciech Fułek",
+          "club": "Kocham Sopot",
+          "count": 81
+        },
+        {
+          "name": "Grażyna Czajkowska",
+          "club": "Kocham Sopot",
+          "count": 59
+        }
+      ]
     }
   ]
 }
