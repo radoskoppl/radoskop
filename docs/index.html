@@ -197,20 +197,12 @@ a.vote-item:hover { border-color:var(--accent); box-shadow:0 2px 12px rgba(79,70
           <tr><td class="label">Radni</td><td>36</td><td>63</td><td>47</td><td>28</td><td>21</td></tr>
           <tr><td class="label">Sesje</td><td>21</td><td>32</td><td>39</td><td>26</td><td>20</td></tr>
           <tr><td class="label">Głosowania</td><td>709</td><td>1 398</td><td>1 144</td><td>628</td><td>529</td></tr>
-          <tr class="highlight"><td class="label">Śr. frekwencja</td><td>93,6%</td><td>69,0%</td><td>84,7%</td><td>69,9%</td><td class="best">98,3%</td></tr>
-          <tr class="highlight"><td class="label">Śr. aktywność</td><td>92,6%</td><td>88,3%</td><td>80,4%</td><td>86,5%</td><td class="best">95,7%</td></tr>
-          <tr><td class="label">Śr. zgodność z klubem</td><td class="best">98,8%</td><td>92,6%</td><td>89,7%</td><td>96,5%</td><td>95,1%</td></tr>
+          <tr class="highlight"><td class="label">Śr. zgodność z klubem</td><td class="best">98,8%</td><td>92,6%</td><td>89,7%</td><td>96,5%</td><td>95,1%</td></tr>
           <tr><td class="label">Śr. buntów / radny</td><td>8,1</td><td>33,2</td><td>16,8</td><td>18,9</td><td>24,0</td></tr>
         </tbody>
       </table>
     </div>
 
-    <div class="comp-charts">
-      <canvas id="chartFrekwencja" height="200"></canvas>
-    </div>
-    <div class="comp-charts">
-      <canvas id="chartAktywnosc" height="200"></canvas>
-    </div>
   </div>
 
   <div class="sessions-feed" id="sessions">
@@ -263,21 +255,21 @@ a.vote-item:hover { border-color:var(--accent); box-shadow:0 2px 12px rgba(79,70
 
   <div class="budget" id="budget">
     <h3>Budżety miast</h3>
-    <p class="budget-subtitle">Porównanie budżetów trzech miast — dane z uchwalonych budżetów i sprawozdań (2020–2025)</p>
+    <p class="budget-subtitle">Porównanie budżetów miast — dane z uchwalonych budżetów i sprawozdań (2020–2025)</p>
 
     <div class="comp-table-wrap">
       <table class="comp-table">
         <thead>
-          <tr><th></th><th>Gdańsk</th><th>Warszawa</th><th>Kraków</th></tr>
+          <tr><th></th><th>Gdańsk</th><th>Warszawa</th><th>Kraków</th><th>Gdynia</th></tr>
         </thead>
         <tbody>
-          <tr><td class="label">Dochody (2025)</td><td>5,43 mld zł</td><td>26,28 mld zł</td><td>9,07 mld zł</td></tr>
-          <tr><td class="label">Wydatki (2025)</td><td>6,03 mld zł</td><td>29,48 mld zł</td><td>9,80 mld zł</td></tr>
-          <tr class="highlight"><td class="label">Deficyt (2025)</td><td>−0,60 mld zł</td><td>−3,20 mld zł</td><td>−0,73 mld zł</td></tr>
-          <tr class="highlight"><td class="label">Wydatki per capita (2025)</td><td>12 803 zł</td><td class="best">15 849 zł</td><td>12 249 zł</td></tr>
-          <tr><td class="label">Wzrost dochodów 2020→2025</td><td>+14,3%</td><td>+44,5%</td><td class="best">+46,4%</td></tr>
-          <tr><td class="label">Wzrost wydatków 2020→2025</td><td>+18,2%</td><td class="best">+47,9%</td><td>+47,0%</td></tr>
-          <tr><td class="label">Głosowania budżetowe</td><td>96</td><td>34</td><td>13</td></tr>
+          <tr><td class="label">Dochody (2025)</td><td>5,43 mld zł</td><td>26,28 mld zł</td><td>9,07 mld zł</td><td>2,43 mld zł</td></tr>
+          <tr><td class="label">Wydatki (2025)</td><td>6,03 mld zł</td><td>29,48 mld zł</td><td>9,80 mld zł</td><td>2,58 mld zł</td></tr>
+          <tr class="highlight"><td class="label">Deficyt (2025)</td><td>−0,60 mld zł</td><td>−3,20 mld zł</td><td>−0,73 mld zł</td><td>−0,14 mld zł</td></tr>
+          <tr class="highlight"><td class="label">Wydatki per capita (2025)</td><td>12 803 zł</td><td class="best">15 849 zł</td><td>12 249 zł</td><td>10 483 zł</td></tr>
+          <tr><td class="label">Wzrost dochodów 2020→2025</td><td>+14,3%</td><td>+44,5%</td><td class="best">+46,4%</td><td>+40,0%</td></tr>
+          <tr><td class="label">Wzrost wydatków 2020→2025</td><td>+18,2%</td><td class="best">+47,9%</td><td>+47,0%</td><td>+32,9%</td></tr>
+          <tr><td class="label">Głosowania budżetowe</td><td>96</td><td>34</td><td>13</td><td>12</td></tr>
         </tbody>
       </table>
     </div>
@@ -291,6 +283,8 @@ a.vote-item:hover { border-color:var(--accent); box-shadow:0 2px 12px rgba(79,70
         <span><svg width="28" height="12"><line x1="0" y1="6" x2="28" y2="6" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="6 3"/></svg> Warszawa — wydatki</span>
         <span><svg width="28" height="12"><line x1="0" y1="6" x2="28" y2="6" stroke="#16a34a" stroke-width="2.5"/></svg> Kraków — dochody</span>
         <span><svg width="28" height="12"><line x1="0" y1="6" x2="28" y2="6" stroke="#16a34a" stroke-width="2.5" stroke-dasharray="6 3"/></svg> Kraków — wydatki</span>
+        <span><svg width="28" height="12"><line x1="0" y1="6" x2="28" y2="6" stroke="#d97706" stroke-width="2.5"/></svg> Gdynia — dochody</span>
+        <span><svg width="28" height="12"><line x1="0" y1="6" x2="28" y2="6" stroke="#d97706" stroke-width="2.5" stroke-dasharray="6 3"/></svg> Gdynia — wydatki</span>
       </div>
     </div>
 
@@ -298,8 +292,9 @@ a.vote-item:hover { border-color:var(--accent); box-shadow:0 2px 12px rgba(79,70
       <a href="https://gdansk.radoskop.pl/budzet">Budżet Gdańska →</a>
       <a href="https://warszawa.radoskop.pl/budzet">Budżet Warszawy →</a>
       <a href="https://krakow.radoskop.pl/budzet">Budżet Krakowa →</a>
+      <a href="https://gdynia.radoskop.pl/budzet">Budżet Gdyni →</a>
     </div>
-    <p class="budget-note">Źródło: BIP Gdańska, m.st. Warszawy i Krakowa. Kwoty w miliardach złotych. Per capita: Gdańsk ~471 tys., Warszawa ~1,86 mln, Kraków ~800 tys. mieszkańców (GUS 2024).</p>
+    <p class="budget-note">Źródło: BIP Gdańska, m.st. Warszawy, Krakowa i Gdyni. Kwoty w miliardach złotych. Per capita: Gdańsk ~471 tys., Warszawa ~1,86 mln, Kraków ~800 tys., Gdynia ~246 tys. mieszkańców (GUS 2024).</p>
   </div>
 
   <div class="controversial" id="controversial">
@@ -431,35 +426,6 @@ const commonOpts = {
   scales: { y: { beginAtZero: true, max: 100, ticks: { callback: v => v + '%' } }, x: { display: false } }
 };
 
-new Chart(document.getElementById('chartFrekwencja'), {
-  type: 'bar',
-  data: {
-    labels: cities,
-    datasets: [{
-      label: 'Średnia frekwencja (%)',
-      data: [93.6, 69.0, 84.7, 69.9, 98.3],
-      backgroundColor: bgColors,
-      borderColor: colors,
-      borderWidth: 2,
-      borderRadius: 6,
-      barPercentage: 0.6
-    }]
-  },
-  options: { ...commonOpts, plugins: { ...commonOpts.plugins, title: { display: true, text: 'Średnia frekwencja radnych', font: { size: 14, weight: 600 } } } }
-});
-
-new Chart(document.getElementById('chartAktywnosc'), {
-  type: 'bar',
-  data: {
-    labels: cities,
-    datasets: [
-      { label: 'Aktywność (%)', data: [92.6, 88.3, 80.4, 86.5, 95.7], backgroundColor: bgColors, borderColor: colors, borderWidth: 2, borderRadius: 6, barPercentage: 0.5 },
-      { label: 'Zgodność z klubem (%)', data: [98.8, 92.6, 89.7, 96.5, 95.1], backgroundColor: ['rgba(79,70,229,0.05)','rgba(2,132,199,0.05)','rgba(22,163,74,0.05)','rgba(217,119,6,0.05)','rgba(236,72,153,0.05)'], borderColor: colors, borderWidth: 2, borderRadius: 6, borderDash: [4,4], barPercentage: 0.5 }
-    ]
-  },
-  options: { ...commonOpts, plugins: { ...commonOpts.plugins, title: { display: true, text: 'Aktywność i zgodność z klubem', font: { size: 14, weight: 600 } } } }
-});
-
 // Budget trend chart — custom legend to show dashed lines
 const budgetYears = ['2020','2021','2022','2023','2024','2025'];
 const budgetChart = new Chart(document.getElementById('chartBudgetTrend'), {
@@ -472,7 +438,9 @@ const budgetChart = new Chart(document.getElementById('chartBudgetTrend'), {
       { label: 'Kraków — dochody', data: [6.20,7.19,7.22,7.33,9.01,9.07], borderColor: '#16a34a', backgroundColor: 'rgba(22,163,74,0.08)', fill: true, tension: 0.3, pointRadius: 4, pointStyle: 'circle', borderWidth: 2.5 },
       { label: 'Kraków — wydatki', data: [6.67,7.45,8.05,8.98,9.86,9.80], borderColor: '#16a34a', backgroundColor: 'transparent', fill: false, tension: 0.3, pointRadius: 4, pointStyle: 'rect', borderWidth: 2.5, borderDash: [8,4] },
       { label: 'Warszawa — dochody', data: [18.19,20.57,19.21,20.22,24.52,26.28], borderColor: '#dc2626', backgroundColor: 'rgba(220,38,38,0.08)', fill: true, tension: 0.3, pointRadius: 4, pointStyle: 'circle', borderWidth: 2.5 },
-      { label: 'Warszawa — wydatki', data: [19.93,21.63,21.42,24.37,27.77,29.48], borderColor: '#dc2626', backgroundColor: 'transparent', fill: false, tension: 0.3, pointRadius: 4, pointStyle: 'rect', borderWidth: 2.5, borderDash: [8,4] }
+      { label: 'Warszawa — wydatki', data: [19.93,21.63,21.42,24.37,27.77,29.48], borderColor: '#dc2626', backgroundColor: 'transparent', fill: false, tension: 0.3, pointRadius: 4, pointStyle: 'rect', borderWidth: 2.5, borderDash: [8,4] },
+      { label: 'Gdynia — dochody', data: [1.74,1.82,1.73,1.86,2.11,2.43], borderColor: '#d97706', backgroundColor: 'rgba(217,119,6,0.08)', fill: true, tension: 0.3, pointRadius: 4, pointStyle: 'circle', borderWidth: 2.5 },
+      { label: 'Gdynia — wydatki', data: [1.94,1.93,1.93,2.06,2.15,2.58], borderColor: '#d97706', backgroundColor: 'transparent', fill: false, tension: 0.3, pointRadius: 4, pointStyle: 'rect', borderWidth: 2.5, borderDash: [8,4] }
     ]
   },
   options: {
