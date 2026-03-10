@@ -141,6 +141,25 @@ a.vote-item:hover { border-color:var(--accent); box-shadow:0 2px 12px rgba(79,70
 .pill-pct { background:rgba(220,38,38,0.08); color:var(--red); font-weight:700; border:1px solid rgba(220,38,38,0.2); }
 .seo-intro { max-width:700px; margin:0 auto 10px; text-align:center; }
 .seo-intro p { color:var(--muted); font-size:0.88rem; line-height:1.7; }
+
+/* ── Mobile ── */
+@media (max-width: 600px) {
+  .container { padding:12px; }
+  .hero { padding:40px 0 20px; }
+  .hero h1 { font-size:2rem; }
+  .hero p { font-size:0.95rem; }
+  .cities { grid-template-columns:1fr; gap:12px; margin:20px 0 40px; }
+  .city-card { padding:20px; }
+  .city-card h2 { font-size:1.2rem; }
+  .comp-table { font-size:0.75rem; }
+  .comp-table th, .comp-table td { padding:6px 8px; }
+  .comp-charts { padding:12px; }
+  .budget-links { gap:8px; }
+  .budget-links a { padding:5px 12px; font-size:0.8rem; }
+  .vote-item { padding:12px 14px; }
+  .vote-item .vote-topic { font-size:0.82rem; }
+  .comparison h3, .budget h3, .sessions-feed h3, .controversial h3 { font-size:1.1rem; }
+}
 </style>
 </head>
 <body>
