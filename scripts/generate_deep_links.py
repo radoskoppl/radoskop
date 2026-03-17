@@ -76,7 +76,7 @@ def generate_city(city_dir: Path):
             if not page_dir.exists():
                 page_dir.mkdir(parents=True, exist_ok=True)
 
-            canonical = f"{site_url}/glosowanie/{vid}"
+            canonical = f"{site_url}/glosowanie/{vid}/"
             title = f"Glosowanie {vid} - Radoskop {city_name}"
             desc = topic if topic else f"Glosowanie {vid} Rady Miasta"
 
@@ -98,7 +98,7 @@ def generate_city(city_dir: Path):
             if not page_dir.exists():
                 page_dir.mkdir(parents=True, exist_ok=True)
 
-            canonical = f"{site_url}/sesja/{snum}"
+            canonical = f"{site_url}/sesja/{snum}/"
             title = f"Sesja {snum} - Radoskop {city_name}"
             desc = f"Sesja {snum} Rady Miasta ({s.get('date', '')})"
 
@@ -115,7 +115,7 @@ def generate_city(city_dir: Path):
 
 
 def main():
-    base = Path("/sessions/busy-youthful-brown/mnt/gdansk-network")
+    base = Path("/sessions/stoic-epic-maxwell/mnt/gdansk-network")
 
     cities = [
         "radoskop-gdansk", "radoskop-warszawa", "radoskop-krakow",
