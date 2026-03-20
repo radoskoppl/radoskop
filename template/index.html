@@ -644,12 +644,12 @@ function renderCouncilorTable() {
       <td><span class="club ${clubClass(c.club)}">${c.club}</span></td>
       <td>${pctBar(c.frekwencja)}</td>
       <td>${pctBar(c.aktywnosc)}</td>
-      <td>${pctBar(c.zgodnosc_z_klubem)}</td>
+      <td>${c.club === 'Niezrzeszeni' ? '<span style="color:var(--muted)">n/d</span>' : pctBar(c.zgodnosc_z_klubem)}</td>
       <td>${c.votes_za}</td>
       <td>${c.votes_przeciw > 0 ? `<span class="pill pill-przeciw">${c.votes_przeciw}</span>` : '0'}</td>
       <td>${c.votes_wstrzymal > 0 ? `<span class="pill pill-wstrzymal">${c.votes_wstrzymal}</span>` : '0'}</td>
       <td>${c.votes_brak}</td>
-      <td>${c.rebellion_count > 0 ? `<span class="pill pill-przeciw">${c.rebellion_count}</span>` : '0'}</td>
+      <td>${c.club === 'Niezrzeszeni' ? '<span style="color:var(--muted)">n/d</span>' : (c.rebellion_count > 0 ? `<span class="pill pill-przeciw">${c.rebellion_count}</span>` : '0')}</td>
     </tr>`;
   }).join('');
 
@@ -693,11 +693,12 @@ function renderProfilesGrid() {
     const frek = p.frekwencja !== undefined ? `${p.frekwencja}% frekwencja` : (p.former ? 'Zakończony mandat' : '');
     const roles = p.roles && p.roles.length > 0 ? p.roles[0] : '';
     const actInfo = p.has_activity_data && p.activity ? `${p.activity.total_statements} wypowiedzi` : '';
+    const mandateEnd = p.mandate_end ? `<span style="color:var(--yellow);font-size:0.75rem">mandat wygaszony ${p.mandate_end}</span>` : '';
     return `<div class="profile-card" onclick="showProfile('${p.name.replace(/'/g, "\\'")}')">
-      <div class="profile-card-avatar" style="background:${clubBg(p.club)}">${initials(p.name)}</div>
+      <div class="profile-card-avatar" style="background:${clubBg(p.club)};${p.mandate_end ? 'opacity:0.5' : ''}">${initials(p.name)}</div>
       <div class="profile-card-info">
         <div class="profile-card-name">${p.name}</div>
-        <div class="profile-card-detail"><span class="club ${clubClass(p.club)}">${p.club}</span>${roles ? ` · ${roles}` : ''}</div>
+        <div class="profile-card-detail"><span class="club ${clubClass(p.club)}">${p.club}</span>${roles ? ` · ${roles}` : ''}${mandateEnd ? ` · ${mandateEnd}` : ''}</div>
         <div class="profile-card-detail">${frek}${actInfo ? ` · ${actInfo}` : ''}</div>
       </div>
     </div>`;
@@ -747,7 +748,7 @@ function showProfile(name) {
             ${kd.club_full ? ` · ${kd.club_full}` : ''}
           </div>
           ${kd.roles && kd.roles.length > 0 ? `<div class="subtitle" style="margin-top:4px">${kd.roles.join(' · ')}</div>` : ''}
-          ${kd.notes ? `<div class="subtitle" style="margin-top:4px;color:var(--yellow)">${kd.notes}</div>` : ''}
+          ${kd.mandate_end ? `<div class="subtitle" style="margin-top:4px;color:var(--yellow)">Mandat wygaszony: ${kd.mandate_end}</div>` : (kd.notes ? `<div class="subtitle" style="margin-top:4px;color:var(--yellow)">${kd.notes}</div>` : '')}
         </div>
       </div>`;
 
@@ -778,10 +779,10 @@ function showProfile(name) {
             <div class="metric-value" style="color:${kd.aktywnosc>=90?'var(--green)':kd.aktywnosc>=70?'var(--yellow)':'var(--red)'}">${kd.aktywnosc}%</div>
             <div class="metric-label">Aktywność</div>
           </div>
-          <div class="metric-card">
+          ${kd.club === 'Niezrzeszeni' ? '' : `<div class="metric-card">
             <div class="metric-value" style="color:${kd.zgodnosc_z_klubem>=90?'var(--green)':kd.zgodnosc_z_klubem>=70?'var(--yellow)':'var(--red)'}">${kd.zgodnosc_z_klubem}%</div>
             <div class="metric-label">Zgodność z klubem</div>
-          </div>
+          </div>`}
           <div class="metric-card">
             <div class="metric-value">${kd.votes_total}</div>
             <div class="metric-label">Głosowań</div>
@@ -884,7 +885,7 @@ function showProfile(name) {
     html += `</div>`;
 
     // Rebellions
-    if (hasVotes && kd.rebellion_count > 0) {
+    if (hasVotes && kd.rebellion_count > 0 && kd.club !== 'Niezrzeszeni') {
       html += `<div class="section">
         <h2>Głosy wbrew klubowi (${kd.rebellion_count})</h2>`;
       const rebs = kd.rebellions || [];
@@ -1514,7 +1515,7 @@ let budgetChartTrend = null, budgetChartCat = null;
 
 function renderBudget() {
   const B = window.BUDGET;
-  if (!B) return;
+  if (!B || !B.totals || !B.totals.length) return;
   const container = document.getElementById('budget-content');
   const fmt = (n) => (n/1e9).toFixed(2).replace('.', ',') + ' mld';
   const fmtM = (n) => n >= 1e9 ? fmt(n) : (n/1e6).toFixed(0) + ' mln';
