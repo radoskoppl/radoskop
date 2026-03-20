@@ -363,6 +363,23 @@ function catPill(cat) {
 }
 
 // Sort names by last name, then first name
+// Resolve indexed named_votes: converts integer indices to names using councilor_index.
+// Supports both old format (string arrays) and new indexed format (integer arrays).
+function resolveNV(nv, councilor_index) {
+  if (!nv || !councilor_index || councilor_index.length === 0) return nv;
+  const out = {};
+  for (const key of Object.keys(nv)) {
+    const arr = nv[key];
+    if (!Array.isArray(arr) || arr.length === 0) { out[key] = arr; continue; }
+    if (typeof arr[0] === 'number') {
+      out[key] = arr.map(i => councilor_index[i] || ('?' + i));
+    } else {
+      out[key] = arr;
+    }
+  }
+  return out;
+}
+
 function sortByLastName(names) {
   return [...names].sort((a, b) => {
     const pa = a.split(' '), pb = b.split(' ');
@@ -937,7 +954,7 @@ function showProfile(name) {
           const sessionVotes = getSessionVotes(kadData.votes, kadData.sessions, sess);
           if (sessionVotes.length === 0) continue;
           const personVotes = sessionVotes.map(v => {
-            const nv = v.named_votes || {};
+            const nv = resolveNV(v.named_votes || {}, kadData.councilor_index);
             let pv = null;
             if ((nv.za||[]).includes(profile.name)) pv = 'za';
             else if ((nv.przeciw||[]).includes(profile.name)) pv = 'przeciw';
@@ -1235,7 +1252,7 @@ function showVote(voteId) {
   setTitle('Głosowanie: ' + (vote.topic || voteId).substring(0, 60));
 
   const c = vote.counts || {};
-  const nv = vote.named_votes || {};
+  const nv = resolveNV(vote.named_votes || {}, voteKad.councilor_index);
   const total = (c.za||0) + (c.przeciw||0) + (c.wstrzymal_sie||0);
   const passed = (c.za||0) > total/2;
   const allVoted = (c.za||0) + (c.przeciw||0) + (c.wstrzymal_sie||0) + (c.brak_glosu||0) + (c.nieobecni||0);
