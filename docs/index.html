@@ -120,6 +120,7 @@ footer a:hover { text-decoration-color:var(--accent); }
 .feed-city-name.wro { border-color:#7c3aed; color:#7c3aed; }
 .feed-city-name.poz { border-color:#0891b2; color:#0891b2; }
 .feed-city-name.ldz { border-color:#dc2626; color:#dc2626; }
+.feed-city-name.szn { border-color:#059669; color:#059669; }
 .feed-item { display:flex; justify-content:space-between; align-items:center; padding:8px 4px; border-bottom:1px solid var(--border); text-decoration:none; color:var(--text); transition:background 0.1s; gap:8px; border-radius:4px; }
 .feed-item:hover { background:rgba(79,70,229,0.03); }
 .feed-item .sess-label { font-size:0.82rem; font-weight:500; white-space:nowrap; }
@@ -262,10 +263,11 @@ a.vote-item:hover { border-color:var(--accent); box-shadow:0 2px 12px rgba(79,70
       <span class="arrow">Otwórz →</span>
     </a>
 
-    <a class="city-card soon" href="#">
-      <span class="status coming">Wkrótce</span>
+    <a class="city-card" href="https://szczecin.radoskop.pl">
+      <span class="status">Aktywne</span>
       <h2>Szczecin</h2>
-      <p class="desc">Rada Miasta Szczecin — 31 radnych, kadencja 2024–2029.</p>
+      <p class="desc">Rada Miasta Szczecina — frekwencja, głosowania i aktywność radnych na sesjach.</p>
+      <span class="arrow">Otwórz →</span>
     </a>
 
     <a class="city-card soon" href="#">
@@ -300,15 +302,15 @@ a.vote-item:hover { border-color:var(--accent); box-shadow:0 2px 12px rgba(79,70
     <div class="comp-table-wrap">
       <table class="comp-table">
         <thead>
-          <tr><th></th><th>Gdańsk</th><th>Warszawa</th><th>Kraków</th><th>Wrocław</th><th>Poznań</th><th>Gdynia</th><th>Sopot</th><th>Łódź</th><th class="soon-col">Szczecin</th><th class="soon-col">Lublin</th><th class="soon-col">Bydgoszcz</th><th class="soon-col">Katowice</th><th class="soon-col">Białystok</th></tr>
+          <tr><th></th><th>Gdańsk</th><th>Warszawa</th><th>Kraków</th><th>Wrocław</th><th>Poznań</th><th>Gdynia</th><th>Sopot</th><th>Łódź</th><th>Szczecin</th><th class="soon-col">Lublin</th><th class="soon-col">Bydgoszcz</th><th class="soon-col">Katowice</th><th class="soon-col">Białystok</th></tr>
         </thead>
         <tbody>
-          <tr><td class="label">Radni</td><td>36</td><td>63</td><td>47</td><td>38</td><td>34</td><td>28</td><td>21</td><td>38</td><td class="soon-col">31</td><td class="soon-col">31</td><td class="soon-col">28</td><td class="soon-col">28</td><td class="soon-col">28</td></tr>
-          <tr><td class="label">Sesje</td><td>21</td><td>32</td><td>39</td><td>9</td><td>31</td><td>28</td><td>20</td><td>29</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td></tr>
-          <tr><td class="label">Głosowania</td><td>709</td><td>1 398</td><td>1 144</td><td>433</td><td>868</td><td>628</td><td>529</td><td>1 645</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td></tr>
-          <tr><td class="label">Śr. zgodność z klubem</td><td>98,8%</td><td>92,6%</td><td>89,7%</td><td>96,0%</td><td>90,8%</td><td>96,5%</td><td>95,1%</td><td>88,4%</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td></tr>
-          <tr><td class="label">Śr. buntów / radny</td><td>8,1</td><td>33,2</td><td>16,8</td><td>14,2</td><td>69,1</td><td>18,9</td><td>24,0</td><td>22,1</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td></tr>
-          <tr><td class="label">Interpelacje</td><td>1 768</td><td>1 751</td><td>2 325</td><td>603</td><td>516</td><td>677</td><td>221</td><td>—</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td></tr>
+          <tr><td class="label">Radni</td><td>36</td><td>63</td><td>47</td><td>38</td><td>34</td><td>28</td><td>21</td><td>38</td><td>33</td><td class="soon-col">31</td><td class="soon-col">28</td><td class="soon-col">28</td><td class="soon-col">28</td></tr>
+          <tr><td class="label">Sesje</td><td>21</td><td>32</td><td>39</td><td>9</td><td>31</td><td>28</td><td>20</td><td>29</td><td>22</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td></tr>
+          <tr><td class="label">Głosowania</td><td>709</td><td>1 398</td><td>1 144</td><td>433</td><td>868</td><td>628</td><td>529</td><td>1 645</td><td>479</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td></tr>
+          <tr><td class="label">Śr. zgodność z klubem</td><td>98,8%</td><td>92,6%</td><td>89,7%</td><td>96,0%</td><td>90,8%</td><td>96,5%</td><td>95,1%</td><td>88,4%</td><td>98,5%</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td></tr>
+          <tr><td class="label">Śr. buntów / radny</td><td>8,1</td><td>33,2</td><td>16,8</td><td>14,2</td><td>69,1</td><td>18,9</td><td>24,0</td><td>22,1</td><td>6,0</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td></tr>
+          <tr><td class="label">Interpelacje</td><td>1 768</td><td>1 751</td><td>2 325</td><td>603</td><td>516</td><td>677</td><td>221</td><td>—</td><td>—</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td></tr>
         </tbody>
       </table>
     </div>
@@ -317,7 +319,7 @@ a.vote-item:hover { border-color:var(--accent); box-shadow:0 2px 12px rgba(79,70
 
   <div class="sessions-feed" id="sessions">
     <h3>Ostatnie sesje</h3>
-    <p class="comparison-subtitle">Kadencja 2024–2029 — 5 ostatnich sesji każdej rady (8 aktywnych miast)</p>
+    <p class="comparison-subtitle">Kadencja 2024–2029 — 5 ostatnich sesji każdej rady (9 aktywnych miast)</p>
 
     <div class="feed-grid">
       <div class="feed-city">
@@ -383,6 +385,14 @@ a.vote-item:hover { border-color:var(--accent); box-shadow:0 2px 12px rgba(79,70
         <a class="feed-item" href="https://lodz.radoskop.pl/sesja/XXVI"><span class="sess-label">Sesja XXVI</span><span class="sess-date">14.01.2026</span><span class="sess-votes">43 gł.</span></a>
         <a class="feed-item" href="https://lodz.radoskop.pl/sesja/XXV"><span class="sess-label">Sesja XXV</span><span class="sess-date">17.12.2025</span><span class="sess-votes">63 gł.</span></a>
         <a class="feed-item" href="https://lodz.radoskop.pl/sesja/XXIV"><span class="sess-label">Sesja XXIV</span><span class="sess-date">03.12.2025</span><span class="sess-votes">52 gł.</span></a>
+      </div>
+      <div class="feed-city">
+        <div class="feed-city-name szn">Szczecin</div>
+        <a class="feed-item" href="https://szczecin.radoskop.pl/sesja/XVIII"><span class="sess-label">Sesja XVIII</span><span class="sess-date">27.01.2026</span><span class="sess-votes">26 gł.</span></a>
+        <a class="feed-item" href="https://szczecin.radoskop.pl/sesja/XVII"><span class="sess-label">Sesja XVII</span><span class="sess-date">16.12.2025</span><span class="sess-votes">44 gł.</span></a>
+        <a class="feed-item" href="https://szczecin.radoskop.pl/sesja/XVI"><span class="sess-label">Sesja XVI</span><span class="sess-date">25.11.2025</span><span class="sess-votes">28 gł.</span></a>
+        <a class="feed-item" href="https://szczecin.radoskop.pl/sesja/XIII"><span class="sess-label">Sesja XIII</span><span class="sess-date">17.06.2025</span><span class="sess-votes">65 gł.</span></a>
+        <a class="feed-item" href="https://szczecin.radoskop.pl/sesja/II"><span class="sess-label">Sesja II</span><span class="sess-date">02.07.2025</span><span class="sess-votes">9 gł.</span></a>
       </div>
     </div>
   </div>
