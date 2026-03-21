@@ -397,6 +397,23 @@ function isFemale(name) {
   return first.endsWith('a') && first !== 'Kosma' && first !== 'Kuba';
 }
 
+// Cache for loaded kadencja data (keyed by kid)
+const _kadCache = {};
+
+async function loadKadencja(kid) {
+  if (_kadCache[kid]) return _kadCache[kid];
+  // Support legacy single-file format (RAW.kadencje contains full objects)
+  const existing = RAW.kadencje.find(k => k.id === kid && k.votes);
+  if (existing) { _kadCache[kid] = existing; return existing; }
+  const resp = await fetch('/kadencja-' + kid + '.json');
+  const kad = await resp.json();
+  _kadCache[kid] = kad;
+  // Replace stub in RAW.kadencje with full data
+  const idx = RAW.kadencje.findIndex(k => k.id === kid);
+  if (idx >= 0) RAW.kadencje[idx] = kad;
+  return kad;
+}
+
 async function init() {
   // Restore path from 404.html SPA redirect
   const sp = new URLSearchParams(location.search);
@@ -414,45 +431,57 @@ async function init() {
     PROFILES = await profResp.json();
     window.BUDGET = await budgetResp.json();
     window.INTERPELACJE = await interpResp.json();
+
+    // Determine which kadencja to load first
+    const defaultKid = RAW.default_kadencja || RAW.kadencje[RAW.kadencje.length-1].id;
+    const path = routePath();
+    let initialKid = defaultKid;
+    if (path.startsWith('/kadencja/')) {
+      const parts = path.replace('/kadencja/', '').split('/');
+      const kid = SLUG_KADS[parts[0]];
+      if (kid) initialKid = kid;
+    }
+
+    // Load the initial kadencja before showing UI
+    await loadKadencja(initialKid);
+
     document.getElementById('loading').style.display = 'none';
     document.getElementById('app').style.display = 'block';
     renderKadencjaBar();
 
-    // Check URL path for deep links
-    const defaultKid = RAW.default_kadencja || RAW.kadencje[RAW.kadencje.length-1].id;
-    const path = routePath();
+    // Deep links
     if (path.startsWith('/profil/')) {
       const slug = path.replace('/profil/', '');
       const profile = PROFILES.profiles.find(p => p.slug === slug);
       if (profile) {
-        selectKadencjaQuiet(defaultKid);
+        selectKadencjaQuiet(initialKid);
         showProfile(profile.name);
         navigateTo(path, true);
         return;
       }
     }
     if (path.startsWith('/glosowanie/')) {
-      selectKadencjaQuiet(defaultKid);
+      selectKadencjaQuiet(initialKid);
       const vid = path.replace('/glosowanie/', '');
       showVote(vid);
       navigateTo(path, true);
       return;
     }
     if (path.startsWith('/sesja/')) {
-      selectKadencjaQuiet(defaultKid);
+      selectKadencjaQuiet(initialKid);
       const snum = decodeURIComponent(path.replace('/sesja/', ''));
       showSession(snum);
       navigateTo(path, true);
       return;
     }
     if (path === '/interpelacje' || path === '/interpelacje/') {
-      selectKadencjaQuiet(defaultKid);
+      selectKadencjaQuiet(initialKid);
       activateTab('interpelacje');
       navigateTo(path, true);
       return;
     }
     if (path === '/budzet' || path === '/budzet/') {
-      selectKadencjaQuiet(defaultKid);
+      selectKadencjaQuiet(initialKid);
       activateTab('budget');
       navigateTo(path, true);
       return;
@@ -468,7 +497,7 @@ async function init() {
         return;
       }
     }
-    selectKadencja(defaultKid);
+    selectKadencja(initialKid);
   } catch(e) {
     document.getElementById('loading').textContent = 'Błąd ładowania danych: ' + e.message;
   }
@@ -484,7 +513,7 @@ function renderKadencjaBar() {
   });
 }
 
-function selectKadencjaQuiet(kid) {
+function _applyKadencja(kid) {
   K = RAW.kadencje.find(k => k.id === kid);
   if (!K) return;
   currentKid = kid;
@@ -498,8 +527,13 @@ function selectKadencjaQuiet(kid) {
   render();
 }
 
-function selectKadencja(kid) {
-  selectKadencjaQuiet(kid);
+async function selectKadencjaQuiet(kid) {
+  if (!_kadCache[kid]) await loadKadencja(kid);
+  _applyKadencja(kid);
+}
+
+async function selectKadencja(kid) {
+  await selectKadencjaQuiet(kid);
   navigateTo(mainPath());
 }
 
@@ -1240,6 +1274,7 @@ function showVote(voteId) {
   // Search across all kadencje, not just the currently active one
   let vote = null, voteKad = null;
   for (const kad of RAW.kadencje) {
+    if (!kad.votes) continue;
     const found = kad.votes.find(v => v.id === voteId);
     if (found) { vote = found; voteKad = kad; break; }
   }
@@ -1369,6 +1404,7 @@ function showSession(sessionNumber) {
   }
   if (!sess) {
     for (const kad of RAW.kadencje) {
+      if (!kad.sessions) continue;
       const found = kad.sessions.find(s => s.number === sessionNumber);
       if (found) { sess = found; sessKad = kad; break; }
     }
@@ -1863,7 +1899,7 @@ function bindSort() {
 
 // Handle browser back/forward — suppress pushState during popstate
 let _popstateActive = false;
-window.addEventListener('popstate', () => {
+window.addEventListener('popstate', async () => {
   _popstateActive = true;
   const path = routePath();
   if (path.startsWith('/profil/')) {
@@ -1895,13 +1931,13 @@ window.addEventListener('popstate', () => {
     const kid = SLUG_KADS[parts[0]];
     const tab = SLUG_TABS[parts[1]] || 'ranking';
     if (kid && kid !== currentKid) {
-      selectKadencjaQuiet(kid);
+      await selectKadencjaQuiet(kid);
     }
     activateTab(tab);
   } else {
     // Root path — default kadencja + ranking
     const defaultKid = RAW.default_kadencja || RAW.kadencje[RAW.kadencje.length-1].id;
-    if (defaultKid !== currentKid) selectKadencjaQuiet(defaultKid);
+    if (defaultKid !== currentKid) await selectKadencjaQuiet(defaultKid);
     activateTab('ranking');
   }
   _popstateActive = false;
