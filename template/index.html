@@ -974,6 +974,49 @@ function showProfile(name) {
       html += `</div>`;
     }
 
+    // Interpelacje section
+    const interpData = window.INTERPELACJE || [];
+    if (interpData.length > 0) {
+      const pName = profile.name.trim();
+      const pLow = pName.toLowerCase();
+      const pNameParts = pName.split(' ');
+      const pNameReversed = pNameParts.length >= 2 ? pNameParts.slice(1).join(' ') + ' ' + pNameParts[0] : pName;
+      const pRevLow = pNameReversed.toLowerCase();
+      function interpMatchesName(radnyField) {
+        // Normalize: replace non-breaking spaces, collapse whitespace
+        const norm = radnyField.replace(/\u00a0/g, ' ').replace(/\s{2,}/g, ' ');
+        // Split on comma, semicolon, newline, or " i " (Polish "and") for multi-author
+        const authors = norm.split(/[,;\r\n]+| i /).map(s => s.replace(/\.$/,'').trim()).filter(Boolean);
+        return authors.some(a => {
+          const al = a.toLowerCase();
+          return al === pLow || al === pRevLow;
+        });
+      }
+      const personInterp = interpData.filter(d => interpMatchesName(d.radny || ''))
+        .sort((a,b) => (b.data_wplywu || '').localeCompare(a.data_wplywu || ''));
+      if (personInterp.length > 0) {
+        html += `<div class="section">
+          <h2>Interpelacje i zapytania (${personInterp.length})</h2>
+          <div style="overflow-x:auto"><table><thead><tr>
+            <th>Data</th><th>Typ</th><th>Przedmiot</th><th>Treść</th><th>Odpowiedź</th>
+          </tr></thead><tbody>`;
+        personInterp.forEach(d => {
+          const typClass = d.typ === 'interpelacja' ? 'pill-za' : 'pill-wstrzymal';
+          const typLabel = d.typ === 'interpelacja' ? 'Interpelacja' : 'Zapytanie';
+          const trescLink = d.tresc_url ? `<a href="${d.tresc_url}" target="_blank" style="color:var(--accent)">PDF</a>` : '';
+          const odpLink = d.odpowiedz_url ? `<a href="${d.odpowiedz_url}" target="_blank" style="color:var(--accent)">PDF</a>` : (d.data_odpowiedzi ? d.data_odpowiedzi : '<span style="color:var(--muted)">brak</span>');
+          html += `<tr>
+            <td style="white-space:nowrap">${d.data_wplywu || ''}</td>
+            <td><span class="pill ${typClass}">${typLabel}</span></td>
+            <td style="max-width:400px">${d.przedmiot || ''}</td>
+            <td>${trescLink}</td>
+            <td>${odpLink}</td>
+          </tr>`;
+        });
+        html += `</tbody></table></div></div>`;
+      }
+    }
+
     // Votes grouped by session
     let allPersonVotes = [];
     let profCatCounts = {};

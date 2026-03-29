@@ -26,6 +26,14 @@ def generate_club_js(clubs: dict) -> str:
     """Generate clubColor, clubBg, clubClass JS functions."""
     names = list(clubs.keys())
 
+    if not clubs:
+        # No clubs defined: return safe fallback functions
+        return (
+            "function clubColor(club) {\n  return 'var(--muted)';\n}\n"
+            "function clubBg(club) {\n  return '#374151';\n}\n"
+            "function clubClass(club) {\n  return 'club-unknown';\n}"
+        )
+
     # clubColor — uses color_var if available, falls back to color
     chain = " : ".join(
         f"club === '{n}' ? '{c.get('color_var', c['color'])}'"
