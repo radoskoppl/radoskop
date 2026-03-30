@@ -595,8 +595,36 @@ function routePath() {
   return location.pathname.replace(/\/$/, '') || '/';
 }
 
+function findProfile(name) {
+  if (!PROFILES) return null;
+  var n = name.trim().toLowerCase();
+  var p = PROFILES.profiles.find(function(pr) { return pr.name.toLowerCase() === n; });
+  if (p) return p;
+  var parts = n.split(/\s+/);
+  if (parts.length >= 2) {
+    var flipped = parts.slice(-1).concat(parts.slice(0, -1)).join(' ');
+    p = PROFILES.profiles.find(function(pr) { return pr.name.toLowerCase() === flipped; });
+    if (p) return p;
+    if (parts.length > 2) {
+      var flip2 = parts.slice(1).concat(parts.slice(0, 1)).join(' ');
+      p = PROFILES.profiles.find(function(pr) { return pr.name.toLowerCase() === flip2; });
+      if (p) return p;
+    }
+  }
+  // Fuzzy fallback: match if profile name starts with flipped or vice versa
+  if (parts.length >= 2) {
+    var flipped = parts.slice(-1).concat(parts.slice(0, -1)).join(' ');
+    p = PROFILES.profiles.find(function(pr) {
+      var pn = pr.name.toLowerCase();
+      return pn.indexOf(flipped) === 0 || flipped.indexOf(pn) === 0;
+    });
+    if (p) return p;
+  }
+  return null;
+}
+
 function profileSlug(name) {
-  const p = PROFILES && PROFILES.profiles.find(pr => pr.name === name);
+  const p = findProfile(name);
   return p ? p.slug : name.toLowerCase().replace(/\s+/g, '-');
 }
 
@@ -655,11 +683,12 @@ function render() {
 
 function renderStats() {
   const grid = document.getElementById('stats-grid');
-  const clubs = [...new Set(K.councilors.map(c=>c.club))].filter(c=>c!=='?');
+  const councilors = K.councilors || [];
+  const clubs = [...new Set(councilors.map(c=>c.club))].filter(c=>c!=='?');
   const cards = [
-    { label: 'Sesje', value: K.total_sessions },
-    { label: 'Głosowania', value: K.total_votes },
-    { label: 'Radnych', value: K.total_councilors },
+    { label: 'Sesje', value: K.total_sessions || (K.sessions ? K.sessions.length : 0) },
+    { label: 'Głosowania', value: K.total_votes || (K.votes ? K.votes.length : 0) },
+    { label: 'Radnych', value: K.total_councilors || councilors.length },
     { label: 'Kluby', value: clubs.length },
   ];
   grid.innerHTML = cards.map(c => `
@@ -671,7 +700,7 @@ function renderStats() {
 }
 
 function renderClubFilter() {
-  const clubs = [...new Set(K.councilors.map(c=>c.club))].sort();
+  const clubs = [...new Set((K.councilors || []).map(c=>c.club))].sort();
   const bar = document.getElementById('club-filter');
   bar.innerHTML = `<button class="filter-btn active" data-club="all">Wszyscy</button>` +
     clubs.map(c => `<button class="filter-btn" data-club="${c}">${c}</button>`).join('');
@@ -693,7 +722,7 @@ function initials(name) {
 
 function renderCouncilorTable() {
   const tbody = document.querySelector('#councilor-table tbody');
-  let data = K.councilors;
+  let data = K.councilors || [];
   if (clubFilter !== 'all') data = data.filter(c => c.club === clubFilter);
 
   data = [...data].sort((a,b) => {
@@ -785,7 +814,7 @@ function getProfilesForKadencja(kid) {
 }
 
 function showProfile(name) {
-  const profile = PROFILES.profiles.find(p => p.name === name);
+  const profile = findProfile(name);
   if (!profile) return;
 
   trackEvent('view_profile', {profile_name: name, profile_slug: profile.slug});
@@ -989,7 +1018,14 @@ function showProfile(name) {
         const authors = norm.split(/[,;\r\n]+| i /).map(s => s.replace(/\.$/,'').trim()).filter(Boolean);
         return authors.some(a => {
           const al = a.toLowerCase();
-          return al === pLow || al === pRevLow;
+          if (al === pLow || al === pRevLow) return true;
+          // Prefix match: "Karol Masztalerz" flipped to "Masztalerz Karol" matches "Masztalerz Karol Konrad"
+          var aParts = al.split(/\s+/);
+          if (aParts.length >= 2) {
+            var aFlipped = aParts.slice(-1).concat(aParts.slice(0, -1)).join(' ');
+            if (pLow.indexOf(aFlipped) === 0 || aFlipped.indexOf(pLow) === 0) return true;
+          }
+          return false;
         });
       }
       const personInterp = interpData.filter(d => interpMatchesName(d.radny || ''))
@@ -1207,24 +1243,26 @@ function getSessionVotes(votes, sessions, sess) {
 }
 
 function renderSessionsTable() {
-  const sessions = [...K.sessions].sort((a,b) => b.date.localeCompare(a.date));
+  const sessions = [...(K.sessions || [])].sort((a,b) => b.date.localeCompare(a.date));
   const tbody = document.querySelector('#sessions-table tbody');
+  const hasVoteRecords = (K.votes || []).length > 0;
   tbody.innerHTML = sessions.map(s => {
     // Count passed/rejected from votes
-    const sessionVotes = getSessionVotes(K.votes, K.sessions, s);
+    const sessionVotes = hasVoteRecords ? getSessionVotes(K.votes, K.sessions || [], s) : [];
+    const voteCount = hasVoteRecords ? sessionVotes.length : (s.vote_count || 0);
     const passed = sessionVotes.filter(v => {
       const c = v.counts || {};
       const total = (c.za||0) + (c.przeciw||0) + (c.wstrzymal_sie||0);
       return (c.za||0) > total/2;
     }).length;
-    const rejected = sessionVotes.length - passed;
+    const rejected = hasVoteRecords ? (sessionVotes.length - passed) : 0;
     const speakers = (s.speakers || []).length;
     return `<tr class="vote-row" onclick="showSession('${s.number}')">
       <td style="font-weight:600">${s.number || '?'}</td>
       <td>${s.date}</td>
-      <td>${sessionVotes.length}</td>
-      <td><span class="pill pill-za">${passed}</span></td>
-      <td>${rejected > 0 ? `<span class="pill pill-przeciw">${rejected}</span>` : '0'}</td>
+      <td>${voteCount}</td>
+      <td>${hasVoteRecords ? `<span class="pill pill-za">${passed}</span>` : ''}</td>
+      <td>${hasVoteRecords && rejected > 0 ? `<span class="pill pill-przeciw">${rejected}</span>` : (hasVoteRecords ? '0' : '')}</td>
       <td>${s.attendee_count}</td>
       <td>${speakers > 0 ? speakers : '—'}</td>
     </tr>`;
@@ -1232,15 +1270,20 @@ function renderSessionsTable() {
 }
 
 function renderVotesTable() {
+  if (!(K.votes || []).length) {
+    const container = document.getElementById('votes-grouped');
+    if (container) container.innerHTML = '<p style="color:var(--muted)">Brak danych o indywidualnych głosowaniach.</p>';
+    return;
+  }
   // Build category filter pills
   const catBar = document.getElementById('cat-filter');
   const catCounts = {};
-  K.votes.forEach(v => {
+  (K.votes || []).forEach(v => {
     const cat = categorizeVote(v.topic);
     catCounts[cat] = (catCounts[cat] || 0) + 1;
   });
   const catOrder = Object.keys(VOTE_CATS).sort((a,b) => (VOTE_CATS[a]?.order||99) - (VOTE_CATS[b]?.order||99));
-  let catPills = `<button class="session-pill ${currentCatFilter==='all'?'active':''}" data-cat="all">Wszystkie <span class="pill-count">(${K.votes.length})</span></button>`;
+  let catPills = `<button class="session-pill ${currentCatFilter==='all'?'active':''}" data-cat="all">Wszystkie <span class="pill-count">(${(K.votes || []).length})</span></button>`;
   for (const cat of catOrder) {
     if (!catCounts[cat]) continue;
     catPills += `<button class="session-pill cat-pill cat-${cat} ${currentCatFilter===cat?'active':''}" data-cat="${cat}">${VOTE_CATS[cat]?.label||cat} <span class="pill-count">(${catCounts[cat]})</span></button>`;
@@ -1254,7 +1297,7 @@ function renderVotesTable() {
   });
 
   // Filter votes by category
-  let votes = K.votes;
+  let votes = K.votes || [];
   if (currentCatFilter !== 'all') {
     votes = votes.filter(v => categorizeVote(v.topic) === currentCatFilter);
   }
@@ -1265,7 +1308,7 @@ function renderVotesTable() {
   let html = '';
 
   for (const s of sessions) {
-    const sessAllVotes = getSessionVotes(K.votes, K.sessions, s);
+    const sessAllVotes = getSessionVotes(K.votes || [], K.sessions || [], s);
     const sessVoteIds = new Set(sessAllVotes.map(v => v.id));
     const sessVotes = votes.filter(v => sessVoteIds.has(v.id));
     if (sessVotes.length === 0) continue;
@@ -1462,15 +1505,17 @@ function showSession(sessionNumber) {
 
   // Club lookup
   const clubMap = {};
-  sessKad.councilors.forEach(co => { clubMap[co.name] = co.club; });
+  (sessKad.councilors || []).forEach(co => { clubMap[co.name] = co.club; });
 
   // Get all councilors for this kadencja to find absent ones
-  const allNames = new Set(sessKad.councilors.map(c => c.name));
+  const allNames = new Set((sessKad.councilors || []).map(c => c.name));
   const present = new Set(sess.attendees || []);
   const absent = sortByLastName([...allNames].filter(n => !present.has(n)));
 
   // Session votes
-  const sessionVotes = getSessionVotes(sessKad.votes, sessKad.sessions, sess);
+  const hasVoteRecords = (sessKad.votes || []).length > 0;
+  const sessionVotes = hasVoteRecords ? getSessionVotes(sessKad.votes, sessKad.sessions || [], sess) : [];
+  const sessVoteCount = hasVoteRecords ? sessionVotes.length : (sess.vote_count || 0);
 
   // Vote stats
   const passed = sessionVotes.filter(v => {
@@ -1478,7 +1523,7 @@ function showSession(sessionNumber) {
     const total = (c.za||0) + (c.przeciw||0) + (c.wstrzymal_sie||0);
     return (c.za||0) > total/2;
   }).length;
-  const rejected = sessionVotes.length - passed;
+  const rejected = hasVoteRecords ? (sessionVotes.length - passed) : 0;
 
   let html = `
     <button class="profile-back" onclick="showMain()">← Strona główna</button>
@@ -1489,17 +1534,17 @@ function showSession(sessionNumber) {
 
     <div class="profile-metrics" style="margin-bottom:24px">
       <div class="metric-card">
-        <div class="metric-value">${sessionVotes.length}</div>
+        <div class="metric-value">${sessVoteCount}</div>
         <div class="metric-label">Głosowań</div>
       </div>
-      <div class="metric-card">
+      ${hasVoteRecords ? `<div class="metric-card">
         <div class="metric-value" style="color:var(--green)">${passed}</div>
         <div class="metric-label">Przyjętych</div>
       </div>
       <div class="metric-card">
         <div class="metric-value" style="color:var(--red)">${rejected}</div>
         <div class="metric-label">Odrzuconych</div>
-      </div>
+      </div>` : ''}
       <div class="metric-card">
         <div class="metric-value">${sess.attendee_count}</div>
         <div class="metric-label">Obecnych</div>
@@ -1538,13 +1583,16 @@ function showSession(sessionNumber) {
 
   // Category summary with filter
   html += `<div class="section">
-    <h2>Głosowania (${sessionVotes.length})</h2>
+    <h2>Głosowania (${sessVoteCount})</h2>
     <div class="filter-bar" id="session-cat-filter" style="margin-bottom:12px;flex-wrap:wrap">
       <button class="session-pill active" data-scat="all">Wszystkie <span class="pill-count">(${sessionVotes.length})</span></button>`;
   catOrder.forEach(cat => {
     html += `<button class="session-pill cat-pill cat-${cat}" data-scat="${cat}">${VOTE_CATS[cat]?.label||cat} <span class="pill-count">(${grouped[cat].length})</span></button>`;
   });
   html += `</div>`;
+  if (!sessionVotes.length) {
+    html += `<p style="color:var(--muted)">Brak danych o indywidualnych głosowaniach.</p>`;
+  }
 
   // Grouped tables
   let globalIdx = 0;
@@ -1621,8 +1669,10 @@ function renderSimilarity() {
       </div>
     `).join('');
   };
-  renderPairs(K.similarity_top || [], document.getElementById('sim-top'));
-  renderPairs(K.similarity_bottom || [], document.getElementById('sim-bottom'));
+  const simTop = K.similarity_top || (K.similarity && K.similarity.top) || [];
+  const simBottom = K.similarity_bottom || (K.similarity && K.similarity.bottom) || [];
+  renderPairs(simTop, document.getElementById('sim-top'));
+  renderPairs(simBottom, document.getElementById('sim-bottom'));
 }
 
 let interpelacjeRendered = false;
@@ -1651,7 +1701,7 @@ function renderInterpelacje() {
     // Per-councillor stats
     const byRadny = {};
     items.forEach(d => {
-      const names = d.radny.split(/\r?\n/).map(n => n.trim()).filter(Boolean);
+      const names = d.radny.split(/[;\r\n,]+/).map(n => n.trim()).filter(Boolean);
       names.forEach(n => { byRadny[n] = (byRadny[n] || 0) + 1; });
     });
     const topRadni = Object.entries(byRadny).sort((a, b) => b[1] - a[1]).slice(0, 15);
@@ -1693,7 +1743,7 @@ function renderInterpelacje() {
       html += `<tr>
         <td style="white-space:nowrap">${d.data_wplywu || ''}</td>
         <td><span class="pill ${typClass}">${typLabel}</span></td>
-        <td style="font-weight:500">${d.radny.replace(/\r?\n/g, ', ').split(', ').map(n => profileLink(n.trim())).join(', ')}</td>
+        <td style="font-weight:500">${d.radny.split(/[;\r\n,]+/).map(n => n.trim()).filter(Boolean).map(n => profileLink(n)).join(', ')}</td>
         <td style="max-width:400px">${d.przedmiot}</td>
         <td>${trescLink}</td>
         <td>${odpLink}</td>
