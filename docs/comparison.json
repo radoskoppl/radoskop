@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-05",
+  "generated": "2026-03-30",
   "cities": [
     {
       "name": "Gdańsk",
@@ -442,6 +442,264 @@
           "name": "Grażyna Czajkowska",
           "club": "Kocham Sopot",
           "count": 59
+        }
+      ]
+    },
+    {
+      "name": "Bydgoszcz",
+      "slug": "bydgoszcz",
+      "url": "https://bydgoszcz.radoskop.pl",
+      "kadencja": "2024-2029",
+      "total_sessions": 11,
+      "total_votes": 296,
+      "total_councilors": 29,
+      "avg_frekwencja": 98.9,
+      "avg_aktywnosc": 0.0,
+      "avg_zgodnosc": 0.0,
+      "avg_rebellions": 0.0,
+      "clubs": {
+        "KO": {
+          "count": 15,
+          "avg_frekwencja": 98.7,
+          "avg_aktywnosc": 0.0,
+          "avg_zgodnosc": 0.0
+        },
+        "PiS": {
+          "count": 10,
+          "avg_frekwencja": 99.1,
+          "avg_aktywnosc": 0.0,
+          "avg_zgodnosc": 0.0
+        },
+        "Trzecia Droga": {
+          "count": 3,
+          "avg_frekwencja": 99.7,
+          "avg_aktywnosc": 0.0,
+          "avg_zgodnosc": 0.0
+        },
+        "Niezrzeszony": {
+          "count": 1,
+          "avg_frekwencja": 100.0,
+          "avg_aktywnosc": 0.0,
+          "avg_zgodnosc": 0.0
+        }
+      },
+      "top_frekwencja": [
+        {
+          "name": "Bielawa Wojciech",
+          "club": "PiS",
+          "value": 100.0
+        },
+        {
+          "name": "Bokiej Paweł",
+          "club": "PiS",
+          "value": 100.0
+        },
+        {
+          "name": "Czerska-Thomas Joanna",
+          "club": "Trzecia Droga",
+          "value": 100.0
+        }
+      ],
+      "bottom_frekwencja": [
+        {
+          "name": "Zagłoba-Zygler Lech",
+          "club": "KO",
+          "value": 98.7
+        },
+        {
+          "name": "Gralik Jędrzej",
+          "club": "PiS",
+          "value": 92.5
+        },
+        {
+          "name": "Drozd Kazimierz",
+          "club": "KO",
+          "value": 84.7
+        }
+      ],
+      "top_rebels": [
+        {
+          "name": "Bielawa Wojciech",
+          "club": "PiS",
+          "count": 0
+        },
+        {
+          "name": "Bokiej Paweł",
+          "club": "PiS",
+          "count": 0
+        },
+        {
+          "name": "Czerska-Thomas Joanna",
+          "club": "Trzecia Droga",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "name": "Białystok",
+      "slug": "bialystok",
+      "url": "https://bialystok.radoskop.pl",
+      "kadencja": "2024-2029",
+      "total_sessions": 17,
+      "total_votes": 445,
+      "total_councilors": 28,
+      "avg_frekwencja": 95.1,
+      "avg_aktywnosc": 91.7,
+      "avg_zgodnosc": 0.0,
+      "avg_rebellions": 0.0,
+      "clubs": {
+        "KO": {
+          "count": 14,
+          "avg_frekwencja": 98.2,
+          "avg_aktywnosc": 95.9,
+          "avg_zgodnosc": 0.0
+        },
+        "PiS": {
+          "count": 12,
+          "avg_frekwencja": 91.3,
+          "avg_aktywnosc": 85.8,
+          "avg_zgodnosc": 0.0
+        },
+        "Trzecia Droga": {
+          "count": 2,
+          "avg_frekwencja": 97.2,
+          "avg_aktywnosc": 97.2,
+          "avg_zgodnosc": 0.0
+        }
+      },
+      "top_frekwencja": [
+        {
+          "name": "Tyszkiewicz Marek Stanisław",
+          "club": "KO",
+          "value": 99.8
+        },
+        {
+          "name": "Eshetu-Gabre Gracjan Paweł",
+          "club": "KO",
+          "value": 99.5
+        },
+        {
+          "name": "Jamróz Katarzyna",
+          "club": "KO",
+          "value": 99.3
+        }
+      ],
+      "bottom_frekwencja": [
+        {
+          "name": "Jankowski Piotr",
+          "club": "PiS",
+          "value": 86.0
+        },
+        {
+          "name": "Siemieniuk Katarzyna",
+          "club": "PiS",
+          "value": 84.0
+        },
+        {
+          "name": "Chańko Jacek Krzysztof",
+          "club": "PiS",
+          "value": 83.6
+        }
+      ],
+      "top_rebels": [
+        {
+          "name": "Ancipiuk Katarzyna",
+          "club": "PiS",
+          "count": 0
+        },
+        {
+          "name": "Biały Alicja",
+          "club": "PiS",
+          "count": 0
+        },
+        {
+          "name": "Chańko Jacek Krzysztof",
+          "club": "PiS",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "name": "Katowice",
+      "slug": "katowice",
+      "url": "https://katowice.radoskop.pl",
+      "kadencja": "2024-2029",
+      "total_sessions": 25,
+      "total_votes": 673,
+      "total_councilors": 31,
+      "avg_frekwencja": 0.0,
+      "avg_aktywnosc": 86.7,
+      "avg_zgodnosc": 99.1,
+      "avg_rebellions": 5.3,
+      "clubs": {
+        "KO": {
+          "count": 13,
+          "avg_frekwencja": 0.0,
+          "avg_aktywnosc": 95.4,
+          "avg_zgodnosc": 99.7
+        },
+        "Forum": {
+          "count": 13,
+          "avg_frekwencja": 0.0,
+          "avg_aktywnosc": 73.9,
+          "avg_zgodnosc": 99.7
+        },
+        "PiS": {
+          "count": 5,
+          "avg_frekwencja": 0.0,
+          "avg_aktywnosc": 97.2,
+          "avg_zgodnosc": 96.1
+        }
+      },
+      "top_frekwencja": [
+        {
+          "name": "Adam Lejman-Gąska",
+          "club": "KO",
+          "value": 0.0
+        },
+        {
+          "name": "Adam Skowron",
+          "club": "Forum",
+          "value": 0.0
+        },
+        {
+          "name": "Adam Szymczyk",
+          "club": "KO",
+          "value": 0.0
+        }
+      ],
+      "bottom_frekwencja": [
+        {
+          "name": "Urszula Machowska",
+          "club": "KO",
+          "value": 0.0
+        },
+        {
+          "name": "Łukasz Borkowski",
+          "club": "KO",
+          "value": 0.0
+        },
+        {
+          "name": "Łukasz Hankus",
+          "club": "Forum",
+          "value": 0.0
+        }
+      ],
+      "top_rebels": [
+        {
+          "name": "Leszek Piechota",
+          "club": "PiS",
+          "count": 49
+        },
+        {
+          "name": "Mariusz Skiba",
+          "club": "PiS",
+          "count": 46
+        },
+        {
+          "name": "Krystyna Panek",
+          "club": "PiS",
+          "count": 13
         }
       ]
     }

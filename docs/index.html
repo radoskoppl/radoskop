@@ -122,6 +122,9 @@ footer a:hover { text-decoration-color:var(--accent); }
 .feed-city-name.ldz { border-color:#dc2626; color:#dc2626; }
 .feed-city-name.szn { border-color:#059669; color:#059669; }
 .feed-city-name.lub { border-color:#b45309; color:#b45309; }
+.feed-city-name.byd { border-color:#9333ea; color:#9333ea; }
+.feed-city-name.kat { border-color:#0d9488; color:#0d9488; }
+.feed-city-name.bia { border-color:#ea580c; color:#ea580c; }
 .feed-item { display:flex; justify-content:space-between; align-items:center; padding:8px 4px; border-bottom:1px solid var(--border); text-decoration:none; color:var(--text); transition:background 0.1s; gap:8px; border-radius:4px; }
 .feed-item:hover { background:rgba(79,70,229,0.03); }
 .feed-item .sess-label { font-size:0.82rem; font-weight:500; white-space:nowrap; }
@@ -164,6 +167,9 @@ a.vote-item:hover { border-color:var(--accent); box-shadow:0 2px 12px rgba(79,70
 .vote-city.wro { background:rgba(124,58,237,0.1); color:#7c3aed; }
 .vote-city.poz { background:rgba(8,145,178,0.1); color:#0891b2; }
 .vote-city.ldz { background:rgba(220,38,38,0.1); color:#dc2626; }
+.vote-city.byd { background:rgba(147,51,234,0.1); color:#9333ea; }
+.vote-city.kat { background:rgba(13,148,136,0.1); color:#0d9488; }
+.vote-city.bia { background:rgba(234,88,12,0.1); color:#ea580c; }
 .vote-item .vote-date { font-size:0.78rem; color:var(--muted); }
 .vote-item .vote-topic { font-size:0.88rem; line-height:1.5; }
 .vote-item .vote-result { display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin-top:2px; }
@@ -278,22 +284,25 @@ a.vote-item:hover { border-color:var(--accent); box-shadow:0 2px 12px rgba(79,70
       <span class="arrow">Otwórz →</span>
     </a>
 
-    <a class="city-card soon" href="#">
-      <span class="status coming">Wkrótce</span>
+    <a class="city-card" href="https://bydgoszcz.radoskop.pl">
+      <span class="status">Aktywne</span>
       <h2>Bydgoszcz</h2>
-      <p class="desc">Rada Miasta Bydgoszczy — 28 radnych, kadencja 2024–2029.</p>
+      <p class="desc">Rada Miasta Bydgoszczy — frekwencja, głosowania, interpelacje i aktywność radnych na sesjach.</p>
+      <span class="arrow">Otwórz →</span>
     </a>
 
-    <a class="city-card soon" href="#">
-      <span class="status coming">Wkrótce</span>
+    <a class="city-card" href="https://katowice.radoskop.pl">
+      <span class="status">Aktywne</span>
       <h2>Katowice</h2>
-      <p class="desc">Rada Miasta Katowice — 28 radnych, kadencja 2024–2029.</p>
+      <p class="desc">Rada Miasta Katowice — frekwencja, głosowania, interpelacje i aktywność radnych na sesjach.</p>
+      <span class="arrow">Otwórz →</span>
     </a>
 
-    <a class="city-card soon" href="#">
-      <span class="status coming">Wkrótce</span>
+    <a class="city-card" href="https://bialystok.radoskop.pl">
+      <span class="status">Aktywne</span>
       <h2>Białystok</h2>
-      <p class="desc">Rada Miasta Białegostoku — 28 radnych, kadencja 2024–2029.</p>
+      <p class="desc">Rada Miasta Białegostoku — frekwencja, głosowania, interpelacje i aktywność radnych na sesjach.</p>
+      <span class="arrow">Otwórz →</span>
     </a>
   </div>
 
@@ -304,15 +313,15 @@ a.vote-item:hover { border-color:var(--accent); box-shadow:0 2px 12px rgba(79,70
     <div class="comp-table-wrap">
       <table class="comp-table">
         <thead>
-          <tr><th></th><th>Gdańsk</th><th>Warszawa</th><th>Kraków</th><th>Wrocław</th><th>Poznań</th><th>Gdynia</th><th>Sopot</th><th>Łódź</th><th>Szczecin</th><th>Lublin</th><th class="soon-col">Bydgoszcz</th><th class="soon-col">Katowice</th><th class="soon-col">Białystok</th></tr>
+          <tr><th></th><th>Gdańsk</th><th>Warszawa</th><th>Kraków</th><th>Wrocław</th><th>Poznań</th><th>Gdynia</th><th>Sopot</th><th>Łódź</th><th>Szczecin</th><th>Lublin</th><th>Bydgoszcz</th><th>Katowice</th><th>Białystok</th></tr>
         </thead>
         <tbody>
-          <tr><td class="label">Radni</td><td>36</td><td>63</td><td>47</td><td>38</td><td>34</td><td>28</td><td>21</td><td>38</td><td>33</td><td>31</td><td class="soon-col">28</td><td class="soon-col">28</td><td class="soon-col">28</td></tr>
-          <tr><td class="label">Sesje</td><td>21</td><td>32</td><td>39</td><td>9</td><td>31</td><td>28</td><td>20</td><td>29</td><td>22</td><td>18</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td></tr>
-          <tr><td class="label">Głosowania</td><td>709</td><td>1 398</td><td>1 144</td><td>433</td><td>868</td><td>628</td><td>529</td><td>1 645</td><td>479</td><td>981</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td></tr>
-          <tr><td class="label">Śr. zgodność z klubem</td><td>98,8%</td><td>92,6%</td><td>89,7%</td><td>96,0%</td><td>90,8%</td><td>96,5%</td><td>95,1%</td><td>88,4%</td><td>98,5%</td><td>91,8%</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td></tr>
-          <tr><td class="label">Śr. buntów / radny</td><td>8,1</td><td>33,2</td><td>16,8</td><td>14,2</td><td>69,1</td><td>18,9</td><td>24,0</td><td>22,1</td><td>6,0</td><td>72,9</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td></tr>
-          <tr><td class="label">Interpelacje</td><td>1 768</td><td>1 751</td><td>2 325</td><td>603</td><td>516</td><td>677</td><td>221</td><td>—</td><td>—</td><td>—</td><td class="soon-col">—</td><td class="soon-col">—</td><td class="soon-col">—</td></tr>
+          <tr><td class="label">Radni</td><td>36</td><td>63</td><td>47</td><td>38</td><td>34</td><td>28</td><td>21</td><td>38</td><td>33</td><td>31</td><td>29</td><td>31</td><td>28</td></tr>
+          <tr><td class="label">Sesje</td><td>21</td><td>32</td><td>39</td><td>9</td><td>31</td><td>28</td><td>20</td><td>29</td><td>22</td><td>18</td><td>11</td><td>25</td><td>17</td></tr>
+          <tr><td class="label">Głosowania</td><td>709</td><td>1 398</td><td>1 144</td><td>433</td><td>868</td><td>628</td><td>529</td><td>1 645</td><td>479</td><td>981</td><td>296</td><td>673</td><td>445</td></tr>
+          <tr><td class="label">Śr. zgodność z klubem</td><td>98,8%</td><td>92,6%</td><td>89,7%</td><td>96,0%</td><td>90,8%</td><td>96,5%</td><td>95,1%</td><td>88,4%</td><td>98,5%</td><td>91,8%</td><td>—</td><td>99,1%</td><td>—</td></tr>
+          <tr><td class="label">Śr. buntów / radny</td><td>8,1</td><td>33,2</td><td>16,8</td><td>14,2</td><td>69,1</td><td>18,9</td><td>24,0</td><td>22,1</td><td>6,0</td><td>72,9</td><td>—</td><td>5,3</td><td>—</td></tr>
+          <tr><td class="label">Interpelacje</td><td>1 768</td><td>1 751</td><td>2 325</td><td>603</td><td>516</td><td>677</td><td>221</td><td>—</td><td>—</td><td>—</td><td>369</td><td>963</td><td>316</td></tr>
         </tbody>
       </table>
     </div>
@@ -321,7 +330,7 @@ a.vote-item:hover { border-color:var(--accent); box-shadow:0 2px 12px rgba(79,70
 
   <div class="sessions-feed" id="sessions">
     <h3>Ostatnie sesje</h3>
-    <p class="comparison-subtitle">Kadencja 2024–2029 — 5 ostatnich sesji każdej rady (10 aktywnych miast)</p>
+    <p class="comparison-subtitle">Kadencja 2024–2029 — 5 ostatnich sesji każdej rady (13 aktywnych miast)</p>
 
     <div class="feed-grid">
       <div class="feed-city">
@@ -403,6 +412,30 @@ a.vote-item:hover { border-color:var(--accent); box-shadow:0 2px 12px rgba(79,70
         <a class="feed-item" href="https://lublin.radoskop.pl/sesja/XV"><span class="sess-label">Sesja XV</span><span class="sess-date">20.11.2025</span><span class="sess-votes">59 gł.</span></a>
         <a class="feed-item" href="https://lublin.radoskop.pl/sesja/XIV"><span class="sess-label">Sesja XIV</span><span class="sess-date">23.10.2025</span><span class="sess-votes">70 gł.</span></a>
         <a class="feed-item" href="https://lublin.radoskop.pl/sesja/XIII"><span class="sess-label">Sesja XIII</span><span class="sess-date">04.09.2025</span><span class="sess-votes">71 gł.</span></a>
+      </div>
+      <div class="feed-city">
+        <div class="feed-city-name byd">Bydgoszcz</div>
+        <a class="feed-item" href="https://bydgoszcz.radoskop.pl/sesja/XII"><span class="sess-label">Sesja XII</span><span class="sess-date">18.12.2024</span><span class="sess-votes">28 gł.</span></a>
+        <a class="feed-item" href="https://bydgoszcz.radoskop.pl/sesja/XI"><span class="sess-label">Sesja XI</span><span class="sess-date">27.11.2024</span><span class="sess-votes">28 gł.</span></a>
+        <a class="feed-item" href="https://bydgoszcz.radoskop.pl/sesja/X"><span class="sess-label">Sesja X</span><span class="sess-date">30.10.2024</span><span class="sess-votes">28 gł.</span></a>
+        <a class="feed-item" href="https://bydgoszcz.radoskop.pl/sesja/IX"><span class="sess-label">Sesja IX</span><span class="sess-date">25.09.2024</span><span class="sess-votes">28 gł.</span></a>
+        <a class="feed-item" href="https://bydgoszcz.radoskop.pl/sesja/VIII"><span class="sess-label">Sesja VIII</span><span class="sess-date">11.09.2024</span><span class="sess-votes">25 gł.</span></a>
+      </div>
+      <div class="feed-city">
+        <div class="feed-city-name kat">Katowice</div>
+        <a class="feed-item" href="https://katowice.radoskop.pl/sesja/2026-03-26"><span class="sess-label">Sesja 26.03</span><span class="sess-date">26.03.2026</span><span class="sess-votes">23 gł.</span></a>
+        <a class="feed-item" href="https://katowice.radoskop.pl/sesja/2026-03-05"><span class="sess-label">Sesja 05.03</span><span class="sess-date">05.03.2026</span><span class="sess-votes">14 gł.</span></a>
+        <a class="feed-item" href="https://katowice.radoskop.pl/sesja/2026-01-29"><span class="sess-label">Sesja 29.01</span><span class="sess-date">29.01.2026</span><span class="sess-votes">34 gł.</span></a>
+        <a class="feed-item" href="https://katowice.radoskop.pl/sesja/2025-12-18"><span class="sess-label">Sesja 18.12</span><span class="sess-date">18.12.2025</span><span class="sess-votes">47 gł.</span></a>
+        <a class="feed-item" href="https://katowice.radoskop.pl/sesja/2025-11-20"><span class="sess-label">Sesja 20.11</span><span class="sess-date">20.11.2025</span><span class="sess-votes">25 gł.</span></a>
+      </div>
+      <div class="feed-city">
+        <div class="feed-city-name bia">Białystok</div>
+        <a class="feed-item" href="https://bialystok.radoskop.pl/sesja/2026-02-23"><span class="sess-label">Sesja 23.02</span><span class="sess-date">23.02.2026</span><span class="sess-votes">47 gł.</span></a>
+        <a class="feed-item" href="https://bialystok.radoskop.pl/sesja/2026-01-15"><span class="sess-label">Sesja 15.01</span><span class="sess-date">15.01.2026</span><span class="sess-votes">13 gł.</span></a>
+        <a class="feed-item" href="https://bialystok.radoskop.pl/sesja/2025-12-22"><span class="sess-label">Sesja 22.12</span><span class="sess-date">22.12.2025</span><span class="sess-votes">37 gł.</span></a>
+        <a class="feed-item" href="https://bialystok.radoskop.pl/sesja/2025-12-03"><span class="sess-label">Sesja 03.12</span><span class="sess-date">03.12.2025</span><span class="sess-votes">1 gł.</span></a>
+        <a class="feed-item" href="https://bialystok.radoskop.pl/sesja/2025-11-24"><span class="sess-label">Sesja 24.11</span><span class="sess-date">24.11.2025</span><span class="sess-votes">32 gł.</span></a>
       </div>
     </div>
   </div>
@@ -515,22 +548,67 @@ a.vote-item:hover { border-color:var(--accent); box-shadow:0 2px 12px rgba(79,70
         </div>
         <span class="arrow" style="color:#ca8a04;font-weight:600;font-size:0.85rem;margin-top:4px">Otwórz →</span>
       </a>
+
+      <a class="interp-city-card" href="https://katowice.radoskop.pl/interpelacje">
+        <div class="interp-city-name" style="color:#0d9488">Katowice</div>
+        <div class="interp-nums">
+          <div><div class="n">963</div><div class="l">Interpelacji</div></div>
+          <div><div class="n">914</div><div class="l">Z odpowiedzią</div></div>
+        </div>
+        <div style="font-size:0.72rem;color:var(--muted);text-transform:uppercase;margin-top:4px">Najaktywniejsze osoby</div>
+        <div class="interp-top">
+          <div class="interp-top-item"><span class="name">Adam Lejman-Gąska</span><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#0d9488"></div></div><span class="cnt">295</span></div>
+          <div class="interp-top-item"><span class="name">Tomasz Maśnica</span><div class="bar-wrap"><div class="bar-fill" style="width:54.2%;background:#0d9488"></div></div><span class="cnt">160</span></div>
+          <div class="interp-top-item"><span class="name">Jacek Kalisz</span><div class="bar-wrap"><div class="bar-fill" style="width:37.6%;background:#0d9488"></div></div><span class="cnt">111</span></div>
+        </div>
+        <span class="arrow" style="color:#0d9488;font-weight:600;font-size:0.85rem;margin-top:4px">Otwórz →</span>
+      </a>
+
+      <a class="interp-city-card" href="https://bydgoszcz.radoskop.pl/interpelacje">
+        <div class="interp-city-name" style="color:#9333ea">Bydgoszcz</div>
+        <div class="interp-nums">
+          <div><div class="n">369</div><div class="l">Interpelacji</div></div>
+          <div><div class="n">358</div><div class="l">Z odpowiedzią</div></div>
+        </div>
+        <div style="font-size:0.72rem;color:var(--muted);text-transform:uppercase;margin-top:4px">Najaktywniejsze osoby</div>
+        <div class="interp-top">
+          <div class="interp-top-item"><span class="name">Szymon Róg</span><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#9333ea"></div></div><span class="cnt">85</span></div>
+          <div class="interp-top-item"><span class="name">Radosław Ginther</span><div class="bar-wrap"><div class="bar-fill" style="width:48.2%;background:#9333ea"></div></div><span class="cnt">41</span></div>
+          <div class="interp-top-item"><span class="name">Jędrzej Gralik</span><div class="bar-wrap"><div class="bar-fill" style="width:45.9%;background:#9333ea"></div></div><span class="cnt">39</span></div>
+        </div>
+        <span class="arrow" style="color:#9333ea;font-weight:600;font-size:0.85rem;margin-top:4px">Otwórz →</span>
+      </a>
+
+      <a class="interp-city-card" href="https://bialystok.radoskop.pl/interpelacje">
+        <div class="interp-city-name" style="color:#ea580c">Białystok</div>
+        <div class="interp-nums">
+          <div><div class="n">316</div><div class="l">Interpelacji</div></div>
+          <div><div class="n">316</div><div class="l">Z odpowiedzią</div></div>
+        </div>
+        <div style="font-size:0.72rem;color:var(--muted);text-transform:uppercase;margin-top:4px">Najaktywniejsze osoby</div>
+        <div class="interp-top">
+          <div class="interp-top-item"><span class="name">Henryk Dębowski</span><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#ea580c"></div></div><span class="cnt">169</span></div>
+          <div class="interp-top-item"><span class="name">Paweł Myszkowski</span><div class="bar-wrap"><div class="bar-fill" style="width:14.8%;background:#ea580c"></div></div><span class="cnt">25</span></div>
+          <div class="interp-top-item"><span class="name">Karol Masztalerz</span><div class="bar-wrap"><div class="bar-fill" style="width:11.2%;background:#ea580c"></div></div><span class="cnt">19</span></div>
+        </div>
+        <span class="arrow" style="color:#ea580c;font-weight:600;font-size:0.85rem;margin-top:4px">Otwórz →</span>
+      </a>
     </div>
 
     <div class="comp-table-wrap">
       <table class="comp-table">
         <thead>
-          <tr><th></th><th>Gdańsk</th><th>Warszawa</th><th>Sopot</th><th>Wrocław</th><th>Kraków</th><th>Gdynia</th><th>Poznań</th></tr>
+          <tr><th></th><th>Gdańsk</th><th>Warszawa</th><th>Sopot</th><th>Wrocław</th><th>Kraków</th><th>Gdynia</th><th>Poznań</th><th>Katowice</th><th>Bydgoszcz</th><th>Białystok</th></tr>
         </thead>
         <tbody>
-          <tr><td class="label">Razem</td><td>1 768</td><td>1 751</td><td>221</td><td>603</td><td>2 325</td><td>677</td><td>516</td></tr>
-          <tr><td class="label">Z odpowiedzią</td><td>1 570</td><td>1 688</td><td>—</td><td>590</td><td>2 325</td><td>597</td><td>495</td></tr>
-          <tr><td class="label">Najaktywniejszy</td><td>P. Majewski (489)</td><td>D. Kowalczyk (166)</td><td>J. Świderski (110)</td><td>J. Nowotarski (106)</td><td>Ł. Gibała (322)</td><td>J. Ubych (133)</td><td>A. Prendke (62)</td></tr>
+          <tr><td class="label">Razem</td><td>1 768</td><td>1 751</td><td>221</td><td>603</td><td>2 325</td><td>677</td><td>516</td><td>963</td><td>369</td><td>316</td></tr>
+          <tr><td class="label">Z odpowiedzią</td><td>1 570</td><td>1 688</td><td>—</td><td>590</td><td>2 325</td><td>597</td><td>495</td><td>914</td><td>358</td><td>316</td></tr>
+          <tr><td class="label">Najaktywniejszy</td><td>P. Majewski (489)</td><td>D. Kowalczyk (166)</td><td>J. Świderski (110)</td><td>J. Nowotarski (106)</td><td>Ł. Gibała (322)</td><td>J. Ubych (133)</td><td>A. Prendke (62)</td><td>A. Lejman-Gąska (295)</td><td>S. Róg (85)</td><td>H. Dębowski (169)</td></tr>
         </tbody>
       </table>
     </div>
 
-    <p class="budget-note">Źródło: BIP miast. Dane dotyczą kadencji 2024–2029. Liczby dla Wrocławia, Krakowa, Gdyni i Poznania uzupełnione po pierwszym uruchomieniu scraperów. Pełna baza dostępna na stronach miast.</p>
+    <p class="budget-note">Źródło: BIP miast. Dane dotyczą kadencji 2024–2029. Pełna baza dostępna na stronach miast.</p>
   </div>
 
   <div class="budget" id="budget">
