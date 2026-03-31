@@ -1085,8 +1085,13 @@ function showProfile(name) {
           return false;
         });
       }
-      const personInterp = interpData.filter(d => interpMatchesName(d.radny || ''))
-        .sort((a,b) => (b.data_wplywu || '').localeCompare(a.data_wplywu || ''));
+      const kadSlugUpper = (KAD_SLUGS[kid] || '').toUpperCase();
+      const personInterp = interpData.filter(d => {
+        if (!interpMatchesName(d.radny || '')) return false;
+        // Filter by kadencja if available (e.g. "IX" matches KAD_SLUGS "ix")
+        if (d.kadencja && kadSlugUpper) return d.kadencja.toUpperCase() === kadSlugUpper;
+        return true;
+      }).sort((a,b) => (b.data_wplywu || '').localeCompare(a.data_wplywu || ''));
       if (personInterp.length > 0) {
         html += `<div class="section">
           <h2>Interpelacje i zapytania (${personInterp.length})</h2>

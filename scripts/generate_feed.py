@@ -2,16 +2,15 @@
 """
 Generate RSS/Atom feeds and /aktualnosci/ HTML page for Radoskop cities.
 
-Auto-generates news items from voting data:
-  1. New sessions (with summary stats)
-  2. Controversial votes (za < 65% of voting)
-  3. Rebellions (councillor voted against their club on non-procedural topics)
-  4. Unanimous rejections (all voted against)
+Feed items (sorted by date, newest first):
+  1. Votes (all, with result and topic)
+  2. Interpelacje (all, with author and subject)
+  3. Sessions (with stats summary)
 
 Output:
-  - docs/feed.xml        (Atom feed)
-  - docs/aktualnosci/index.html  (browsable news page)
-  - docs/aktualnosci.json        (structured data for SPA)
+  - docs/feed.xml                 (Atom feed, last 100 items)
+  - docs/aktualnosci/index.html   (browsable news page, all items)
+  - docs/aktualnosci.json         (structured data for SPA)
 
 Usage:
     python generate_feed.py --base /path/to/gdansk-network
@@ -31,170 +30,6 @@ def esc(text):
     return html.escape(str(text), quote=True)
 
 
-# ── News item types ────────────────────────────────────
-
-PROCEDURAL_RE = re.compile(
-    r'protokoł|porządk.*obrad|ślubowani|zamknięci.*obrad|otwarci.*sesji|'
-    r'wniosek formalny|włącz?enie druku|odesłanie do komisji|'
-    r'tekst.*jednolity|stanowisko nr',
-    re.IGNORECASE
-)
-
-
-def is_procedural(topic):
-    return bool(PROCEDURAL_RE.search(topic or ''))
-
-
-def generate_items(kad_data, city_name, site_url, profiles_by_name):
-    """Generate news items from kadencja data. Returns list of dicts sorted by date desc."""
-    items = []
-    kid = kad_data.get("id", "")
-    councilors = {c["name"]: c for c in kad_data.get("councilors", [])}
-
-    # Index votes by session
-    votes_by_session = {}
-    for v in kad_data.get("votes", []):
-        snum = v.get("session_number", "")
-        votes_by_session.setdefault(snum, []).append(v)
-
-    # 1. Session summaries
-    for s in kad_data.get("sessions", []):
-        snum = s.get("number", "")
-        sdate = s.get("date", "")
-        vote_count = s.get("vote_count", 0)
-        attendee_count = s.get("attendee_count", 0)
-
-        if not sdate or vote_count == 0:
-            continue
-
-        session_votes = votes_by_session.get(snum, [])
-        rejected = sum(
-            1 for v in session_votes
-            if v.get("counts", {}).get("przeciw", 0) > v.get("counts", {}).get("za", 0)
-        )
-        controversial = sum(
-            1 for v in session_votes
-            if is_controversial(v)
-        )
-
-        summary_parts = [f"{vote_count} glosowan"]
-        if rejected:
-            summary_parts.append(f"{rejected} odrzuconych")
-        if controversial:
-            summary_parts.append(f"{controversial} kontrowersyjnych")
-        summary_parts.append(f"{attendee_count} obecnych radnych")
-
-        items.append({
-            "type": "session",
-            "date": sdate,
-            "title": f"Sesja {snum} Rady Miasta {city_name}",
-            "summary": ". ".join(summary_parts) + ".",
-            "url": f"{site_url}/sesja/{snum}/",
-            "priority": 3,
-        })
-
-    # 2. Controversial votes (za < 65% of those who voted za+przeciw+wstrzym)
-    for v in kad_data.get("votes", []):
-        if not is_controversial(v):
-            continue
-        if is_procedural(v.get("topic", "")):
-            continue
-
-        c = v.get("counts", {})
-        za = c.get("za", 0)
-        przeciw = c.get("przeciw", 0)
-        wstrzym = c.get("wstrzymal_sie", 0)
-        passed = za > przeciw
-
-        topic = clean_topic(v.get("topic", ""))
-        vid = v.get("id", "")
-        sdate = v.get("session_date", "")
-
-        result_text = "przyjete" if passed else "odrzucone"
-        items.append({
-            "type": "controversial_vote",
-            "date": sdate,
-            "title": f"Kontrowersyjne glosowanie: {topic[:80]}",
-            "summary": f"Wynik: {result_text} (za {za}, przeciw {przeciw}, wstrzym. {wstrzym}). Sesja {v.get('session_number', '')}.",
-            "url": f"{site_url}/glosowanie/{vid}/",
-            "priority": 1,
-        })
-
-    # 3. Unanimous rejections
-    for v in kad_data.get("votes", []):
-        c = v.get("counts", {})
-        za = c.get("za", 0)
-        przeciw = c.get("przeciw", 0)
-        if za == 0 and przeciw > 10:
-            topic = clean_topic(v.get("topic", ""))
-            vid = v.get("id", "")
-            items.append({
-                "type": "unanimous_reject",
-                "date": v.get("session_date", ""),
-                "title": f"Jednoglosnie odrzucone: {topic[:80]}",
-                "summary": f"Wszyscy glosujacy (przeciw {przeciw}) odrzucili uchwale.",
-                "url": f"{site_url}/glosowanie/{vid}/",
-                "priority": 2,
-            })
-
-    # 4. Notable rebellions (only non-procedural, group by session)
-    rebellion_items = {}
-    for cname, cdata in councilors.items():
-        club = cdata.get("club", "")
-        for reb in cdata.get("rebellions", []):
-            topic = reb.get("topic", "")
-            if is_procedural(topic):
-                continue
-            sdate = reb.get("session", "")
-            key = f"{sdate}_{cname}"
-            # Only include if this councillor has few rebellions (notable)
-            # or if it's a recent one
-            rebellion_items[key] = {
-                "type": "rebellion",
-                "date": sdate,
-                "title": f"{cname} ({club}) zaglosowal/a wbrew klubowi",
-                "summary": f"{reb.get('their_vote', '?')} zamiast {reb.get('club_majority', '?')} w sprawie: {clean_topic(topic)[:100]}",
-                "url": f"{site_url}/profil/{get_slug(cname, profiles_by_name)}/",
-                "priority": 4,
-            }
-
-    # Group rebellions by date, limit to max 5 per session to avoid spam
-    reb_by_date = {}
-    for item in rebellion_items.values():
-        reb_by_date.setdefault(item["date"], []).append(item)
-
-    for date, rebs in reb_by_date.items():
-        if len(rebs) <= 5:
-            items.extend(rebs)
-        else:
-            # Too many, create a summary item instead
-            names = [r["title"].split(" (")[0] for r in rebs[:8]]
-            items.append({
-                "type": "rebellion_summary",
-                "date": date,
-                "title": f"{len(rebs)} radnych glosowalo wbrew klubowi",
-                "summary": ", ".join(names) + ("..." if len(rebs) > 8 else "") + f". Sesja z {date}.",
-                "url": f"{site_url}/",
-                "priority": 4,
-            })
-
-    # Sort by date desc, then priority asc
-    items.sort(key=lambda x: (x["date"], -x["priority"]), reverse=True)
-
-    return items
-
-
-def is_controversial(vote):
-    c = vote.get("counts", {})
-    za = c.get("za", 0)
-    przeciw = c.get("przeciw", 0)
-    wstrzym = c.get("wstrzymal_sie", 0)
-    total = za + przeciw + wstrzym
-    if total < 5:
-        return False
-    return przeciw >= 3 and za / total < 0.65
-
-
 def clean_topic(topic):
     return (topic or "").replace(";", "").strip()
 
@@ -204,6 +39,109 @@ def get_slug(name, profiles_by_name):
     if p:
         return p["slug"]
     return name.lower().replace(" ", "-")
+
+
+# ── Item generators ────────────────────────────────────
+
+def generate_vote_items(kad_data, city_name, site_url):
+    """Generate a feed item for every vote."""
+    items = []
+    for v in kad_data.get("votes", []):
+        vid = v.get("id", "")
+        if not vid:
+            continue
+
+        topic = clean_topic(v.get("topic", ""))
+        c = v.get("counts", {})
+        za = c.get("za", 0)
+        przeciw = c.get("przeciw", 0)
+        wstrzym = c.get("wstrzymal_sie", 0)
+        sdate = v.get("session_date", "")
+        snum = v.get("session_number", "")
+
+        if za > przeciw:
+            result = "przyjete"
+        elif przeciw > za:
+            result = "odrzucone"
+        else:
+            result = "remis"
+
+        title = topic[:100] if topic else f"Glosowanie {vid}"
+
+        items.append({
+            "type": "vote",
+            "date": sdate,
+            "title": title,
+            "summary": f"Wynik: {result} (za {za}, przeciw {przeciw}, wstrzym. {wstrzym}). Sesja {snum}.",
+            "url": f"{site_url}/glosowanie/{vid}/",
+        })
+
+    return items
+
+
+def generate_session_items(kad_data, city_name, site_url):
+    """Generate a feed item for every session."""
+    items = []
+    # Build vote counts per session
+    votes_per_session = {}
+    for v in kad_data.get("votes", []):
+        snum = v.get("session_number", "")
+        votes_per_session[snum] = votes_per_session.get(snum, 0) + 1
+
+    for s in kad_data.get("sessions", []):
+        snum = s.get("number", "")
+        sdate = s.get("date", "")
+        vote_count = s.get("vote_count", 0) or votes_per_session.get(snum, 0)
+        attendee_count = s.get("attendee_count", 0)
+
+        if not sdate:
+            continue
+
+        parts = [f"{vote_count} glosowan"]
+        if attendee_count:
+            parts.append(f"{attendee_count} obecnych")
+
+        items.append({
+            "type": "session",
+            "date": sdate,
+            "title": f"Sesja {snum} Rady Miasta {city_name}",
+            "summary": ", ".join(parts) + ".",
+            "url": f"{site_url}/sesja/{snum}/",
+        })
+
+    return items
+
+
+def generate_interpelacje_items(interpelacje, city_name, site_url, profiles_by_name):
+    """Generate a feed item for every interpelacja."""
+    items = []
+    for ip in interpelacje:
+        date = ip.get("data_wplywu", "")
+        if not date:
+            continue
+
+        radny = ip.get("radny", "")
+        przedmiot = ip.get("przedmiot", "")
+        typ = ip.get("typ", "interpelacja")
+
+        typ_label = "Interpelacja" if typ == "interpelacja" else "Zapytanie"
+
+        slug = get_slug(radny, profiles_by_name) if radny else ""
+        # Link to councillor profile if available, otherwise to interpelacje tab
+        if slug and radny in profiles_by_name:
+            url = f"{site_url}/profil/{slug}/"
+        else:
+            url = f"{site_url}/interpelacje/"
+
+        items.append({
+            "type": "interpelacja",
+            "date": date,
+            "title": f"{typ_label}: {przedmiot[:100]}" if przedmiot else f"{typ_label} ({radny})",
+            "summary": f"{radny}. {przedmiot[:150]}" if przedmiot else radny,
+            "url": url,
+        })
+
+    return items
 
 
 # ── Atom feed ──────────────────────────────────────────
@@ -225,7 +163,7 @@ ATOM_HEADER = """<?xml version="1.0" encoding="UTF-8"?>
 ATOM_ENTRY = """  <entry>
     <title>{title}</title>
     <link href="{url}" rel="alternate" type="text/html"/>
-    <id>{url}</id>
+    <id>{id}</id>
     <published>{date}T12:00:00+01:00</published>
     <updated>{date}T12:00:00+01:00</updated>
     <summary type="html">{summary}</summary>
@@ -236,22 +174,36 @@ ATOM_ENTRY = """  <entry>
 ATOM_FOOTER = "</feed>\n"
 
 
-def generate_atom(items, city_name, city_gen, site_url, max_items=50):
+def generate_atom(items, city_name, city_gen, site_url, max_items=100):
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     out = ATOM_HEADER.format(
         title=f"Radoskop {city_name}",
-        subtitle=f"Aktualnosci z Rady Miasta {city_gen}. Glosowania, sesje, rebelie.",
+        subtitle=f"Glosowania, interpelacje i sesje Rady Miasta {city_gen}.",
         site_url=site_url,
         updated=now,
     )
-    for item in items[:max_items]:
+    seen_ids = set()
+    count = 0
+    for item in items:
+        if count >= max_items:
+            break
+        # Unique ID per entry (Atom requires unique <id>)
+        entry_id = item["url"] + "#" + item["type"]
+        if entry_id in seen_ids:
+            entry_id = item["url"] + "#" + item["type"] + "_" + item["date"]
+        if entry_id in seen_ids:
+            continue
+        seen_ids.add(entry_id)
+
         out += ATOM_ENTRY.format(
             title=xml_escape(item["title"]),
             url=xml_escape(item["url"]),
+            id=xml_escape(entry_id),
             date=item["date"],
             summary=xml_escape(item["summary"]),
             type=item["type"],
         )
+        count += 1
     out += ATOM_FOOTER
     return out
 
@@ -259,29 +211,34 @@ def generate_atom(items, city_name, city_gen, site_url, max_items=50):
 # ── HTML news page ─────────────────────────────────────
 
 TYPE_LABELS = {
+    "vote": "Glosowanie",
     "session": "Sesja",
-    "controversial_vote": "Kontrowersyjne",
-    "unanimous_reject": "Jednoglosnie odrzucone",
-    "rebellion": "Wbrew klubowi",
-    "rebellion_summary": "Wbrew klubowi",
+    "interpelacja": "Interpelacja",
 }
 
 TYPE_COLORS = {
+    "vote": "#4f46e5",
     "session": "#2563eb",
-    "controversial_vote": "#dc2626",
-    "unanimous_reject": "#ca8a04",
-    "rebellion": "#7c3aed",
-    "rebellion_summary": "#7c3aed",
+    "interpelacja": "#16a34a",
+}
+
+POLISH_MONTHS = {
+    1: "Styczen", 2: "Luty", 3: "Marzec", 4: "Kwiecien",
+    5: "Maj", 6: "Czerwiec", 7: "Lipiec", 8: "Sierpien",
+    9: "Wrzesien", 10: "Pazdziernik", 11: "Listopad", 12: "Grudzien",
 }
 
 
-def generate_html_page(items, main_html, city_name, city_gen, site_url, max_items=100):
+def polish_month(dt):
+    return f"{POLISH_MONTHS.get(dt.month, '')} {dt.year}"
+
+
+def generate_html_page(items, main_html, city_name, city_gen, site_url, max_items=200):
     """Generate /aktualnosci/index.html with embedded news content."""
     canonical = f"{site_url}/aktualnosci/"
     title = f"Aktualnosci z Rady Miasta {city_gen}"
-    desc = f"Najnowsze glosowania, sesje i rebelie w Radzie Miasta {city_gen}. Automatycznie generowane z danych BIP."
+    desc = f"Glosowania, interpelacje i sesje Rady Miasta {city_gen}. Automatycznie generowane z danych BIP."
 
-    # Build body content
     body_parts = [
         f'<h1>Aktualnosci z Rady Miasta {esc(city_gen)}</h1>',
         f'<p style="color:#6b7280;margin-bottom:24px">Automatycznie generowane z danych BIP. '
@@ -290,17 +247,18 @@ def generate_html_page(items, main_html, city_name, city_gen, site_url, max_item
 
     current_month = ""
     for item in items[:max_items]:
-        month = item["date"][:7]  # YYYY-MM
+        month = item["date"][:7]
         if month != current_month:
             current_month = month
             try:
                 dt = datetime.strptime(month, "%Y-%m")
-                month_label = dt.strftime("%B %Y").capitalize()
-                # Polish month names
                 month_label = polish_month(dt)
             except ValueError:
                 month_label = month
-            body_parts.append(f'<h2 style="margin-top:32px;font-size:1.1rem;color:#6b7280;border-bottom:1px solid #e2e5e9;padding-bottom:8px">{month_label}</h2>')
+            body_parts.append(
+                f'<h2 style="margin-top:32px;font-size:1.1rem;color:#6b7280;'
+                f'border-bottom:1px solid #e2e5e9;padding-bottom:8px">{month_label}</h2>'
+            )
 
         color = TYPE_COLORS.get(item["type"], "#6b7280")
         label = TYPE_LABELS.get(item["type"], item["type"])
@@ -317,9 +275,7 @@ def generate_html_page(items, main_html, city_name, city_gen, site_url, max_item
 
     body = "\n".join(body_parts)
 
-    # Reuse make_page pattern from generate_seo_pages
     h = main_html
-
     h = re.sub(r'<link rel="canonical" href="[^"]*">', f'<link rel="canonical" href="{canonical}">', h)
     h = re.sub(r'<title>[^<]*</title>', f'<title>{esc(title)} &mdash; Radoskop {esc(city_name)}</title>', h)
     h = re.sub(r'<meta name="description" content="[^"]*">', f'<meta name="description" content="{esc(desc)}">', h)
@@ -329,27 +285,15 @@ def generate_html_page(items, main_html, city_name, city_gen, site_url, max_item
     h = re.sub(r'<meta name="twitter:title" content="[^"]*">', f'<meta name="twitter:title" content="{esc(title)}">', h)
     h = re.sub(r'<meta name="twitter:description" content="[^"]*">', f'<meta name="twitter:description" content="{esc(desc)}">', h)
 
-    # Add RSS autodiscovery link
     rss_link = f'<link rel="alternate" type="application/atom+xml" title="Radoskop {esc(city_name)}" href="{site_url}/feed.xml">'
-    h = h.replace('</head>', f'{rss_link}\n</head>')
+    if 'application/atom+xml' not in h:
+        h = h.replace('</head>', f'{rss_link}\n</head>')
 
-    # Inject body content
     seo_block = f'\n<div id="seo-content" style="padding:20px;max-width:800px;margin:0 auto">\n{body}\n</div>\n'
     hide_script = '<script>var sc=document.getElementById("seo-content");if(sc)sc.style.display="none";</script>\n'
     h = h.replace('<div id="loading">', seo_block + hide_script + '<div id="loading">')
 
     return h
-
-
-POLISH_MONTHS = {
-    1: "Styczen", 2: "Luty", 3: "Marzec", 4: "Kwiecien",
-    5: "Maj", 6: "Czerwiec", 7: "Lipiec", 8: "Sierpien",
-    9: "Wrzesien", 10: "Pazdziernik", 11: "Listopad", 12: "Grudzien",
-}
-
-
-def polish_month(dt):
-    return f"{POLISH_MONTHS.get(dt.month, '')} {dt.year}"
 
 
 # ── City processing ────────────────────────────────────
@@ -386,7 +330,7 @@ def process_city(city_dir: Path):
     with open(data_path, "r", encoding="utf-8") as f:
         kadencje = json.load(f).get("kadencje", [])
 
-    # Generate items from all kadencje
+    # Generate vote and session items from all kadencje
     all_items = []
     for k in kadencje:
         kid = k.get("id", "")
@@ -395,33 +339,46 @@ def process_city(city_dir: Path):
             continue
         with open(kad_file, "r", encoding="utf-8") as f:
             kad_data = json.load(f)
-        all_items.extend(generate_items(kad_data, city_name, site_url, profiles_by_name))
+        all_items.extend(generate_vote_items(kad_data, city_name, site_url))
+        all_items.extend(generate_session_items(kad_data, city_name, site_url))
 
-    # Deduplicate by URL
+    # Load and generate interpelacje items
+    interp_path = docs / "interpelacje.json"
+    if interp_path.exists():
+        with open(interp_path, "r", encoding="utf-8") as f:
+            interp_raw = json.load(f)
+        # Handle both list and dict formats
+        if isinstance(interp_raw, list):
+            interpelacje = interp_raw
+        else:
+            interpelacje = interp_raw.get("interpelacje", interp_raw.get("items", []))
+        all_items.extend(generate_interpelacje_items(interpelacje, city_name, site_url, profiles_by_name))
+
+    # Deduplicate by URL + type
     seen = set()
     unique_items = []
     for item in all_items:
-        if item["url"] not in seen:
-            seen.add(item["url"])
+        key = item["url"] + "|" + item["type"]
+        if key not in seen:
+            seen.add(key)
             unique_items.append(item)
 
     # Sort by date desc
     unique_items.sort(key=lambda x: x["date"], reverse=True)
 
-    print(f"  {len(unique_items)} news items ({sum(1 for i in unique_items if i['type']=='session')} sessions, "
-          f"{sum(1 for i in unique_items if i['type']=='controversial_vote')} controversial, "
-          f"{sum(1 for i in unique_items if i['type'] in ('rebellion','rebellion_summary'))} rebellions)")
+    vote_count = sum(1 for i in unique_items if i["type"] == "vote")
+    session_count = sum(1 for i in unique_items if i["type"] == "session")
+    interp_count = sum(1 for i in unique_items if i["type"] == "interpelacja")
+    print(f"  {len(unique_items)} items: {vote_count} votes, {interp_count} interpelacje, {session_count} sessions")
 
     # Write Atom feed
     atom = generate_atom(unique_items, city_name, city_gen, site_url)
     with open(docs / "feed.xml", "w", encoding="utf-8") as f:
         f.write(atom)
-    print(f"  feed.xml written")
 
-    # Write JSON (for potential SPA use)
+    # Write JSON
     with open(docs / "aktualnosci.json", "w", encoding="utf-8") as f:
-        json.dump({"items": unique_items[:200]}, f, ensure_ascii=False, indent=None)
-    print(f"  aktualnosci.json written")
+        json.dump({"items": unique_items[:500]}, f, ensure_ascii=False, indent=None)
 
     # Write HTML page
     main_html_path = docs / "index.html"
@@ -433,7 +390,6 @@ def process_city(city_dir: Path):
     aktualnosci_dir.mkdir(parents=True, exist_ok=True)
     with open(aktualnosci_dir / "index.html", "w", encoding="utf-8") as f:
         f.write(page_html)
-    print(f"  aktualnosci/index.html written")
 
     # Add RSS autodiscovery to main index.html if missing
     if 'application/atom+xml' not in main_html:
@@ -441,7 +397,8 @@ def process_city(city_dir: Path):
         main_html = main_html.replace('</head>', f'{rss_link}\n</head>')
         with open(main_html_path, "w", encoding="utf-8") as f:
             f.write(main_html)
-        print(f"  Added RSS autodiscovery to index.html")
+
+    print(f"  feed.xml + aktualnosci/index.html written")
 
 
 def main():
