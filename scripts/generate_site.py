@@ -53,6 +53,24 @@ def generate_club_js(clubs: dict) -> str:
     return f"{club_color}\n{club_bg}\n{club_class}"
 
 
+def generate_adsense_snippet(pub_id: str) -> str:
+    """Generate Google AdSense snippet with cookie consent check."""
+    if not pub_id:
+        return "<!-- No AdSense configured -->"
+    return (
+        f'<script>\n'
+        f'(function(){{\n'
+        f'  var c=document.cookie.match(/(?:^|;\\s*)cookie_consent=([^;]*)/);\n'
+        f'  if(c&&c[1]==="rejected")return;\n'
+        f'  var s=document.createElement("script");\n'
+        f'  s.async=true;s.crossOrigin="anonymous";\n'
+        f'  s.src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={pub_id}";\n'
+        f'  document.head.appendChild(s);\n'
+        f'}})();\n'
+        f'</script>'
+    )
+
+
 def generate_ga_snippet(ga_id: str) -> str:
     """Generate Google Analytics snippet with cookie consent check."""
     if not ga_id:
@@ -141,6 +159,7 @@ def main():
         "{{AUTHOR}}": config["author"],
         "{{GA_ID}}": config.get("ga_id", ""),
         "{{GA_SNIPPET}}": generate_ga_snippet(config.get("ga_id", "")),
+        "{{ADSENSE_SNIPPET}}": generate_adsense_snippet(config.get("adsense_pub_id", "")),
         "{{CLUB_CSS}}": generate_club_css(config.get("clubs", {})),
         "{{CLUB_JS}}": generate_club_js(config.get("clubs", {})),
         "{{BUDGET_NOTE}}": config.get("budget_note", ""),
