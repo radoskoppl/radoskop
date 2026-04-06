@@ -422,7 +422,7 @@ def build_kadencja_data(kadencja_def, sessions, clubs):
             nv = {}
             for cat, names in raw_nv.items():
                 nv[cat] = [normalize_name(n) for n in names]
-            all_votes.append({
+            vote_entry = {
                 "id": f"{session['date']}_{vi}",
                 "session_date": session["date"],
                 "session_number": session.get("number_roman", "?"),
@@ -432,7 +432,11 @@ def build_kadencja_data(kadencja_def, sessions, clubs):
                 "resolution": vote.get("resolution"),
                 "counts": vote.get("counts", {}),
                 "named_votes": nv,
-            })
+            }
+            # Pass through optional summary field (plain language description)
+            if vote.get("summary"):
+                vote_entry["summary"] = vote["summary"][:300]
+            all_votes.append(vote_entry)
 
     return {
         "id": kadencja_def["id"],

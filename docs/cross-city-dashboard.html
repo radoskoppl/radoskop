@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radoskop Cross-City Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --primary: #4f46e5;
+            --primary-light: #6366f1;
+            --secondary: #0284c7;
+            --danger: #dc2626;
+            --success: #059669;
+            --warning: #d97706;
+
+            --bg-primary: #ffffff;
+            --bg-secondary: #f9fafb;
+            --bg-tertiary: #f3f4f6;
+            --text-primary: #1f2937;
+            --text-secondary: #6b7280;
+            --border: #e5e7eb;
+
+            --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        [data-theme="dark"] {
+            --bg-primary: #1f2937;
+            --bg-secondary: #111827;
+            --bg-tertiary: #374151;
+            --text-primary: #f9fafb;
+            --text-secondary: #d1d5db;
+            --border: #374151;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+            padding: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: var(--shadow-md);
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 0.875rem;
+            opacity: 0.9;
+            margin-top: 0.5rem;
+        }
+
+        .header-controls {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .theme-toggle {
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            font-size: 0.875rem;
+            transition: background 0.3s;
+        }
+
+        .theme-toggle:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .section {
+            background: var(--bg-secondary);
+            border-radius: 0.75rem;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--text-primary);
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--border);
+        }
+
+        .generated-info {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            text-align: right;
+            margin-top: 1rem;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--bg-primary);
+        }
+
+        thead {
+            background: var(--bg-tertiary);
+        }
+
+        th {
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+            color: var(--text-primary);
+            cursor: pointer;
+            user-select: none;
+        }
+
+        th:hover {
+            background: var(--border);
+        }
+
+        td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        tbody tr:hover {
+            background: var(--bg-tertiary);
+        }
+
+        .city-link {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .city-link:hover {
+            text-decoration: underline;
+        }
+
+        .councilor-link {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .councilor-link:hover {
+            text-decoration: underline;
+        }
+
+        .metric {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.375rem;
+            font-weight: 500;
+            font-size: 0.875rem;
+        }
+
+        .metric-high {
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--success);
+        }
+
+        .metric-medium {
+            background: rgba(217, 119, 6, 0.1);
+            color: var(--warning);
+        }
+
+        .metric-low {
+            background: rgba(220, 38, 38, 0.1);
+            color: var(--danger);
+        }
+
+        .club-badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.375rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            background: var(--bg-tertiary);
+            color: var(--text-primary);
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .card {
+            background: var(--bg-primary);
+            border: 1px solid var(--border);
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .card-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin: 0.5rem 0;
+        }
+
+        .card-label {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+
+        .sort-indicator {
+            margin-left: 0.25rem;
+            font-size: 0.75rem;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        th.sorted .sort-indicator {
+            opacity: 1;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 1rem;
+            }
+
+            .container {
+                padding: 1rem;
+            }
+
+            .section {
+                padding: 1.5rem;
+            }
+
+            table {
+                font-size: 0.875rem;
+            }
+
+            th, td {
+                padding: 0.75rem 0.5rem;
+            }
+
+            .section > div {
+                grid-template-columns: 1fr !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <h1>Radoskop Cross-City Dashboard</h1>
+            <p>Porównanie aktywności i frekwencji rad miast w Polsce</p>
+        </div>
+        <div class="header-controls">
+            <button class="theme-toggle" onclick="toggleTheme()">🌙 Dark Mode</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Stats Overview -->
+        <div class="section">
+            <h2>Przegląd ogólny</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="card-label">Miasta</div>
+                    <div class="card-value" id="city-count">--</div>
+                </div>
+                <div class="card">
+                    <div class="card-label">Radni</div>
+                    <div class="card-value" id="councilor-count">--</div>
+                </div>
+                <div class="card">
+                    <div class="card-label">Kluby polityczne</div>
+                    <div class="card-value" id="club-count">--</div>
+                </div>
+                <div class="card">
+                    <div class="card-label">Średnia frekwencja</div>
+                    <div class="card-value" id="avg-frekwencja">--</div>
+                </div>
+            </div>
+            <div class="generated-info" id="generated-info"></div>
+        </div>
+
+        <!-- City Rankings -->
+        <div class="section">
+            <h2>Rankingi miast</h2>
+            <div class="table-wrapper">
+                <table id="cities-table">
+                    <thead>
+                        <tr>
+                            <th onclick="sortTable('cities-table', 0)">Miasto <span class="sort-indicator"></span></th>
+                            <th onclick="sortTable('cities-table', 1)">Radni <span class="sort-indicator"></span></th>
+                            <th onclick="sortTable('cities-table', 2)">Sesje <span class="sort-indicator"></span></th>
+                            <th onclick="sortTable('cities-table', 3)">Głosowania <span class="sort-indicator"></span></th>
+                            <th onclick="sortTable('cities-table', 4, 'numeric')">Średnia frekwencja <span class="sort-indicator"></span></th>
+                            <th onclick="sortTable('cities-table', 5, 'numeric')">Średnia aktywność <span class="sort-indicator"></span></th>
+                            <th onclick="sortTable('cities-table', 6, 'numeric')">Średnia zgodność <span class="sort-indicator"></span></th>
+                        </tr>
+                    </thead>
+                    <tbody id="cities-tbody"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Top and Bottom Councilors -->
+        <div class="section">
+            <h2>Radni - ranking frekwencji</h2>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 1rem;">
+                <div>
+                    <h3 style="margin-bottom: 1rem; font-size: 1.125rem;">Najwyższa frekwencja (Top 20)</h3>
+                    <div class="table-wrapper">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Radny</th>
+                                    <th>Miasto</th>
+                                    <th>Klub</th>
+                                    <th>Frekwencja</th>
+                                </tr>
+                            </thead>
+                            <tbody id="top-frekwencja-tbody"></tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <h3 style="margin-bottom: 1rem; font-size: 1.125rem;">Najniższa frekwencja (Bottom 20)</h3>
+                    <div class="table-wrapper">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Radny</th>
+                                    <th>Miasto</th>
+                                    <th>Klub</th>
+                                    <th>Frekwencja</th>
+                                </tr>
+                            </thead>
+                            <tbody id="bottom-frekwencja-tbody"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Top Rebels -->
+        <div class="section">
+            <h2>Radni - ranking buntów (głosy niezgodne z klubem)</h2>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Radny</th>
+                            <th>Miasto</th>
+                            <th>Klub</th>
+                            <th>Liczba buntów</th>
+                            <th>Zgodność z klubem</th>
+                        </tr>
+                    </thead>
+                    <tbody id="top-rebellion-tbody"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Clubs Cross-City -->
+        <div class="section">
+            <h2>Porównanie klubów politycznych między miastami</h2>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Klub</th>
+                            <th>Liczba miast</th>
+                            <th>Miasta</th>
+                            <th>Liczba radnych</th>
+                            <th>Średnia frekwencja</th>
+                            <th>Średnia aktywność</th>
+                            <th>Średnia zgodność</th>
+                        </tr>
+                    </thead>
+                    <tbody id="clubs-tbody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Radoskop Cross-City Dashboard | Dane z ostatniej generacji <span id="footer-date"></span></p>
+    </div>
+
+    <script>
+        let currentSort = { column: null, direction: 'asc' };
+        let data = null;
+
+        function toggleTheme() {
+            const html = document.documentElement;
+            const isDark = html.getAttribute('data-theme') === 'dark';
+            html.setAttribute('data-theme', isDark ? 'light' : 'dark');
+            localStorage.setItem('theme', isDark ? 'light' : 'dark');
+            updateThemeButton();
+        }
+
+        function updateThemeButton() {
+            const html = document.documentElement;
+            const isDark = html.getAttribute('data-theme') === 'dark';
+            document.querySelector('.theme-toggle').textContent = isDark ? '☀️ Light Mode' : '🌙 Dark Mode';
+        }
+
+        function initTheme() {
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+            updateThemeButton();
+        }
+
+        async function loadData() {
+            try {
+                const response = await fetch('./cross-city.json');
+                data = await response.json();
+                renderData();
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.body.innerHTML += '<div style="padding: 2rem; text-align: center;">Błąd ładowania danych</div>';
+            }
+        }
+
+        function formatMetric(value, type = 'percent') {
+            if (type === 'percent') {
+                return (value || 0).toFixed(1) + '%';
+            }
+            return (value || 0).toFixed(2);
+        }
+
+        function getMetricClass(value) {
+            if (value >= 90) return 'metric-high';
+            if (value >= 75) return 'metric-medium';
+            return 'metric-low';
+        }
+
+        function renderData() {
+            if (!data) return;
+
+            const allCouncilors = data.top_frekwencja.concat(data.bottom_frekwencja).concat(data.top_rebellion);
+            const uniqueCouncilors = new Set(allCouncilors.map(c => c.name)).size;
+
+            document.getElementById('city-count').textContent = data.cities.length;
+            document.getElementById('councilor-count').textContent = uniqueCouncilors;
+            document.getElementById('club-count').textContent = Object.keys(data.clubs_cross_city).length;
+
+            const avgFrekwencja = data.cities.reduce((sum, city) => sum + city.avg_frekwencja, 0) / data.cities.length;
+            document.getElementById('avg-frekwencja').textContent = formatMetric(avgFrekwencja);
+
+            const date = new Date(data.generated);
+            const formattedDate = date.toLocaleString('pl-PL');
+            document.getElementById('generated-info').textContent = `Wygenerowano: ${formattedDate}`;
+            document.getElementById('footer-date').textContent = formattedDate;
+
+            renderCitiesTable();
+            renderCouncilorsTable('top-frekwencja-tbody', data.top_frekwencja);
+            renderCouncilorsTable('bottom-frekwencja-tbody', data.bottom_frekwencja);
+            renderRebellionTable();
+            renderClubsTable();
+        }
+
+        function renderCitiesTable() {
+            const tbody = document.getElementById('cities-tbody');
+            tbody.innerHTML = '';
+
+            data.cities.forEach(city => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td><a href="${city.url}" class="city-link" target="_blank">${city.name}</a></td>
+                    <td>${city.councilor_count}</td>
+                    <td>${city.session_count}</td>
+                    <td>${city.vote_count}</td>
+                    <td><span class="metric ${getMetricClass(city.avg_frekwencja)}">${formatMetric(city.avg_frekwencja)}</span></td>
+                    <td><span class="metric ${getMetricClass(city.avg_aktywnosc)}">${formatMetric(city.avg_aktywnosc)}</span></td>
+                    <td><span class="metric ${getMetricClass(city.avg_zgodnosc)}">${formatMetric(city.avg_zgodnosc)}</span></td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+
+        function renderCouncilorsTable(tbodyId, councilors) {
+            const tbody = document.getElementById(tbodyId);
+            tbody.innerHTML = '';
+
+            councilors.forEach(councilor => {
+                const row = document.createElement('tr');
+                const profileLink = councilor.profile_url ?
+                    `<a href="${councilor.profile_url}" class="councilor-link" target="_blank">${councilor.name}</a>` :
+                    councilor.name;
+
+                row.innerHTML = `
+                    <td>${profileLink}</td>
+                    <td><a href="${councilor.city_url}" class="city-link" target="_blank">${councilor.city}</a></td>
+                    <td><span class="club-badge">${councilor.club}</span></td>
+                    <td><span class="metric ${getMetricClass(councilor.frekwencja)}">${formatMetric(councilor.frekwencja)}</span></td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+
+        function renderRebellionTable() {
+            const tbody = document.getElementById('top-rebellion-tbody');
+            tbody.innerHTML = '';
+
+            data.top_rebellion.forEach(councilor => {
+                const row = document.createElement('tr');
+                const profileLink = councilor.profile_url ?
+                    `<a href="${councilor.profile_url}" class="councilor-link" target="_blank">${councilor.name}</a>` :
+                    councilor.name;
+
+                row.innerHTML = `
+                    <td>${profileLink}</td>
+                    <td><a href="${councilor.city_url}" class="city-link" target="_blank">${councilor.city}</a></td>
+                    <td><span class="club-badge">${councilor.club}</span></td>
+                    <td>${councilor.rebellion_count}</td>
+                    <td><span class="metric ${getMetricClass(councilor.zgodnosc_z_klubem)}">${formatMetric(councilor.zgodnosc_z_klubem)}</span></td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+
+        function renderClubsTable() {
+            const tbody = document.getElementById('clubs-tbody');
+            tbody.innerHTML = '';
+
+            Object.entries(data.clubs_cross_city).forEach(([clubName, clubData]) => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td><strong>${clubName}</strong></td>
+                    <td>${clubData.cities.length}</td>
+                    <td>${clubData.cities.join(', ')}</td>
+                    <td>${clubData.councilor_count}</td>
+                    <td><span class="metric ${getMetricClass(clubData.avg_frekwencja)}">${formatMetric(clubData.avg_frekwencja)}</span></td>
+                    <td><span class="metric ${getMetricClass(clubData.avg_aktywnosc)}">${formatMetric(clubData.avg_aktywnosc)}</span></td>
+                    <td><span class="metric ${getMetricClass(clubData.avg_zgodnosc)}">${formatMetric(clubData.avg_zgodnosc)}</span></td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+
+        function sortTable(tableId, columnIndex, type = 'text') {
+            const table = document.getElementById(tableId);
+            const tbody = table.querySelector('tbody');
+            const rows = Array.from(tbody.querySelectorAll('tr'));
+
+            const isAsc = currentSort.column === columnIndex && currentSort.direction === 'asc';
+            const direction = isAsc ? 'desc' : 'asc';
+
+            rows.sort((a, b) => {
+                let aVal = a.cells[columnIndex].textContent.trim();
+                let bVal = b.cells[columnIndex].textContent.trim();
+
+                if (type === 'numeric') {
+                    aVal = parseFloat(aVal) || 0;
+                    bVal = parseFloat(bVal) || 0;
+                }
+
+                if (aVal < bVal) return direction === 'asc' ? -1 : 1;
+                if (aVal > bVal) return direction === 'asc' ? 1 : -1;
+                return 0;
+            });
+
+            tbody.innerHTML = '';
+            rows.forEach(row => tbody.appendChild(row));
+
+            table.querySelectorAll('th').forEach((th, idx) => {
+                if (idx === columnIndex) {
+                    th.classList.add('sorted');
+                    const indicator = th.querySelector('.sort-indicator');
+                    if (indicator) {
+                        indicator.textContent = direction === 'asc' ? ' ▲' : ' ▼';
+                    }
+                } else {
+                    th.classList.remove('sorted');
+                    const indicator = th.querySelector('.sort-indicator');
+                    if (indicator) {
+                        indicator.textContent = '';
+                    }
+                }
+            });
+
+            currentSort = { column: columnIndex, direction };
+        }
+
+        initTheme();
+        loadData();
+    </script>
+</body>
+</html>

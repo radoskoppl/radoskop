@@ -1,0 +1,1002 @@
+{
+  "generated": "2026-04-06T09:06:19.711338Z",
+  "cities": [
+    {
+      "name": "Łódź",
+      "url": "https://lodz.radoskop.pl",
+      "councilor_count": 38,
+      "session_count": 29,
+      "vote_count": 1645,
+      "avg_frekwencja": 100.0,
+      "avg_aktywnosc": 0.0,
+      "avg_zgodnosc": 86.18
+    },
+    {
+      "name": "Lublin",
+      "url": "https://lublin.radoskop.pl",
+      "councilor_count": 31,
+      "session_count": 18,
+      "vote_count": 922,
+      "avg_frekwencja": 98.8,
+      "avg_aktywnosc": 98.93,
+      "avg_zgodnosc": 91.83
+    },
+    {
+      "name": "Sopot",
+      "url": "https://sopot.radoskop.pl",
+      "councilor_count": 21,
+      "session_count": 20,
+      "vote_count": 442,
+      "avg_frekwencja": 97.93,
+      "avg_aktywnosc": 92.28,
+      "avg_zgodnosc": 95.53
+    },
+    {
+      "name": "Poznań",
+      "url": "https://poznan.radoskop.pl",
+      "councilor_count": 34,
+      "session_count": 32,
+      "vote_count": 868,
+      "avg_frekwencja": 95.96,
+      "avg_aktywnosc": 91.69,
+      "avg_zgodnosc": 90.77
+    },
+    {
+      "name": "Białystok",
+      "url": "https://bialystok.radoskop.pl",
+      "councilor_count": 28,
+      "session_count": 18,
+      "vote_count": 474,
+      "avg_frekwencja": 95.08,
+      "avg_aktywnosc": 91.58,
+      "avg_zgodnosc": 0.0
+    },
+    {
+      "name": "Gdańsk",
+      "url": "https://gdansk.radoskop.pl",
+      "councilor_count": 36,
+      "session_count": 21,
+      "vote_count": 709,
+      "avg_frekwencja": 93.65,
+      "avg_aktywnosc": 92.59,
+      "avg_zgodnosc": 98.76
+    },
+    {
+      "name": "Wrocław",
+      "url": "https://wroclaw.radoskop.pl",
+      "councilor_count": 38,
+      "session_count": 10,
+      "vote_count": 396,
+      "avg_frekwencja": 90.46,
+      "avg_aktywnosc": 88.57,
+      "avg_zgodnosc": 95.57
+    },
+    {
+      "name": "Kraków",
+      "url": "https://krakow.radoskop.pl",
+      "councilor_count": 47,
+      "session_count": 39,
+      "vote_count": 1144,
+      "avg_frekwencja": 89.31,
+      "avg_aktywnosc": 80.41,
+      "avg_zgodnosc": 89.74
+    },
+    {
+      "name": "Szczecin",
+      "url": "https://szczecin.radoskop.pl",
+      "councilor_count": 33,
+      "session_count": 22,
+      "vote_count": 479,
+      "avg_frekwencja": 89.09,
+      "avg_aktywnosc": 86.26,
+      "avg_zgodnosc": 98.48
+    },
+    {
+      "name": "Gdynia",
+      "url": "https://gdynia.radoskop.pl",
+      "councilor_count": 28,
+      "session_count": 26,
+      "vote_count": 628,
+      "avg_frekwencja": 88.97,
+      "avg_aktywnosc": 87.04,
+      "avg_zgodnosc": 96.64
+    },
+    {
+      "name": "Warszawa",
+      "url": "https://warszawa.radoskop.pl",
+      "councilor_count": 63,
+      "session_count": 33,
+      "vote_count": 1718,
+      "avg_frekwencja": 85.84,
+      "avg_aktywnosc": 89.44,
+      "avg_zgodnosc": 93.06
+    },
+    {
+      "name": "Bydgoszcz",
+      "url": "https://bydgoszcz.radoskop.pl",
+      "councilor_count": 29,
+      "session_count": 11,
+      "vote_count": 308,
+      "avg_frekwencja": 0.0,
+      "avg_aktywnosc": 95.42,
+      "avg_zgodnosc": 91.15
+    },
+    {
+      "name": "Katowice",
+      "url": "https://katowice.radoskop.pl",
+      "councilor_count": 31,
+      "session_count": 25,
+      "vote_count": 673,
+      "avg_frekwencja": 0.0,
+      "avg_aktywnosc": 86.7,
+      "avg_zgodnosc": 99.14
+    }
+  ],
+  "top_frekwencja": [
+    {
+      "name": "Agnieszka Bartków",
+      "city": "Gdańsk",
+      "city_url": "https://gdansk.radoskop.pl",
+      "club": "KO",
+      "frekwencja": 100.0,
+      "aktywnosc": 84.2,
+      "zgodnosc_z_klubem": 99.3,
+      "rebellion_count": 4,
+      "profile_url": "https://gdansk.radoskop.pl/profil/agnieszka-bartkow"
+    },
+    {
+      "name": "Agnieszka Owczarczak",
+      "city": "Gdańsk",
+      "city_url": "https://gdansk.radoskop.pl",
+      "club": "KO",
+      "frekwencja": 100.0,
+      "aktywnosc": 97.7,
+      "zgodnosc_z_klubem": 99.3,
+      "rebellion_count": 5,
+      "profile_url": "https://gdansk.radoskop.pl/profil/agnieszka-owczarczak"
+    },
+    {
+      "name": "Aleksander Jankowski",
+      "city": "Gdańsk",
+      "city_url": "https://gdansk.radoskop.pl",
+      "club": "PiS",
+      "frekwencja": 100.0,
+      "aktywnosc": 94.8,
+      "zgodnosc_z_klubem": 96.4,
+      "rebellion_count": 24,
+      "profile_url": "https://gdansk.radoskop.pl/profil/aleksander-jankowski"
+    },
+    {
+      "name": "Andrzej Kowalczys",
+      "city": "Gdańsk",
+      "city_url": "https://gdansk.radoskop.pl",
+      "club": "KO",
+      "frekwencja": 100.0,
+      "aktywnosc": 92.4,
+      "zgodnosc_z_klubem": 97.7,
+      "rebellion_count": 15,
+      "profile_url": "https://gdansk.radoskop.pl/profil/andrzej-kowalczys"
+    },
+    {
+      "name": "Andrzej Skiba",
+      "city": "Gdańsk",
+      "city_url": "https://gdansk.radoskop.pl",
+      "club": "PiS",
+      "frekwencja": 100.0,
+      "aktywnosc": 96.2,
+      "zgodnosc_z_klubem": 94.7,
+      "rebellion_count": 36,
+      "profile_url": "https://gdansk.radoskop.pl/profil/andrzej-skiba"
+    },
+    {
+      "name": "Anna Golędzinowska",
+      "city": "Gdańsk",
+      "city_url": "https://gdansk.radoskop.pl",
+      "club": "KO",
+      "frekwencja": 100.0,
+      "aktywnosc": 96.3,
+      "zgodnosc_z_klubem": 99.9,
+      "rebellion_count": 1,
+      "profile_url": "https://gdansk.radoskop.pl/profil/anna-goledzinowska"
+    },
+    {
+      "name": "Barbara Imianowska",
+      "city": "Gdańsk",
+      "city_url": "https://gdansk.radoskop.pl",
+      "club": "PiS",
+      "frekwencja": 100.0,
+      "aktywnosc": 96.3,
+      "zgodnosc_z_klubem": 95.2,
+      "rebellion_count": 33,
+      "profile_url": "https://gdansk.radoskop.pl/profil/barbara-imianowska"
+    },
+    {
+      "name": "Beata Jankowiak",
+      "city": "Gdańsk",
+      "city_url": "https://gdansk.radoskop.pl",
+      "club": "KO",
+      "frekwencja": 100.0,
+      "aktywnosc": 89.0,
+      "zgodnosc_z_klubem": 99.4,
+      "rebellion_count": 4,
+      "profile_url": "https://gdansk.radoskop.pl/profil/beata-jankowiak"
+    },
+    {
+      "name": "Bogdan Oleszek",
+      "city": "Gdańsk",
+      "city_url": "https://gdansk.radoskop.pl",
+      "club": "WdG",
+      "frekwencja": 100.0,
+      "aktywnosc": 98.9,
+      "zgodnosc_z_klubem": 99.3,
+      "rebellion_count": 5,
+      "profile_url": "https://gdansk.radoskop.pl/profil/bogdan-oleszek"
+    },
+    {
+      "name": "Cezary Śpiewak-Dowbór",
+      "city": "Gdańsk",
+      "city_url": "https://gdansk.radoskop.pl",
+      "club": "KO",
+      "frekwencja": 100.0,
+      "aktywnosc": 95.5,
+      "zgodnosc_z_klubem": 99.6,
+      "rebellion_count": 3,
+      "profile_url": "https://gdansk.radoskop.pl/profil/cezary-spiewak-dowbor"
+    },
+    {
+      "name": "Jan Perucki",
+      "city": "Gdańsk",
+      "city_url": "https://gdansk.radoskop.pl",
+      "club": "KO",
+      "frekwencja": 100.0,
+      "aktywnosc": 97.2,
+      "zgodnosc_z_klubem": 99.3,
+      "rebellion_count": 5,
+      "profile_url": "https://gdansk.radoskop.pl/profil/jan-perucki"
+    },
+    {
+      "name": "Jolanta Banach",
+      "city": "Gdańsk",
+      "city_url": "https://gdansk.radoskop.pl",
+      "club": "WdG",
+      "frekwencja": 100.0,
+      "aktywnosc": 90.3,
+      "zgodnosc_z_klubem": 98.9,
+      "rebellion_count": 7,
+      "profile_url": "https://gdansk.radoskop.pl/profil/jolanta-banach"
+    },
+    {
+      "name": "Kamila Błaszczyk",
+      "city": "Gdańsk",
+      "city_url": "https://gdansk.radoskop.pl",
+      "club": "KO",
+      "frekwencja": 100.0,
+      "aktywnosc": 92.8,
+      "zgodnosc_z_klubem": 98.9,
+      "rebellion_count": 7,
+      "profile_url": "https://gdansk.radoskop.pl/profil/kamila-blaszczyk"
+    },
+    {
+      "name": "Karol Rabenda",
+      "city": "Gdańsk",
+      "city_url": "https://gdansk.radoskop.pl",
+      "club": "PiS",
+      "frekwencja": 100.0,
+      "aktywnosc": 78.7,
+      "zgodnosc_z_klubem": 97.3,
+      "rebellion_count": 15,
+      "profile_url": "https://gdansk.radoskop.pl/profil/karol-rabenda"
+    },
+    {
+      "name": "Karol Ważny",
+      "city": "Gdańsk",
+      "city_url": "https://gdansk.radoskop.pl",
+      "club": "KO",
+      "frekwencja": 100.0,
+      "aktywnosc": 88.4,
+      "zgodnosc_z_klubem": 99.8,
+      "rebellion_count": 1,
+      "profile_url": "https://gdansk.radoskop.pl/profil/karol-wazny"
+    },
+    {
+      "name": "Katarzyna Czerniewska",
+      "city": "Gdańsk",
+      "city_url": "https://gdansk.radoskop.pl",
+      "club": "WdG",
+      "frekwencja": 100.0,
+      "aktywnosc": 96.5,
+      "zgodnosc_z_klubem": 99.7,
+      "rebellion_count": 2,
+      "profile_url": "https://gdansk.radoskop.pl/profil/katarzyna-czerniewska"
+    },
+    {
+      "name": "Kazimierz Koralewski",
+      "city": "Gdańsk",
+      "city_url": "https://gdansk.radoskop.pl",
+      "club": "PiS",
+      "frekwencja": 100.0,
+      "aktywnosc": 93.8,
+      "zgodnosc_z_klubem": 98.6,
+      "rebellion_count": 9,
+      "profile_url": "https://gdansk.radoskop.pl/profil/kazimierz-koralewski"
+    },
+    {
+      "name": "Marcin Makowski",
+      "city": "Gdańsk",
+      "city_url": "https://gdansk.radoskop.pl",
+      "club": "WdG",
+      "frekwencja": 100.0,
+      "aktywnosc": 89.7,
+      "zgodnosc_z_klubem": 99.7,
+      "rebellion_count": 2,
+      "profile_url": "https://gdansk.radoskop.pl/profil/marcin-makowski"
+    },
+    {
+      "name": "Marcin Mickun",
+      "city": "Gdańsk",
+      "city_url": "https://gdansk.radoskop.pl",
+      "club": "KO",
+      "frekwencja": 100.0,
+      "aktywnosc": 98.2,
+      "zgodnosc_z_klubem": 99.7,
+      "rebellion_count": 2,
+      "profile_url": "https://gdansk.radoskop.pl/profil/marcin-mickun"
+    },
+    {
+      "name": "Marta Magott",
+      "city": "Gdańsk",
+      "city_url": "https://gdansk.radoskop.pl",
+      "club": "WdG",
+      "frekwencja": 100.0,
+      "aktywnosc": 95.1,
+      "zgodnosc_z_klubem": 99.6,
+      "rebellion_count": 3,
+      "profile_url": "https://gdansk.radoskop.pl/profil/marta-magott"
+    }
+  ],
+  "bottom_frekwencja": [
+    {
+      "name": "Elżbieta Grodzka-Łopuszyńska",
+      "city": "Katowice",
+      "city_url": "https://katowice.radoskop.pl",
+      "club": "KO",
+      "frekwencja": 0.0,
+      "aktywnosc": 99.3,
+      "zgodnosc_z_klubem": 99.7,
+      "rebellion_count": 2,
+      "profile_url": "https://katowice.radoskop.pl/profil/elzbieta-grodzka-lopuszynska"
+    },
+    {
+      "name": "Ewa Sadkowska",
+      "city": "Katowice",
+      "city_url": "https://katowice.radoskop.pl",
+      "club": "KO",
+      "frekwencja": 0.0,
+      "aktywnosc": 85.9,
+      "zgodnosc_z_klubem": 100.0,
+      "rebellion_count": 0,
+      "profile_url": "https://katowice.radoskop.pl/profil/ewa-sadkowska"
+    },
+    {
+      "name": "Jacek Kalisz",
+      "city": "Katowice",
+      "city_url": "https://katowice.radoskop.pl",
+      "club": "Forum",
+      "frekwencja": 0.0,
+      "aktywnosc": 81.7,
+      "zgodnosc_z_klubem": 99.1,
+      "rebellion_count": 5,
+      "profile_url": "https://katowice.radoskop.pl/profil/jacek-kalisz"
+    },
+    {
+      "name": "Krystyna Panek",
+      "city": "Katowice",
+      "city_url": "https://katowice.radoskop.pl",
+      "club": "PiS",
+      "frekwencja": 0.0,
+      "aktywnosc": 96.7,
+      "zgodnosc_z_klubem": 98.0,
+      "rebellion_count": 13,
+      "profile_url": "https://katowice.radoskop.pl/profil/krystyna-panek"
+    },
+    {
+      "name": "Krzysztof Kraus",
+      "city": "Katowice",
+      "city_url": "https://katowice.radoskop.pl",
+      "club": "Forum",
+      "frekwencja": 0.0,
+      "aktywnosc": 18.9,
+      "zgodnosc_z_klubem": 99.2,
+      "rebellion_count": 1,
+      "profile_url": "https://katowice.radoskop.pl/profil/krzysztof-kraus"
+    },
+    {
+      "name": "Krzysztof Pieczyński",
+      "city": "Katowice",
+      "city_url": "https://katowice.radoskop.pl",
+      "club": "Forum",
+      "frekwencja": 0.0,
+      "aktywnosc": 94.5,
+      "zgodnosc_z_klubem": 100.0,
+      "rebellion_count": 0,
+      "profile_url": "https://katowice.radoskop.pl/profil/krzysztof-pieczynski"
+    },
+    {
+      "name": "Leszek Piechota",
+      "city": "Katowice",
+      "city_url": "https://katowice.radoskop.pl",
+      "club": "PiS",
+      "frekwencja": 0.0,
+      "aktywnosc": 98.5,
+      "zgodnosc_z_klubem": 92.5,
+      "rebellion_count": 49,
+      "profile_url": "https://katowice.radoskop.pl/profil/leszek-piechota"
+    },
+    {
+      "name": "Maciej Biskupski",
+      "city": "Katowice",
+      "city_url": "https://katowice.radoskop.pl",
+      "club": "Forum",
+      "frekwencja": 0.0,
+      "aktywnosc": 6.1,
+      "zgodnosc_z_klubem": 100.0,
+      "rebellion_count": 0,
+      "profile_url": "https://katowice.radoskop.pl/profil/maciej-biskupski"
+    },
+    {
+      "name": "Magdalena Skwarek",
+      "city": "Katowice",
+      "city_url": "https://katowice.radoskop.pl",
+      "club": "KO",
+      "frekwencja": 0.0,
+      "aktywnosc": 88.7,
+      "zgodnosc_z_klubem": 99.0,
+      "rebellion_count": 6,
+      "profile_url": "https://katowice.radoskop.pl/profil/magdalena-skwarek"
+    },
+    {
+      "name": "Magdalena Wieczorek",
+      "city": "Katowice",
+      "city_url": "https://katowice.radoskop.pl",
+      "club": "KO",
+      "frekwencja": 0.0,
+      "aktywnosc": 97.6,
+      "zgodnosc_z_klubem": 99.4,
+      "rebellion_count": 4,
+      "profile_url": "https://katowice.radoskop.pl/profil/magdalena-wieczorek"
+    },
+    {
+      "name": "Maria Ryś",
+      "city": "Katowice",
+      "city_url": "https://katowice.radoskop.pl",
+      "club": "Forum",
+      "frekwencja": 0.0,
+      "aktywnosc": 99.7,
+      "zgodnosc_z_klubem": 100.0,
+      "rebellion_count": 0,
+      "profile_url": "https://katowice.radoskop.pl/profil/maria-rys"
+    },
+    {
+      "name": "Mariusz Skiba",
+      "city": "Katowice",
+      "city_url": "https://katowice.radoskop.pl",
+      "club": "PiS",
+      "frekwencja": 0.0,
+      "aktywnosc": 96.1,
+      "zgodnosc_z_klubem": 92.9,
+      "rebellion_count": 46,
+      "profile_url": "https://katowice.radoskop.pl/profil/mariusz-skiba"
+    },
+    {
+      "name": "Patryk Białas",
+      "city": "Katowice",
+      "city_url": "https://katowice.radoskop.pl",
+      "club": "KO",
+      "frekwencja": 0.0,
+      "aktywnosc": 96.1,
+      "zgodnosc_z_klubem": 99.7,
+      "rebellion_count": 2,
+      "profile_url": "https://katowice.radoskop.pl/profil/patryk-bialas"
+    },
+    {
+      "name": "Piotr Pietrasz",
+      "city": "Katowice",
+      "city_url": "https://katowice.radoskop.pl",
+      "club": "PiS",
+      "frekwencja": 0.0,
+      "aktywnosc": 96.0,
+      "zgodnosc_z_klubem": 98.7,
+      "rebellion_count": 8,
+      "profile_url": "https://katowice.radoskop.pl/profil/piotr-pietrasz"
+    },
+    {
+      "name": "Piotr Trząski",
+      "city": "Katowice",
+      "city_url": "https://katowice.radoskop.pl",
+      "club": "PiS",
+      "frekwencja": 0.0,
+      "aktywnosc": 98.7,
+      "zgodnosc_z_klubem": 98.5,
+      "rebellion_count": 10,
+      "profile_url": "https://katowice.radoskop.pl/profil/piotr-trzaski"
+    },
+    {
+      "name": "Roch Sobula",
+      "city": "Katowice",
+      "city_url": "https://katowice.radoskop.pl",
+      "club": "Forum",
+      "frekwencja": 0.0,
+      "aktywnosc": 46.4,
+      "zgodnosc_z_klubem": 98.7,
+      "rebellion_count": 4,
+      "profile_url": "https://katowice.radoskop.pl/profil/roch-sobula"
+    },
+    {
+      "name": "Tomasz Maśnica",
+      "city": "Katowice",
+      "city_url": "https://katowice.radoskop.pl",
+      "club": "KO",
+      "frekwencja": 0.0,
+      "aktywnosc": 93.0,
+      "zgodnosc_z_klubem": 100.0,
+      "rebellion_count": 0,
+      "profile_url": "https://katowice.radoskop.pl/profil/tomasz-masnica"
+    },
+    {
+      "name": "Urszula Machowska",
+      "city": "Katowice",
+      "city_url": "https://katowice.radoskop.pl",
+      "club": "KO",
+      "frekwencja": 0.0,
+      "aktywnosc": 96.4,
+      "zgodnosc_z_klubem": 99.8,
+      "rebellion_count": 1,
+      "profile_url": "https://katowice.radoskop.pl/profil/urszula-machowska"
+    },
+    {
+      "name": "Łukasz Borkowski",
+      "city": "Katowice",
+      "city_url": "https://katowice.radoskop.pl",
+      "club": "KO",
+      "frekwencja": 0.0,
+      "aktywnosc": 99.3,
+      "zgodnosc_z_klubem": 100.0,
+      "rebellion_count": 0,
+      "profile_url": "https://katowice.radoskop.pl/profil/lukasz-borkowski"
+    },
+    {
+      "name": "Łukasz Hankus",
+      "city": "Katowice",
+      "city_url": "https://katowice.radoskop.pl",
+      "club": "Forum",
+      "frekwencja": 0.0,
+      "aktywnosc": 91.8,
+      "zgodnosc_z_klubem": 99.8,
+      "rebellion_count": 1,
+      "profile_url": "https://katowice.radoskop.pl/profil/lukasz-hankus"
+    }
+  ],
+  "top_rebellion": [
+    {
+      "name": "Przemysław Alexandrowicz",
+      "city": "Poznań",
+      "city_url": "https://poznan.radoskop.pl",
+      "club": "KO",
+      "frekwencja": 93.1,
+      "aktywnosc": 84.7,
+      "zgodnosc_z_klubem": 54.4,
+      "rebellion_count": 330,
+      "profile_url": "https://poznan.radoskop.pl/profil/przemyslaw-alexandrowicz"
+    },
+    {
+      "name": "Ewa Jemielity",
+      "city": "Poznań",
+      "city_url": "https://poznan.radoskop.pl",
+      "club": "KO",
+      "frekwencja": 89.7,
+      "aktywnosc": 89.6,
+      "zgodnosc_z_klubem": 58.0,
+      "rebellion_count": 314,
+      "profile_url": "https://poznan.radoskop.pl/profil/ewa-jemielity"
+    },
+    {
+      "name": "Zbigniew Czerwiński",
+      "city": "Poznań",
+      "city_url": "https://poznan.radoskop.pl",
+      "club": "KO",
+      "frekwencja": 93.1,
+      "aktywnosc": 91.8,
+      "zgodnosc_z_klubem": 59.3,
+      "rebellion_count": 310,
+      "profile_url": "https://poznan.radoskop.pl/profil/zbigniew-czerwinski"
+    },
+    {
+      "name": "Sara Szynkowska vel Sęk",
+      "city": "Poznań",
+      "city_url": "https://poznan.radoskop.pl",
+      "club": "PiS",
+      "frekwencja": 96.6,
+      "aktywnosc": 83.3,
+      "zgodnosc_z_klubem": 58.9,
+      "rebellion_count": 290,
+      "profile_url": "https://poznan.radoskop.pl/profil/sara-szynkowska-vel-sek"
+    },
+    {
+      "name": "Izabela Kaczmarska",
+      "city": "Łódź",
+      "city_url": "https://lodz.radoskop.pl",
+      "club": "Niezrzeszeni",
+      "frekwencja": 100.0,
+      "aktywnosc": 0.0,
+      "zgodnosc_z_klubem": 52.8,
+      "rebellion_count": 263,
+      "profile_url": "https://lodz.radoskop.pl/profil/izabela-kaczmarska"
+    },
+    {
+      "name": "Kosma Nykiel",
+      "city": "Łódź",
+      "city_url": "https://lodz.radoskop.pl",
+      "club": "Niezrzeszeni",
+      "frekwencja": 100.0,
+      "aktywnosc": 0.0,
+      "zgodnosc_z_klubem": 58.9,
+      "rebellion_count": 243,
+      "profile_url": "https://lodz.radoskop.pl/profil/kosma-nykiel"
+    },
+    {
+      "name": "Klaudia Strzelecka",
+      "city": "Poznań",
+      "city_url": "https://poznan.radoskop.pl",
+      "club": "Lewica",
+      "frekwencja": 96.6,
+      "aktywnosc": 81.3,
+      "zgodnosc_z_klubem": 67.1,
+      "rebellion_count": 229,
+      "profile_url": "https://poznan.radoskop.pl/profil/klaudia-strzelecka"
+    },
+    {
+      "name": "Robert Derewenda",
+      "city": "Lublin",
+      "city_url": "https://lublin.radoskop.pl",
+      "club": "PiS",
+      "frekwencja": 100.0,
+      "aktywnosc": 100.0,
+      "zgodnosc_z_klubem": 72.8,
+      "rebellion_count": 211,
+      "profile_url": "https://lublin.radoskop.pl/profil/robert-derewenda"
+    },
+    {
+      "name": "Mateusz Rozmiarek",
+      "city": "Poznań",
+      "city_url": "https://poznan.radoskop.pl",
+      "club": "TD",
+      "frekwencja": 100.0,
+      "aktywnosc": 96.5,
+      "zgodnosc_z_klubem": 75.4,
+      "rebellion_count": 206,
+      "profile_url": "https://poznan.radoskop.pl/profil/mateusz-rozmiarek"
+    },
+    {
+      "name": "Piotr Popiel",
+      "city": "Lublin",
+      "city_url": "https://lublin.radoskop.pl",
+      "club": "PiS",
+      "frekwencja": 100.0,
+      "aktywnosc": 100.0,
+      "zgodnosc_z_klubem": 81.1,
+      "rebellion_count": 174,
+      "profile_url": "https://lublin.radoskop.pl/profil/piotr-popiel"
+    },
+    {
+      "name": "Piotr Mazurek",
+      "city": "Warszawa",
+      "city_url": "https://warszawa.radoskop.pl",
+      "club": "PiS",
+      "frekwencja": 88.5,
+      "aktywnosc": 93.5,
+      "zgodnosc_z_klubem": 89.2,
+      "rebellion_count": 173,
+      "profile_url": "https://warszawa.radoskop.pl/profil/piotr-mazurek"
+    },
+    {
+      "name": "Jacek Cieślikowski",
+      "city": "Warszawa",
+      "city_url": "https://warszawa.radoskop.pl",
+      "club": "PiS",
+      "frekwencja": 88.5,
+      "aktywnosc": 93.4,
+      "zgodnosc_z_klubem": 89.5,
+      "rebellion_count": 169,
+      "profile_url": "https://warszawa.radoskop.pl/profil/jacek-cieslikowski"
+    },
+    {
+      "name": "Maciej Binkowski",
+      "city": "Warszawa",
+      "city_url": "https://warszawa.radoskop.pl",
+      "club": "PiS",
+      "frekwencja": 92.3,
+      "aktywnosc": 89.8,
+      "zgodnosc_z_klubem": 89.8,
+      "rebellion_count": 158,
+      "profile_url": "https://warszawa.radoskop.pl/profil/maciej-binkowski"
+    },
+    {
+      "name": "Tomasz Gontarz",
+      "city": "Lublin",
+      "city_url": "https://lublin.radoskop.pl",
+      "club": "PiS",
+      "frekwencja": 100.0,
+      "aktywnosc": 100.0,
+      "zgodnosc_z_klubem": 82.4,
+      "rebellion_count": 157,
+      "profile_url": "https://lublin.radoskop.pl/profil/tomasz-gontarz"
+    },
+    {
+      "name": "Piotr Gawryszczak",
+      "city": "Lublin",
+      "city_url": "https://lublin.radoskop.pl",
+      "club": "PiS",
+      "frekwencja": 100.0,
+      "aktywnosc": 100.0,
+      "zgodnosc_z_klubem": 77.9,
+      "rebellion_count": 151,
+      "profile_url": "https://lublin.radoskop.pl/profil/piotr-gawryszczak"
+    },
+    {
+      "name": "Zdzisław Drozd",
+      "city": "Lublin",
+      "city_url": "https://lublin.radoskop.pl",
+      "club": "PiS",
+      "frekwencja": 100.0,
+      "aktywnosc": 100.0,
+      "zgodnosc_z_klubem": 82.6,
+      "rebellion_count": 150,
+      "profile_url": "https://lublin.radoskop.pl/profil/zdzislaw-drozd"
+    },
+    {
+      "name": "Justyna Budzyńska",
+      "city": "Lublin",
+      "city_url": "https://lublin.radoskop.pl",
+      "club": "PiS",
+      "frekwencja": 100.0,
+      "aktywnosc": 99.0,
+      "zgodnosc_z_klubem": 81.9,
+      "rebellion_count": 142,
+      "profile_url": "https://lublin.radoskop.pl/profil/justyna-budzynska"
+    },
+    {
+      "name": "Eugeniusz Bielak",
+      "city": "Lublin",
+      "city_url": "https://lublin.radoskop.pl",
+      "club": "PiS",
+      "frekwencja": 100.0,
+      "aktywnosc": 100.0,
+      "zgodnosc_z_klubem": 84.8,
+      "rebellion_count": 138,
+      "profile_url": "https://lublin.radoskop.pl/profil/eugeniusz-bielak"
+    },
+    {
+      "name": "Krzysztof Stasiak",
+      "city": "Łódź",
+      "city_url": "https://lodz.radoskop.pl",
+      "club": "Niezrzeszeni",
+      "frekwencja": 100.0,
+      "aktywnosc": 0.0,
+      "zgodnosc_z_klubem": 70.4,
+      "rebellion_count": 136,
+      "profile_url": "https://lodz.radoskop.pl/profil/krzysztof-stasiak"
+    },
+    {
+      "name": "Jan Mencwel",
+      "city": "Warszawa",
+      "city_url": "https://warszawa.radoskop.pl",
+      "club": "Lewica",
+      "frekwencja": 92.3,
+      "aktywnosc": 91.2,
+      "zgodnosc_z_klubem": 91.8,
+      "rebellion_count": 128,
+      "profile_url": "https://warszawa.radoskop.pl/profil/jan-mencwel"
+    }
+  ],
+  "clubs_cross_city": {
+    "PiS": {
+      "cities": [
+        "Białystok",
+        "Bydgoszcz",
+        "Gdańsk",
+        "Gdynia",
+        "Katowice",
+        "Kraków",
+        "Lublin",
+        "Poznań",
+        "Szczecin",
+        "Warszawa",
+        "Wrocław",
+        "Łódź"
+      ],
+      "avg_frekwencja": 80.75,
+      "avg_aktywnosc": 84.24,
+      "avg_zgodnosc": 82.4,
+      "councilor_count": 107
+    },
+    "KO": {
+      "cities": [
+        "Białystok",
+        "Bydgoszcz",
+        "Gdańsk",
+        "Katowice",
+        "Kraków",
+        "Lublin",
+        "Poznań",
+        "Szczecin",
+        "Warszawa",
+        "Wrocław",
+        "Łódź"
+      ],
+      "avg_frekwencja": 82.06,
+      "avg_aktywnosc": 84.31,
+      "avg_zgodnosc": 91.51,
+      "councilor_count": 217
+    },
+    "Trzecia Droga": {
+      "cities": [
+        "Białystok",
+        "Bydgoszcz"
+      ],
+      "avg_frekwencja": 38.6,
+      "avg_aktywnosc": 98.4,
+      "avg_zgodnosc": 55.52,
+      "councilor_count": 5
+    },
+    "Niezrzeszony": {
+      "cities": [
+        "Bydgoszcz"
+      ],
+      "avg_frekwencja": 0.0,
+      "avg_aktywnosc": 67.2,
+      "avg_zgodnosc": 0.0,
+      "councilor_count": 1
+    },
+    "WdG": {
+      "cities": [
+        "Gdańsk"
+      ],
+      "avg_frekwencja": 90.05,
+      "avg_aktywnosc": 91.88,
+      "avg_zgodnosc": 99.44,
+      "councilor_count": 11
+    },
+    "Gdyński Dialog": {
+      "cities": [
+        "Gdynia"
+      ],
+      "avg_frekwencja": 87.67,
+      "avg_aktywnosc": 85.53,
+      "avg_zgodnosc": 94.46,
+      "councilor_count": 7
+    },
+    "KORMiL": {
+      "cities": [
+        "Gdynia"
+      ],
+      "avg_frekwencja": 90.22,
+      "avg_aktywnosc": 88.62,
+      "avg_zgodnosc": 97.42,
+      "councilor_count": 13
+    },
+    "Samorządność": {
+      "cities": [
+        "Gdynia"
+      ],
+      "avg_frekwencja": 86.38,
+      "avg_aktywnosc": 84.24,
+      "avg_zgodnosc": 96.0,
+      "councilor_count": 5
+    },
+    "Forum": {
+      "cities": [
+        "Katowice"
+      ],
+      "avg_frekwencja": 0.0,
+      "avg_aktywnosc": 73.92,
+      "avg_zgodnosc": 99.72,
+      "councilor_count": 13
+    },
+    "?": {
+      "cities": [
+        "Kraków",
+        "Warszawa",
+        "Łódź"
+      ],
+      "avg_frekwencja": 35.92,
+      "avg_aktywnosc": 3.2,
+      "avg_zgodnosc": 0.0,
+      "councilor_count": 10
+    },
+    "KdM": {
+      "cities": [
+        "Kraków"
+      ],
+      "avg_frekwencja": 96.91,
+      "avg_aktywnosc": 84.93,
+      "avg_zgodnosc": 95.57,
+      "councilor_count": 7
+    },
+    "Lewica": {
+      "cities": [
+        "Kraków",
+        "Poznań",
+        "Warszawa",
+        "Wrocław",
+        "Łódź"
+      ],
+      "avg_frekwencja": 93.46,
+      "avg_aktywnosc": 77.07,
+      "avg_zgodnosc": 96.02,
+      "councilor_count": 26
+    },
+    "Niezrzeszeni": {
+      "cities": [
+        "Łódź"
+      ],
+      "avg_frekwencja": 100.0,
+      "avg_aktywnosc": 0.0,
+      "avg_zgodnosc": 60.7,
+      "councilor_count": 3
+    },
+    "TD": {
+      "cities": [
+        "Poznań"
+      ],
+      "avg_frekwencja": 93.13,
+      "avg_aktywnosc": 90.4,
+      "avg_zgodnosc": 85.8,
+      "councilor_count": 3
+    },
+    "niezrzeszony": {
+      "cities": [
+        "Poznań"
+      ],
+      "avg_frekwencja": 94.27,
+      "avg_aktywnosc": 88.43,
+      "avg_zgodnosc": 99.47,
+      "councilor_count": 3
+    },
+    "Koalicja Dla Sopotu": {
+      "cities": [
+        "Sopot"
+      ],
+      "avg_frekwencja": 97.79,
+      "avg_aktywnosc": 91.51,
+      "avg_zgodnosc": 98.7,
+      "councilor_count": 14
+    },
+    "Kocham Sopot": {
+      "cities": [
+        "Sopot"
+      ],
+      "avg_frekwencja": 97.93,
+      "avg_aktywnosc": 92.77,
+      "avg_zgodnosc": 88.77,
+      "councilor_count": 3
+    },
+    "Prawo i Sprawiedliwość": {
+      "cities": [
+        "Sopot"
+      ],
+      "avg_frekwencja": 98.45,
+      "avg_aktywnosc": 94.58,
+      "avg_zgodnosc": 89.5,
+      "councilor_count": 4
+    },
+    "OK": {
+      "cities": [
+        "Szczecin"
+      ],
+      "avg_frekwencja": 90.64,
+      "avg_aktywnosc": 84.12,
+      "avg_zgodnosc": 99.0,
+      "councilor_count": 5
+    }
+  }
+}
