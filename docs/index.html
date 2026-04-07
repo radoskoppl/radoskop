@@ -194,6 +194,29 @@ a.vote-item:hover { border-color:var(--accent); box-shadow:0 2px 12px rgba(79,70
 .seo-intro { max-width:700px; margin:0 auto 10px; text-align:center; }
 .seo-intro p { color:var(--muted); font-size:0.88rem; line-height:1.7; }
 
+/* ── Wyszukiwarka radnych ── */
+.search-section { max-width:560px; margin:0 auto 40px; position:relative; }
+.search-input { width:100%; padding:14px 18px 14px 44px; border:2px solid var(--border); border-radius:12px; background:var(--surface); color:var(--text); font-size:1rem; font-family:inherit; outline:none; transition:border-color 0.2s; }
+.search-input:focus { border-color:var(--accent); }
+.search-input::placeholder { color:var(--muted); }
+.search-icon { position:absolute; left:14px; top:50%; transform:translateY(-50%); color:var(--muted); pointer-events:none; z-index:2; }
+.search-results { position:absolute; top:calc(100% + 4px); left:0; right:0; background:var(--surface); border:1px solid var(--border); border-radius:12px; box-shadow:0 8px 32px rgba(0,0,0,0.12); max-height:400px; overflow-y:auto; z-index:100; display:none; }
+.search-results.visible { display:block; }
+.search-result { display:flex; align-items:center; gap:12px; padding:12px 16px; text-decoration:none; color:var(--text); border-bottom:1px solid var(--border); transition:background 0.1s; }
+.search-result:last-child { border-bottom:none; }
+.search-result:hover { background:rgba(79,70,229,0.05); }
+.search-result-avatar { width:36px; height:36px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:white; background:var(--accent); flex-shrink:0; }
+.search-result-info { flex:1; min-width:0; }
+.search-result-name { font-weight:600; font-size:0.92rem; }
+.search-result-name mark { background:rgba(79,70,229,0.15); color:var(--text); border-radius:2px; padding:0 1px; }
+.search-result-meta { font-size:0.78rem; color:var(--muted); display:flex; gap:8px; align-items:center; }
+.search-result-stat { font-size:0.75rem; font-weight:600; padding:1px 6px; border-radius:4px; }
+.search-result-stat.good { background:rgba(22,163,74,0.12); color:#16a34a; }
+.search-result-stat.medium { background:rgba(202,138,4,0.12); color:#ca8a04; }
+.search-result-stat.low { background:rgba(220,38,38,0.12); color:#dc2626; }
+.search-empty { padding:20px; text-align:center; color:var(--muted); font-size:0.9rem; }
+.search-count { text-align:center; color:var(--muted); font-size:0.8rem; margin-top:8px; }
+
 /* ── Mobile ── */
 @media (max-width: 600px) {
   .container { padding:12px; }
@@ -211,6 +234,9 @@ a.vote-item:hover { border-color:var(--accent); box-shadow:0 2px 12px rgba(79,70
   .vote-item { padding:12px 14px; }
   .vote-item .vote-topic { font-size:0.82rem; }
   .comparison h3, .budget h3, .sessions-feed h3, .controversial h3 { font-size:1.1rem; }
+  .search-section { margin:0 auto 24px; }
+  .search-input { padding:12px 14px 12px 40px; font-size:0.92rem; }
+  .search-results { max-height:320px; }
 }
 </style>
 </head>
@@ -224,6 +250,13 @@ a.vote-item:hover { border-color:var(--accent); box-shadow:0 2px 12px rgba(79,70
 
   <div class="seo-intro">
     <p>13 miast · głosowania · frekwencja · interpelacje · budżety · kadencja 2024–2029</p>
+  </div>
+
+  <div class="search-section" id="councilor-search">
+    <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <input type="text" class="search-input" id="search-input" placeholder="Wyszukaj radnego po nazwisku..." autocomplete="off" aria-label="Wyszukaj radnego po nazwisku">
+    <div class="search-results" id="search-results"></div>
+    <div class="search-count" id="search-count">457 radnych z 13 miast</div>
   </div>
 
   <div class="cities">
@@ -977,6 +1010,163 @@ const invChart = new Chart(document.getElementById('chartInvestments'), {
     }
   }
 });
+
+// ── Wyszukiwarka radnych ──
+(function() {
+  var councilorsIndex = null;
+  var searchInput = document.getElementById('search-input');
+  var searchResults = document.getElementById('search-results');
+  var searchCount = document.getElementById('search-count');
+  var searchTimer = null;
+
+  // Zamienia polskie znaki diakrytyczne na ASCII (do wyszukiwania)
+  function normalize(s) {
+    return s.toLowerCase()
+      .replace(/ą/g,'a').replace(/ć/g,'c').replace(/ę/g,'e')
+      .replace(/ł/g,'l').replace(/ń/g,'n').replace(/ó/g,'o')
+      .replace(/ś/g,'s').replace(/ź/g,'z').replace(/ż/g,'z');
+  }
+
+  // Kolorki avatara na podstawie pierwszej litery nazwiska
+  var avatarColors = ['#4f46e5','#0284c7','#16a34a','#d97706','#dc2626','#7c3aed','#0891b2','#db2777','#059669','#ea580c'];
+  function avatarColor(name) {
+    var parts = name.split(' ');
+    var ch = (parts.length > 1 ? parts[parts.length-1] : parts[0]).charCodeAt(0);
+    return avatarColors[ch % avatarColors.length];
+  }
+
+  function initials(name) {
+    var p = name.split(' ');
+    if (p.length >= 2) return (p[0][0] + p[p.length-1][0]).toUpperCase();
+    return p[0].substring(0,2).toUpperCase();
+  }
+
+  // Podswietlenie trafien w tekscie
+  function highlight(text, query) {
+    if (!query) return text;
+    var norm = normalize(text);
+    var qNorm = normalize(query);
+    var idx = norm.indexOf(qNorm);
+    if (idx === -1) return text;
+    return text.substring(0, idx) + '<mark>' + text.substring(idx, idx + query.length) + '</mark>' + text.substring(idx + query.length);
+  }
+
+  function frekwencjaClass(f) {
+    if (f >= 90) return 'good';
+    if (f >= 70) return 'medium';
+    return 'low';
+  }
+
+  function renderResults(query) {
+    if (!councilorsIndex) return;
+    var q = query.trim();
+    if (q.length < 2) {
+      searchResults.classList.remove('visible');
+      searchCount.textContent = councilorsIndex.length + ' radnych z 13 miast';
+      return;
+    }
+
+    var qNorm = normalize(q);
+    var results = [];
+    for (var i = 0; i < councilorsIndex.length; i++) {
+      var c = councilorsIndex[i];
+      if (normalize(c.n).indexOf(qNorm) !== -1) {
+        results.push(c);
+      }
+    }
+
+    if (results.length === 0) {
+      searchResults.innerHTML = '<div class="search-empty">Nie znaleziono radnego o nazwisku „' + q.replace(/</g,'&lt;') + '"</div>';
+      searchResults.classList.add('visible');
+      searchCount.textContent = '0 wyników';
+      return;
+    }
+
+    // Sortuj: trafienia na początku nazwiska wyżej
+    results.sort(function(a, b) {
+      var aN = normalize(a.n), bN = normalize(b.n);
+      var aStart = aN.indexOf(qNorm) === 0 || aN.indexOf(' ' + qNorm) !== -1;
+      var bStart = bN.indexOf(qNorm) === 0 || bN.indexOf(' ' + qNorm) !== -1;
+      if (aStart && !bStart) return -1;
+      if (!aStart && bStart) return 1;
+      return a.n.localeCompare(b.n, 'pl');
+    });
+
+    var max = Math.min(results.length, 15);
+    var html = '';
+    for (var j = 0; j < max; j++) {
+      var r = results[j];
+      var profileUrl = r.u + '/radny/' + r.s;
+      var fClass = frekwencjaClass(r.f);
+      html += '<a class="search-result" href="' + profileUrl + '">'
+        + '<div class="search-result-avatar" style="background:' + avatarColor(r.n) + '">' + initials(r.n) + '</div>'
+        + '<div class="search-result-info">'
+        + '<div class="search-result-name">' + highlight(r.n, q) + '</div>'
+        + '<div class="search-result-meta">'
+        + '<span>' + r.c + '</span>'
+        + (r.k ? '<span>' + r.k + '</span>' : '')
+        + '</div>'
+        + '</div>'
+        + '<span class="search-result-stat ' + fClass + '">' + r.f + '% frekw.</span>'
+        + '</a>';
+    }
+    searchResults.innerHTML = html;
+    searchResults.classList.add('visible');
+
+    var countText = results.length === 1 ? '1 wynik' : results.length + ' wyników';
+    if (results.length > max) countText += ' (pokazano ' + max + ')';
+    searchCount.textContent = countText;
+  }
+
+  searchInput.addEventListener('input', function() {
+    clearTimeout(searchTimer);
+    var val = this.value;
+    searchTimer = setTimeout(function() { renderResults(val); }, 120);
+  });
+
+  // Zamknij wyniki po kliknięciu poza
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('#councilor-search')) {
+      searchResults.classList.remove('visible');
+    }
+  });
+
+  // Otwórz wyniki po kliknięciu w input jeśli jest tekst
+  searchInput.addEventListener('focus', function() {
+    if (this.value.trim().length >= 2 && councilorsIndex) renderResults(this.value);
+  });
+
+  // Nawigacja klawiaturą
+  searchInput.addEventListener('keydown', function(e) {
+    var items = searchResults.querySelectorAll('.search-result');
+    if (!items.length) return;
+    var active = searchResults.querySelector('.search-result:focus');
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      if (!active) items[0].focus();
+      else if (active.nextElementSibling) active.nextElementSibling.focus();
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      if (active && active.previousElementSibling) active.previousElementSibling.focus();
+      else searchInput.focus();
+    } else if (e.key === 'Escape') {
+      searchResults.classList.remove('visible');
+    }
+  });
+
+  // Pobierz indeks radnych
+  fetch('/councilors-index.json')
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      councilorsIndex = data;
+      if (searchCount) searchCount.textContent = data.length + ' radnych z 13 miast';
+    })
+    .catch(function() {
+      // Indeks niedostępny — ukryj szukajkę
+      var section = document.getElementById('councilor-search');
+      if (section) section.style.display = 'none';
+    });
+})();
 </script>
 </main>
 </body>

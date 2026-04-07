@@ -222,6 +222,15 @@ footer a { color:var(--accent); text-decoration:none; }
 .compare-col h3 { font-size:1.1rem; font-weight:700; margin-bottom:4px; }
 .diff-row { display:flex; gap:12px; padding:8px 0; border-bottom:1px solid var(--border); font-size:0.85rem; align-items:flex-start; }
 .diff-topic { flex:1; min-width:0; }
+
+/* Share buttons */
+.share-bar { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+.share-btn { display:inline-flex; align-items:center; gap:6px; padding:7px 14px; border-radius:8px; border:1px solid var(--border); background:transparent; color:var(--muted); cursor:pointer; font-size:0.85rem; font-family:inherit; transition:border-color 0.2s, color 0.2s; }
+.share-btn:hover { border-color:var(--accent); color:var(--accent); }
+.share-btn svg { width:16px; height:16px; flex-shrink:0; }
+.share-btn.share-native { background:var(--accent); color:white; border-color:var(--accent); }
+.share-btn.share-native:hover { opacity:0.9; color:white; }
+.share-copied { color:var(--green) !important; border-color:var(--green) !important; }
 </style>
 </head>
 <body>
@@ -1358,12 +1367,15 @@ function showProfile(name) {
 
     html += `</div>`;
 
-    // Rebellions
-    // Share card section
+    // Share section with social buttons + card download + embed
     if (hasVotes) {
+      const profileShareUrl = '{{SITE_URL}}/profil/' + profile.slug + '/';
+      const profileShareTitle = profile.name + ' \u2013 Radoskop {{CITY_NAME}}';
+      const profileShareText = profile.name + ' (' + club + '): frekwencja ' + Math.round(kd.frekwencja) + '%, zgodność z klubem ' + Math.round(kd.zgodnosc_z_klubem) + '%. Sprawdź na Radoskopie!';
       html += `<div class="section">
         <h2>Udostępnij</h2>
-        <div style="display:flex;gap:10px;flex-wrap:wrap">
+        ${shareBar(profileShareTitle, profileShareText, profileShareUrl, 'profile-share')}
+        <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:12px">
           <button style="padding:6px 14px;border-radius:8px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;font-size:0.85rem;font-family:inherit" onclick="downloadCard('${profile.name.replace(/'/g,"\\'")}','${club}',${kd.frekwencja},${kd.aktywnosc},${kd.zgodnosc_z_klubem},${kd.votes_za},${kd.votes_przeciw},${kd.votes_wstrzymal})">
             📥 Pobierz kartę (PNG)
           </button>
@@ -1879,6 +1891,14 @@ function showVote(voteId) {
       ${vote.druk ? `<div style="color:var(--muted);margin-top:4px">Druk: ${vote.druk}</div>` : ''}
       ${vote.resolution ? `<div style="color:var(--muted)">Uchwała: ${vote.resolution}</div>` : ''}
       ${vote.source_url ? `<div style="margin-top:6px"><a href="${vote.source_url}" target="_blank" rel="noopener" style="color:var(--accent);font-size:0.85rem">Protokół głosowania (BIP) ↗</a></div>` : ''}
+      <div style="margin-top:12px">
+        ${shareBar(
+          (vote.topic || voteId).substring(0, 80) + ' \u2013 Radoskop {{CITY_NAME}}',
+          (passed ? 'Przyjęte' : 'Odrzucone') + ': za ' + (c.za||0) + ', przeciw ' + (c.przeciw||0) + ', wstrzym. ' + (c.wstrzymal_sie||0) + '. ' + (vote.topic || '').substring(0, 100),
+          '{{SITE_URL}}/glosowanie/' + voteId + '/',
+          'vote-share'
+        )}
+      </div>
     </div>
 
     <div class="profile-metrics" style="margin-bottom:24px">
@@ -2010,6 +2030,14 @@ function showSession(sessionNumber) {
     <div style="margin-bottom:24px">
       <h2 style="font-size:1.3rem;font-weight:600;border:none;padding:0">Sesja ${sess.number} · ${sess.date}</h2>
       ${sess.source_url ? `<div style="margin-top:6px"><a href="${sess.source_url}" target="_blank" rel="noopener" style="color:var(--accent);font-size:0.85rem">Protokół głosowania (BIP) ↗</a></div>` : ''}
+      <div style="margin-top:12px">
+        ${shareBar(
+          'Sesja ' + sess.number + ' (' + (sess.date||'') + ') \u2013 Radoskop {{CITY_NAME}}',
+          'Sesja ' + sess.number + ': ' + sessVoteCount + ' głosowań, ' + (sess.attendee_count||present.size||0) + ' obecnych radnych.',
+          '{{SITE_URL}}/sesja/' + encodeURIComponent(sessionNumber) + '/',
+          'session-share'
+        )}
+      </div>
     </div>
 
     <div class="profile-metrics" style="margin-bottom:24px">
@@ -2632,6 +2660,53 @@ function showEmbedCode(slug) {
     modal.style.display='block';
     code.value=`<iframe src="{{SITE_URL}}/profil/${slug}/" width="400" height="500" frameborder="0" style="border:1px solid #e2e5e9;border-radius:12px" title="Radoskop {{CITY_NAME}}"></iframe>`;
   } else { modal.style.display='none'; }
+}
+
+// Social sharing
+function shareBar(title, text, url, containerId) {
+  var hasNative = typeof navigator.share === 'function';
+  var svgShare = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12v8a2 2 0 002 2h12a2 2 0 002-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>';
+  var svgX = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>';
+  var svgFb = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>';
+  var svgLink = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg>';
+
+  var encodedUrl = encodeURIComponent(url);
+  var encodedTitle = encodeURIComponent(title);
+  var encodedText = encodeURIComponent(text);
+
+  var html = '<div class="share-bar">';
+
+  if (hasNative) {
+    html += '<button class="share-btn share-native" onclick="nativeShare(\'' + encodedTitle + '\',\'' + encodedText + '\',\'' + encodedUrl + '\')">' + svgShare + ' Udostępnij</button>';
+  }
+
+  html += '<a class="share-btn" href="https://x.com/intent/tweet?text=' + encodedText + '&url=' + encodedUrl + '" target="_blank" rel="noopener" title="Udostępnij na X">' + svgX + ' X</a>';
+  html += '<a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u=' + encodedUrl + '" target="_blank" rel="noopener" title="Udostępnij na Facebooku">' + svgFb + ' Facebook</a>';
+  html += '<button class="share-btn" id="' + containerId + '-copy" onclick="copyShareLink(\'' + encodedUrl + '\',\'' + containerId + '-copy\')" title="Kopiuj link">' + svgLink + ' Kopiuj link</button>';
+  html += '</div>';
+  return html;
+}
+
+function nativeShare(encodedTitle, encodedText, encodedUrl) {
+  navigator.share({
+    title: decodeURIComponent(encodedTitle),
+    text: decodeURIComponent(encodedText),
+    url: decodeURIComponent(encodedUrl)
+  }).catch(function(){});
+}
+
+function copyShareLink(encodedUrl, btnId) {
+  var url = decodeURIComponent(encodedUrl);
+  navigator.clipboard.writeText(url).then(function() {
+    var btn = document.getElementById(btnId);
+    if (btn) {
+      btn.classList.add('share-copied');
+      var orig = btn.innerHTML;
+      var svgCheck = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px"><polyline points="20 6 9 17 4 12"/></svg>';
+      btn.innerHTML = svgCheck + ' Skopiowano!';
+      setTimeout(function() { btn.innerHTML = orig; btn.classList.remove('share-copied'); }, 2000);
+    }
+  });
 }
 
 window.addEventListener('popstate', async () => {
