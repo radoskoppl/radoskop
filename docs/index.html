@@ -194,6 +194,41 @@ a.vote-item:hover { border-color:var(--accent); box-shadow:0 2px 12px rgba(79,70
 .seo-intro { max-width:700px; margin:0 auto 10px; text-align:center; }
 .seo-intro p { color:var(--muted); font-size:0.88rem; line-height:1.7; }
 
+/* ── Ranking radnych z 13 miast ── */
+.ranking-section { border-top:1px solid var(--border); padding:40px 0; }
+.ranking-section h3 { font-size:1.3rem; font-weight:700; margin-bottom:4px; }
+.ranking-controls { display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin-bottom:20px; }
+.ranking-tab { padding:6px 14px; border-radius:8px; border:1px solid var(--border); background:transparent; color:var(--muted); cursor:pointer; font-size:0.82rem; font-weight:500; font-family:inherit; transition:border-color 0.15s, color 0.15s, background 0.15s; }
+.ranking-tab:hover { border-color:var(--accent); color:var(--accent); }
+.ranking-tab.active { background:var(--accent); color:white; border-color:var(--accent); }
+.ranking-sep { width:1px; height:20px; background:var(--border); margin:0 4px; }
+.ranking-dir { padding:6px 14px; border-radius:8px; border:1px solid var(--border); background:transparent; color:var(--muted); cursor:pointer; font-size:0.82rem; font-weight:500; font-family:inherit; transition:border-color 0.15s, color 0.15s; }
+.ranking-dir:hover { color:var(--text); border-color:var(--text); }
+.ranking-dir.active { color:var(--text); border-color:var(--text); font-weight:600; }
+.ranking-list { display:flex; flex-direction:column; gap:0; }
+.ranking-row { display:flex; align-items:center; gap:12px; padding:10px 12px; border-bottom:1px solid var(--border); text-decoration:none; color:var(--text); transition:background 0.1s; border-radius:4px; }
+.ranking-row:hover { background:rgba(79,70,229,0.04); }
+.ranking-pos { font-size:0.82rem; font-weight:700; color:var(--muted); min-width:28px; text-align:right; }
+.ranking-pos.top3 { color:var(--accent); font-size:0.92rem; }
+.ranking-avatar { width:34px; height:34px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.78rem; font-weight:700; color:white; flex-shrink:0; }
+.ranking-info { flex:1; min-width:0; }
+.ranking-name { font-weight:600; font-size:0.88rem; }
+.ranking-meta { font-size:0.75rem; color:var(--muted); display:flex; gap:8px; }
+.ranking-stat { font-size:0.82rem; font-weight:700; min-width:56px; text-align:right; }
+.ranking-stat.good { color:var(--green); }
+.ranking-stat.medium { color:#ca8a04; }
+.ranking-stat.low { color:var(--red); }
+.ranking-bar-wrap { width:80px; height:6px; background:var(--border); border-radius:3px; overflow:hidden; flex-shrink:0; }
+.ranking-bar-fill { height:100%; border-radius:3px; }
+.ranking-more-btn { display:block; width:100%; padding:12px; margin-top:12px; border:1px solid var(--border); border-radius:10px; background:transparent; color:var(--accent); font-size:0.88rem; font-weight:600; cursor:pointer; font-family:inherit; transition:background 0.15s, border-color 0.15s; }
+.ranking-more-btn:hover { background:rgba(79,70,229,0.05); border-color:var(--accent); }
+@media (max-width:600px) {
+  .ranking-bar-wrap { display:none; }
+  .ranking-controls { gap:4px; }
+  .ranking-tab, .ranking-dir { padding:5px 10px; font-size:0.78rem; }
+  .ranking-sep { display:none; }
+}
+
 /* ── Wyszukiwarka radnych ── */
 .search-section { max-width:560px; margin:0 auto 40px; position:relative; }
 .search-input { width:100%; padding:14px 18px 14px 44px; border:2px solid var(--border); border-radius:12px; background:var(--surface); color:var(--text); font-size:1rem; font-family:inherit; outline:none; transition:border-color 0.2s; }
@@ -372,6 +407,23 @@ a.vote-item:hover { border-color:var(--accent); box-shadow:0 2px 12px rgba(79,70
       </table>
     </div>
 
+  </div>
+
+  <div class="ranking-section" id="ranking-all">
+    <h3>Ranking radnych z 13 miast</h3>
+    <p class="comparison-subtitle">Kadencja 2024–2029 — kto jest najaktywniejszy, a kto najczęściej opuszcza sesje?</p>
+
+    <div class="ranking-controls">
+      <button class="ranking-tab active" data-sort="f" onclick="rankingSort('f',this)">Frekwencja</button>
+      <button class="ranking-tab" data-sort="a" onclick="rankingSort('a',this)">Aktywność</button>
+      <button class="ranking-tab" data-sort="z" onclick="rankingSort('z',this)">Buntownictwo</button>
+      <div class="ranking-sep"></div>
+      <button class="ranking-dir active" data-dir="desc" onclick="rankingDir('desc',this)">Najwyżsi</button>
+      <button class="ranking-dir" data-dir="asc" onclick="rankingDir('asc',this)">Najniżsi</button>
+    </div>
+
+    <div class="ranking-list" id="ranking-list"></div>
+    <button class="ranking-more-btn" id="ranking-more" onclick="rankingShowMore()" style="display:none">Pokaż więcej</button>
   </div>
 
   <div class="sessions-feed" id="sessions">
@@ -1159,7 +1211,9 @@ const invChart = new Chart(document.getElementById('chartInvestments'), {
     .then(function(r) { return r.json(); })
     .then(function(data) {
       councilorsIndex = data;
+      window._radoskopCouncilors = data;
       if (searchCount) searchCount.textContent = data.length + ' radnych z 13 miast';
+      rankingInit(data);
     })
     .catch(function() {
       // Indeks niedostępny — ukryj szukajkę
@@ -1167,6 +1221,128 @@ const invChart = new Chart(document.getElementById('chartInvestments'), {
       if (section) section.style.display = 'none';
     });
 })();
+
+// ── Ranking radnych z 13 miast ──
+var _rankState = { data: [], sortKey: 'f', dir: 'desc', shown: 20 };
+
+var _rankAvatarColors = ['#4f46e5','#0284c7','#16a34a','#d97706','#dc2626','#7c3aed','#0891b2','#db2777','#059669','#ea580c'];
+function _rankAvatarColor(name) {
+  var parts = name.split(' ');
+  var ch = (parts.length > 1 ? parts[parts.length-1] : parts[0]).charCodeAt(0);
+  return _rankAvatarColors[ch % _rankAvatarColors.length];
+}
+function _rankInitials(name) {
+  var p = name.split(' ');
+  if (p.length >= 2) return (p[0][0] + p[p.length-1][0]).toUpperCase();
+  return p[0].substring(0,2).toUpperCase();
+}
+function _rankStatClass(val, key) {
+  if (key === 'z') {
+    // Buntownictwo: higher = more rebellious (reversed scale)
+    if (val >= 10) return 'low';
+    if (val >= 3) return 'medium';
+    return 'good';
+  }
+  if (val >= 90) return 'good';
+  if (val >= 70) return 'medium';
+  return 'low';
+}
+function _rankBarColor(val, key) {
+  if (key === 'z') {
+    if (val >= 10) return '#dc2626';
+    if (val >= 3) return '#ca8a04';
+    return '#16a34a';
+  }
+  if (val >= 90) return '#16a34a';
+  if (val >= 70) return '#ca8a04';
+  return '#dc2626';
+}
+function _rankLabel(key) {
+  if (key === 'f') return 'frekw.';
+  if (key === 'a') return 'aktywn.';
+  return 'bunt.';
+}
+function _rankCitySlug(city) {
+  var map = {'Gdańsk':'gd','Warszawa':'waw','Kraków':'krk','Wrocław':'wro','Poznań':'poz','Gdynia':'gdy','Sopot':'sop','Łódź':'ldz','Szczecin':'szn','Lublin':'lub','Bydgoszcz':'byd','Katowice':'kat','Białystok':'bia'};
+  return map[city] || '';
+}
+
+function rankingInit(data) {
+  _rankState.data = data;
+  _rankState.shown = 20;
+  rankingRender();
+}
+
+function rankingSort(key, btn) {
+  _rankState.sortKey = key;
+  _rankState.shown = 20;
+  document.querySelectorAll('.ranking-tab').forEach(function(b){ b.classList.remove('active'); });
+  btn.classList.add('active');
+  rankingRender();
+}
+
+function rankingDir(dir, btn) {
+  _rankState.dir = dir;
+  _rankState.shown = 20;
+  document.querySelectorAll('.ranking-dir').forEach(function(b){ b.classList.remove('active'); });
+  btn.classList.add('active');
+  rankingRender();
+}
+
+function rankingShowMore() {
+  _rankState.shown += 30;
+  rankingRender();
+}
+
+function rankingRender() {
+  var data = _rankState.data;
+  if (!data || !data.length) return;
+
+  var key = _rankState.sortKey;
+  var asc = (_rankState.dir === 'asc');
+
+  // Kopiuj i sortuj
+  var sorted = data.slice().sort(function(a, b) {
+    var va = a[key] || 0, vb = b[key] || 0;
+    return asc ? (va - vb) : (vb - va);
+  });
+
+  var max = Math.min(sorted.length, _rankState.shown);
+  var maxVal = key === 'z' ? Math.max(sorted[0][key] || 0, 1) : 100;
+  var html = '';
+
+  for (var i = 0; i < max; i++) {
+    var c = sorted[i];
+    var val = c[key] || 0;
+    var profileUrl = c.u + '/radny/' + c.s;
+    var cSlug = _rankCitySlug(c.c);
+    var barPct = key === 'z' ? Math.min((val / maxVal) * 100, 100) : val;
+
+    html += '<a class="ranking-row" href="' + profileUrl + '">'
+      + '<span class="ranking-pos' + (i < 3 ? ' top3' : '') + '">' + (i+1) + '.</span>'
+      + '<div class="ranking-avatar" style="background:' + _rankAvatarColor(c.n) + '">' + _rankInitials(c.n) + '</div>'
+      + '<div class="ranking-info">'
+      + '<div class="ranking-name">' + c.n + '</div>'
+      + '<div class="ranking-meta">'
+      + '<span class="vote-city ' + cSlug + '" style="font-size:0.68rem;padding:1px 6px">' + c.c + '</span>'
+      + (c.k ? '<span>' + c.k + '</span>' : '')
+      + '</div>'
+      + '</div>'
+      + '<div class="ranking-bar-wrap"><div class="ranking-bar-fill" style="width:' + barPct.toFixed(0) + '%;background:' + _rankBarColor(val, key) + '"></div></div>'
+      + '<span class="ranking-stat ' + _rankStatClass(val, key) + '">' + val.toFixed(1) + '% ' + _rankLabel(key) + '</span>'
+      + '</a>';
+  }
+
+  document.getElementById('ranking-list').innerHTML = html;
+
+  var moreBtn = document.getElementById('ranking-more');
+  if (max < sorted.length) {
+    moreBtn.style.display = 'block';
+    moreBtn.textContent = 'Pokaż więcej (' + max + ' z ' + sorted.length + ')';
+  } else {
+    moreBtn.style.display = 'none';
+  }
+}
 </script>
 </main>
 </body>

@@ -412,6 +412,16 @@ def process_city(city_dir: Path):
     sitemap_entries.append({"loc": terms_canonical, "changefreq": "yearly", "priority": "0.3"})
 
     # ════════════════════════════════════════════
+    # 6c. Reports page
+    # ════════════════════════════════════════════
+    reports_canonical = f"{site_url}/raporty/"
+    reports_title = f"Raporty PDF \u2013 Radoskop {city_name}"
+    reports_desc = f"Szczeg\u00f3\u0142owe raporty PDF z analiz\u0105 pracy radnych, klub\u00f3w i rady miasta {city_gen}. Frekwencja, g\u0142osowania, rebelie."
+    reports_page = make_page(main_html, reports_canonical, reports_title, reports_desc)
+    write_page(docs / "raporty" / "index.html", reports_page)
+    sitemap_entries.append({"loc": reports_canonical, "changefreq": "weekly", "priority": "0.6"})
+
+    # ════════════════════════════════════════════
     # 7. Fix main index.html canonical
     # ════════════════════════════════════════════
     main_canonical = f"{site_url}/"

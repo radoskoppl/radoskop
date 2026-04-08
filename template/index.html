@@ -363,14 +363,17 @@ footer a { color:var(--accent); text-decoration:none; }
   <!-- Terms of service view -->
   <div id="terms-view" style="display:none"></div>
 
+  <!-- Reports catalog view -->
+  <div id="reports-view" style="display:none"></div>
+
   <footer>
     <div style="margin-bottom:10px">
       <a href="https://radoskop.pl">Radoskop</a>:
-      <a href="https://gdansk.radoskop.pl">Gdańsk</a> · <a href="https://gdynia.radoskop.pl">Gdynia</a> · <a href="https://krakow.radoskop.pl">Kraków</a> · <a href="https://lublin.radoskop.pl">Lublin</a> · <a href="https://lodz.radoskop.pl">Łódź</a> · <a href="https://poznan.radoskop.pl">Poznań</a> · <a href="https://sopot.radoskop.pl">Sopot</a> · <a href="https://szczecin.radoskop.pl">Szczecin</a> · <a href="https://warszawa.radoskop.pl">Warszawa</a> · <a href="https://wroclaw.radoskop.pl">Wrocław</a>
+      <a href="https://bialystok.radoskop.pl">Białystok</a> · <a href="https://bydgoszcz.radoskop.pl">Bydgoszcz</a> · <a href="https://gdansk.radoskop.pl">Gdańsk</a> · <a href="https://gdynia.radoskop.pl">Gdynia</a> · <a href="https://katowice.radoskop.pl">Katowice</a> · <a href="https://krakow.radoskop.pl">Kraków</a> · <a href="https://lublin.radoskop.pl">Lublin</a> · <a href="https://lodz.radoskop.pl">Łódź</a> · <a href="https://poznan.radoskop.pl">Poznań</a> · <a href="https://sopot.radoskop.pl">Sopot</a> · <a href="https://szczecin.radoskop.pl">Szczecin</a> · <a href="https://warszawa.radoskop.pl">Warszawa</a> · <a href="https://wroclaw.radoskop.pl">Wrocław</a>
     </div>
     Dane źródłowe: <a href="{{BIP_URL}}" target="_blank">{{BIP_NAME}}</a>.
     Kod: <a href="{{GITHUB_URL}}" target="_blank">GitHub</a> (AGPL-3.0).
-    <a href="/polityka-prywatnosci/" onclick="event.preventDefault();showPrivacy()">Polityka prywatności</a> · <a href="/regulamin/" onclick="event.preventDefault();showTerms()">Regulamin</a>
+    <a href="/raporty/" onclick="event.preventDefault();showReports()">Raporty</a> · <a href="/polityka-prywatnosci/" onclick="event.preventDefault();showPrivacy()">Polityka prywatności</a> · <a href="/regulamin/" onclick="event.preventDefault();showTerms()">Regulamin</a>
   </footer>
 
   <!-- Cookie consent banner -->
@@ -591,6 +594,11 @@ async function init() {
       navigateTo(path, true);
       return;
     }
+    if (path === '/raporty' || path === '/raporty/') {
+      showReports();
+      navigateTo(path, true);
+      return;
+    }
     if (path === '/interpelacje' || path === '/interpelacje/') {
       selectKadencjaQuiet(initialKid);
       activateTab('interpelacje');
@@ -680,6 +688,7 @@ function hideAllViews() {
   document.getElementById('session-view').style.display = 'none';
   document.getElementById('privacy-view').style.display = 'none';
   document.getElementById('terms-view').style.display = 'none';
+  document.getElementById('reports-view').style.display = 'none';
 }
 
 let currentTab = 'ranking';
@@ -1030,6 +1039,137 @@ function showTerms() {
     url: '{{SITE_URL}}/regulamin/'
   });
   window.scrollTo(0, 0);
+}
+
+// --- Reports catalog page ---
+function showReports() {
+  hideAllViews();
+  var el = document.getElementById('reports-view');
+  el.style.display = 'block';
+
+  var cityName = '{{CITY_NAME}}';
+  var cityGen = '{{CITY_GENITIVE}}';
+  var siteUrl = '{{SITE_URL}}';
+
+  // Build councillor cards from PROFILES
+  var councillorCards = '';
+  if (window.PROFILES && PROFILES.profiles) {
+    var currentKad = (window.RAW && RAW.default_kadencja) || '2024-2029';
+    var active = PROFILES.profiles.filter(function(p) {
+      var kd = p.kadencje[currentKad];
+      return kd && !kd.former;
+    });
+    active.sort(function(a, b) { return a.name.localeCompare(b.name, 'pl'); });
+    active.forEach(function(p) {
+      var kd = p.kadencje[currentKad];
+      var club = kd.club || '';
+      var clubStyle = typeof clubBg === 'function' ? 'background:' + clubBg(club) + ';' : '';
+      councillorCards += '<div class="report-card" style="border:1px solid var(--border);border-radius:8px;padding:16px;' + clubStyle + '">'
+        + '<div style="font-weight:600;margin-bottom:4px">' + p.name + '</div>'
+        + '<div style="color:var(--muted);font-size:0.85rem;margin-bottom:8px">' + club + ' · Frekwencja: ' + (kd.frekwencja != null ? kd.frekwencja.toFixed(1) + '%' : 'b/d') + '</div>'
+        + '<div style="display:flex;gap:8px;flex-wrap:wrap">'
+        + '<a href="/raporty/radny/' + p.slug + '.pdf" class="report-btn" style="display:inline-block;padding:6px 14px;background:var(--accent, #2563eb);color:#fff;border-radius:6px;font-size:0.8rem;text-decoration:none">Pobierz raport PDF</a>'
+        + '<span style="color:var(--muted);font-size:0.8rem;align-self:center">9,99 zł</span>'
+        + '</div>'
+        + '</div>';
+    });
+  }
+
+  // Build club cards from K (current kadencja data)
+  var clubCards = '';
+  if (window.K && K.clubs) {
+    Object.keys(K.clubs).sort().forEach(function(clubName) {
+      var count = K.clubs[clubName];
+      var clubStyle = typeof clubBg === 'function' ? 'background:' + clubBg(clubName) + ';' : '';
+      var clubSlug = clubName.toLowerCase().replace(/[^a-z0-9]/g, '-');
+      clubCards += '<div class="report-card" style="border:1px solid var(--border);border-radius:8px;padding:16px;' + clubStyle + '">'
+        + '<div style="font-weight:600;margin-bottom:4px">Klub: ' + clubName + '</div>'
+        + '<div style="color:var(--muted);font-size:0.85rem;margin-bottom:8px">' + count + ' radnych</div>'
+        + '<div style="display:flex;gap:8px;flex-wrap:wrap">'
+        + '<a href="/raporty/klub/' + clubSlug + '.pdf" class="report-btn" style="display:inline-block;padding:6px 14px;background:var(--accent, #2563eb);color:#fff;border-radius:6px;font-size:0.8rem;text-decoration:none">Pobierz raport PDF</a>'
+        + '<span style="color:var(--muted);font-size:0.8rem;align-self:center">14,99 zł</span>'
+        + '</div>'
+        + '</div>';
+    });
+  }
+
+  el.innerHTML = '<div style="max-width:900px;margin:0 auto;padding:20px 0">'
+    + '<button class="profile-back" onclick="showMain()">← Strona główna</button>'
+    + '<h1 style="font-size:1.5rem;margin:20px 0 10px">Raporty Radoskop ' + cityName + '</h1>'
+    + '<p style="color:var(--muted);margin-bottom:24px">Szczegółowe raporty PDF z analizą pracy radnych, klubów i rady miasta ' + cityGen + '. '
+    + 'Każdy raport zawiera wykresy, statystyki i porównania na podstawie oficjalnych danych z BIP.</p>'
+
+    // City report
+    + '<h2 style="font-size:1.15rem;margin:28px 0 12px">Raport miasta</h2>'
+    + '<div style="border:1px solid var(--border);border-radius:8px;padding:16px;margin-bottom:24px">'
+    + '<div style="font-weight:600;margin-bottom:4px">Pełny raport: Rada Miasta ' + cityGen + '</div>'
+    + '<div style="color:var(--muted);font-size:0.85rem;margin-bottom:8px">Ranking radnych, analiza klubów, frekwencja, najbardziej kontrowersyjne głosowania, porównanie z innymi miastami.</div>'
+    + '<div style="display:flex;gap:8px;flex-wrap:wrap">'
+    + '<a href="/raporty/miasto.pdf" class="report-btn" style="display:inline-block;padding:6px 14px;background:var(--accent, #2563eb);color:#fff;border-radius:6px;font-size:0.8rem;text-decoration:none">Pobierz raport PDF</a>'
+    + '<span style="color:var(--muted);font-size:0.8rem;align-self:center">29,99 zł</span>'
+    + '</div>'
+    + '</div>'
+
+    // Club reports
+    + '<h2 style="font-size:1.15rem;margin:28px 0 12px">Raporty klubów</h2>'
+    + '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin-bottom:24px">'
+    + clubCards
+    + '</div>'
+
+    // Councillor reports
+    + '<h2 style="font-size:1.15rem;margin:28px 0 12px">Raporty radnych</h2>'
+    + '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin-bottom:24px">'
+    + councillorCards
+    + '</div>'
+
+    // Info
+    + '<div style="border-top:1px solid var(--border);margin-top:32px;padding-top:16px;color:var(--muted);font-size:0.85rem">'
+    + '<p><strong>Co zawiera raport radnego?</strong> Frekwencja na sesjach z rozbiciem na miesiące, rozkład głosów (za/przeciw/wstrzymał się), '
+    + 'lista rebelii (głosowania wbrew klubowi), porównanie z innymi radnymi z tego samego klubu, '
+    + 'najważniejsze głosowania i statystyki aktywności.</p>'
+    + '<p style="margin-top:8px"><strong>Co zawiera raport klubu?</strong> Lista członków z rankingiem frekwencji i aktywności, '
+    + 'spójność głosowań klubu, najczęściej głosujący wbrew klubowi, porównanie z innymi klubami w radzie.</p>'
+    + '<p style="margin-top:8px"><strong>Co zawiera raport miasta?</strong> Kompletny przegląd rady: ranking radnych, analiza klubów, '
+    + 'statystyki sesji, najbardziej kontrowersyjne głosowania, porównanie wskaźników z innymi miastami Radoskop.</p>'
+    + '<p style="margin-top:12px">Płatność obsługiwana przez Stripe. Po zakupie raport zostanie pobrany automatycznie. '
+    + 'Faktura VAT wysyłana na podany adres e-mail.</p>'
+    + '<p style="margin-top:8px">Pytania: <a href="mailto:patrykorwat@gmail.com">patrykorwat@gmail.com</a></p>'
+    + '</div>'
+    + '</div>';
+
+  // Attach click handlers for payment
+  el.querySelectorAll('.report-btn').forEach(function(btn) {
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      var reportPath = btn.getAttribute('href');
+      startReportPurchase(reportPath);
+    });
+  });
+
+  navigateTo('/raporty/');
+  setTitle('Raporty');
+  setOgMeta({
+    title: 'Raporty PDF — Radoskop ' + cityName,
+    description: 'Szczegółowe raporty PDF z analizą pracy radnych, klubów i rady miasta ' + cityGen + '.',
+    url: siteUrl + '/raporty/'
+  });
+  window.scrollTo(0, 0);
+}
+
+function startReportPurchase(reportPath) {
+  // Extract report type and identifier from path
+  // Paths: /raporty/radny/{slug}.pdf, /raporty/klub/{slug}.pdf, /raporty/miasto.pdf
+  var parts = reportPath.replace('/raporty/', '').replace('.pdf', '').split('/');
+  var reportType = parts[0]; // radny, klub, miasto
+  var reportId = parts[1] || '';
+  var citySlug = location.hostname.split('.')[0]; // e.g. "szczecin"
+
+  // Redirect to Stripe Checkout via your backend
+  var checkoutUrl = 'https://radoskop.pl/api/checkout?type=' + encodeURIComponent(reportType)
+    + '&id=' + encodeURIComponent(reportId)
+    + '&city=' + encodeURIComponent(citySlug);
+
+  window.location.href = checkoutUrl;
 }
 
 function showMain() {
@@ -2736,6 +2876,11 @@ window.addEventListener('popstate', async () => {
   }
   if (path === '/regulamin' || path === '/regulamin/') {
     showTerms();
+    _popstateActive = false;
+    return;
+  }
+  if (path === '/raporty' || path === '/raporty/') {
+    showReports();
     _popstateActive = false;
     return;
   }
