@@ -1148,7 +1148,7 @@ const invChart = new Chart(document.getElementById('chartInvestments'), {
     var html = '';
     for (var j = 0; j < max; j++) {
       var r = results[j];
-      var profileUrl = r.u + '/radny/' + r.s;
+      var profileUrl = r.u + '/profil/' + r.s;
       var fClass = frekwencjaClass(r.f);
       html += '<a class="search-result" href="' + profileUrl + '">'
         + '<div class="search-result-avatar" style="background:' + avatarColor(r.n) + '">' + initials(r.n) + '</div>'
@@ -1314,7 +1314,7 @@ function rankingRender() {
   for (var i = 0; i < max; i++) {
     var c = sorted[i];
     var val = c[key] || 0;
-    var profileUrl = c.u + '/radny/' + c.s;
+    var profileUrl = c.u + '/profil/' + c.s;
     var cSlug = _rankCitySlug(c.c);
     var barPct = key === 'z' ? Math.min((val / maxVal) * 100, 100) : val;
 
