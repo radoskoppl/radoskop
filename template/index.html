@@ -1668,54 +1668,7 @@ function showProfile(name) {
       }
     }
 
-    // Fetch interpelacje for this person async and render into placeholder
-    (async () => {
-      const iContainer = document.getElementById('profile-interp-container');
-      if (!iContainer) return;
-      try {
-        const iResp = await fetch(API_BASE + '/interpelacje?radny=' + encodeURIComponent(profile.name) + '&per_page=500');
-        const iData = await iResp.json();
-        const kadSlugUpper = (KAD_SLUGS[kid] || '').toUpperCase();
-        const pName = profile.name.trim();
-        const pLow = pName.toLowerCase();
-        const pNameParts = pName.split(' ');
-        const pRevLow = pNameParts.length >= 2
-          ? (pNameParts.slice(1).join(' ') + ' ' + pNameParts[0]).toLowerCase() : pLow;
-        function interpMatchesName(radnyField) {
-          const norm = radnyField.replace(/ /g, ' ').replace(/\s{2,}/g, ' ');
-          const authors = norm.split(/[,;\r\n]+| i /).map(s => s.replace(/\.$/, '').trim()).filter(Boolean);
-          return authors.some(a => {
-            const al = a.toLowerCase();
-            if (al === pLow || al === pRevLow) return true;
-            const aParts = al.split(/\s+/);
-            if (aParts.length >= 2) {
-              const aFlipped = aParts.slice(-1).concat(aParts.slice(0, -1)).join(' ');
-              if (pLow.indexOf(aFlipped) === 0 || aFlipped.indexOf(pLow) === 0) return true;
-            }
-            return false;
-          });
-        }
-        const personInterp = (iData.items || []).filter(d => {
-          if (!interpMatchesName(d.radny || '')) return false;
-          if (d.kadencja && kadSlugUpper) return d.kadencja.toUpperCase() === kadSlugUpper || d.kadencja === kid;
-          return true;
-        }).sort((a, b) => (b.data_wplywu || '').localeCompare(a.data_wplywu || ''));
-        if (personInterp.length > 0) {
-          let iHtml = `<div class="section"><h2>Interpelacje i zapytania (${personInterp.length})</h2><div style="overflow-x:auto"><table><thead><tr><th>Data</th><th>Typ</th><th>Przedmiot</th><th>Treść</th><th>Odpowiedź</th></tr></thead><tbody>`;
-          personInterp.forEach(d => {
-            const typClass = d.typ === 'interpelacja' ? 'pill-za' : 'pill-wstrzymal';
-            const typLabel = d.typ === 'interpelacja' ? 'Interpelacja' : 'Zapytanie';
-            const trescLink = d.tresc_url ? `<a href="${d.tresc_url}" target="_blank" style="color:var(--accent)">PDF</a>` : '';
-            const odpLink = d.odpowiedz_url ? `<a href="${d.odpowiedz_url}" target="_blank" style="color:var(--accent)">PDF</a>` : (d.data_odpowiedzi ? d.data_odpowiedzi : '<span style="color:var(--muted)">brak</span>');
-            iHtml += `<tr><td style="white-space:nowrap">${d.data_wplywu || ''}</td><td><span class="pill ${typClass}">${typLabel}</span></td><td style="max-width:400px">${d.przedmiot || ''}</td><td>${trescLink}</td><td>${odpLink}</td></tr>`;
-          });
-          iHtml += `</tbody></table></div></div>`;
-          iContainer.innerHTML = iHtml;
-        }
-      } catch(e) { /* silent fail */ }
-    })();
-
-        // Fetch interpelacje for this person async
+    // Fetch interpelacje for this person async — with pagination + search
     (async () => {
       const iContainer = document.getElementById('profile-interp-container');
       if (!iContainer) return;
@@ -1742,27 +1695,77 @@ function showProfile(name) {
             return false;
           });
         }
-        const personInterp = (iData.items || []).filter(d => {
+        const allInterp = (iData.items || []).filter(d => {
           if (!iMatchesName(d.radny || '')) return false;
           if (d.kadencja && kadSlugUpper) return d.kadencja.toUpperCase() === kadSlugUpper || d.kadencja === kid;
           return true;
         }).sort((a, b) => (b.data_wplywu || '').localeCompare(a.data_wplywu || ''));
-        if (personInterp.length > 0) {
-          let iHtml = `<div class="section"><h2>Interpelacje i zapytania (${personInterp.length})</h2><div style="overflow-x:auto"><table><thead><tr><th>Data</th><th>Typ</th><th>Przedmiot</th><th>Treść</th><th>Odpowiedź</th></tr></thead><tbody>`;
-          personInterp.forEach(d => {
+        if (allInterp.length === 0) return;
+
+        const INTERP_PER_PAGE = 20;
+        let _interpQuery = '';
+        let _interpPageNum = 1;
+
+        function renderProfileInterp() {
+          let filtered = allInterp;
+          if (_interpQuery) {
+            const q = _interpQuery.toLowerCase();
+            filtered = allInterp.filter(d =>
+              (d.przedmiot || '').toLowerCase().includes(q) ||
+              (d.typ || '').toLowerCase().includes(q) ||
+              (d.data_wplywu || '').includes(q)
+            );
+          }
+          const totalPages = Math.ceil(filtered.length / INTERP_PER_PAGE) || 1;
+          if (_interpPageNum > totalPages) _interpPageNum = totalPages;
+          const pageItems = filtered.slice((_interpPageNum - 1) * INTERP_PER_PAGE, _interpPageNum * INTERP_PER_PAGE);
+
+          let iHtml = `<div class="section"><h2>Interpelacje i zapytania (${filtered.length})</h2>`;
+          iHtml += `<input type="text" id="interp-search" placeholder="Szukaj w interpelacjach..." value="${_interpQuery.replace(/"/g, '&quot;')}" style="width:100%;padding:8px 12px;border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--text);font-size:0.85rem;margin-bottom:12px;font-family:inherit">`;
+          iHtml += `<div style="overflow-x:auto"><table><thead><tr><th>Data</th><th>Typ</th><th>Przedmiot</th><th>Treść</th><th>Odpowiedź</th></tr></thead><tbody>`;
+          pageItems.forEach(d => {
             const tC = d.typ === 'interpelacja' ? 'pill-za' : 'pill-wstrzymal';
             const tL = d.typ === 'interpelacja' ? 'Interpelacja' : 'Zapytanie';
             const tUrl = d.tresc_url ? `<a href="${d.tresc_url}" target="_blank" style="color:var(--accent)">PDF</a>` : '';
             const oUrl = d.odpowiedz_url ? `<a href="${d.odpowiedz_url}" target="_blank" style="color:var(--accent)">PDF</a>` : (d.data_odpowiedzi ? d.data_odpowiedzi : '<span style="color:var(--muted)">brak</span>');
             iHtml += `<tr><td style="white-space:nowrap">${d.data_wplywu || ''}</td><td><span class="pill ${tC}">${tL}</span></td><td style="max-width:400px">${d.przedmiot || ''}</td><td>${tUrl}</td><td>${oUrl}</td></tr>`;
           });
-          iHtml += `</tbody></table></div></div>`;
+          iHtml += `</tbody></table></div>`;
+          if (totalPages > 1) {
+            const from = (_interpPageNum - 1) * INTERP_PER_PAGE + 1;
+            const to = Math.min(_interpPageNum * INTERP_PER_PAGE, filtered.length);
+            iHtml += `<div style="display:flex;align-items:center;gap:10px;margin-top:12px;flex-wrap:wrap">`;
+            iHtml += `<button class="prof-interp-prev" style="padding:6px 14px;border-radius:8px;border:1px solid var(--border);background:transparent;color:${_interpPageNum > 1 ? 'var(--text)' : 'var(--muted)'};cursor:${_interpPageNum > 1 ? 'pointer' : 'default'};font-size:0.85rem;font-family:inherit" ${_interpPageNum <= 1 ? 'disabled' : ''}>&larr; Poprzednie</button>`;
+            iHtml += `<span style="color:var(--muted);font-size:0.85rem">${from}&ndash;${to} z ${filtered.length}</span>`;
+            iHtml += `<button class="prof-interp-next" style="padding:6px 14px;border-radius:8px;border:1px solid var(--border);background:transparent;color:${_interpPageNum < totalPages ? 'var(--text)' : 'var(--muted)'};cursor:${_interpPageNum < totalPages ? 'pointer' : 'default'};font-size:0.85rem;font-family:inherit" ${_interpPageNum >= totalPages ? 'disabled' : ''}>Nast\u0119pne &rarr;</button>`;
+            iHtml += `</div>`;
+          }
+          iHtml += `</div>`;
           iContainer.innerHTML = iHtml;
+
+          // Wire search
+          const searchEl = document.getElementById('interp-search');
+          if (searchEl) {
+            let debounce;
+            searchEl.addEventListener('input', () => {
+              clearTimeout(debounce);
+              debounce = setTimeout(() => {
+                _interpQuery = searchEl.value.trim();
+                _interpPageNum = 1;
+                renderProfileInterp();
+                document.getElementById('interp-search')?.focus();
+              }, 250);
+            });
+          }
+          // Wire pagination
+          iContainer.querySelector('.prof-interp-prev')?.addEventListener('click', () => { if (_interpPageNum > 1) { _interpPageNum--; renderProfileInterp(); }});
+          iContainer.querySelector('.prof-interp-next')?.addEventListener('click', () => { if (_interpPageNum < totalPages) { _interpPageNum++; renderProfileInterp(); }});
         }
+        renderProfileInterp();
       } catch(e) {}
     })();
 
-        // Fetch person votes from API async and render into placeholder
+            // Fetch person votes from API async and render into placeholder
     if (hasVotes) {
       const profCatOrder = Object.keys(VOTE_CATS).sort((a,b) => (VOTE_CATS[a]?.order||99) - (VOTE_CATS[b]?.order||99));
       const voteLabel = (v) => ({za:'za',przeciw:'przeciw',wstrzymal_sie:isFemale(profile.name)?'wstrzymała się':'wstrzymał się',brak_glosu:'brak głosu',nieobecny:isFemale(profile.name)?'nieobecna':'nieobecny'})[v]||v||'—';
