@@ -1683,8 +1683,7 @@ function showProfile(name) {
           ? (pNameParts.slice(1).join(' ') + ' ' + pNameParts[0]).toLowerCase() : pLow;
         function interpMatchesName(radnyField) {
           const norm = radnyField.replace(/ /g, ' ').replace(/\s{2,}/g, ' ');
-          const authors = norm.split(/[,;
-]+| i /).map(s => s.replace(/\.$/, '').trim()).filter(Boolean);
+          const authors = norm.split(/[,;\r\n]+| i /).map(s => s.replace(/\.$/, '').trim()).filter(Boolean);
           return authors.some(a => {
             const al = a.toLowerCase();
             if (al === pLow || al === pRevLow) return true;
@@ -1730,9 +1729,8 @@ function showProfile(name) {
         const pRevLow = pNameParts.length >= 2
           ? (pNameParts.slice(1).join(' ') + ' ' + pNameParts[0]).toLowerCase() : pLow;
         function iMatchesName(f) {
-          const norm = f.replace(/ /g, ' ').replace(/\s{2,}/g, ' ');
-          const authors = norm.split(/[,;
-]+| i /).map(s => s.replace(/\.$/, '').trim()).filter(Boolean);
+          const norm = f.replace(/\u00a0/g, ' ').replace(/\s{2,}/g, ' ');
+          const authors = norm.split(/[,;\r\n]+| i /).map(s => s.replace(/\.$/, '').trim()).filter(Boolean);
           return authors.some(a => {
             const al = a.toLowerCase();
             if (al === pLow || al === pRevLow) return true;
