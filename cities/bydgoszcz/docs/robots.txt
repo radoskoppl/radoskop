@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /*.json$
+Disallow: /*?p=
+
+Sitemap: https://bydgoszcz.radoskop.pl/sitemap.xml

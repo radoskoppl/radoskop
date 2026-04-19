@@ -1,0 +1,44 @@
+{
+  "city_name": "Katowice",
+  "city_genitive": "Katowic",
+  "site_title": "Radoskop Katowice — Jak głosują radni?",
+  "site_url": "https://katowice.radoskop.pl",
+  "site_description": "Radoskop — otwarte narzędzie monitoringu Rady Miasta Katowice. Sprawdź frekwencję, głosowania i aktywność radnych na sesjach.",
+  "site_description_short": "Otwarte narzędzie monitoringu Rady Miasta Katowice. Frekwencja, głosowania i aktywność radnych.",
+  "bip_url": "https://bip.katowice.eu/Rada_Miasta/",
+  "bip_name": "BIP Katowice",
+  "github_url": "https://github.com/radoskoppl/radoskop",
+  "ga_id": "G-1SH24XVXR3",
+  "author": "Patryk Orwat",
+  "cname": "katowice.radoskop.pl",
+  "clubs": {
+    "KO": {
+      "color": "#0284c7",
+      "bg": "rgba(14,165,233,0.12)",
+      "avatar_bg": "#0369a1"
+    },
+    "PiS": {
+      "color": "#7c3aed",
+      "bg": "rgba(168,85,247,0.12)",
+      "avatar_bg": "#6d28d9"
+    },
+    "Forum": {
+      "color": "#ea580c",
+      "bg": "rgba(234,88,12,0.12)",
+      "avatar_bg": "#b1280f"
+    }
+  },
+  "kadencje": {
+    "2024-2029": {
+      "label": "IX kadencja (2024–2029)",
+      "start": "2024-05-07"
+    }
+  },
+  "has_budget": false,
+  "has_komisje": false,
+  "budget_note": "",
+  "adsense_pub_id": "ca-pub-1616606963057752",
+  "samorzad_type": "miasto",
+  "rada_name": "Rada Miasta Katowic",
+  "rada_name_genitive": "Rady Miasta Katowic"
+}

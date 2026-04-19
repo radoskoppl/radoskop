@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Radoskop Białystok</title>
+  <subtitle>Glosowania, interpelacje i sesje Rady Miasta Białegostoku.</subtitle>
+  <link href="https://bialystok.radoskop.pl/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://bialystok.radoskop.pl/" rel="alternate" type="text/html"/>
+  <id>https://bialystok.radoskop.pl/</id>
+  <updated>2026-04-13T05:18:55Z</updated>
+  <author>
+    <name>Radoskop</name>
+    <uri>https://radoskop.pl</uri>
+  </author>
+  <entry>
+    <title>Interpelacja: pomiarów głośności ruchu na Trasie Niepodległości na odcinku Starosielce</title>
+    <link href="https://bialystok.radoskop.pl/interpelacje/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/interpelacje/#interpelacja</id>
+    <published>2026-04-10T12:00:00+01:00</published>
+    <updated>2026-04-10T12:00:00+01:00</updated>
+    <summary type="html">Karol Masztalerz. pomiarów głośności ruchu na Trasie Niepodległości na odcinku Starosielce</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>wprowadzenia do porządku obrad projektu uchwały w sprawie wyrażenia zgody na zawarcie porozumienia w</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_000_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_000_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>wprowadzenia do porządku obrad punktu dot. przekazania skargi na Kierownika Schroniska dla Zwierząt </title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_001_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_001_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 23, przeciw 1, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>wprowadzenia do porządku obrad punktu dot. przekazania skargi na Dyrektora Żłobka Miejskiego Nr 2 w </title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_002_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_002_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 2). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>wprowadzenia do porządku obrad projektu stanowiska w sprawie przeniesienia produkcji „Biaglass Huty </title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_003_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_003_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>włączenia do porządku obrad projektu stanowiska w sprawie budowy dróg ekspresowych</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_004_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_004_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 11, przeciw 14, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia porządku obrad.</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_005_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_005_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 22, przeciw 1, wstrzym. 4). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały zmieniającej uchwałę w sprawie Wieloletniej Prognozy Finansowej Miasta Białegostok</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_006_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_006_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 16, przeciw 0, wstrzym. 9). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia zgłoszonej poprawki</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_007_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_007_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 9, przeciw 14, wstrzym. 2). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały zmieniającej uchwałę w sprawie budżetu Miasta Białegostoku na 2026 rok</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_008_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_008_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 17, przeciw 1, wstrzym. 9). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie udzielenia pomocy rzeczowej mieszkańcom łuckiej miejskiej gromady teryto</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_009_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_009_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 14, przeciw 5, wstrzym. 4). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie udzielenia w 2026 roku z budżetu Miasta Białystok dotacji celowych na pr</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_010_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_010_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 25, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie przyjęcia „Programu Edukacji Kulturowej - Białystok z kulturą” (PEK)</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_011_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_011_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 18, przeciw 1, wstrzym. 7). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie ustanowienia pomników przyrody</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_012_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_012_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie wyrażenia zgody na zawarcie porozumienia międzygminnego z Gminą Grabówka</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_013_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_013_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie zadań, na które Miasto Białystok przeznacza środki Państwowego Funduszu </title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_014_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_014_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie wyrażenia zgody na zawarcie porozumienia dotyczącego współfinansowania k</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_015_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_015_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 25, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały zmieniającej uchwałę w sprawie określenia przystanków komunikacyjnych, których wła</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_016_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_016_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie wyrażenia zgody na zbycie udziału w wysokości 1 części w spółdzielczym w</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_017_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_017_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 23, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie nadania nazwy Rondo Franciszki Ramotowskiej ps. „Iskra” rondu położonemu</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_018_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_018_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie nadania nazwy – Edwarda Redlińskiego ulicy położonej na osiedlu nr 6 – P</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_019_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_019_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjecia uchwały w sprawie nadania nazwy – Macedońska ulicy położonej na osiedlu nr 20 – Starosielc</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_020_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_020_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie nadania nazwy – Pigwowa ulicy położonej na osiedlu nr 24 – Dziesięciny I</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_021_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_021_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 25, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie ogłoszenia jednolitego tekstu uchwały w sprawie powołania Młodzieżowej R</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_022_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_022_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 23, przeciw 0, wstrzym. 1). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie ustalenia wynagrodzenia Prezydentowi Miasta Białegostoku</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_023_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_023_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 17, przeciw 2, wstrzym. 1). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie wyrażenia zgody na zawarcie porozumienia w sprawie powołania Centrum Wym</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_024_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_024_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 1). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia stanowiska w sprawie przeniesienia produkcji „Biaglass Huty Szkła Białystok” z Białegostok</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_025_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_025_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia odpowiedzi na petycję w sprawie wykupu mieszkań komunalnych.</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_026_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_026_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 13, przeciw 8, wstrzym. 2). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przekazania Prezydentowi Miasta Białegostoku skargi na Kierownika Schroniska dla Zwierząt „Dolina Do</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_027_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_027_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 21, przeciw 0, wstrzym. 5). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przekazanie skargi na Dyrektora Żłobka Miejskiego Nr 2 w Białymstoku.</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-03-30_028_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-03-30_028_000/#vote</id>
+    <published>2026-03-30T12:00:00+01:00</published>
+    <updated>2026-03-30T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 19, przeciw 0, wstrzym. 6). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>zmiany kolejności rozpatrywania punktów tj. przesunięcie punktu 8 przed punkt 7</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_000_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_000_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 15, przeciw 1, wstrzym. 7). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>wprowadzenie do porządku obrad punktu dot. przekazania skargi na Dyrektora Centrum Obsługi Placówek </title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_001_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_001_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 21, przeciw 0, wstrzym. 1). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia porządku obrad.</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_002_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_002_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 16, przeciw 0, wstrzym. 7). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały zmieniającej uchwałę w sprawie Wieloletniej Prognozy Finansowej Miasta Białegostok</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_003_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_003_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 15, przeciw 0, wstrzym. 12). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały zmieniającej uchwałę w sprawie budżetu Miasta Białegostoku na 2026 rok</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_004_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_004_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 16, przeciw 3, wstrzym. 8). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie nadania nazwy Stadionowi lekkoatletycznemu w Białymstoku</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_005_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_005_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie nadania nazwy – Antoniny Sokołowskiej ulicy położonej na osiedlu nr 9 – </title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_006_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_006_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie likwidacji XII Liceum Ogólnokształcącego Mistrzostwa Sportowego w Białym</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_007_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_007_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 16, przeciw 11, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>skierowania projektu uchwały do wnioskodawcy</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_008_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_008_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 11, przeciw 14, wstrzym. 1). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie założenia Zespołu Szkolno-Przedszkolnego Nr 7, 8, 9 i 10 w Białymstoku</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_009_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_009_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 16, przeciw 11, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie składania wniosków o przyjęcie do klas pierwszych szkół ponadpodstawowyc</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_010_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_010_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 23, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie włączenia do porządku obrad projektu stanowiska</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_011_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_011_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 15, przeciw 11, wstrzym. 1). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>włączenia do porządku obrad projektu stanowiska</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_012_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_012_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 9, przeciw 14, wstrzym. 1). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>stwierdzenia, że projekt uchwały w sprawie zmiany miejscowego planu zagospodarowania przestrzennego </title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_013_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_013_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 15, przeciw 0, wstrzym. 10). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie zmiany miejscowego planu zagospodarowania przestrzennego części osiedla </title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_014_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_014_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 25, przeciw 0, wstrzym. 1). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>stwierdzenia, że projekt uchwały w sprawie zmiany miejscowego planu zagospodarowania przestrzennego </title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_015_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_015_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 14, przeciw 0, wstrzym. 11). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie zmiany miejscowego planu zagospodarowania przestrzennego części osiedla </title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_016_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_016_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 3). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>stwierdzenia, że projekt uchwały w sprawie zmiany miejscowego planu zagospodarowania przestrzennego </title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_017_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_017_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 15, przeciw 0, wstrzym. 12). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie zmiany miejscowego planu zagospodarowania przestrzennego części osiedla </title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_018_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_018_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 18, przeciw 0, wstrzym. 7). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>nieuwzględnienia uwag wniesionych do projektu miejscowego planu zagospodarowania przestrzennego częś</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_019_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_019_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 16, przeciw 0, wstrzym. 11). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>stwierdzenia, że projekt uchwały w sprawie miejscowego planu zagospodarowania przestrzennego części </title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_020_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_020_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 15, przeciw 0, wstrzym. 12). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie miejscowego planu zagospodarowania przestrzennego części osiedli Przydwo</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_021_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_021_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 16, przeciw 0, wstrzym. 11). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie szczegółowych warunków umorzenia, odroczenia płatności, rozkładania na r</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_022_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_022_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 25, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie pozostawienia w Cmentarzu Miejskim w Białymstoku nadwyżki środków obroto</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_023_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_023_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjecia uchwały w sprawie wprowadzenia Programu opieki nad zwierzętami bezdomnymi oraz zapobiegani</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_024_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_024_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 1). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie określenia sezonu kąpielowego oraz wykazu kąpielisk na terenie Gminy Bia</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_025_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_025_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie zaliczenia do kategorii dróg gminnych</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_026_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_026_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie wyrażenia zgody na zawarcie porozumienia o współpracy, gwarantującego re</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_027_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_027_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 25, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie wyrażenia zgody na zbycie spółdzielczego własnościowego prawa do lokalu </title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_028_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_028_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 22, przeciw 1, wstrzym. 3). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie wyrażenia zgody na zbycie spółdzielczego własnościowego prawa do lokalu </title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_029_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_029_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 22, przeciw 1, wstrzym. 3). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie nadania statutu Galerii Arsenał w Białymstoku</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_030_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_030_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 23, przeciw 0, wstrzym. 3). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie nadania statutu Białostockiemu Ośrodkowi Kultury</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_031_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_031_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 22, przeciw 0, wstrzym. 5). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie powierzenia Przedsiębiorstwu Usługowo - Handlowo - Produkcyjnemu „LECH” </title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_032_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_032_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 22, przeciw 0, wstrzym. 4). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały zmieniającej uchwałę w sprawie zasad i trybu korzystania z gminnych obiektów i urz</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_033_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_033_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjecia uchwały zmieniającej uchwałę w sprawie nadania statutu Miejskiemu Ośrodkowi Pomocy Rodzini</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_034_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_034_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 15, przeciw 1, wstrzym. 9). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały zmieniającej uchwałę w sprawie szczegółowych zasad ponoszenia odpłatności za pobyt</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_035_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_035_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 2). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały zmieniającej uchwałę w sprawie ustalenia Statutu Żłobka Miejskiego Nr 1 Integracyj</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_036_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_036_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 21, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały zmieniającej uchwałę w sprawie ustalenia Statutu Żłobka Miejskiego Nr 2 w Białymst</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_037_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_037_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 21, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały zmieniającej uchwałę w sprawie ustalenia Statutu Żłobka Miejskiego Nr 3 w Białymst</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_038_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_038_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 22, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały zmieniającej uchwałę w sprawie ustalenia Statutu Żłobka Miejskiego Nr 4 w Białymst</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_039_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_039_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 21, przeciw 0, wstrzym. 1). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały zmieniającej uchwałę w sprawie ustalenia Statutu Żłobka Miejskiego Nr 5 w Białymst</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_040_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_040_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 22, przeciw 0, wstrzym. 1). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały zmieniającej uchwałę w sprawie ustalenia Statutu Żłobka Miejskiego Nr 6 w Białymst</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_041_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_041_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 22, przeciw 0, wstrzym. 1). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały zmieniającej uchwałę w sprawie ustalenia Statutu Żłobka Miejskiego Nr 7 w Białymst</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_042_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_042_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 22, przeciw 0, wstrzym. 1). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały zmieniającej uchwałę w sprawie ustalenia Statutu Żłobka Miejskiego Nr 8 w Białymst</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_043_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_043_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 22, przeciw 0, wstrzym. 2). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały zmieniającej uchwałę w sprawie ustalenia Statutu Żłobka Miejskiego Nr 9 w Białymst</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_044_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_044_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 22, przeciw 0, wstrzym. 2). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia stanowiska dotyczącego ustawy o Finansowym Instrumencie Zwiększenia Bezpieczeństwa SAFE</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_045_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_045_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 15, przeciw 10, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przekazania Prezydentowi Miasta Białegostoku załatwienia skargi na Dyrektora Centrum Obsługi Placówe</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-02-23_046_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-02-23_046_000/#vote</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 18, przeciw 0, wstrzym. 7). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>włączenia do porządku obrad projektu stanowiska w sprawie dróg ekspresowych</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-01-15_000_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-01-15_000_000/#vote</id>
+    <published>2026-01-15T12:00:00+01:00</published>
+    <updated>2026-01-15T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 11, przeciw 15, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia porządku obrad.</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-01-15_001_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-01-15_001_000/#vote</id>
+    <published>2026-01-15T12:00:00+01:00</published>
+    <updated>2026-01-15T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 20, przeciw 1, wstrzym. 4). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>nieuwzględnienia uwag wniesionych do projektu miejscowego planu zagospodarowania przestrzennego częś</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-01-15_002_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-01-15_002_000/#vote</id>
+    <published>2026-01-15T12:00:00+01:00</published>
+    <updated>2026-01-15T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 15, przeciw 0, wstrzym. 8). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>stwierdzenia, że projekt uchwały w sprawie miejscowego planu zagospodarowania przestrzennego części </title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-01-15_003_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-01-15_003_000/#vote</id>
+    <published>2026-01-15T12:00:00+01:00</published>
+    <updated>2026-01-15T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 15, przeciw 0, wstrzym. 8). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie miejscowego planu zagospodarowania przestrzennego części osiedla Wygoda </title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-01-15_004_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-01-15_004_000/#vote</id>
+    <published>2026-01-15T12:00:00+01:00</published>
+    <updated>2026-01-15T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 16, przeciw 4, wstrzym. 3). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjecia uchwały w sprawie ustanowienia użytku ekologicznego "Stawy Marczukowskie i Dolina Bażantar</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-01-15_005_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-01-15_005_000/#vote</id>
+    <published>2026-01-15T12:00:00+01:00</published>
+    <updated>2026-01-15T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 25, przeciw 0, wstrzym. 1). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie zamiaru likwidacji XII Liceum Ogólnokształcącego Mistrzostwa Sportowego </title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-01-15_006_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-01-15_006_000/#vote</id>
+    <published>2026-01-15T12:00:00+01:00</published>
+    <updated>2026-01-15T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 15, przeciw 7, wstrzym. 4). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie ustalenia planu sieci publicznych szkół ponadpodstawowych i szkół specja</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-01-15_007_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-01-15_007_000/#vote</id>
+    <published>2026-01-15T12:00:00+01:00</published>
+    <updated>2026-01-15T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 1). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie ogłoszenia jednolitego tekstu uchwały w sprawie wspierania białostockieg</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-01-15_008_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-01-15_008_000/#vote</id>
+    <published>2026-01-15T12:00:00+01:00</published>
+    <updated>2026-01-15T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie ogłoszenia jednolitego tekstu uchwały w sprawie zasad i trybu korzystani</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-01-15_009_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-01-15_009_000/#vote</id>
+    <published>2026-01-15T12:00:00+01:00</published>
+    <updated>2026-01-15T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjecia odpowiedzi na wniosek pani E. B. M. o uznanie za pomnik przyrody drzew rosnących na działc</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-01-15_010_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-01-15_010_000/#vote</id>
+    <published>2026-01-15T12:00:00+01:00</published>
+    <updated>2026-01-15T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 16, przeciw 8, wstrzym. 2). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przekazania Prezydentowi Miasta Białegostoku załatwienia skargi na Kierownika Schroniska dla Zwierzą</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-01-15_011_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-01-15_011_000/#vote</id>
+    <published>2026-01-15T12:00:00+01:00</published>
+    <updated>2026-01-15T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 18, przeciw 0, wstrzym. 6). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia Sprawozdania Prezydenta Miasta Białegostoku z działalności Komisji bezpieczeństwa i porząd</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2026-01-15_012_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2026-01-15_012_000/#vote</id>
+    <published>2026-01-15T12:00:00+01:00</published>
+    <updated>2026-01-15T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 17, przeciw 3, wstrzym. 4). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia porządku obrad.</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2025-12-22_000_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2025-12-22_000_000/#vote</id>
+    <published>2025-12-22T12:00:00+01:00</published>
+    <updated>2025-12-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 23, przeciw 0, wstrzym. 1). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie Wieloletniej Prognozy Finansowej Miasta Białegostoku na lata 2026 – 2045</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2025-12-22_001_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2025-12-22_001_000/#vote</id>
+    <published>2025-12-22T12:00:00+01:00</published>
+    <updated>2025-12-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 15, przeciw 1, wstrzym. 10). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>zmiany sposobu przeprowadzenia głosowania.</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2025-12-22_002_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2025-12-22_002_000/#vote</id>
+    <published>2025-12-22T12:00:00+01:00</published>
+    <updated>2025-12-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 15, przeciw 10, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Łącznego odrzucenia wszystkich poprawek</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2025-12-22_003_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2025-12-22_003_000/#vote</id>
+    <published>2025-12-22T12:00:00+01:00</published>
+    <updated>2025-12-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 15, przeciw 11, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie budżetu Miasta Białegostoku na 2026 rok</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2025-12-22_004_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2025-12-22_004_000/#vote</id>
+    <published>2025-12-22T12:00:00+01:00</published>
+    <updated>2025-12-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 15, przeciw 6, wstrzym. 5). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie ustalenia stawek dotacji przedmiotowych dla samorządowych zakładów budże</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2025-12-22_005_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2025-12-22_005_000/#vote</id>
+    <published>2025-12-22T12:00:00+01:00</published>
+    <updated>2025-12-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 20, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały zmieniającej uchwałę w sprawie Wieloletniej Prognozy Finansowej Miasta Białegostok</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2025-12-22_006_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2025-12-22_006_000/#vote</id>
+    <published>2025-12-22T12:00:00+01:00</published>
+    <updated>2025-12-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 14, przeciw 0, wstrzym. 8). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały zmieniającej uchwałę w sprawie budżetu Miasta Białegostoku na 2025 rok</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2025-12-22_007_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2025-12-22_007_000/#vote</id>
+    <published>2025-12-22T12:00:00+01:00</published>
+    <updated>2025-12-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 15, przeciw 1, wstrzym. 8). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały w sprawie ustalenia wykazu wydatków, które nie wygasają z upływem roku budżetowego</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2025-12-22_008_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2025-12-22_008_000/#vote</id>
+    <published>2025-12-22T12:00:00+01:00</published>
+    <updated>2025-12-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 22, przeciw 1, wstrzym. 2). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>przyjęcia uchwały zmieniającej uchwałę w sprawie ustalenia stawek dotacji przedmiotowych dla samorzą</title>
+    <link href="https://bialystok.radoskop.pl/glosowanie/2025-12-22_009_000/" rel="alternate" type="text/html"/>
+    <id>https://bialystok.radoskop.pl/glosowanie/2025-12-22_009_000/#vote</id>
+    <published>2025-12-22T12:00:00+01:00</published>
+    <updated>2025-12-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 23, przeciw 0, wstrzym. 2). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+</feed>

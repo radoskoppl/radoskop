@@ -1,0 +1,53 @@
+{
+  "city_name": "Kraków",
+  "city_genitive": "Krakowa",
+  "site_title": "Radoskop Kraków — Jak głosują radni?",
+  "site_url": "https://krakow.radoskop.pl",
+  "site_description": "Radoskop — otwarte narzędzie monitoringu Rady Miasta Krakowa. Sprawdź frekwencję, głosowania i aktywność radnych na sesjach.",
+  "site_description_short": "Otwarte narzędzie monitoringu Rady Miasta Krakowa. Frekwencja, głosowania i aktywność radnych.",
+  "bip_url": "https://www.bip.krakow.pl/?bip_id=1&mmi=26458",
+  "bip_name": "BIP Kraków",
+  "github_url": "https://github.com/radoskoppl/radoskop",
+  "ga_id": "G-1SH24XVXR3",
+  "author": "Patryk Orwat",
+  "cname": "krakow.radoskop.pl",
+  "clubs": {
+    "KO": {
+      "color": "#0284c7",
+      "bg": "rgba(14,165,233,0.12)",
+      "avatar_bg": "#0369a1"
+    },
+    "PiS": {
+      "color": "#7c3aed",
+      "bg": "rgba(168,85,247,0.12)",
+      "avatar_bg": "#6d28d9"
+    },
+    "KdM": {
+      "color": "#16a34a",
+      "bg": "rgba(34,197,94,0.12)",
+      "avatar_bg": "#15803d"
+    },
+    "Lewica": {
+      "color": "#dc2626",
+      "bg": "rgba(239,68,68,0.12)",
+      "avatar_bg": "#b91c1c"
+    }
+  },
+  "kadencje": {
+    "2024-2029": {
+      "label": "IX kadencja (2024–2029)",
+      "start": "2024-05-07"
+    },
+    "2018-2024": {
+      "label": "VIII kadencja (2018–2024)",
+      "start": "2018-11-22"
+    }
+  },
+  "has_budget": false,
+  "has_komisje": false,
+  "budget_note": "",
+  "adsense_pub_id": "ca-pub-1616606963057752",
+  "samorzad_type": "miasto",
+  "rada_name": "Rada Miasta Krakowa",
+  "rada_name_genitive": "Rady Miasta Krakowa"
+}

@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Radoskop Katowice</title>
+  <subtitle>Glosowania, interpelacje i sesje Rady Miasta Katowic.</subtitle>
+  <link href="https://katowice.radoskop.pl/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://katowice.radoskop.pl/" rel="alternate" type="text/html"/>
+  <id>https://katowice.radoskop.pl/</id>
+  <updated>2026-04-14T13:51:27Z</updated>
+  <author>
+    <name>Radoskop</name>
+    <uri>https://radoskop.pl</uri>
+  </author>
+  <entry>
+    <title>Interpelacja: wzmożonej kontroli Straży Miejskiej i Policji w rejonie Sklepu Nocnego oraz Placu Miast Partnerskich</title>
+    <link href="https://katowice.radoskop.pl/profil/tomasz-masnica/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/profil/tomasz-masnica/#interpelacja</id>
+    <published>2029-07-15T12:00:00+01:00</published>
+    <updated>2029-07-15T12:00:00+01:00</updated>
+    <summary type="html">Tomasz Maśnica. wzmożonej kontroli Straży Miejskiej i Policji w rejonie Sklepu Nocnego oraz Placu Miast Partnerskich przy ul. Koszalińskiej w Ligocie.</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: zatoki autobusowej na ulicy Śląskiej.</title>
+    <link href="https://katowice.radoskop.pl/interpelacje/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/interpelacje/#interpelacja</id>
+    <published>2026-04-14T12:00:00+01:00</published>
+    <updated>2026-04-14T12:00:00+01:00</updated>
+    <summary type="html">Adam Lejman-Gąska
+Tomasz Maśnica. zatoki autobusowej na ulicy Śląskiej.</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: zapewnienia stałego dostępu do drogi dojazdowej i parkingu przy Szkole Podstawowej nr 54 w Katowicac</title>
+    <link href="https://katowice.radoskop.pl/profil/barbara-mandok/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/profil/barbara-mandok/#interpelacja</id>
+    <published>2026-04-14T12:00:00+01:00</published>
+    <updated>2026-04-14T12:00:00+01:00</updated>
+    <summary type="html">Barbara Mańdok. zapewnienia stałego dostępu do drogi dojazdowej i parkingu przy Szkole Podstawowej nr 54 w Katowicach- Giszowcu</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: stanu technicznego zatok autobusowych w dzielnicach Giszowiec oraz Janów–Nikiszowiec.</title>
+    <link href="https://katowice.radoskop.pl/profil/maria-rys/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/profil/maria-rys/#interpelacja</id>
+    <published>2026-04-13T12:00:00+01:00</published>
+    <updated>2026-04-13T12:00:00+01:00</updated>
+    <summary type="html">Maria Ryś. stanu technicznego zatok autobusowych w dzielnicach Giszowiec oraz Janów–Nikiszowiec.</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: szykan na ulicy Braci Wieczorków.</title>
+    <link href="https://katowice.radoskop.pl/profil/adam-lejman-gaska/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/profil/adam-lejman-gaska/#interpelacja</id>
+    <published>2026-04-10T12:00:00+01:00</published>
+    <updated>2026-04-10T12:00:00+01:00</updated>
+    <summary type="html">Adam Lejman-Gąska. szykan na ulicy Braci Wieczorków.</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: jednoznacznego uwzględnienia w projekcie planu ogólnego miasta Katowice wytycznych chroniących inter</title>
+    <link href="https://katowice.radoskop.pl/profil/leszek-piechota/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/profil/leszek-piechota/#interpelacja</id>
+    <published>2026-04-09T12:00:00+01:00</published>
+    <updated>2026-04-09T12:00:00+01:00</updated>
+    <summary type="html">Leszek Piechota. jednoznacznego uwzględnienia w projekcie planu ogólnego miasta Katowice wytycznych chroniących interesy obecnych mieszkańców w kontekście potencjalnyc</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: weryfikacji możliwości doświetlenia przejścia między ulicami Śląską i Harcerską.</title>
+    <link href="https://katowice.radoskop.pl/profil/roch-sobula/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/profil/roch-sobula/#interpelacja</id>
+    <published>2026-04-08T12:00:00+01:00</published>
+    <updated>2026-04-08T12:00:00+01:00</updated>
+    <summary type="html">Roch Sobula. weryfikacji możliwości doświetlenia przejścia między ulicami Śląską i Harcerską.</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: zmianę przebiegu tras autokarów rejsowych wyjeżdżających z dworca przy ul. Sądowej, tak by były kier</title>
+    <link href="https://katowice.radoskop.pl/profil/adam-skowron/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/profil/adam-skowron/#interpelacja</id>
+    <published>2026-04-07T12:00:00+01:00</published>
+    <updated>2026-04-07T12:00:00+01:00</updated>
+    <summary type="html">Adam Skowron. zmianę przebiegu tras autokarów rejsowych wyjeżdżających z dworca przy ul. Sądowej, tak by były kierowane na Drogową Trasę Średnicową, a nie na ul. Mi</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: Pilnego remontu odcinka chodnika oraz poprawy odwodnienia w rejonie ulicy Bytkowskiej (posesje nr 79</title>
+    <link href="https://katowice.radoskop.pl/profil/lukasz-hankus/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/profil/lukasz-hankus/#interpelacja</id>
+    <published>2026-04-07T12:00:00+01:00</published>
+    <updated>2026-04-07T12:00:00+01:00</updated>
+    <summary type="html">Łukasz Hankus. Pilnego remontu odcinka chodnika oraz poprawy odwodnienia w rejonie ulicy Bytkowskiej (posesje nr 79 i 81).</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: naprawy uszkodzonego chodnika w okolicy ulicy Dębowej 73</title>
+    <link href="https://katowice.radoskop.pl/profil/piotr-pietrasz/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/profil/piotr-pietrasz/#interpelacja</id>
+    <published>2026-04-02T12:00:00+01:00</published>
+    <updated>2026-04-02T12:00:00+01:00</updated>
+    <summary type="html">Piotr Pietrasz. naprawy uszkodzonego chodnika w okolicy ulicy Dębowej 73</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>2. Powołanie sekretarzy sesji.</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-26_000_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-26_000_000/#vote</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>3. Powołanie Komisji Uchwał i Wniosków.</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-26_001_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-26_001_000/#vote</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>4. Przyjęcie protokołu z XXV sesji.</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-26_002_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-26_002_000/#vote</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>9. Rozpatrzenie projektu uchwały w sprawie sprawozdania z realizacji Programu 4 zapobiegania przestę</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-26_003_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-26_003_000/#vote</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>10. Rozpatrzenie projektu uchwały w sprawie oceny stanu zabezpieczenia 5 przeciwpowodziowego i bezpi</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-26_004_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-26_004_000/#vote</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>11. Rozpatrzenie projektu uchwały zmieniającej uchwałę w sprawie przyjęcia Programu 6 Profilaktyki i</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-26_005_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-26_005_000/#vote</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>12. Rozpatrzenie projektu uchwały w sprawie przyjęcia sprawozdania Prezydenta Miasta 7 Katowice z re</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-26_006_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-26_006_000/#vote</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>13. Rozpatrzenie projektu uchwały w sprawie ustalenia zadań realizowanych w 2026 r. ze 8 środków Pań</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-26_007_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-26_007_000/#vote</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>14. Rozpatrzenie projektu uchwały w sprawie przyjęcia programu opieki nad zwierzętami 9 bezdomnymi i</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-26_008_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-26_008_000/#vote</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>15. Rozpatrzenie projektu uchwały w sprawie przyznania pierwszeństwa w nabyciu 49 10 lokali użytkowy</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-26_009_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-26_009_000/#vote</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>16. Rozpatrzenie projektu uchwały w sprawie wyrażenia zgody na oddanie w dzierżawę lub 11 najem w dr</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-26_010_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-26_010_000/#vote</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>17. Rozpatrzenie projektu uchwały w sprawie wyrażenia zgody na oddanie w dzierżawę lub najem w drodz</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-26_011_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-26_011_000/#vote</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>18. Rozpatrzenie projektu uchwały w sprawie wyrażenia zgody na oddanie w dzierżawę lub 13 najem w dr</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-26_012_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-26_012_000/#vote</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>19. Rozpatrzenie projektu uchwały w sprawie wyrażenia zgody na rozłożenie na raty wierzytelności prz</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-26_013_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-26_013_000/#vote</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>20. Rozpatrzenie projektu uchwały w sprawie wyrażenia zgody na rozłożenie na raty wierzytelności prz</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-26_014_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-26_014_000/#vote</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>21. Rozpatrzenie projektu uchwały w sprawie wyrażenia zgody na rozłożenie na raty wierzytelności prz</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-26_015_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-26_015_000/#vote</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>22. wniosek formalny o wycofanie projektu uchwały z obrad i skierowanie do PMK</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-26_016_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-26_016_000/#vote</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 4, przeciw 24, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>22. Rozpatrzenie projektu uchwały w sprawie zmian budżetu i w budżecie miasta Katowice 18 na 2026 ro</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-26_017_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-26_017_000/#vote</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 23, przeciw 1, wstrzym. 4). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>23. Wniosek formalny o wycofanie projektu uchwały i zwrócenie do PMK</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-26_018_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-26_018_000/#vote</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 4, przeciw 23, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>23. Rozpatrzenie projektu uchwały w sprawie zmian w Wieloletniej Prognozie Finansowej 20 miasta Kato</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-26_019_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-26_019_000/#vote</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 23, przeciw 1, wstrzym. 4). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>24. Rozpatrzenie projektu uchwały w sprawie rozpatrzenia wniosku dotyczącego wprowadzenia ograniczeń</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-26_020_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-26_020_000/#vote</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>25. Rozpatrzenie projektu uchwały w sprawie rozpatrzenia petycji dotyczącej budowy 22 pomnika ku czc</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-26_021_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-26_021_000/#vote</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>26. Rozpatrzenie projektu uchwały w sprawie rozpatrzenia petycji dotyczącej podjęcia 23 działań zmie</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-26_022_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-26_022_000/#vote</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: montażu progu zwalniającego i wyznaczenie przejścia dla pieszych na ul. Zawiszy Czarnego.</title>
+    <link href="https://katowice.radoskop.pl/profil/agnieszka-piatek/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/profil/agnieszka-piatek/#interpelacja</id>
+    <published>2026-03-06T12:00:00+01:00</published>
+    <updated>2026-03-06T12:00:00+01:00</updated>
+    <summary type="html">Agnieszka Piątek. montażu progu zwalniającego i wyznaczenie przejścia dla pieszych na ul. Zawiszy Czarnego.</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>2. Powołanie sekretarzy sesji.</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-05_000_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-05_000_000/#vote</id>
+    <published>2026-03-05T12:00:00+01:00</published>
+    <updated>2026-03-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>3. Powołanie Komisji Uchwał i Wniosków.</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-05_001_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-05_001_000/#vote</id>
+    <published>2026-03-05T12:00:00+01:00</published>
+    <updated>2026-03-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>4. Przyjęcie protokołu z XXIV sesji.</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-05_002_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-05_002_000/#vote</id>
+    <published>2026-03-05T12:00:00+01:00</published>
+    <updated>2026-03-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>7. Rozpatrzenie projektu apelu Rady Miasta Katowice do osób pełniących funkcje 4 dyrektorów katowick</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-05_003_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-05_003_000/#vote</id>
+    <published>2026-03-05T12:00:00+01:00</published>
+    <updated>2026-03-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>8. Rozpatrzenie projektu uchwały w sprawie udzielenia dotacji z budżetu miasta Katowice 5 na rok 202</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-05_004_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-05_004_000/#vote</id>
+    <published>2026-03-05T12:00:00+01:00</published>
+    <updated>2026-03-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>9. Rozpatrzenie projektu uchwały w sprawie zmiany uchwały nr LXI/1436/06 Rady Miasta 6 Katowice z dn</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-05_005_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-05_005_000/#vote</id>
+    <published>2026-03-05T12:00:00+01:00</published>
+    <updated>2026-03-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>10. Rozpatrzenie projektu uchwały w sprawie przyznania pierwszeństwa w nabyciu 1 lokalu 7 użytkowego</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-05_006_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-05_006_000/#vote</id>
+    <published>2026-03-05T12:00:00+01:00</published>
+    <updated>2026-03-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>11. Rozpatrzenie projektu uchwały w sprawie zgody na odstąpienie od obowiązku 8 przetargowego trybu </title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-05_007_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-05_007_000/#vote</id>
+    <published>2026-03-05T12:00:00+01:00</published>
+    <updated>2026-03-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>12. Rozpatrzenie projektu uchwały w sprawie zmian budżetu miasta Katowice na 2026 rok 9 oraz zmiany </title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-05_008_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-05_008_000/#vote</id>
+    <published>2026-03-05T12:00:00+01:00</published>
+    <updated>2026-03-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>13. Rozpatrzenie projektu uchwały w sprawie zmian w Wieloletniej Prognozie Finansowej 10 miasta Kato</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-05_009_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-05_009_000/#vote</id>
+    <published>2026-03-05T12:00:00+01:00</published>
+    <updated>2026-03-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>14a. Rozpatrzenie skarg: dotyczącej sprzedaży mieszkań przejętych przez Miasto od SM 11 DOM Sp. z o.</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-05_010_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-05_010_000/#vote</id>
+    <published>2026-03-05T12:00:00+01:00</published>
+    <updated>2026-03-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>14b. Rozpatrzenie skarg: dotyczącej działania Dyrektora Zespołu Szkolno-Przedszkolnego 12 nr 13 w Ka</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-05_011_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-05_011_000/#vote</id>
+    <published>2026-03-05T12:00:00+01:00</published>
+    <updated>2026-03-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>14c. Rozpatrzenie skarg: dotyczącej działania pracowników Komunalnego Zakładu 13 Gospodarki Mieszkan</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-05_012_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-05_012_000/#vote</id>
+    <published>2026-03-05T12:00:00+01:00</published>
+    <updated>2026-03-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>14d. Rozpatrzenie skarg: dotyczącej działania Dyrektora Miejskiego Ośrodka Pomocy 14 Społecznej w Ka</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-03-05_013_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-03-05_013_000/#vote</id>
+    <published>2026-03-05T12:00:00+01:00</published>
+    <updated>2026-03-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w  sprawie poprawienia bezpieczeństwa na skrzyżowaniu ulic Sandacza i Pstrągowej.</title>
+    <link href="https://katowice.radoskop.pl/profil/krzysztof-pieczynski/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/profil/krzysztof-pieczynski/#interpelacja</id>
+    <published>2026-03-05T12:00:00+01:00</published>
+    <updated>2026-03-05T12:00:00+01:00</updated>
+    <summary type="html">Krzysztof Pieczyński. w  sprawie poprawienia bezpieczeństwa na skrzyżowaniu ulic Sandacza i Pstrągowej.</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: dokonania zmian w regulaminie przyznawania ,,Katowickiego Diamentu Edukacyjnego”.</title>
+    <link href="https://katowice.radoskop.pl/profil/urszula-machowska/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/profil/urszula-machowska/#interpelacja</id>
+    <published>2026-02-20T12:00:00+01:00</published>
+    <updated>2026-02-20T12:00:00+01:00</updated>
+    <summary type="html">Urszula Machowska. dokonania zmian w regulaminie przyznawania ,,Katowickiego Diamentu Edukacyjnego”.</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: sprawdzenia terenu oraz wezwania właściciela do uporządkowania oraz zabezpieczenia własności</title>
+    <link href="https://katowice.radoskop.pl/profil/beata-bala/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/profil/beata-bala/#interpelacja</id>
+    <published>2026-02-10T12:00:00+01:00</published>
+    <updated>2026-02-10T12:00:00+01:00</updated>
+    <summary type="html">Beata Bala. sprawdzenia terenu oraz wezwania właściciela do uporządkowania oraz zabezpieczenia własności</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: ustawienia słupka parkingowego — blokującego parkowanie na pasie zieleni przy ul. Gen. Jankego 242.</title>
+    <link href="https://katowice.radoskop.pl/profil/magdalena-skwarek/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/profil/magdalena-skwarek/#interpelacja</id>
+    <published>2026-02-04T12:00:00+01:00</published>
+    <updated>2026-02-04T12:00:00+01:00</updated>
+    <summary type="html">Magdalena Skwarek. ustawienia słupka parkingowego — blokującego parkowanie na pasie zieleni przy ul. Gen. Jankego 242.</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: likwidacji jemioł w Parku Kościuszki.</title>
+    <link href="https://katowice.radoskop.pl/profil/ewa-sadkowska/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/profil/ewa-sadkowska/#interpelacja</id>
+    <published>2026-02-04T12:00:00+01:00</published>
+    <updated>2026-02-04T12:00:00+01:00</updated>
+    <summary type="html">Ewa Sadkowska. likwidacji jemioł w Parku Kościuszki.</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>2. Powołanie sekretarzy sesji.</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_000_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_000_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>3. Powołanie Komisji Uchwał i Wniosków.</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_001_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_001_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>4. Przyjęcie protokołu z XXIII sesji.</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_002_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_002_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>5. Zmiany w porządku obrad. Dopisanie punktu 8a) i przeniesienie z punktu 25 rozpatrywania projektu </title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_003_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_003_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>5. Zmiany w porządku obrad. Dopisanie punktu 30a. Rozpatrzenie projektu uchwały w 5 sprawie zmian bu</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_004_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_004_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>5. Zmiany w porządku obrad. Dopisanie punktu 30b. Rozpatrzenie projektu uchwały w 6 sprawie zmian w </title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_005_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_005_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>5. Wniosek formalny Radnego Leszka Piechoty o wniesienie punktu dotyczącego Apelu 7 Rady Miasta Kato</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_006_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_006_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 4, przeciw 24, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>7. Rozpatrzenie projektu Apelu Rady Miasta Katowice do Prezydenta Rzeczypospolitej 8 Polskiej o podp</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_007_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_007_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 23, przeciw 5, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>8. Rozpatrzenie projektu Oświadczenia Rady Miasta Katowice w sprawie upamiętnienia 45- 9 lecia Nieza</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_008_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_008_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>8a. Rozpatrzenie projektu uchwały w sprawie zgody na odstąpienie od obowiązku 10 przetargowego trybu</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_009_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_009_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>11. Rozpatrzenie projektu uchwały w sprawie przyjęcia sprawozdania z działalności Rady 11 Miasta Kat</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_010_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_010_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>12. Rozpatrzenie projektu uchwały w sprawie współpracy miasta Katowice/Rzeczpospolita 12 Polska/ z m</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_011_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_011_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>13. Rozpatrzenie projektu uchwały w sprawie sprawozdania Prezydenta Miasta z 13 działalności Komisji</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_012_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_012_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>14. Rozpatrzenie projektu uchwały w sprawie uchwalenia Programu zapobiegania 14 przestępczości oraz </title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_013_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_013_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>15. Rozpatrzenie projektu uchwały zmieniającej uchwałę w sprawie określenia szczegółowych warunków u</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_014_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_014_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>16. Rozpatrzenie projektu uchwały w sprawie nadania Statutu Żłobka Miejskiego w 16 Katowicach (DS-46</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_015_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_015_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>17. Rozpatrzenie projektu uchwały w sprawie zawarcia porozumienia międzygminnego o współdziałaniu w </title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_016_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_016_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>18. Rozpatrzenie projektu uchwały w sprawie zamiaru przekształcenia Przedszkola nr 22 w 19 Katowicac</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_017_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_017_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 4, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>19. Rozpatrzenie projektu uchwały w sprawie zamiaru likwidacji Przedszkola Nr 49 im. 21 Siedmiu Kras</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_018_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_018_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 4, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>20. Rozpatrzenie projektu uchwały w sprawie zamiaru likwidacji Przedszkola Nr 76 w 23 Katowicach z s</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_019_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_019_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 4, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>21. Rozpatrzenie projektu uchwały w sprawie zamiaru likwidacji Przedszkola Nr 88 w 24 Katowicach z s</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_020_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_020_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 4, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>22. Rozpatrzenie projektu uchwały w sprawie zamiaru likwidacji Szkoły Podstawowej dla 25 Dorosłych N</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_021_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_021_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 1, wstrzym. 1). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>23. Rozpatrzenie projektu uchwały w sprawie zamiaru likwidacji XI Liceum 26 Ogólnokształcącego w Kat</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_022_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_022_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 2, wstrzym. 1). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>24. Rozpatrzenie projektu uchwały w sprawie zamiaru przekształcenia XIV Liceum Ogólnokształcącego im</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_023_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_023_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 1, wstrzym. 2). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>26. Rozpatrzenie projektu uchwały w sprawie wyrażenia zgody na oddanie w dzierżawę lub najem w drodz</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_024_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_024_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 1). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>27. Rozpatrzenie projektu uchwały w sprawie wyrażenia zgody na oddanie w dzierżawę lub 29 najem w dr</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_025_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_025_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 1). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>28. Rozpatrzenie projektu uchwały w sprawie wyrażenia zgody na oddanie w dzierżawę lub 30 najem w dr</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_026_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_026_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 25, przeciw 0, wstrzym. 1). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29. Rozpatrzenie projektu uchwały zmieniającej uchwałę w sprawie utworzenia jednostki 31 budżetowej </title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_027_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_027_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>30. Rozpatrzenie projektu uchwały zmieniającej uchwałę w sprawie nadania statutu 32 Miejskiemu Zarzą</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_028_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_028_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>30a. Rozpatrzenie projektu uchwały w sprawie zmian budżetu miasta Katowice na 2026 rok 33 oraz zmian</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_029_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_029_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>30b. Rozpatrzenie projektu uchwały w sprawie zmian w Wieloletniej Prognozie Finansowej 34 miasta Kat</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_030_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_030_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>31a. Rozpatrzenie skarg: Rozpatrzenie projektu uchwały w sprawie rozpatrzenia skargi na 35 działania</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_031_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_031_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>31b. Rozpatrzenie skarg: Rozpatrzenie projektu uchwały w sprawie rozpatrzenia skargi 36 dotyczącej d</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_032_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_032_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>31c. Rozpatrzenie skarg: Rozpatrzenie projektu uchwały w sprawie rozpatrzenia skargi 37 dotyczącej d</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2026-01-29_033_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2026-01-29_033_000/#vote</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: poprawy bezpieczeństwa w rejonie wyjazdu z ulicy Lędzińskiej w dzielnicy Murcki.</title>
+    <link href="https://katowice.radoskop.pl/profil/jacek-kalisz/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/profil/jacek-kalisz/#interpelacja</id>
+    <published>2026-01-26T12:00:00+01:00</published>
+    <updated>2026-01-26T12:00:00+01:00</updated>
+    <summary type="html">Jacek Kalisz. poprawy bezpieczeństwa w rejonie wyjazdu z ulicy Lędzińskiej w dzielnicy Murcki.</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: przeprowadzenia remontu chodnika przed Pałacem Młodzieży w Katowicach.</title>
+    <link href="https://katowice.radoskop.pl/profil/elzbieta-grodzka-lopuszynska/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/profil/elzbieta-grodzka-lopuszynska/#interpelacja</id>
+    <published>2026-01-20T12:00:00+01:00</published>
+    <updated>2026-01-20T12:00:00+01:00</updated>
+    <summary type="html">Elżbieta Grodzka-Łopuszyńska. przeprowadzenia remontu chodnika przed Pałacem Młodzieży w Katowicach.</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: planowanego wyburzenia byłego wiaduktu kolejowego KWK Katowice w dzielnicy Bogucice.</title>
+    <link href="https://katowice.radoskop.pl/profil/damian-stepien/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/profil/damian-stepien/#interpelacja</id>
+    <published>2026-01-02T12:00:00+01:00</published>
+    <updated>2026-01-02T12:00:00+01:00</updated>
+    <summary type="html">Damian Stępień. planowanego wyburzenia byłego wiaduktu kolejowego KWK Katowice w dzielnicy Bogucice.</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>2. Powołanie sekretarzy sesji.</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2025-12-18_000_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2025-12-18_000_000/#vote</id>
+    <published>2025-12-18T12:00:00+01:00</published>
+    <updated>2025-12-18T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>3. Powołanie Komisji Uchwał i Wniosków.</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2025-12-18_001_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2025-12-18_001_000/#vote</id>
+    <published>2025-12-18T12:00:00+01:00</published>
+    <updated>2025-12-18T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>4. Przyjęcie protokołu z XXII sesji Rady Miasta Katowice</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2025-12-18_002_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2025-12-18_002_000/#vote</id>
+    <published>2025-12-18T12:00:00+01:00</published>
+    <updated>2025-12-18T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>5. Zmiany w porządku obrad. Dopisanie punktu 25h. Rozpatrzenie projektu uchwały w sprawie ustalenia </title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2025-12-18_003_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2025-12-18_003_000/#vote</id>
+    <published>2025-12-18T12:00:00+01:00</published>
+    <updated>2025-12-18T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>5. Zmiany w porządku obrad. Dopisanie punktu 25i. Rozpatrzenie projektu uchwały w 5 sprawie przyjęci</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2025-12-18_004_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2025-12-18_004_000/#vote</id>
+    <published>2025-12-18T12:00:00+01:00</published>
+    <updated>2025-12-18T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>5. Zmiany w porządku obrad. Dopisanie punktu 25j. Rozpatrzenie projektu uchwały 6 zmieniającej uchwa</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2025-12-18_005_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2025-12-18_005_000/#vote</id>
+    <published>2025-12-18T12:00:00+01:00</published>
+    <updated>2025-12-18T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>5. Zmiany w porządku obrad. Dopisanie punktu 25k. Rozpatrzenie projektu uchwały w 7 sprawie „Wielole</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2025-12-18_006_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2025-12-18_006_000/#vote</id>
+    <published>2025-12-18T12:00:00+01:00</published>
+    <updated>2025-12-18T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>6a. Głosowanie nad poprawką do projektu uchwały. Wniosek Pana Radnego Leszka 8 Piechoty.</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2025-12-18_007_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2025-12-18_007_000/#vote</id>
+    <published>2025-12-18T12:00:00+01:00</published>
+    <updated>2025-12-18T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 1, przeciw 26, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>6a. Rozpatrzenie projektu apelu w sprawie utworzenia centrum technologicznego 9 Europejskiej Agencji</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2025-12-18_008_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2025-12-18_008_000/#vote</id>
+    <published>2025-12-18T12:00:00+01:00</published>
+    <updated>2025-12-18T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>7. Poprawka do projektu uchwały wniesiona przez Radnego Leszka Piechotę.</title>
+    <link href="https://katowice.radoskop.pl/glosowanie/2025-12-18_009_000/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/glosowanie/2025-12-18_009_000/#vote</id>
+    <published>2025-12-18T12:00:00+01:00</published>
+    <updated>2025-12-18T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 1, przeciw 21, wstrzym. 4). Sesja .</summary>
+    <category term="vote"/>
+  </entry>
+</feed>

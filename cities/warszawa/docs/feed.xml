@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Radoskop Warszawa</title>
+  <subtitle>Glosowania, interpelacje i sesje Rady Miasta Warszawy.</subtitle>
+  <link href="https://warszawa.radoskop.pl/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://warszawa.radoskop.pl/" rel="alternate" type="text/html"/>
+  <id>https://warszawa.radoskop.pl/</id>
+  <updated>2026-04-13T14:24:24Z</updated>
+  <author>
+    <name>Radoskop</name>
+    <uri>https://radoskop.pl</uri>
+  </author>
+  <entry>
+    <title>Interpelacja: sytuacji mieszkaniowej mieszkanki i jej rodziny.</title>
+    <link href="https://warszawa.radoskop.pl/interpelacje/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/interpelacje/#interpelacja</id>
+    <published>2026-04-07T12:00:00+01:00</published>
+    <updated>2026-04-07T12:00:00+01:00</updated>
+    <summary type="html">Zabłocki Wojciech. sytuacji mieszkaniowej mieszkanki i jej rodziny.</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>wniosek zgłoszony przez Zastępczynię Prezydenta m.st. Warszawy A. Machnowską-Górę o wprowadzenie – P</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_001/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_001/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 55, przeciw 0, wstrzym. 1). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>wniosek zgłoszony przez Zastępczynię Prezydenta m.st. Warszawy A. Machnowską-Górę o wprowadzenie – P</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_002/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_002/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 58, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>wniosek zgłoszony przez radnego T. Herbicha o wprowadzenie punktu pt.: „Informacja Prezydenta m.st. </title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_003/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_003/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 35). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>wniosek zgłoszony przez radnego W. Zabłockiego o wprowadzenie punktu pt.: „Informacja i stanowisko P</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_004/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_004/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 17, przeciw 0, wstrzym. 42). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>wniosek zgłoszony przez radnego F Frąckowiaka o wprowadzenie – Projekt stanowiska Rady m.st. Warszaw</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_005/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_005/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 23, przeciw 0, wstrzym. 36). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>wniosek zgłoszony przez radnego P. Mazurka o wprowadzenie punktu pt.: „Informacja Prezydenta m.st. W</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_006/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_006/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 16, przeciw 7, wstrzym. 36). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>wniosek zgłoszony przez Przewodniczącą Komisji Rozwoju Gospodarczego, Mieszkalnictwa i Cyfryzacji K.</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_007/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_007/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 58, przeciw 0, wstrzym. 1). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Przyjęcie protokołu obrad XXXII sesji Rady m.st. Warszawy.</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_008/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_008/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 47, przeciw 0, wstrzym. 12). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Stanowisko nr 11 Rady m.st. Warszawy w sprawie rekomendacji rozwiązania dotyczącego uregulowania zal</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_009/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_009/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 58, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1289/2026 Rady m.st. Warszawy w sprawie przyznania w 2026 roku Nagrody Miasta Stoł</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_010/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_010/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 58, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1290/2026 Rady m.st. Warszawy w sprawie wprowadzenia na terenie m.st. Warszawy ogr</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_011/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_011/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 57, przeciw 2, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1291/2026 Rady m.st. Warszawy w sprawie ustalenia maksymalnej liczby zezwoleń na s</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_012/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_012/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 45, przeciw 0, wstrzym. 13). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1292/2026 Rady m.st. Warszawy w sprawie pozostawienia samorządowemu zakładowi budż</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_013/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_013/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 57, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1293/2026 Rady m.st. Warszawy w sprawie pozostawienia samorządowemu zakładowi budż</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_014/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_014/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 57, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1294/2026 Rady m.st. Warszawy w sprawie pozostawienia samorządowemu zakładowi budż</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_015/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_015/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 58, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1295/2026 Rady m.st. Warszawy w sprawie pozostawienia samorządowemu zakładowi budż</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_016/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_016/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 58, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1296/2026 Rady m.st. Warszawy w sprawie pozostawienia samorządowemu zakładowi budż</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_017/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_017/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 57, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1297/2026 Rady m.st. Warszawy w sprawie pozostawienia samorządowemu zakładowi budż</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_018/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_018/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 58, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1298/2026 Rady m.st. Warszawy w sprawie szczegółowych zasad ponoszenia odpłatności</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_019/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_019/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 57, przeciw 0, wstrzym. 1). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1299/2026 Rady m.st. Warszawy w sprawie zakresu pomocy udzielanej beneficjentom oc</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_020/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_020/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 44, przeciw 1, wstrzym. 13). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1300/2026 Rady m.st. Warszawy w sprawie utworzenia Żłobka nr 82 w Warszawie, ul. M</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_021/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_021/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 59, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1301/2026 Rady m.st. Warszawy w sprawie przyjęcia Programu przeciwdziałania przemo</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_022/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_022/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 58, przeciw 0, wstrzym. 1). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1302/2026 Rady m.st. Warszawy w sprawie zmian w Wieloletniej Prognozie Finansowej </title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_023/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_023/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 38, przeciw 0, wstrzym. 19). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1303/2026 Rady m.st. Warszawy w sprawie zmian w budżecie miasta stołecznego Warsza</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_024/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_024/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 39, przeciw 0, wstrzym. 18). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1304/2026 Rady m.st. Warszawy w sprawie zaciągnięcia długoterminowego zobowiązania</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_025/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_025/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 41, przeciw 15, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1305/2026 Rady m.st. Warszawy w sprawie zaciągnięcia długoterminowego zobowiązania</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_026/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_026/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 43, przeciw 4, wstrzym. 10). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1306/2026 Rady m.st. Warszawy w sprawie zaciągnięcia długoterminowej Pożyczki Miej</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_027/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_027/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 41, przeciw 15, wstrzym. 1). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1307/2026 Rady m.st. Warszawy zmieniająca uchwałę w sprawie udzielenia pomocy fina</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_028/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_028/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 57, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1308/2026 Rady m.st. Warszawy zmieniająca uchwałę w sprawie udzielenia pomocy fina</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_029/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_029/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 57, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1309/2026 Rady m.st. Warszawy zmieniająca uchwałę w sprawie udzielenia pomocy fina</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_030/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_030/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 57, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1310/2026 Rady m.st. Warszawy w sprawie udzielenia pomocy finansowej Powiatowi Pru</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_031/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_031/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 57, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1311/2026 Rady m.st. Warszawy w sprawie udzielenia pomocy finansowej Powiatowi Kra</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_032/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_032/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 57, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1312/2026 Rady m.st. Warszawy w sprawie udzielenia pomocy finansowej Gminie Lądek-</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_033/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_033/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 57, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1313/2026 Rady m.st. Warszawy zmieniająca uchwałę w sprawie wyznaczenia obszaru i </title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_034/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_034/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 56, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1314/2026 Rady m.st. Warszawy w sprawie miejscowego planu zagospodarowania przestr</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_035/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_035/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 57, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1315/2026 Rady m.st. Warszawy w sprawie miejscowego planu zagospodarowania przestr</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_036/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_036/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 44, przeciw 0, wstrzym. 11). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1316/2026 Rady m.st. Warszawy w sprawie miejscowego planu zagospodarowania przestr</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_037/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_037/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 51, przeciw 0, wstrzym. 4). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1317/2026 Rady m.st. Warszawy w sprawie przystąpienia do sporządzenia miejscowego </title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_038/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_038/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 54, przeciw 0, wstrzym. 3). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1318/2026 Rady m.st. Warszawy w sprawie przystąpienia do sporządzenia miejscowego </title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_039/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_039/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 58, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1319/2026 Rady m.st. Warszawy w sprawie przekazania Policji środków finansowych st</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_040/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_040/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 55, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1320/2026 Rady m.st. Warszawy w sprawie przyznania na lata 2026-2028 dotacji na re</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_041/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_041/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 54, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1321/2026 Rady m.st. Warszawy w sprawie przyznania na lata 2026-2028 dotacji na re</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_042/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_042/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 55, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1322/2026 Rady m.st. Warszawy w sprawie zmiany statutu Samodzielnego Zespołu Publi</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_043/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_043/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 56, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1323/2026 Rady m.st. Warszawy w sprawie zmiany statutu Szpitala Bielańskiego im. k</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_044/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_044/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 55, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1324/2026 Rady m.st. Warszawy w sprawie nadania statutu Centrum Odwykowemu Samodzi</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_045/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_045/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 58, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1325/2026 Rady m.st. Warszawy w sprawie nadania statutu Szpitalowi Specjalistyczne</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_046/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_046/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 57, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1326/2026 Rady m.st. Warszawy w sprawie wyrażenia zgody na zawarcie przez m.st. Wa</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_047/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_047/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 45, przeciw 0, wstrzym. 12). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1327/2026 Rady m.st. Warszawy w sprawie wyrażenia zgody na zawarcie przez m.st. Wa</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_048/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_048/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 44, przeciw 0, wstrzym. 13). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1328/2026 Rady m.st. Warszawy w sprawie wyrażenia zgody na zawarcie przez m.st. Wa</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_049/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_049/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 57, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1329/2026 Rady m.st. Warszawy w sprawie założenia Szkoły Specjalnej Przysposabiają</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_050/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_050/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 57, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1330/2026 Rady m.st. Warszawy w sprawie zamiaru przekształcenia Szkoły Podstawowej</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_051/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_051/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 58, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1331/2026 Rady m.st. Warszawy w sprawie założenia Przedszkola nr 450 w Warszawie, </title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_052/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_052/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 58, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1332/2026 Rady m.st. Warszawy w sprawie przekształcenia Szkoły Podstawowej nr 202 </title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_053/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_053/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 58, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1333/2026 Rady m.st. Warszawy w sprawie zmiany statutu Bemowskiego Centrum Kultury</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_054/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_054/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 58, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Projekt uchwały Rady m.st. Warszawy w sprawie powołania członków Rady Muzeum Sztuki Nowoczesnej w Wa</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_055/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_055/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 25, przeciw 34, wstrzym. 1). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1334/2026 Rady m.st. Warszawy w sprawie powołania członków Rady Muzeum Sztuki Nowo</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_056/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_056/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 36, przeciw 19, wstrzym. 5). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1335/2026 Rady m.st. Warszawy w sprawie prowadzenia jako wspólnej instytucji kultu</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_057/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_057/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 60, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1336/2026 Rady m.st. Warszawy zmieniająca uchwałę w sprawie przekształcenia zakład</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_058/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_058/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 60, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1337/2026 Rady m.st. Warszawy w sprawie ustanowienia pomnika przyrody – druk nr 14</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_059/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_059/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 59, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1338/2026 Rady m.st. Warszawy w sprawie zniesienia nazwy obiektu miejskiego w Dzie</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_060/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_060/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 56, przeciw 0, wstrzym. 2). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1339/2026  Rady m.st. Warszawy w sprawie zniesienia nazwy obiektu miejskiego w Dzi</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_061/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_061/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 57, przeciw 0, wstrzym. 1). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1340/2026 Rady m.st. Warszawy w sprawie nadania nazwy obiektowi miejskiemu w Dziel</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_062/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_062/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 43, przeciw 6, wstrzym. 10). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1341/2026 Rady m.st. Warszawy w sprawie nadania nazwy obiektowi miejskiemu w Dziel</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_063/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_063/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 58, przeciw 0, wstrzym. 1). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1342/2026 Rady m.st. Warszawy w sprawie rozpatrzenia skargi Związku Zawodowego Zwi</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_064/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_064/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 58, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1343/2026 Rady m.st. Warszawy w sprawie wskazania organu właściwego do rozpatrzeni</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_065/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_065/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 56, przeciw 0, wstrzym. 3). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1344/2026 Rady m.st. Warszawy w sprawie rozpatrzenia skargi [dane zanonimizowane] </title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_066/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_066/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 48, przeciw 0, wstrzym. 11). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1345/2026 Rady m.st. Warszawy w sprawie rozpatrzenia skargi [dane zanonimizowane] </title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_067/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_067/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 57, przeciw 0, wstrzym. 2). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1346/2026 Rady m.st. Warszawy w sprawie rozpatrzenia skargi [dane zanonimizowane] </title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_068/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_068/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 58, przeciw 0, wstrzym. 1). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1347/2026 Rady m.st. Warszawy w sprawie rozpatrzenia skargi [dane zanonimizowane] </title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_069/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_069/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 43, przeciw 0, wstrzym. 16). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1348/2026 Rady m.st. Warszawy w sprawie rozpatrzenia skargi [dane zanonimizowane] </title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_070/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_070/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 57, przeciw 1, wstrzym. 1). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1349/2026 Rady m.st. Warszawy w sprawie przekazania skargi [dane zanonimizowane] P</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_071/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_071/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 59, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1350/2026 Rady m.st. Warszawy w sprawie przekazania skargi [dane zanonimizowane] P</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_072/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_072/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 59, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1351/2026 Rady m.st. Warszawy w sprawie przekazania skargi [dane zanonimizowane] R</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_073/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_073/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 59, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1352/2026 Rady m.st. Warszawy w sprawie przekazania skargi [dane zanonimizowane] M</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_074/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_074/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 58, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1353/2026 Rady m.st. Warszawy w sprawie przekazania skargi [dane zanonimizowane] P</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_075/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_075/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 59, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1354/2026 Rady m.st. Warszawy w sprawie przekazania skargi [dane zanonimizowane] D</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_076/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_076/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 59, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1355/2026 Rady m.st. Warszawy w sprawie przekazania wniosków [dane zanonimizowane]</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_077/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_077/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 59, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1356/2026 Rady m.st. Warszawy w sprawie przekazania wniosków [dane zanonimizowane]</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_078/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_078/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 59, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1357/2026 Rady m.st. Warszawy w sprawie przekazania wniosku [dane zanonimizowane] </title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_079/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_079/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 58, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1358/2026 Rady m.st. Warszawy w sprawie przekazania wniosków [dane zanonimizowane]</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_080/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_080/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 59, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1359/2026 Rady m.st. Warszawy w sprawie planu kontroli Komisji Rewizyjnej Rady m.s</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_081/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_081/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 59, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXIII/1360/2026 Rady m.st. Warszawy w sprawie zasięgnięcia od Komendanta Stołecznego Pol</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_082/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_082/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 59, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Projekt uchwały Rady m.st. Warszawy zmieniającej uchwałę nr XCI/2974/2023 Rady Miasta Stołecznego Wa</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-03-12_083/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-03-12_083/#vote</id>
+    <published>2026-03-12T12:00:00+01:00</published>
+    <updated>2026-03-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 15, przeciw 40, wstrzym. 2). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>wniosek zgłoszony przez Zastępcę Prezydenta m.st. Warszawy A. Machnowską-Górę o zdjęcie – Projekt uc</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-02-12_001/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-02-12_001/#vote</id>
+    <published>2026-02-12T12:00:00+01:00</published>
+    <updated>2026-02-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 47, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>wniosek zgłoszony przez Zastępcę Prezydenta m.st. Warszawy A. Machnowską-Górę o wprowadzenie – Proje</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-02-12_002/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-02-12_002/#vote</id>
+    <published>2026-02-12T12:00:00+01:00</published>
+    <updated>2026-02-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 52, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>wniosek zgłoszony przez radną M. Łuczak o wprowadzenie – Projekt stanowiska Rady m.st. Warszawy w sp</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-02-12_003/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-02-12_003/#vote</id>
+    <published>2026-02-12T12:00:00+01:00</published>
+    <updated>2026-02-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 12, przeciw 34, wstrzym. 8). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>wniosek zgłoszony przez radną M. Szczepańską o wprowadzenie punktu pt.: „Informacja Prezydenta m.st.</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-02-12_004/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-02-12_004/#vote</id>
+    <published>2026-02-12T12:00:00+01:00</published>
+    <updated>2026-02-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 21, przeciw 0, wstrzym. 33). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>wniosek zgłoszony przez radną M. Szczepańską o wprowadzenie – Projekt stanowiska Rady m.st. Warszawy</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-02-12_005/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-02-12_005/#vote</id>
+    <published>2026-02-12T12:00:00+01:00</published>
+    <updated>2026-02-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 21, przeciw 33, wstrzym. 2). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>wniosek zgłoszony przez radnego F. Frąckowiaka o wprowadzenie – Projekt stanowiska Rady m.st. Warsza</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-02-12_006/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-02-12_006/#vote</id>
+    <published>2026-02-12T12:00:00+01:00</published>
+    <updated>2026-02-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 22, przeciw 34, wstrzym. 1). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>wniosek zgłoszony przez radną A. Żebrowską o wprowadzenie – Projekt stanowiska Rady m.st. Warszawy w</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-02-12_007/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-02-12_007/#vote</id>
+    <published>2026-02-12T12:00:00+01:00</published>
+    <updated>2026-02-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 17, przeciw 0, wstrzym. 39). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>wniosek zgłoszony przez radnego D. Kowalczyka o wprowadzenie – Projekt stanowiska Rady m.st. Warszaw</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-02-12_008/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-02-12_008/#vote</id>
+    <published>2026-02-12T12:00:00+01:00</published>
+    <updated>2026-02-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 19, przeciw 2, wstrzym. 36). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>wniosek zgłoszony przez radną M. Jałoszyńską o wprowadzenie – Projekt stanowiska Rady m.st. Warszawy</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-02-12_009/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-02-12_009/#vote</id>
+    <published>2026-02-12T12:00:00+01:00</published>
+    <updated>2026-02-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 23, przeciw 0, wstrzym. 34). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>wniosek zgłoszony przez radnego P. Mazurka o wprowadzenie – Projekt stanowiska Rady m.st. Warszawy w</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-02-12_010/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-02-12_010/#vote</id>
+    <published>2026-02-12T12:00:00+01:00</published>
+    <updated>2026-02-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 57, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>wniosek zgłoszony przez radną M. Szymborską o wprowadzenie – Projekt stanowiska Rady m.st. Warszawy </title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-02-12_011/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-02-12_011/#vote</id>
+    <published>2026-02-12T12:00:00+01:00</published>
+    <updated>2026-02-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 18, przeciw 0, wstrzym. 39). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Przyjęcie protokołu obrad XXXI sesji Rady m.st. Warszawy</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-02-12_012/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-02-12_012/#vote</id>
+    <published>2026-02-12T12:00:00+01:00</published>
+    <updated>2026-02-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 46, przeciw 0, wstrzym. 11). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Stanowisko nr 10 Rady m.st. Warszawy w sprawie dostępu mieszkańców z niepełnosprawnością do przestrz</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-02-12_013/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-02-12_013/#vote</id>
+    <published>2026-02-12T12:00:00+01:00</published>
+    <updated>2026-02-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 57, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>wniosek zgłoszony przez radną M. Szczepańską o przesunięcie punktu 12 – druk nr 1382 na punkt 5</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-02-12_014/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-02-12_014/#vote</id>
+    <published>2026-02-12T12:00:00+01:00</published>
+    <updated>2026-02-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 23, przeciw 34, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXII/1241/2026 Rady m.st. Warszawy w sprawie przyznania w 2026 roku Nagrody Miasta Stołe</title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-02-12_015/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-02-12_015/#vote</id>
+    <published>2026-02-12T12:00:00+01:00</published>
+    <updated>2026-02-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 56, przeciw 0, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała Nr XXXII/1242/2026 Rady m.st. Warszawy w sprawie wystąpienia do rad dzielnic m.st. Warszawy </title>
+    <link href="https://warszawa.radoskop.pl/glosowanie/2026-02-12_016/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/glosowanie/2026-02-12_016/#vote</id>
+    <published>2026-02-12T12:00:00+01:00</published>
+    <updated>2026-02-12T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 53, przeciw 1, wstrzym. 0). Sesja Sesja rady miasta.</summary>
+    <category term="vote"/>
+  </entry>
+</feed>
