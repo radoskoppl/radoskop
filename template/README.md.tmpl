@@ -1,0 +1,26 @@
+# Radoskop {{CITY_NAME}}
+
+Monitoring głosowań Rady Miasta {{CITY_GENITIVE}}.
+
+- Dashboard: {{SITE_URL}}
+- BIP: {{BIP_URL}}
+- Repo: {{GITHUB_URL}}
+
+## Struktura
+
+- `docs/` statyczna strona publikowana przez GitHub Pages na {{CNAME}}
+- `scripts/scrape_{{CITY_SLUG}}.py` scraper protokołów z BIP
+- `scripts/scrape.sh` wrapper uruchamiający scraper w venv
+- `config.json` konfiguracja miasta używana przez generate_site.py
+
+## Uruchomienie
+
+```bash
+bash scripts/scrape.sh
+```
+
+## Regeneracja strony
+
+```bash
+python3 ../radoskop/scripts/generate_site.py --config config.json --output docs/
+```
