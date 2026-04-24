@@ -468,15 +468,21 @@ def main():
     base = Path(args.base)
 
     if args.city:
-        cities = [args.city]
+        slug = args.city[len("radoskop-"):] if args.city.startswith("radoskop-") else args.city
+        cities = [slug]
     else:
         cities = sorted([
             d.name for d in base.iterdir()
-            if d.is_dir() and d.name.startswith("radoskop-") and d.name != "radoskop"
+            if d.is_dir()
+            and (d / "config.json").exists()
+            and d.name not in {"radoskop", "_main"}
         ])
+        cities = [c[len("radoskop-"):] if c.startswith("radoskop-") else c for c in cities]
 
     for city in cities:
         city_dir = base / city
+        if not city_dir.exists():
+            city_dir = base / f"radoskop-{city}"
         if city_dir.exists():
             print(f"\n=== {city} ===")
             process_city(city_dir)
