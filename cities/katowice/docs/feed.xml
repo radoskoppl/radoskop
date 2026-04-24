@@ -5,7 +5,7 @@
   <link href="https://katowice.radoskop.pl/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://katowice.radoskop.pl/" rel="alternate" type="text/html"/>
   <id>https://katowice.radoskop.pl/</id>
-  <updated>2026-04-17T13:25:38Z</updated>
+  <updated>2026-04-24T23:01:31Z</updated>
   <author>
     <name>Radoskop</name>
     <uri>https://radoskop.pl</uri>
@@ -20,12 +20,39 @@
     <category term="interpelacja"/>
   </entry>
   <entry>
-    <title>Interpelacja: instalacji stacji Metroroweru w rejonie osiedla „Stara Korea"/ul. Braci Woźniaków - Szopienicka</title>
+    <title>Zapytanie: doświetlenia oraz poprawy bezpieczeństwa przejazdu dla rowerów przy ul. Szarych Szeregów.</title>
+    <link href="https://katowice.radoskop.pl/profil/roch-sobula/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/profil/roch-sobula/#interpelacja</id>
+    <published>2026-04-23T12:00:00+01:00</published>
+    <updated>2026-04-23T12:00:00+01:00</updated>
+    <summary type="html">Roch Sobula. doświetlenia oraz poprawy bezpieczeństwa przejazdu dla rowerów przy ul. Szarych Szeregów.</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: przywrócenia małej architektury (ławki i stolika) przy ul. Pogodnej 4b /zasoby KZGM/ w dzielnicy Dąb</title>
     <link href="https://katowice.radoskop.pl/profil/barbara-mandok/" rel="alternate" type="text/html"/>
     <id>https://katowice.radoskop.pl/profil/barbara-mandok/#interpelacja</id>
-    <published>2026-04-16T12:00:00+01:00</published>
-    <updated>2026-04-16T12:00:00+01:00</updated>
-    <summary type="html">Barbara Mańdok. instalacji stacji Metroroweru w rejonie osiedla „Stara Korea"/ul. Braci Woźniaków - Szopienicka</summary>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Barbara Mańdok. przywrócenia małej architektury (ławki i stolika) przy ul. Pogodnej 4b /zasoby KZGM/ w dzielnicy Dąbrówka Mała.</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: rozważenia wprowadzenia aktywnego przejścia dla pieszych na ul. Przyjaznej przy skrzyżowaniu z ul. D</title>
+    <link href="https://katowice.radoskop.pl/profil/maria-rys/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/profil/maria-rys/#interpelacja</id>
+    <published>2026-04-21T12:00:00+01:00</published>
+    <updated>2026-04-21T12:00:00+01:00</updated>
+    <summary type="html">Maria Ryś. rozważenia wprowadzenia aktywnego przejścia dla pieszych na ul. Przyjaznej przy skrzyżowaniu z ul. Działkową</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: zmiany organizacji ruchu na ulicy Wilczej</title>
+    <link href="https://katowice.radoskop.pl/profil/adam-lejman-gaska/" rel="alternate" type="text/html"/>
+    <id>https://katowice.radoskop.pl/profil/adam-lejman-gaska/#interpelacja</id>
+    <published>2026-04-20T12:00:00+01:00</published>
+    <updated>2026-04-20T12:00:00+01:00</updated>
+    <summary type="html">Adam Lejman-Gąska. zmiany organizacji ruchu na ulicy Wilczej</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>
@@ -36,33 +63,6 @@
     <updated>2026-04-15T12:00:00+01:00</updated>
     <summary type="html">Elżbieta Grodzka-Łopuszyńska
 Ewa Sadkowska. oznakowania parkingu postoju samochodów w niedozwolonych miejscach Osiedle Paderewskiego przy Diagnostyce.</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
-    <title>Zapytanie: odnowienia oznakowania miejsc postojowych przy ul. Młyńskiej.</title>
-    <link href="https://katowice.radoskop.pl/profil/roch-sobula/" rel="alternate" type="text/html"/>
-    <id>https://katowice.radoskop.pl/profil/roch-sobula/#interpelacja</id>
-    <published>2026-04-15T12:00:00+01:00</published>
-    <updated>2026-04-15T12:00:00+01:00</updated>
-    <summary type="html">Roch Sobula. odnowienia oznakowania miejsc postojowych przy ul. Młyńskiej.</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
-    <title>Interpelacja: stanu technicznego zatok autobusowych w dzielnicach Giszowiec oraz Janów–Nikiszowiec.</title>
-    <link href="https://katowice.radoskop.pl/profil/maria-rys/" rel="alternate" type="text/html"/>
-    <id>https://katowice.radoskop.pl/profil/maria-rys/#interpelacja</id>
-    <published>2026-04-13T12:00:00+01:00</published>
-    <updated>2026-04-13T12:00:00+01:00</updated>
-    <summary type="html">Maria Ryś. stanu technicznego zatok autobusowych w dzielnicach Giszowiec oraz Janów–Nikiszowiec.</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
-    <title>Interpelacja: szykan na ulicy Braci Wieczorków.</title>
-    <link href="https://katowice.radoskop.pl/profil/adam-lejman-gaska/" rel="alternate" type="text/html"/>
-    <id>https://katowice.radoskop.pl/profil/adam-lejman-gaska/#interpelacja</id>
-    <published>2026-04-10T12:00:00+01:00</published>
-    <updated>2026-04-10T12:00:00+01:00</updated>
-    <summary type="html">Adam Lejman-Gąska. szykan na ulicy Braci Wieczorków.</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>

@@ -5,11 +5,20 @@
   <link href="https://warszawa.radoskop.pl/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://warszawa.radoskop.pl/" rel="alternate" type="text/html"/>
   <id>https://warszawa.radoskop.pl/</id>
-  <updated>2026-04-17T13:01:23Z</updated>
+  <updated>2026-04-24T22:37:01Z</updated>
   <author>
     <name>Radoskop</name>
     <uri>https://radoskop.pl</uri>
   </author>
+  <entry>
+    <title>Interpelacja: zabezpieczenia ogólnomiejskich publicznych terenów zieleni w rejonie budowanego odcinka II linii met</title>
+    <link href="https://warszawa.radoskop.pl/interpelacje/" rel="alternate" type="text/html"/>
+    <id>https://warszawa.radoskop.pl/interpelacje/#interpelacja</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Niewitecka Renata. zabezpieczenia ogólnomiejskich publicznych terenów zieleni w rejonie budowanego odcinka II linii metra (Chrzanów-Mory).</summary>
+    <category term="interpelacja"/>
+  </entry>
   <entry>
     <title>wniosek zgłoszony przez Zastępcę Prezydenta m.st. Warszawy T. Mencinę o zdjęcie – Projekt uchwały Ra</title>
     <link href="https://warszawa.radoskop.pl/glosowanie/2026-04-16_001/" rel="alternate" type="text/html"/>
@@ -522,15 +531,6 @@
     <updated>2026-04-16T12:00:00+01:00</updated>
     <summary type="html">Wynik: przyjete (za 40, przeciw 13, wstrzym. 3). Sesja Sesja rady miasta.</summary>
     <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Interpelacja: podróży służbowych dyrektorów Biura Architektury i Planowania Przestrzennego w latach 2020-2026.</title>
-    <link href="https://warszawa.radoskop.pl/interpelacje/" rel="alternate" type="text/html"/>
-    <id>https://warszawa.radoskop.pl/interpelacje/#interpelacja</id>
-    <published>2026-04-16T12:00:00+01:00</published>
-    <updated>2026-04-16T12:00:00+01:00</updated>
-    <summary type="html">Herbich Tomasz. podróży służbowych dyrektorów Biura Architektury i Planowania Przestrzennego w latach 2020-2026.</summary>
-    <category term="interpelacja"/>
   </entry>
   <entry>
     <title>wniosek zgłoszony przez Zastępczynię Prezydenta m.st. Warszawy A. Machnowską-Górę o wprowadzenie – P</title>

@@ -5,11 +5,785 @@
   <link href="https://lodz.radoskop.pl/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://lodz.radoskop.pl/" rel="alternate" type="text/html"/>
   <id>https://lodz.radoskop.pl/</id>
-  <updated>2026-04-17T14:05:57Z</updated>
+  <updated>2026-04-24T23:36:20Z</updated>
   <author>
     <name>Radoskop</name>
     <uri>https://radoskop.pl</uri>
   </author>
+  <entry>
+    <title>Propozycje ograniczeń czasowych wystąpień.</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1646_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1646_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 15, przeciw 3, wstrzym. 1). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Wprowadzenie do porządku obrad punktu 11a - Rozpatrzenie projektu uchwały w sprawie trybu udzielania</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1647_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1647_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 23, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Wprowadzenie do porządku obrad punktu 29a - Rozpatrzenie projektu uchwały w sprawie pozostawienia be</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1648_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1648_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Wprowadzenie do porządku obrad punktu 29b - Rozpatrzenie projektu uchwały w sprawie przekazania skar</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1649_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1649_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 22, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Wprowadzenie do porządku obrad punktu 29c - Rozpatrzenie projektu uchwały w sprawie przyznania Nagro</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1650_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1650_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 25, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Wprowadzenie do porządku obrad punktu 29d - Rozpatrzenie projektu uchwały w sprawie nadania Odznaki </title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1651_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1651_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 23, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Wprowadzenie do porządku obrad punktu 30a - Rozpatrzenie projektu uchwały w sprawie nadania rondu na</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1652_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1652_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 21, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Wprowadzenie do porządku obrad punktu 30b - Rozpatrzenie projektu uchwały w sprawie nadania rondu na</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1653_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1653_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Wprowadzenie do porządku obrad punktu 31a - Rozpatrzenie projektu uchwały zmieniającej uchwale w spr</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1654_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1654_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Powołanie Komisji Uchwał i Wniosków.</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1655_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1655_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Rozpatrzenie projektu uchwały w sprawie powołania Komisji Konkursowej w celu przeprowadzenia konkurs</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1656_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1656_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 20, przeciw 0, wstrzym. 6). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Rozpatrzenie projektu uchwały w sprawie wyrażenia zgody na przystąpienie Miasta Łodzi do projektu pn</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1657_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1657_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 20, przeciw 0, wstrzym. 6). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Rozpatrzenie projektu uchwały zmieniającej uchwałę w sprawie utworzenia i nadania statutu dla jednos</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1658_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1658_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 23, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Zdjęcie pkt. 9 z porządku obrad.</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1659_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1659_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Rozpatrzenie projektu uchwały zmieniającej uchwałę w sprawie złożenia do Ministra Spraw Wewnętrznych</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1660_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1660_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Rozpatrzenie projektu uchwały w sprawie utworzenia Zespołu Przedszkoli Miejskich nr 7 w Łodzi przy u</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1661_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1661_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 23, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>11A. Rozpatrzenie projektu uchwały w sprawie trybu udzielania i rozliczania dotacji udzielanych z bu</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1662_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1662_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 22, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Rozpatrzenie projektu uchwały w sprawie uchwalenia miejscowego planu zagospodarowania przestrzennego</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1663_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1663_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 25, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Rozpatrzenie projektu uchwały w sprawie uchwalenia miejscowego planu zagospodarowania przestrzennego</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1664_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1664_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 20, przeciw 0, wstrzym. 1). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Rozpatrzenie projektu uchwały w sprawie przystąpienia do sporządzenia miejscowego planu zagospodarow</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1665_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1665_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 22, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Rozpatrzenie projektu uchwały w sprawie zmian budżetu oraz zmian w budżecie miasta Łodzi na 2026 rok</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1666_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1666_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 5). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Rozpatrzenie projektu uchwały zmieniającej uchwałę w sprawie Wieloletniej Prognozy Finansowej miasta</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1667_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1667_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 19, przeciw 0, wstrzym. 5). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Rozpatrzenie projektu uchwały w sprawie udzielenia w 2026 roku dotacji na prace konserwatorskie, res</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1668_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1668_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Łączne procedowanie pkt. 18 i 19 porządku obrad.</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1669_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1669_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Rozpatrzenie projektu uchwały w sprawie skargi na bezczynność Prezydenta Miasta Łodzi - druk BRM nr </title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1670_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1670_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 13, przeciw 7, wstrzym. 2). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Wniosek o opinię prawną</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1671_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1671_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Rozpatrzenie projektu uchwały w sprawie skargi na działania Dyrektora Miejskiej Pracowni Urbanistycz</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1672_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1672_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 12, przeciw 10, wstrzym. 5). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Rozpatrzenie projektu uchwały w sprawie skargi na działania Powiatowego Inspektora Nadzoru Budowlane</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1673_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1673_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 17, przeciw 0, wstrzym. 6). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Rozpatrzenie projektu uchwały w sprawie skargi na działania Prezydenta Miasta Łodzi - druk BRM nr 74</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1674_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1674_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 18, przeciw 0, wstrzym. 6). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Wniosek o opinię prawną.</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1675_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1675_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Rozpatrzenie projektu uchwały w sprawie skargi na bezczynność Dyrektora Zarządu Dróg i Transportu - </title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1676_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1676_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 11, przeciw 8, wstrzym. 9). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Rozpatrzenie projektu uchwały w sprawie skargi Rady Osiedla Stoki-Sikawa-Podgórze na działania Dyrek</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1677_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1677_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 16, przeciw 7, wstrzym. 2). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Rozpatrzenie projektu uchwały w sprawie skargi na działania Dyrektora Zarządu Dróg i Transportu - dr</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1678_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1678_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 14, przeciw 7, wstrzym. 4). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Rozpatrzenie projektu uchwały w sprawie skargi na działania Prezydenta Miasta Łodzi - druk BRM nr 78</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1679_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1679_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 18, przeciw 0, wstrzym. 6). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Rozpatrzenie projektu uchwały w sprawie pozostawienia bez rozpoznania skargi - druk BRM nr 79/2026.</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1680_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1680_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Rozpatrzenie projektu uchwały w sprawie w sprawie pozostawienia bez rozpoznania skargi - druk BRM nr</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1681_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1681_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29A. Rozpatrzenie projektu uchwały w sprawie pozostawienia bez rozpoznania skargi p. … - druk BRM nr</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1682_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1682_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 22, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29B. Rozpatrzenie projektu uchwały w sprawie przekazania skargi według właściwości - druk BRM nr 82/</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1683_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1683_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 21, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29C. Propozycja nadania 5 Nagród Miasta Łodzi.</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1684_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1684_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 23, przeciw 3, wstrzym. 1). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29C. Adam Konrad Badowski</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1685_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1685_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 25, przeciw 1, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29C. dr hab. prof. UŁ Iwona Dorota Czechowska dr hab. prof. UŁ Czesław Lipiński dr hab. Joanna Maria</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1686_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1686_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 29, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29C. dr Agnieszka Katarzyna Gębora</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1687_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1687_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 17, przeciw 7, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29C. dr Agnieszka Katarzyna Gębora</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1688_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1688_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 14, przeciw 15, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29C. Tomasz Robert Gołębiewski</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1689_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1689_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29C. Anna Maria Jagiełło</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1690_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1690_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29C. ks. Wiesław Jan Kamiński</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1691_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1691_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 3, przeciw 23, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29C. Liliana Leszner</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1692_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1692_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 5, przeciw 20, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29C. Leszek Jan Piąstka</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1693_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1693_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 5, przeciw 22, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29C. Joanna Magdalena Przybył</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1694_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1694_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 4, przeciw 22, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29C. Mieczysław Teodorczyk</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1695_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1695_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 21, przeciw 4, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29C. Osoby, które „wstrzymały się” od głosowania.</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1696_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1696_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29C. Rozpatrzenie projektu uchwały w sprawie przyznania Nagrody Miasta Łodzi - druk BRM nr 63/2026.</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1697_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1697_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 3, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29D. Propozycja nadania 12 Odznak „Za Zasługi dla Miasta Łodzi”.</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1698_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1698_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 29, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29D. dr Sebastian Adamkiewicz</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1699_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1699_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 5, przeciw 21, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29D. Dominik Antoszczyk</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1700_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1700_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29D. prof. dr hab. n.med. Adam Ryszard Durczyński</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1701_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1701_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 6, przeciw 19, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29D. Robert Piotr Gajewski</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1702_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1702_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 7, przeciw 17, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29D. Sławomir Grzanek</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1703_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1703_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 5, przeciw 21, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29D. Tomasz Henryk Grzywaczewski</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1704_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1704_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29D. dr hab. med. prof. UM Piotr Hogendorf</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1705_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1705_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 21, przeciw 4, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29D. Żaneta Bernadeta Iwańczyk</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1706_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1706_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 5, przeciw 21, wstrzym. 1). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29D. Elżbieta Małgorzata Junczyk</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1707_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1707_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 0, przeciw 26, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29D. Jan Zygmunt Kamiński</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1708_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1708_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29D. Teresa Klink-Kobierska</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1709_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1709_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 23, przeciw 5, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29D. Beata Maria Konieczniak</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1710_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1710_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 5, przeciw 22, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29D. Elżbieta Maria Korczak</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1711_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1711_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29D. Amelia Kornelia Kostrzewa</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1712_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1712_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 6, przeciw 21, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29D. Andrzej Józef Koza</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1713_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1713_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 5, przeciw 21, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29D. Sławomir Józef Krystkowski</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1714_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1714_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 30, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29D. prof. dr hab. inż. Marek Lefik</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1715_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1715_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 23, przeciw 6, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29D. prof. dr hab. Stefan Konstanty Niesiołowski</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1716_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1716_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 1, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29D. Dariusz Rodger Timler</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1717_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1717_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 5, przeciw 22, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29D. prof. dr hab. inż. Tadeusz Urban</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1718_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1718_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 4, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29D. Ewa Maria Wojciechowska</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1719_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1719_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29D. Grohman Orchestra</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1720_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1720_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 30, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29D. Osoby które "wstrzymały się" od głosu.</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1721_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1721_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>29D. Rozpatrzenie projektu uchwały w sprawie nadania Odznaki „Za Zasługi dla Miasta Łodzi”- druk BRM</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1722_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1722_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Rozpatrzenie projektu uchwały w sprawie ustanowienia na terenie Miasta Łodzi roku 2027 Rokiem Artura</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1723_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1723_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>30A. Rozpatrzenie projektu uchwały w sprawie nadania rondu nazwy Bolesława Kardaszewskiego - druk BR</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1724_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1724_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 25, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>30B. Rozpatrzenie projektu uchwały w sprawie nadania rondu nazwy Władysława Stanilewicza - druk BRM </title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1725_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1725_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>30B. Wprowadzenie do porządku obrad punktu 31b - Rozpatrzenie projektu uchwały w sprawie zmian w skł</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1726_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1726_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: odrzucone (za 10, przeciw 20, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>30B. Wprowadzenie do porządku obrad punktu 31c Rozpatrzenie projektu uchwały w sprawie zaliczenia dr</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1727_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1727_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 30, przeciw 1, wstrzym. 1). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Poprawka PiS</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1728_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1728_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 29, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Rozpatrzenie projektu uchwały stanowisko - apel w sprawie zakazu sprzedaży napojów alkoholowych w op</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1729_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1729_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 19, przeciw 0, wstrzym. 0). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>31A. Rozpatrzenie projektu uchwały zmieniającej uchwałę w sprawie określenia zasad sprzedaży, na rze</title>
+    <link href="https://lodz.radoskop.pl/glosowanie/2026-04-22_1730_000/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/glosowanie/2026-04-22_1730_000/#vote</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 4). Sesja XXIX.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Sesja XXIX Rady Miasta Łódź</title>
+    <link href="https://lodz.radoskop.pl/sesja/XXIX/" rel="alternate" type="text/html"/>
+    <id>https://lodz.radoskop.pl/sesja/XXIX/#session</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">85 glosowan, 36 obecnych.</summary>
+    <category term="session"/>
+  </entry>
   <entry>
     <title>Propozycje ograniczeń czasowych wystąpień.</title>
     <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1585_000/" rel="alternate" type="text/html"/>
@@ -134,780 +908,6 @@
     <published>2026-03-18T12:00:00+01:00</published>
     <updated>2026-03-18T12:00:00+01:00</updated>
     <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie zmian budżetu oraz zmian w budżecie miasta Łodzi na 2026 rok</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1599_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1599_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 20, przeciw 0, wstrzym. 3). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały zmieniającej uchwałę w sprawie Wieloletniej Prognozy Finansowej miasta</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1600_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1600_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 14, przeciw 0, wstrzym. 6). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie określenia sezonu kąpielowego i wykazu kąpielisk na terenie </title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1601_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1601_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 20, przeciw 0, wstrzym. 1). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały zmieniającej uchwałę w sprawie ustalenia planu sieci publicznych szkół</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1602_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1602_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 21, przeciw 0, wstrzym. 0). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie podziału środków Państwowego Funduszu Rehabilitacji Osób Nie</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1603_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1603_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 22, przeciw 0, wstrzym. 0). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>10A. Rozpatrzenie projektu uchwały zmieniającej uchwałę w sprawie ustalenia szczegółowych zasad pono</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1604_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1604_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 21, przeciw 0, wstrzym. 0). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie wyrażenia zgody na wniesienie przez Miasto Łódź wkładu niepi</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1605_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1605_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 19, przeciw 0, wstrzym. 1). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie wyrażenia zgody na wydzierżawienie w drodze bezprzetargowej,</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1606_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1606_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 0). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie przyznania pierwszeństwa w nabyciu lokalu użytkowego nr 1U u</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1607_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1607_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 25, przeciw 0, wstrzym. 0). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie wyrażenia zgody na przekazanie w drodze darowizny na rzecz S</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1608_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1608_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 31, przeciw 0, wstrzym. 0). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Uwaga nr 1</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1609_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1609_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 20, przeciw 0, wstrzym. 3). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Uwagi nr 3, 4 i 5</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1610_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1610_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 18, przeciw 0, wstrzym. 3). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Uwaga nr 6</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1611_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1611_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 19, przeciw 0, wstrzym. 1). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Uwaga nr 7</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1612_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1612_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 19, przeciw 0, wstrzym. 1). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Uwaga nr 8</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1613_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1613_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 18, przeciw 0, wstrzym. 1). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Uwaga nr 9</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1614_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1614_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 19, przeciw 0, wstrzym. 2). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Uwaga nr 10</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1615_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1615_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 19, przeciw 0, wstrzym. 2). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Uwaga nr 11 (w części)</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1616_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1616_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 19, przeciw 0, wstrzym. 2). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Uwaga nr 12 (w części)</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1617_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1617_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 19, przeciw 0, wstrzym. 2). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie uchwalenia miejscowego planu zagospodarowania przestrzennego</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1618_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1618_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 23, przeciw 0, wstrzym. 1). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>15A. Uwaga nr 1</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1619_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1619_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 23, przeciw 0, wstrzym. 6). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>15A. Rozpatrzenie projektu uchwały w sprawie uchwalenia miejscowego planu zagospodarowania przestrze</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1620_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1620_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 22, przeciw 3, wstrzym. 5). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie przystąpienia do sporządzenia miejscowego planu zagospodarow</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1621_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1621_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 19, przeciw 0, wstrzym. 0). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Wniosek o opinię prawną.</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1622_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1622_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 19, przeciw 0, wstrzym. 0). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie ustalenia lokalizacji inwestycji mieszkaniowej i inwestycji </title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1623_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1623_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 15, przeciw 0, wstrzym. 7). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>wniosek o zmianę porządku obrad</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1624_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1624_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 21, przeciw 2, wstrzym. 1). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie skargi na bezczynność Dyrektora Zarządu Lokali Miejskich - d</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1625_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1625_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 19, przeciw 4, wstrzym. 1). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie skargi na bezczynność Dyrektora Zarządu Lokali Miejskich - d</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1626_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1626_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 20, przeciw 4, wstrzym. 0). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie skargi na bezczynność Dyrektora Zarządu Lokali Miejskich - d</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1627_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1627_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 17, przeciw 5, wstrzym. 0). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie skargi na bezczynność Dyrektora Zarządu Lokali Miejskich - d</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1628_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1628_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 20, przeciw 5, wstrzym. 0). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie skargi na bezczynność Dyrektora Zarządu Lokali Miejskich - d</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1629_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1629_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 17, przeciw 6, wstrzym. 0). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie skargi na bezczynność Dyrektora Zarządu Lokali Miejskich - d</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1630_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1630_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 19, przeciw 4, wstrzym. 0). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie skargi na bezczynność Dyrektora Zarządu Lokali Miejskich - d</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1631_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1631_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 18, przeciw 4, wstrzym. 0). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie pozostawienia bez rozpoznania skargi - druk BRM nr 57/2026.</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1632_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1632_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 25, przeciw 0, wstrzym. 1). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie pozostawienia bez rozpoznania skargi - druk BRM nr 58/2026.</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1633_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1633_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 1). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>27A. Rozpatrzenie projektu uchwały w sprawie skargi na bezczynność Prezydenta Miasta Łodzi - druk BR</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1634_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1634_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 24, przeciw 1, wstrzym. 2). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>27B. Rozpatrzenie projektu uchwały w sprawie skargi na działania Prezydenta Miasta Łodzi - druk BRM </title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1635_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1635_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 20, przeciw 4, wstrzym. 0). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>27C. Rozpatrzenie projektu uchwały w sprawie skargi na działania Dyrektora Zarządu Dróg i Transportu</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1636_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1636_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 18, przeciw 3, wstrzym. 0). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>27D. Rozpatrzenie projektu uchwały w sprawie skargi na działania Dyrektora Zarządu Dróg i Transportu</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1637_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1637_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 20, przeciw 0, wstrzym. 1). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>27E. Rozpatrzenie projektu uchwały w sprawie skargi na działania Dyrektora Zarządu Dróg i Transportu</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1638_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1638_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 23, przeciw 0, wstrzym. 2). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>27F. Rozpatrzenie projektu uchwały w sprawie wniosku o odwołanie Wiceprzewodniczącej Rady Miejskiej </title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1639_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1639_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 27, przeciw 3, wstrzym. 0). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>27G. Rozpatrzenie projektu uchwały w sprawie skargi na działania Dyrektora Zarządu Lokali Miejskich </title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1640_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1640_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 19, przeciw 6, wstrzym. 0). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>27H. Rozpatrzenie projektu uchwały w sprawie przekazania petycji według właściwości - druk BRM nr 59</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1641_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1641_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 0). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>27I. Rozpatrzenie projektu uchwały stanowisko - apel w sprawie zapewnienia skutecznego uruchomienia </title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1642_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1642_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 24, przeciw 7, wstrzym. 0). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>27J. Wprowadzenie do porządku obrad punktu 27k - Rozpatrzenie projektu uchwały w sprawie zmian w skł</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1643_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1643_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 25, przeciw 0, wstrzym. 0). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>27J. Rozpatrzenie projektu uchwały stanowisko - apel do mieszkańców Łodzi o przekazywanie 1,5% swoje</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1644_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1644_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 23, przeciw 0, wstrzym. 3). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>27K. Rozpatrzenie projektu uchwały w sprawie zmian w składach osobowych komisji Rady Miejskiej w Łod</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-03-18_1645_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-03-18_1645_000/#vote</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 0). Sesja XXVIII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Sesja XXVIII Rady Miasta Łódź</title>
-    <link href="https://lodz.radoskop.pl/sesja/XXVIII/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/sesja/XXVIII/#session</id>
-    <published>2026-03-18T12:00:00+01:00</published>
-    <updated>2026-03-18T12:00:00+01:00</updated>
-    <summary type="html">61 glosowan, 36 obecnych.</summary>
-    <category term="session"/>
-  </entry>
-  <entry>
-    <title>Propozycje ograniczeń czasowych wystąpień.</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1485_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1485_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 19, przeciw 6, wstrzym. 2). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Wprowadzenie do porządku obrad punktu 42a - Rozpatrzenie projektu uchwały w sprawie wyrażenia zgody </title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1486_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1486_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 29, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Wprowadzenie do porządku obrad punktu 21a - Rozpatrzenie projektu uchwały w sprawie wyrażenia zgody </title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1487_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1487_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Wprowadzenie do porządku obrad punktu 21b - Rozpatrzenie projektu uchwały w sprawie wyrażenia zgody </title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1488_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1488_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Wprowadzenie do porządku obrad punktu 21c - Rozpatrzenie projektu uchwały w sprawie powołania Komisj</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1489_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1489_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Wprowadzenie do porządku obrad punktu 21d - Rozpatrzenie projektu uchwały w sprawie zaliczenia drogi</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1490_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1490_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 30, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Wprowadzenie do porządku obrad punktu 21e - Rozpatrzenie projektu uchwały zmieniającej uchwałę w spr</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1491_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1491_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 30, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Wprowadzenie do porządku obrad punktu 37a - Rozpatrzenie projektu uchwały w sprawie skargi na działa</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1492_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1492_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 30, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Wprowadzenie do porządku obrad punktu 37b - Rozpatrzenie projektu uchwały w sprawie skargi na działa</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1493_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1493_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Wprowadzenie do porządku obrad punktu 37c - Rozpatrzenie projektu uchwały w sprawie skargi na działa</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1494_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1494_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Wprowadzenie do porządku obrad punktu 37d - Rozpatrzenie projektu uchwały w sprawie skargi na działa</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1495_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1495_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Wprowadzenie do porządku obrad punktu 37e - Rozpatrzenie projektu uchwały w sprawie skargi na działa</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1496_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1496_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 29, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Wprowadzenie do porządku obrad punktu 37f - Rozpatrzenie projektu uchwały w sprawie skargi na działa</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1497_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1497_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Wprowadzenie do porządku obrad punktu 37g - Rozpatrzenie projektu uchwały w sprawie uznania petycji </title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1498_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1498_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 29, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Wprowadzenie do porządku obrad punktu 37h - Rozpatrzenie projektu uchwały w sprawie skargi na działa</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1499_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1499_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 29, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Wprowadzenie do porządku obrad punktu 37i - Rozpatrzenie projektu uchwały sprawie skargi na działani</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1500_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1500_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 30, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Wprowadzenie do porządku obrad punktu 37j - Rozpatrzenie projektu uchwały w sprawie skargi na działa</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1501_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1501_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 31, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Wprowadzenie do porządku obrad punktu 37k - Rozpatrzenie projektu uchwały w sprawie skargi na działa</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1502_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1502_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Wprowadzenie do porządku obrad punktu 43a - Rozpatrzenie projektu uchwały w sprawie ustanowienia kie</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1503_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1503_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 29, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Wprowadzenie do porządku obrad punktu 43b - Rozpatrzenie projektu uchwały w sprawie uznania terenu z</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1504_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1504_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Wprowadzenie do porządku obrad punktu 43c - Rozpatrzenie projektu uchwały w sprawie zatwierdzenia pl</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1505_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1505_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 25, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Wprowadzenie do porządku obrad punktu 43d - Rozpatrzenie projektu uchwały w sprawie zmian w składach</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1506_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1506_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 30, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Przeniesienie pkt. 39 do pkt. 5a.</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1507_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1507_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 32, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Powołanie Komisji Uchwał i Wniosków.</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1508_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1508_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 32, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>5A. Rozpatrzenie projektu uchwały w sprawie przyjęcia stanowiska dotyczącego sprzeciwu wobec projekt</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1509_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1509_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: odrzucone (za 9, przeciw 19, wstrzym. 5). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie zmian budżetu oraz zmian w budżecie miasta Łodzi na 2026 rok</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1510_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1510_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 19, przeciw 0, wstrzym. 1). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały zmieniającej uchwałę w sprawie Wieloletniej Prognozy Finansowej miasta</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1511_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1511_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 19, przeciw 0, wstrzym. 1). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie emisji obligacji komunalnych miasta Łodzi - druk nr 35/2026.</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1512_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1512_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 17, przeciw 1, wstrzym. 2). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały zmieniającej uchwałę w sprawie określenia terenu działania poradni psy</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1513_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1513_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 20, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały zmieniającej uchwałę w sprawie likwidacji Zespołu Ekonomiczno-Administ</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1514_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1514_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 20, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie przekształcenia Przedszkola Miejskiego nr 4 w Łodzi przy ul.</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1515_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1515_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 19, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie ustalenia wysokości ekwiwalentu pieniężnego dla strażaków ra</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1516_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1516_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 22, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie przyjęcia „Programu opieki nad zwierzętami bezdomnymi oraz z</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1517_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1517_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 20, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały zmieniającej uchwałę w sprawie przyjęcia Gminnego Programu Przeciwdzia</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1518_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1518_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 25, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie ustalenia lokalizacji inwestycji mieszkaniowej przy ulicy Ta</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1519_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1519_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: odrzucone (za 7, przeciw 18, wstrzym. 1). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie odmowy ustalenia lokalizacji inwestycji mieszkaniowej przy u</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1520_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1520_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 19, przeciw 3, wstrzym. 2). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie wyrażenia zgody na wydzierżawienie w drodze bezprzetargowej,</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1521_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1521_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 21, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Rozpatrzenie projektu uchwały w sprawie przyznania pierwszeństwa w nabyciu lokali użytkowych i pomie</title>
-    <link href="https://lodz.radoskop.pl/glosowanie/2026-02-25_1522_000/" rel="alternate" type="text/html"/>
-    <id>https://lodz.radoskop.pl/glosowanie/2026-02-25_1522_000/#vote</id>
-    <published>2026-02-25T12:00:00+01:00</published>
-    <updated>2026-02-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja XXVII.</summary>
     <category term="vote"/>
   </entry>
 </feed>

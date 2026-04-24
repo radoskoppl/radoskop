@@ -5,7 +5,7 @@
   <link href="https://gdansk.radoskop.pl/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://gdansk.radoskop.pl/" rel="alternate" type="text/html"/>
   <id>https://gdansk.radoskop.pl/</id>
-  <updated>2026-04-17T14:02:58Z</updated>
+  <updated>2026-04-24T23:36:00Z</updated>
   <author>
     <name>Radoskop</name>
     <uri>https://radoskop.pl</uri>
@@ -20,22 +20,75 @@
     <category term="interpelacja"/>
   </entry>
   <entry>
-    <title>Interpelacja: w sprawie ustawienia wiaty przystankowej na przystanku Swojska 04 w Gdańsku</title>
-    <link href="https://gdansk.radoskop.pl/profil/marcin-makowski/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/profil/marcin-makowski/#interpelacja</id>
-    <published>2026-04-17T12:00:00+01:00</published>
-    <updated>2026-04-17T12:00:00+01:00</updated>
-    <summary type="html">Marcin Makowski. w sprawie ustawienia wiaty przystankowej na przystanku Swojska 04 w Gdańsku</summary>
+    <title>Interpelacja: w sprawie stanu technicznego oraz potrzeby remontu sali gimnastycznej w Szkołach Okrętowych i Techni</title>
+    <link href="https://gdansk.radoskop.pl/interpelacje/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/interpelacje/#interpelacja</id>
+    <published>2026-04-24T12:00:00+01:00</published>
+    <updated>2026-04-24T12:00:00+01:00</updated>
+    <summary type="html">Agnieszka Owczarczak Andrzej Kowalczys. w sprawie stanu technicznego oraz potrzeby remontu sali gimnastycznej w Szkołach Okrętowych i Technicznych Conradinum</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>
-    <title>Interpelacja: w sprawie wsparcia w roku bieżącym dodatkowymi środkami finansowymi Szkoły Podstawowej nr 86 im. p</title>
-    <link href="https://gdansk.radoskop.pl/interpelacje/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/interpelacje/#interpelacja</id>
-    <published>2026-04-17T12:00:00+01:00</published>
-    <updated>2026-04-17T12:00:00+01:00</updated>
-    <summary type="html">Mateusz Skarbek
-Kamila Błaszczyk. w sprawie wsparcia w roku bieżącym dodatkowymi środkami finansowymi Szkoły Podstawowej nr 86 im. prof. Jerzego Sampa</summary>
+    <title>Interpelacja: w sprawie realizacji uchwały Rady Dzielnicy Przymorze Małe dotyczącej organizacji ruchu na ul. ks.</title>
+    <link href="https://gdansk.radoskop.pl/profil/marcin-makowski/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/marcin-makowski/#interpelacja</id>
+    <published>2026-04-23T12:00:00+01:00</published>
+    <updated>2026-04-23T12:00:00+01:00</updated>
+    <summary type="html">Marcin Makowski. w sprawie realizacji uchwały Rady Dzielnicy Przymorze Małe dotyczącej organizacji ruchu na ul. ks. Jana Majdera</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie remontu ul. Czyżewskiego</title>
+    <link href="https://gdansk.radoskop.pl/profil/jan-perucki/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/jan-perucki/#interpelacja</id>
+    <published>2026-04-23T12:00:00+01:00</published>
+    <updated>2026-04-23T12:00:00+01:00</updated>
+    <summary type="html">Jan Perucki. w sprawie remontu ul. Czyżewskiego</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie rozpoczęcia prac przy budowie docelowego kształtu ulicy Letnickiej</title>
+    <link href="https://gdansk.radoskop.pl/profil/cezary-spiewak-dowbor/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/cezary-spiewak-dowbor/#interpelacja</id>
+    <published>2026-04-23T12:00:00+01:00</published>
+    <updated>2026-04-23T12:00:00+01:00</updated>
+    <summary type="html">Cezary Śpiewak-Dowbór. w sprawie rozpoczęcia prac przy budowie docelowego kształtu ulicy Letnickiej</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie Stanu realizacji oświetlenia dojścia od ul. Lawendowe Wzgórza do zbiornika Świętokrzyska w</title>
+    <link href="https://gdansk.radoskop.pl/profil/kamila-blaszczyk/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/kamila-blaszczyk/#interpelacja</id>
+    <published>2026-04-23T12:00:00+01:00</published>
+    <updated>2026-04-23T12:00:00+01:00</updated>
+    <summary type="html">Kamila Błaszczyk. w sprawie Stanu realizacji oświetlenia dojścia od ul. Lawendowe Wzgórza do zbiornika Świętokrzyska w ramach programu Jaśniejszy Gdańsk</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie konieczności wykonania prac remontowych schodów w odcinku od Szkoły Podstawowej 38 w kie</title>
+    <link href="https://gdansk.radoskop.pl/profil/marta-magott/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/marta-magott/#interpelacja</id>
+    <published>2026-04-23T12:00:00+01:00</published>
+    <updated>2026-04-23T12:00:00+01:00</updated>
+    <summary type="html">Marta Magott. w sprawie konieczności wykonania prac remontowych schodów w odcinku od Szkoły Podstawowej 38 w kierunku budynku wielorodzinnego przy ulicy Leśna Gór</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie podłączenia mieszkań komunalnych w dzielnicy Letnica do miejskiej sieci ciepłowniczej GPE</title>
+    <link href="https://gdansk.radoskop.pl/profil/katarzyna-czerniewska/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/katarzyna-czerniewska/#interpelacja</id>
+    <published>2026-04-21T12:00:00+01:00</published>
+    <updated>2026-04-21T12:00:00+01:00</updated>
+    <summary type="html">Katarzyna Czerniewska. w sprawie podłączenia mieszkań komunalnych w dzielnicy Letnica do miejskiej sieci ciepłowniczej GPEC</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie problemów z mieniem gminnym w dzielnicy Krakowiec-Górki Zachodnie – kontynuacja</title>
+    <link href="https://gdansk.radoskop.pl/profil/andrzej-skiba/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/andrzej-skiba/#interpelacja</id>
+    <published>2026-04-20T12:00:00+01:00</published>
+    <updated>2026-04-20T12:00:00+01:00</updated>
+    <summary type="html">Andrzej Skiba. w sprawie problemów z mieniem gminnym w dzielnicy Krakowiec-Górki Zachodnie – kontynuacja</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>
@@ -45,15 +98,6 @@ Kamila Błaszczyk. w sprawie wsparcia w roku bieżącym dodatkowymi środkami f
     <published>2026-04-16T12:00:00+01:00</published>
     <updated>2026-04-16T12:00:00+01:00</updated>
     <summary type="html">Łukasz Świacki. w sprawie przeprowadzenia konsultacji z zakresu przebiegu oraz rozkładu jazdy linii komunikacyjnych transportu zbiorowego</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
-    <title>Interpelacja: w sprawie postulatów radnego dzielnicy Stogi</title>
-    <link href="https://gdansk.radoskop.pl/profil/andrzej-skiba/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/profil/andrzej-skiba/#interpelacja</id>
-    <published>2026-04-15T12:00:00+01:00</published>
-    <updated>2026-04-15T12:00:00+01:00</updated>
-    <summary type="html">Andrzej Skiba. w sprawie postulatów radnego dzielnicy Stogi</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>
@@ -84,15 +128,6 @@ Kamila Błaszczyk. w sprawie wsparcia w roku bieżącym dodatkowymi środkami f
     <category term="interpelacja"/>
   </entry>
   <entry>
-    <title>Interpelacja: w sprawie przeniesienia przystanku Człuchowska 01 bliżej Szkoły Podstawowej nr 12</title>
-    <link href="https://gdansk.radoskop.pl/profil/kamila-blaszczyk/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/profil/kamila-blaszczyk/#interpelacja</id>
-    <published>2026-04-08T12:00:00+01:00</published>
-    <updated>2026-04-08T12:00:00+01:00</updated>
-    <summary type="html">Kamila Błaszczyk. w sprawie przeniesienia przystanku Człuchowska 01 bliżej Szkoły Podstawowej nr 12</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
     <title>Interpelacja: w sprawie utworzenia wybiegu dla psów w Parku św. Barbary</title>
     <link href="https://gdansk.radoskop.pl/profil/sylwia-rydlewska-kowalik/" rel="alternate" type="text/html"/>
     <id>https://gdansk.radoskop.pl/profil/sylwia-rydlewska-kowalik/#interpelacja</id>
@@ -108,24 +143,6 @@ Kamila Błaszczyk. w sprawie wsparcia w roku bieżącym dodatkowymi środkami f
     <published>2026-04-07T12:00:00+01:00</published>
     <updated>2026-04-07T12:00:00+01:00</updated>
     <summary type="html">Żaneta Geryk. Dot. wykonania dwóch ławo stołów,  chodnika o długości około 10 metrów oraz zagospodarowanie terenu rekreacyjnego na Niedźwiedzim Szlaku dla mieszkań</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
-    <title>Interpelacja: w sprawie remontu chodnika i warstwy ścieralnej w ul. Barniewickiej</title>
-    <link href="https://gdansk.radoskop.pl/profil/jan-perucki/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/profil/jan-perucki/#interpelacja</id>
-    <published>2026-03-26T12:00:00+01:00</published>
-    <updated>2026-03-26T12:00:00+01:00</updated>
-    <summary type="html">Jan Perucki. w sprawie remontu chodnika i warstwy ścieralnej w ul. Barniewickiej</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
-    <title>Interpelacja: w sprawie koczowiska osób w kryzysie bezdomności i nielegalnego składowiska odpadów we wraku samoc</title>
-    <link href="https://gdansk.radoskop.pl/profil/cezary-spiewak-dowbor/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/profil/cezary-spiewak-dowbor/#interpelacja</id>
-    <published>2026-03-23T12:00:00+01:00</published>
-    <updated>2026-03-23T12:00:00+01:00</updated>
-    <summary type="html">Cezary Śpiewak-Dowbór. w sprawie koczowiska osób w kryzysie bezdomności i nielegalnego składowiska odpadów we wraku samochodu w dzielnicy Brzeźno</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>
@@ -891,24 +908,6 @@ Kamila Błaszczyk. w sprawie wsparcia w roku bieżącym dodatkowymi środkami f
     <published>2025-11-28T12:00:00+01:00</published>
     <updated>2025-11-28T12:00:00+01:00</updated>
     <summary type="html">Wynik: przyjete (za 29, przeciw 0, wstrzym. 0). Sesja XXI.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>zmieniająca uchwałę w sprawie ustalenia strefy płatnego parkowania i śródmiejskiej strefy płatnego p</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2025-11-28_20/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2025-11-28_20/#vote</id>
-    <published>2025-11-28T12:00:00+01:00</published>
-    <updated>2025-11-28T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 29, przeciw 0, wstrzym. 0). Sesja XXI.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>w sprawie upoważnienia Dyrektora Gdańskiego Zarządu Zieleni - jednostki budżetowej do załatwiania in</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2025-11-28_21/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2025-11-28_21/#vote</id>
-    <published>2025-11-28T12:00:00+01:00</published>
-    <updated>2025-11-28T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja XXI.</summary>
     <category term="vote"/>
   </entry>
 </feed>

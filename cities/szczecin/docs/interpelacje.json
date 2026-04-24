@@ -1,5 +1,233 @@
 [
   {
+    "cri": "szczecin-2024-2029-1981",
+    "miasto": "szczecin",
+    "kadencja": "2024-2029",
+    "numer": "1981",
+    "typ": "interpelacja",
+    "tytul": "Dot. dostępności obiektów sportowych dla mieszkańców",
+    "radny": "Słowik Przemysław",
+    "data_wplywu": "2026-04-24",
+    "data_odpowiedzi": null,
+    "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=FB99DEB950D44E40815C0EE62E6CE65B"
+  },
+  {
+    "cri": "szczecin-2024-2029-1980",
+    "miasto": "szczecin",
+    "kadencja": "2024-2029",
+    "numer": "1980",
+    "typ": "interpelacja",
+    "tytul": "Dot.  nowej siedziby filii nr 28 Miejskiej Biblioteki Publicznej",
+    "radny": "Słowik Przemysław",
+    "data_wplywu": "2026-04-23",
+    "data_odpowiedzi": null,
+    "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=A530ADD70E174ACABD36886F941FF389"
+  },
+  {
+    "cri": "szczecin-2024-2029-1979",
+    "miasto": "szczecin",
+    "kadencja": "2024-2029",
+    "numer": "1979",
+    "typ": "interpelacja",
+    "tytul": "Dot. stanu technicznego napisu SZCZECIN na Łasztowni",
+    "radny": "Słowik Przemysław",
+    "data_wplywu": "2026-04-22",
+    "data_odpowiedzi": null,
+    "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=2AEF735756A4443894A99BFBF7285525"
+  },
+  {
+    "cri": "szczecin-2024-2029-1978",
+    "miasto": "szczecin",
+    "kadencja": "2024-2029",
+    "numer": "1978",
+    "typ": "interpelacja",
+    "tytul": "Dot. stanu ogrodzenia Szkoły Podstawowej nr 21",
+    "radny": "Gieryga Mateusz",
+    "data_wplywu": "2026-04-21",
+    "data_odpowiedzi": null,
+    "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=DDFDBC9AE61A4400A55D77934D78C852"
+  },
+  {
+    "cri": "szczecin-2024-2029-1977",
+    "miasto": "szczecin",
+    "kadencja": "2024-2029",
+    "numer": "1977",
+    "typ": "interpelacja",
+    "tytul": "Dot. chodnika pod Szkołą Podstawową nr 21",
+    "radny": "Gieryga Mateusz",
+    "data_wplywu": "2026-04-21",
+    "data_odpowiedzi": null,
+    "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=77B3A190C23744B0B8CD200FACE4DD66"
+  },
+  {
+    "cri": "szczecin-2024-2029-1976",
+    "miasto": "szczecin",
+    "kadencja": "2024-2029",
+    "numer": "1976",
+    "typ": "interpelacja",
+    "tytul": "Dot. edukacji prawnej młodzieży oraz współpracy szkół z Policją w Szczecinie",
+    "radny": "Smoliński Dariusz",
+    "data_wplywu": "2026-04-21",
+    "data_odpowiedzi": null,
+    "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=90E893D5A90F4160A70A08C3C5A24CFA"
+  },
+  {
+    "cri": "szczecin-2024-2029-1975",
+    "miasto": "szczecin",
+    "kadencja": "2024-2029",
+    "numer": "1975",
+    "typ": "interpelacja",
+    "tytul": "Dot. udostępnienia boiska przy Tenisowej dla mieszkańców",
+    "radny": "Gieryga Mateusz",
+    "data_wplywu": "2026-04-21",
+    "data_odpowiedzi": null,
+    "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=929D0F42D69742788CEF5AC3C9268C6A"
+  },
+  {
+    "cri": "szczecin-2024-2029-1974",
+    "miasto": "szczecin",
+    "kadencja": "2024-2029",
+    "numer": "1974",
+    "typ": "interpelacja",
+    "tytul": "Dot. stworzenia miejskiego portalu prezentującego zabytki architektoniczne Szczecina",
+    "radny": "Smoliński Dariusz",
+    "data_wplywu": "2026-04-21",
+    "data_odpowiedzi": null,
+    "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=32ACE758C13A443D9D93C7BD06DF49F8"
+  },
+  {
+    "cri": "szczecin-2024-2029-1973",
+    "miasto": "szczecin",
+    "kadencja": "2024-2029",
+    "numer": "1973",
+    "typ": "interpelacja",
+    "tytul": "Dot. zwolnienia dawców szpiku kostnego z opłat za przejazd komunikacją miejską",
+    "radny": "Radziwinowicz Andrzej",
+    "data_wplywu": "2026-04-21",
+    "data_odpowiedzi": null,
+    "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=23A49664E5574C9DADF4F22983921964"
+  },
+  {
+    "cri": "szczecin-2024-2029-1972",
+    "miasto": "szczecin",
+    "kadencja": "2024-2029",
+    "numer": "1972",
+    "typ": "zapytanie",
+    "tytul": "Dot. braku odpowiedzi na zapytanie nr 1704 z dnia 09.12.2025 r.",
+    "radny": "Jerzyk Henryk",
+    "data_wplywu": "2026-04-20",
+    "data_odpowiedzi": null,
+    "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=1E5061D620414F748A961C200C043C07"
+  },
+  {
+    "cri": "szczecin-2024-2029-1971",
+    "miasto": "szczecin",
+    "kadencja": "2024-2029",
+    "numer": "1971",
+    "typ": "interpelacja",
+    "tytul": "Dot. dostępności miejskich obiektów sportowych dla mieszkańców Szczecina",
+    "radny": "Pańka Urszula",
+    "data_wplywu": "2026-04-20",
+    "data_odpowiedzi": null,
+    "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=859DDB0B943D4D14A09F27147A14D338"
+  },
+  {
+    "cri": "szczecin-2024-2029-1970",
+    "miasto": "szczecin",
+    "kadencja": "2024-2029",
+    "numer": "1970",
+    "typ": "interpelacja",
+    "tytul": "Dot. montażu ławek oraz zadaszeń na przystankach autobusowych linii 242",
+    "radny": "Pańka Urszula",
+    "data_wplywu": "2026-04-20",
+    "data_odpowiedzi": null,
+    "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=A8C9A786BA6A4F43954B7BC7C90D72F6"
+  },
+  {
+    "cri": "szczecin-2024-2029-1969",
+    "miasto": "szczecin",
+    "kadencja": "2024-2029",
+    "numer": "1969",
+    "typ": "interpelacja",
+    "tytul": "Dot. zasad korzystania z drogi dla rowerów i chodnika w rejonie kąpieliska Arkonka i jeziora Goplana",
+    "radny": "Duklanowski Marek",
+    "data_wplywu": "2026-04-20",
+    "data_odpowiedzi": null,
+    "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=3929568C6FA9499999E8E1856DFC0658"
+  },
+  {
+    "cri": "szczecin-2024-2029-1968",
+    "miasto": "szczecin",
+    "kadencja": "2024-2029",
+    "numer": "1968",
+    "typ": "interpelacja",
+    "tytul": "Dot. funkcjonowania Miejskiej Biblioteki Publicznej",
+    "radny": "Radziwinowicz Andrzej",
+    "data_wplywu": "2026-04-20",
+    "data_odpowiedzi": null,
+    "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=B4059CBE6B254450BA51A1D56129D4C5"
+  },
+  {
+    "cri": "szczecin-2024-2029-1967",
+    "miasto": "szczecin",
+    "kadencja": "2024-2029",
+    "numer": "1967",
+    "typ": "interpelacja",
+    "tytul": "Dot. rewitalizacji Wieży Quistorpa",
+    "radny": "Radziwinowicz Andrzej",
+    "data_wplywu": "2026-04-20",
+    "data_odpowiedzi": null,
+    "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=BD154DB6D5C14E3680E7B5A0ED663651"
+  },
+  {
+    "cri": "szczecin-2024-2029-1966",
+    "miasto": "szczecin",
+    "kadencja": "2024-2029",
+    "numer": "1966",
+    "typ": "interpelacja",
+    "tytul": "Dot. dostępności infrastruktury przy dworcu Szczecin Główny dla osób z niepełnosprawnościami",
+    "radny": "Smoliński Dariusz",
+    "data_wplywu": "2026-04-20",
+    "data_odpowiedzi": null,
+    "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=D5589ED556BC47FF83AAB6358B5D89E8"
+  },
+  {
+    "cri": "szczecin-2024-2029-1965",
+    "miasto": "szczecin",
+    "kadencja": "2024-2029",
+    "numer": "1965",
+    "typ": "interpelacja",
+    "tytul": "Dot. stworzenia zintegrowanego systemu informacji i promocji kultury w Szczecinie",
+    "radny": "Smoliński Dariusz",
+    "data_wplywu": "2026-04-20",
+    "data_odpowiedzi": null,
+    "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=96F165239C8542AB85AC1859DC57E85B"
+  },
+  {
+    "cri": "szczecin-2024-2029-1964",
+    "miasto": "szczecin",
+    "kadencja": "2024-2029",
+    "numer": "1964",
+    "typ": "interpelacja",
+    "tytul": "Dot. modernizacji wiat przystankowych oraz polityki ich utrzymania i rozwoju w Szczecinie",
+    "radny": "Smoliński Dariusz",
+    "data_wplywu": "2026-04-20",
+    "data_odpowiedzi": null,
+    "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=28DC27D072144C40B92CD013760D96D9"
+  },
+  {
+    "cri": "szczecin-2024-2029-1963",
+    "miasto": "szczecin",
+    "kadencja": "2024-2029",
+    "numer": "1963",
+    "typ": "interpelacja",
+    "tytul": "Dot. odpowiedzi na interpelację nr 1907 dot. postoju technicznego autobusu linii 88 na jezdni przy przystanku Gumieńce",
+    "radny": "Kaup Stanisław",
+    "data_wplywu": "2026-04-20",
+    "data_odpowiedzi": null,
+    "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=06AB9C98A05F4554B98FA31A00CA0F0B"
+  },
+  {
     "cri": "szczecin-2024-2029-1962",
     "miasto": "szczecin",
     "kadencja": "2024-2029",
@@ -68,7 +296,7 @@
     "tytul": "Dot. nielegalnego używania ognia wokół Jeziora Głębokiego",
     "radny": "Radziwinowicz Andrzej",
     "data_wplywu": "2026-04-15",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-24",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=40C933C5D2DD46A0B2EFC9B292F010C9"
   },
   {
@@ -140,7 +368,7 @@
     "tytul": "Dot. frekwencji na zajęciach edukacji zdrowotnej",
     "radny": "Kopeć Maciej",
     "data_wplywu": "2026-04-14",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-23",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=BA632BE703D24161A2F85A69574997CB"
   },
   {
@@ -152,7 +380,7 @@
     "tytul": "Dot. organizacji zajęć edukacji zdrowotnej jako przedmiotu obowiązkowego",
     "radny": "Kopeć Maciej",
     "data_wplywu": "2026-04-14",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-24",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=07001333E3D14078B3FCC2D51ACA1AC7"
   },
   {
@@ -176,7 +404,7 @@
     "tytul": "Dot. zakupu defibrylatorów AED oraz organizacji szkoleń dla mieszkańców",
     "radny": "Gieryga Mateusz",
     "data_wplywu": "2026-04-13",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-24",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=3BE8234A893B445EB9292E93EE4B330D"
   },
   {
@@ -188,7 +416,7 @@
     "tytul": "Dot. umieszczenia lokalizacji defibrylatorów AED w systemie Google Maps",
     "radny": "Gieryga Mateusz",
     "data_wplywu": "2026-04-13",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-24",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=585D15FD9957491CA3A0A13A39C9F703"
   },
   {
@@ -236,7 +464,7 @@
     "tytul": "Dot. planów likwidacji lub przekształcania bibliotek miejskich",
     "radny": "Gieryga Mateusz",
     "data_wplywu": "2026-04-13",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-23",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=45A565B528914E8DA33DF09275E3676E"
   },
   {
@@ -320,7 +548,7 @@
     "tytul": "Dot. otoczenia Enea Areny - tryptyk cz. 1 z 3: Zielona Prowizorka (Bukszpany)",
     "radny": "Duklanowski Marek",
     "data_wplywu": "2026-04-10",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-24",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=E8927E2D2DB84200824A4A1F9FF654C1"
   },
   {
@@ -452,7 +680,7 @@
     "tytul": "Dot. zanieczyszczania j. Głebokie i j. Goplana",
     "radny": "Milewska Ilona",
     "data_wplywu": "2026-04-07",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-24",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=FEBA4D8A2BDD472D93497BE83CDA684A"
   },
   {
@@ -500,7 +728,7 @@
     "tytul": "Dot. ustanawiania pomników przyrody",
     "radny": "Słowik Przemysław",
     "data_wplywu": "2026-04-03",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-24",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=1886E0C38F9F4B7B82C2734EF7EEBC1E"
   },
   {
@@ -536,7 +764,7 @@
     "tytul": "Dot. braku odpowiedzi na dezyderaty i stanowiska Komisji Rady Miasta",
     "radny": "Gieryga Mateusz",
     "data_wplywu": "2026-04-02",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-23",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=C1B9F02B04E64CDE9563884FC19B418D"
   },
   {
@@ -608,7 +836,7 @@
     "tytul": "Dot. pozyskiwania inwestorów dla miasta Szczecin",
     "radny": "Romianowski Krzysztof",
     "data_wplywu": "2026-03-31",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-22",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=9198E18919094025976B93A4F3B28195"
   },
   {
@@ -620,7 +848,7 @@
     "tytul": "Dot. kosztów podniesienia wynagrodzeń pracowników Urzędu Miasta Szczecin",
     "radny": "Romianowski Krzysztof",
     "data_wplywu": "2026-03-31",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-23",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=7B473A2A374D410AB079B36743DF2B4C"
   },
   {
@@ -680,7 +908,7 @@
     "tytul": "Dot. nasadzeń drzew i zagospodarowania przestrzeni zieleni przy ulicy Krygiera w Szczecinie",
     "radny": "Kaup Stanisław",
     "data_wplywu": "2026-03-31",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-21",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=E7A3B8D24ADB47EDACF5565F6D24360D"
   },
   {
@@ -716,7 +944,7 @@
     "tytul": "Dot. bezpieczeństwa i legalności ustawienia potykaczy reklamowych w okolicach al. Wyzwolenia 12",
     "radny": "Pawlicki Marcin",
     "data_wplywu": "2026-03-30",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-21",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=792FF157F3444F8DA81E53B0F8CB5A4D"
   },
   {
@@ -728,7 +956,7 @@
     "tytul": "Dot. stosowania Standardów utrzymania, ochrony i rozwoju terenów zieleni Miasta Szczecin przy realizacji prac w pasie drogowym ul. Wroniej",
     "radny": "Duklanowski Marek",
     "data_wplywu": "2026-03-30",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-21",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=04A505E84D3E4812940589AADCACC0A9"
   },
   {
@@ -776,7 +1004,7 @@
     "tytul": "Dot. nadania nazwy ulicy imieniem prof. Zbigniewa Kruszewskiego",
     "radny": "Szałabawka Julia, Smoliński Dariusz",
     "data_wplywu": "2026-03-24",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-23",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=74BFEF6A208D4020AC4EC584B7BB402A"
   },
   {
@@ -788,7 +1016,7 @@
     "tytul": "Dot. odnowienia oznakowania poziomego na ścieżce pieszo-rowerowej wzdłuż Syrenich Stawów i Arkonki",
     "radny": "Kępka Wojciech",
     "data_wplywu": "2026-03-24",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-21",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=BE20E7FDD8354CF28D0E86BAFF243B7E"
   },
   {
@@ -800,7 +1028,7 @@
     "tytul": "Dot. oceny skutków wprowadzenia nocnej prohibicji w Szczecinie",
     "radny": "Smoliński Dariusz",
     "data_wplywu": "2026-03-24",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-22",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=A1564E7B810B49A2BFA1DE3CCCD68C3E"
   },
   {
@@ -812,7 +1040,7 @@
     "tytul": "Dot. wiat przystankowych w ciągu ulicy Miodowej",
     "radny": "Kępka Wojciech",
     "data_wplywu": "2026-03-23",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-22",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=BC2BD786594042CDB5044F18C87011C4"
   },
   {
@@ -908,7 +1136,7 @@
     "tytul": "Dot. stanu czystości wód oraz infrastruktury na Wyspie Grodzkiej (rejon North East Marina)",
     "radny": "Pawlicki Marcin",
     "data_wplywu": "2026-03-18",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-21",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=65CE69FBAEEF4526987E31506716D774"
   },
   {
@@ -920,7 +1148,7 @@
     "tytul": "Dot. remontu torowiska przy ul. Wyszyńskiego oraz zagospodarowania otoczenia przy węźle Wyszyńskiego – Nabrzeże Wieleckie",
     "radny": "Pawlicki Marcin",
     "data_wplywu": "2026-03-18",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-24",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=AE3435B190074FE1A1B00BBFF545BE72"
   },
   {
@@ -932,7 +1160,7 @@
     "tytul": "Dot. stanu oraz przyszłości Willi Grüneberga w Szczecinie",
     "radny": "Pawlicki Marcin",
     "data_wplywu": "2026-03-18",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-24",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=5D71044794CB49FC85CBF72BD2BF119F"
   },
   {
@@ -1016,7 +1244,7 @@
     "tytul": "Dot. budowy obiektu handlowego przy ul. Ku Słońcu w Szczecinie",
     "radny": "Smoliński Dariusz",
     "data_wplywu": "2026-03-17",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-21",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=B68758E2342E4B6D85FF9BA83EA6CBD9"
   },
   {
@@ -1268,7 +1496,7 @@
     "tytul": "Dot. narastającego problemu zaśmiecenia terenów publicznych w rejonie ul. Budziszyńskiej, ul. Dobrzyńskiej oraz pętli Pomorzany",
     "radny": "Kaup Stanisław",
     "data_wplywu": "2026-03-10",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-21",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=6B48D72680DE4EC5973126E21B0AF18D"
   },
   {
@@ -1292,7 +1520,7 @@
     "tytul": "Dot. zmiany organizacji ruchu na skrzyżowaniu ul. Monte Cassino i Piotra Skargi",
     "radny": "Duklanowski Marek",
     "data_wplywu": "2026-03-10",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-21",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=4E8C048EB9A94D0CADAF8110D2C74C15"
   },
   {
@@ -1340,7 +1568,7 @@
     "tytul": "Dot. dalszych działań w sprawie budowy sygnalizacji świetlnej na skrzyżowaniu ulic Floriana Krygiera i Gorzowskiej w Szczecinie",
     "radny": "Kaup Stanisław",
     "data_wplywu": "2026-03-06",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-16",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=6D1C5E6120904731AE81745A827E5360"
   },
   {
@@ -1376,7 +1604,7 @@
     "tytul": "Dot. uporządkowania terenu miejskiego w rejonie targowiska Turzyn",
     "radny": "Kaup Stanisław",
     "data_wplywu": "2026-03-05",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-23",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=A72C9A90CA324BB2BB6CF1213835A4DF"
   },
   {
@@ -1640,7 +1868,7 @@
     "tytul": "Dot. historycznej kostki brukowej z Alei Jana Pawła II",
     "radny": "Szałabawka Julia",
     "data_wplywu": "2026-02-24",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-20",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=D8AF94F00F93400A9EACD65D42B96C36"
   },
   {
@@ -1652,7 +1880,7 @@
     "tytul": "Dot. utwardzenia drogi Pod Lasem",
     "radny": "Dorżynkiewicz Wojciech",
     "data_wplywu": "2026-02-24",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-16",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=8059474B3E3045AFB19BF08D34072AFF"
   },
   {
@@ -1988,7 +2216,7 @@
     "tytul": "Dot.  zmian w zasadach aktywacji biletów komunikacji miejskiej kupowanych w aplikacjach mobilnych",
     "radny": "Smoliński Dariusz",
     "data_wplywu": "2026-02-12",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-22",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=CA0CACBBE1154E17AC6ACCEBD52DE0B9"
   },
   {
@@ -2144,7 +2372,7 @@
     "tytul": "Dot. kryzysowego rozkładu jazdy komunikacji miejskiej  z uwagi na warunki pogodowe",
     "radny": "Romianowski Krzysztof",
     "data_wplywu": "2026-02-05",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-22",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=9EB465E055B5488EAFE949553D591BB4"
   },
   {
@@ -2756,7 +2984,7 @@
     "tytul": "Dot. gromadzenia się wody oraz brył lodu na jezdni przy ul. Ustowskiej w rejonie wiaduktu kolejowego",
     "radny": "Szałabawka Julia",
     "data_wplywu": "2026-01-12",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-21",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=D1C9628F077946D4903699EC649A5D16"
   },
   {
@@ -3224,7 +3452,7 @@
     "tytul": "Dot. zagrażającego mieszkańcom stanu technicznego budynku przy ul. Hożej 9, 11",
     "radny": "Rogaczewska Wiktoria",
     "data_wplywu": "2025-12-08",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-21",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=0B2EA2C21CF94722AB27E83956535136"
   },
   {
@@ -3512,7 +3740,7 @@
     "tytul": "Dot. zapewnienia bezpieczeństwa na ul. Modrej w związku z blokowaniem pasa rowerowego przez pojazdy oczekujące na usługi pobliskiego warsztatu wulkanizacyjnego",
     "radny": "Duklanowski Marek",
     "data_wplywu": "2025-11-28",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-21",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=10C9C2A263DD40C980BC0202536EC973"
   },
   {
@@ -4220,7 +4448,7 @@
     "tytul": "Dot. atmosfery pracy i relacji służbowych w spółce Tramwaje Szczecińskie",
     "radny": "Smoliński Dariusz",
     "data_wplywu": "2025-10-24",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-21",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=522620F0C47E42E4AE9BE881016BFDE0"
   },
   {
@@ -4760,7 +4988,7 @@
     "tytul": "Dot. kompleksowego badania ruchu oraz funkcjonowania komunikacji zbiorowej w Szczecinie",
     "radny": "Jeleniewska Zuzanna",
     "data_wplywu": "2025-10-07",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-22",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=AFE0D37DD2A3425197227DE7B47BD714"
   },
   {

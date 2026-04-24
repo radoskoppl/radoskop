@@ -5,11 +5,20 @@
   <link href="https://szczecin.radoskop.pl/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://szczecin.radoskop.pl/" rel="alternate" type="text/html"/>
   <id>https://szczecin.radoskop.pl/</id>
-  <updated>2026-04-17T13:21:53Z</updated>
+  <updated>2026-04-24T22:58:39Z</updated>
   <author>
     <name>Radoskop</name>
     <uri>https://radoskop.pl</uri>
   </author>
+  <entry>
+    <title>Interpelacja (Słowik Przemysław)</title>
+    <link href="https://szczecin.radoskop.pl/profil/slowik-przemyslaw/" rel="alternate" type="text/html"/>
+    <id>https://szczecin.radoskop.pl/profil/slowik-przemyslaw/#interpelacja</id>
+    <published>2026-04-24T12:00:00+01:00</published>
+    <updated>2026-04-24T12:00:00+01:00</updated>
+    <summary type="html">Słowik Przemysław</summary>
+    <category term="interpelacja"/>
+  </entry>
   <entry>
     <title>Sesja XXI Rady Miasta Szczecin</title>
     <link href="https://szczecin.radoskop.pl/sesja/XXI/" rel="alternate" type="text/html"/>
@@ -20,30 +29,66 @@
     <category term="session"/>
   </entry>
   <entry>
-    <title>Interpelacja (Kaup Stanisław)</title>
-    <link href="https://szczecin.radoskop.pl/profil/kaup-stanislaw/" rel="alternate" type="text/html"/>
-    <id>https://szczecin.radoskop.pl/profil/kaup-stanislaw/#interpelacja</id>
-    <published>2026-04-17T12:00:00+01:00</published>
-    <updated>2026-04-17T12:00:00+01:00</updated>
-    <summary type="html">Kaup Stanisław</summary>
+    <title>Interpelacja (Gieryga Mateusz)</title>
+    <link href="https://szczecin.radoskop.pl/profil/gieryga-mateusz/" rel="alternate" type="text/html"/>
+    <id>https://szczecin.radoskop.pl/profil/gieryga-mateusz/#interpelacja</id>
+    <published>2026-04-21T12:00:00+01:00</published>
+    <updated>2026-04-21T12:00:00+01:00</updated>
+    <summary type="html">Gieryga Mateusz</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja (Smoliński Dariusz)</title>
+    <link href="https://szczecin.radoskop.pl/profil/smolinski-dariusz/" rel="alternate" type="text/html"/>
+    <id>https://szczecin.radoskop.pl/profil/smolinski-dariusz/#interpelacja</id>
+    <published>2026-04-21T12:00:00+01:00</published>
+    <updated>2026-04-21T12:00:00+01:00</updated>
+    <summary type="html">Smoliński Dariusz</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>
     <title>Interpelacja (Radziwinowicz Andrzej)</title>
     <link href="https://szczecin.radoskop.pl/profil/radziwinowicz-andrzej/" rel="alternate" type="text/html"/>
     <id>https://szczecin.radoskop.pl/profil/radziwinowicz-andrzej/#interpelacja</id>
-    <published>2026-04-15T12:00:00+01:00</published>
-    <updated>2026-04-15T12:00:00+01:00</updated>
+    <published>2026-04-21T12:00:00+01:00</published>
+    <updated>2026-04-21T12:00:00+01:00</updated>
     <summary type="html">Radziwinowicz Andrzej</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Zapytanie (Jerzyk Henryk)</title>
+    <link href="https://szczecin.radoskop.pl/profil/jerzyk-henryk/" rel="alternate" type="text/html"/>
+    <id>https://szczecin.radoskop.pl/profil/jerzyk-henryk/#interpelacja</id>
+    <published>2026-04-20T12:00:00+01:00</published>
+    <updated>2026-04-20T12:00:00+01:00</updated>
+    <summary type="html">Jerzyk Henryk</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja (Pańka Urszula)</title>
+    <link href="https://szczecin.radoskop.pl/profil/panka-urszula/" rel="alternate" type="text/html"/>
+    <id>https://szczecin.radoskop.pl/profil/panka-urszula/#interpelacja</id>
+    <published>2026-04-20T12:00:00+01:00</published>
+    <updated>2026-04-20T12:00:00+01:00</updated>
+    <summary type="html">Pańka Urszula</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>
     <title>Interpelacja (Duklanowski Marek)</title>
     <link href="https://szczecin.radoskop.pl/profil/duklanowski-marek/" rel="alternate" type="text/html"/>
     <id>https://szczecin.radoskop.pl/profil/duklanowski-marek/#interpelacja</id>
-    <published>2026-04-15T12:00:00+01:00</published>
-    <updated>2026-04-15T12:00:00+01:00</updated>
+    <published>2026-04-20T12:00:00+01:00</published>
+    <updated>2026-04-20T12:00:00+01:00</updated>
     <summary type="html">Duklanowski Marek</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja (Kaup Stanisław)</title>
+    <link href="https://szczecin.radoskop.pl/profil/kaup-stanislaw/" rel="alternate" type="text/html"/>
+    <id>https://szczecin.radoskop.pl/profil/kaup-stanislaw/#interpelacja</id>
+    <published>2026-04-20T12:00:00+01:00</published>
+    <updated>2026-04-20T12:00:00+01:00</updated>
+    <summary type="html">Kaup Stanisław</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>
@@ -53,15 +98,6 @@
     <published>2026-04-15T12:00:00+01:00</published>
     <updated>2026-04-15T12:00:00+01:00</updated>
     <summary type="html">Herczyński  Roman</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
-    <title>Interpelacja (Smoliński Dariusz)</title>
-    <link href="https://szczecin.radoskop.pl/profil/smolinski-dariusz/" rel="alternate" type="text/html"/>
-    <id>https://szczecin.radoskop.pl/profil/smolinski-dariusz/#interpelacja</id>
-    <published>2026-04-15T12:00:00+01:00</published>
-    <updated>2026-04-15T12:00:00+01:00</updated>
-    <summary type="html">Smoliński Dariusz</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>
@@ -101,30 +137,12 @@
     <category term="interpelacja"/>
   </entry>
   <entry>
-    <title>Interpelacja (Gieryga Mateusz)</title>
-    <link href="https://szczecin.radoskop.pl/profil/gieryga-mateusz/" rel="alternate" type="text/html"/>
-    <id>https://szczecin.radoskop.pl/profil/gieryga-mateusz/#interpelacja</id>
-    <published>2026-04-13T12:00:00+01:00</published>
-    <updated>2026-04-13T12:00:00+01:00</updated>
-    <summary type="html">Gieryga Mateusz</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
     <title>Interpelacja (Kępka Wojciech)</title>
     <link href="https://szczecin.radoskop.pl/profil/kepka-wojciech/" rel="alternate" type="text/html"/>
     <id>https://szczecin.radoskop.pl/profil/kepka-wojciech/#interpelacja</id>
     <published>2026-04-13T12:00:00+01:00</published>
     <updated>2026-04-13T12:00:00+01:00</updated>
     <summary type="html">Kępka Wojciech</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
-    <title>Interpelacja (Słowik Przemysław)</title>
-    <link href="https://szczecin.radoskop.pl/profil/slowik-przemyslaw/" rel="alternate" type="text/html"/>
-    <id>https://szczecin.radoskop.pl/profil/slowik-przemyslaw/#interpelacja</id>
-    <published>2026-04-10T12:00:00+01:00</published>
-    <updated>2026-04-10T12:00:00+01:00</updated>
-    <summary type="html">Słowik Przemysław</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>
@@ -459,15 +477,6 @@
     <updated>2026-01-27T12:00:00+01:00</updated>
     <summary type="html">26 glosowan, 31 obecnych.</summary>
     <category term="session"/>
-  </entry>
-  <entry>
-    <title>Interpelacja (Jerzyk Henryk)</title>
-    <link href="https://szczecin.radoskop.pl/profil/jerzyk-henryk/" rel="alternate" type="text/html"/>
-    <id>https://szczecin.radoskop.pl/profil/jerzyk-henryk/#interpelacja</id>
-    <published>2026-01-19T12:00:00+01:00</published>
-    <updated>2026-01-19T12:00:00+01:00</updated>
-    <summary type="html">Jerzyk Henryk</summary>
-    <category term="interpelacja"/>
   </entry>
   <entry>
     <title>przyjęcia protokołu z XVI zwyczajnej sesji Rady Miasta Szczecin odbytej w dniu 25 listopada 2025 r.</title>
@@ -899,15 +908,6 @@
     <published>2025-11-25T12:00:00+01:00</published>
     <updated>2025-11-25T12:00:00+01:00</updated>
     <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja XVI.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>wniosku Miejskiej Komisji Wyborczej o wprowadzenie do porządku obrad projektu uchwały nr 273/25 w sp</title>
-    <link href="https://szczecin.radoskop.pl/glosowanie/2025-11-25_002/" rel="alternate" type="text/html"/>
-    <id>https://szczecin.radoskop.pl/glosowanie/2025-11-25_002/#vote</id>
-    <published>2025-11-25T12:00:00+01:00</published>
-    <updated>2025-11-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja XVI.</summary>
     <category term="vote"/>
   </entry>
 </feed>

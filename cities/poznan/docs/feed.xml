@@ -5,11 +5,74 @@
   <link href="https://poznan.radoskop.pl/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://poznan.radoskop.pl/" rel="alternate" type="text/html"/>
   <id>https://poznan.radoskop.pl/</id>
-  <updated>2026-04-17T14:05:51Z</updated>
+  <updated>2026-04-24T23:32:46Z</updated>
   <author>
     <name>Radoskop</name>
     <uri>https://radoskop.pl</uri>
   </author>
+  <entry>
+    <title>Interpelacja: Interpelacja ws. wycinki części lasu w obrębie ulicy Baraniaka i Chartowo</title>
+    <link href="https://poznan.radoskop.pl/profil/monika-danelska/" rel="alternate" type="text/html"/>
+    <id>https://poznan.radoskop.pl/profil/monika-danelska/#interpelacja</id>
+    <published>2026-04-24T12:00:00+01:00</published>
+    <updated>2026-04-24T12:00:00+01:00</updated>
+    <summary type="html">Monika Danelska. Interpelacja ws. wycinki części lasu w obrębie ulicy Baraniaka i Chartowo</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: Interpelacja ws. stanu nawierzchni ul. Promienistej na Osiedlu Kopernika</title>
+    <link href="https://poznan.radoskop.pl/profil/magdalena-antolczyk/" rel="alternate" type="text/html"/>
+    <id>https://poznan.radoskop.pl/profil/magdalena-antolczyk/#interpelacja</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Magdalena Antolczyk. Interpelacja ws. stanu nawierzchni ul. Promienistej na Osiedlu Kopernika</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: Interpelacja ws. porządku przy budowie mostu Chrobrego</title>
+    <link href="https://poznan.radoskop.pl/profil/przemyslaw-plewinski/" rel="alternate" type="text/html"/>
+    <id>https://poznan.radoskop.pl/profil/przemyslaw-plewinski/#interpelacja</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Przemysław Plewiński. Interpelacja ws. porządku przy budowie mostu Chrobrego</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: Interpelacja ws. infrastruktury dla rowerów w al. Niepodległości</title>
+    <link href="https://poznan.radoskop.pl/profil/andrzej-prendke/" rel="alternate" type="text/html"/>
+    <id>https://poznan.radoskop.pl/profil/andrzej-prendke/#interpelacja</id>
+    <published>2026-04-21T12:00:00+01:00</published>
+    <updated>2026-04-21T12:00:00+01:00</updated>
+    <summary type="html">Andrzej Prendke. Interpelacja ws. infrastruktury dla rowerów w al. Niepodległości</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: Interpelacja ws. funkcjonowania linii 153, 158, 189 oraz 194</title>
+    <link href="https://poznan.radoskop.pl/profil/adam-szabelski/" rel="alternate" type="text/html"/>
+    <id>https://poznan.radoskop.pl/profil/adam-szabelski/#interpelacja</id>
+    <published>2026-04-21T12:00:00+01:00</published>
+    <updated>2026-04-21T12:00:00+01:00</updated>
+    <summary type="html">Adam Szabelski. Interpelacja ws. funkcjonowania linii 153, 158, 189 oraz 194</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: Interpelacja ws. wprowadzonych zmian w obsłudze transportem publicznym autobusowym rejonu Starołęki,</title>
+    <link href="https://poznan.radoskop.pl/profil/tomasz-wierzbicki/" rel="alternate" type="text/html"/>
+    <id>https://poznan.radoskop.pl/profil/tomasz-wierzbicki/#interpelacja</id>
+    <published>2026-04-19T12:00:00+01:00</published>
+    <updated>2026-04-19T12:00:00+01:00</updated>
+    <summary type="html">Tomasz Wierzbicki. Interpelacja ws. wprowadzonych zmian w obsłudze transportem publicznym autobusowym rejonu Starołęki, Minikowa, Głuszyny</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: Interpelacja ws. decyzji wydanej przez WGN ustanawiającej stały zarząd nad nieruchomościami na os. O</title>
+    <link href="https://poznan.radoskop.pl/profil/lukasz-kapustka/" rel="alternate" type="text/html"/>
+    <id>https://poznan.radoskop.pl/profil/lukasz-kapustka/#interpelacja</id>
+    <published>2026-04-15T12:00:00+01:00</published>
+    <updated>2026-04-15T12:00:00+01:00</updated>
+    <summary type="html">Łukasz Kapustka. Interpelacja ws. decyzji wydanej przez WGN ustanawiającej stały zarząd nad nieruchomościami na os. Orła Białego</summary>
+    <category term="interpelacja"/>
+  </entry>
   <entry>
     <title>Interpelacja: Interpelacja ws. uporządkowania działki przy skrzyżowaniu ul. Sikorskiego i ul. Roboczej</title>
     <link href="https://poznan.radoskop.pl/profil/dorota-bonk-hammermeister/" rel="alternate" type="text/html"/>
@@ -17,24 +80,6 @@
     <published>2026-04-14T12:00:00+01:00</published>
     <updated>2026-04-14T12:00:00+01:00</updated>
     <summary type="html">Dorota Bonk-Hammermeister. Interpelacja ws. uporządkowania działki przy skrzyżowaniu ul. Sikorskiego i ul. Roboczej</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
-    <title>Interpelacja: Interpelacja ws. projektu planu miejscowego dla rejonu Golęcina</title>
-    <link href="https://poznan.radoskop.pl/profil/pawel-matuszak/" rel="alternate" type="text/html"/>
-    <id>https://poznan.radoskop.pl/profil/pawel-matuszak/#interpelacja</id>
-    <published>2026-04-14T12:00:00+01:00</published>
-    <updated>2026-04-14T12:00:00+01:00</updated>
-    <summary type="html">Paweł Matuszak. Interpelacja ws. projektu planu miejscowego dla rejonu Golęcina</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
-    <title>Interpelacja: Interpelacja ws. zintegrowania węzła przesiadkowego Poznań Naramowice z Osiedlem Umultowo</title>
-    <link href="https://poznan.radoskop.pl/profil/maria-lisiecka-pawelczak/" rel="alternate" type="text/html"/>
-    <id>https://poznan.radoskop.pl/profil/maria-lisiecka-pawelczak/#interpelacja</id>
-    <published>2026-04-14T12:00:00+01:00</published>
-    <updated>2026-04-14T12:00:00+01:00</updated>
-    <summary type="html">Maria Lisiecka-Pawełczak. Interpelacja ws. zintegrowania węzła przesiadkowego Poznań Naramowice z Osiedlem Umultowo</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>
@@ -47,48 +92,21 @@
     <category term="interpelacja"/>
   </entry>
   <entry>
-    <title>Interpelacja: Interpelacja ws. uporządkowania oznakowania w rejonie Jeziora Maltańskiego</title>
-    <link href="https://poznan.radoskop.pl/profil/andrzej-prendke/" rel="alternate" type="text/html"/>
-    <id>https://poznan.radoskop.pl/profil/andrzej-prendke/#interpelacja</id>
-    <published>2026-04-12T12:00:00+01:00</published>
-    <updated>2026-04-12T12:00:00+01:00</updated>
-    <summary type="html">Andrzej Prendke. Interpelacja ws. uporządkowania oznakowania w rejonie Jeziora Maltańskiego</summary>
+    <title>Interpelacja: Interpelacja ws. dostosowania sygnalizacji świetlnej na skrzyżowaniu Aleja Praw Kobiet - ul. Łużycka</title>
+    <link href="https://poznan.radoskop.pl/profil/maria-lisiecka-pawelczak/" rel="alternate" type="text/html"/>
+    <id>https://poznan.radoskop.pl/profil/maria-lisiecka-pawelczak/#interpelacja</id>
+    <published>2026-04-14T12:00:00+01:00</published>
+    <updated>2026-04-14T12:00:00+01:00</updated>
+    <summary type="html">Maria Lisiecka-Pawełczak. Interpelacja ws. dostosowania sygnalizacji świetlnej na skrzyżowaniu Aleja Praw Kobiet - ul. Łużycka w Poznaniu</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>
-    <title>Interpelacja: Interpelacja ws. nawierzchni na skrzyżowaniu ul. Chrzanowskiej i Spławie</title>
-    <link href="https://poznan.radoskop.pl/profil/przemyslaw-plewinski/" rel="alternate" type="text/html"/>
-    <id>https://poznan.radoskop.pl/profil/przemyslaw-plewinski/#interpelacja</id>
-    <published>2026-04-09T12:00:00+01:00</published>
-    <updated>2026-04-09T12:00:00+01:00</updated>
-    <summary type="html">Przemysław Plewiński. Interpelacja ws. nawierzchni na skrzyżowaniu ul. Chrzanowskiej i Spławie</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
-    <title>Interpelacja: Interpelacja ws. uszkodzonej tablicy w Parku Rataje</title>
-    <link href="https://poznan.radoskop.pl/profil/lukasz-kapustka/" rel="alternate" type="text/html"/>
-    <id>https://poznan.radoskop.pl/profil/lukasz-kapustka/#interpelacja</id>
-    <published>2026-04-08T12:00:00+01:00</published>
-    <updated>2026-04-08T12:00:00+01:00</updated>
-    <summary type="html">Łukasz Kapustka. Interpelacja ws. uszkodzonej tablicy w Parku Rataje</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
-    <title>Interpelacja: Interpelacja ws. uporządkowania terenów Osiedla Maltańskiego</title>
-    <link href="https://poznan.radoskop.pl/profil/monika-danelska/" rel="alternate" type="text/html"/>
-    <id>https://poznan.radoskop.pl/profil/monika-danelska/#interpelacja</id>
-    <published>2026-04-08T12:00:00+01:00</published>
-    <updated>2026-04-08T12:00:00+01:00</updated>
-    <summary type="html">Monika Danelska. Interpelacja ws. uporządkowania terenów Osiedla Maltańskiego</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
-    <title>Interpelacja: Interpelacja ws. poparcia dla postulatów Rady Osiedla Umultowo</title>
-    <link href="https://poznan.radoskop.pl/profil/adam-szabelski/" rel="alternate" type="text/html"/>
-    <id>https://poznan.radoskop.pl/profil/adam-szabelski/#interpelacja</id>
-    <published>2026-03-30T12:00:00+01:00</published>
-    <updated>2026-03-30T12:00:00+01:00</updated>
-    <summary type="html">Adam Szabelski. Interpelacja ws. poparcia dla postulatów Rady Osiedla Umultowo</summary>
+    <title>Interpelacja: Interpelacja ws. projektu planu miejscowego dla rejonu Golęcina</title>
+    <link href="https://poznan.radoskop.pl/profil/pawel-matuszak/" rel="alternate" type="text/html"/>
+    <id>https://poznan.radoskop.pl/profil/pawel-matuszak/#interpelacja</id>
+    <published>2026-04-14T12:00:00+01:00</published>
+    <updated>2026-04-14T12:00:00+01:00</updated>
+    <summary type="html">Paweł Matuszak. Interpelacja ws. projektu planu miejscowego dla rejonu Golęcina</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>
@@ -126,15 +144,6 @@
     <updated>2026-03-17T12:00:00+01:00</updated>
     <summary type="html">0 glosowan.</summary>
     <category term="session"/>
-  </entry>
-  <entry>
-    <title>Interpelacja: Interpelacja ws. nazewniczego upamiętnienia Agnieszki Dowbor-Muśnickiej</title>
-    <link href="https://poznan.radoskop.pl/profil/magdalena-antolczyk/" rel="alternate" type="text/html"/>
-    <id>https://poznan.radoskop.pl/profil/magdalena-antolczyk/#interpelacja</id>
-    <published>2026-03-17T12:00:00+01:00</published>
-    <updated>2026-03-17T12:00:00+01:00</updated>
-    <summary type="html">Magdalena Antolczyk. Interpelacja ws. nazewniczego upamiętnienia Agnieszki Dowbor-Muśnickiej</summary>
-    <category term="interpelacja"/>
   </entry>
   <entry>
     <title>Interpelacja: Interpelacja ws. utrzymania czystości przeszklonego zadaszenia przystanku tramwajowego Dworzec Zacho</title>
@@ -191,12 +200,12 @@
     <category term="interpelacja"/>
   </entry>
   <entry>
-    <title>Interpelacja: Interpelacja ws. opóźnień w procesie modernizacji boiska piłkarskiego ze sztuczną nawierzchnią na Wi</title>
+    <title>Interpelacja: Interpelacja ws. budowy wielorodzinnej przy ul. Winiarskiej</title>
     <link href="https://poznan.radoskop.pl/profil/halina-owsianna/" rel="alternate" type="text/html"/>
     <id>https://poznan.radoskop.pl/profil/halina-owsianna/#interpelacja</id>
     <published>2026-02-11T12:00:00+01:00</published>
     <updated>2026-02-11T12:00:00+01:00</updated>
-    <summary type="html">Halina Owsianna. Interpelacja ws. opóźnień w procesie modernizacji boiska piłkarskiego ze sztuczną nawierzchnią na Winogradach</summary>
+    <summary type="html">Halina Owsianna. Interpelacja ws. budowy wielorodzinnej przy ul. Winiarskiej</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>
@@ -855,15 +864,6 @@
     <updated>2026-01-20T12:00:00+01:00</updated>
     <summary type="html">30 glosowan, 32 obecnych.</summary>
     <category term="session"/>
-  </entry>
-  <entry>
-    <title>Interpelacja: Interpelacja ws. dodania możliwości zgłoszeń z zakresu transportu publicznego w aplikacji Smart City</title>
-    <link href="https://poznan.radoskop.pl/profil/tomasz-wierzbicki/" rel="alternate" type="text/html"/>
-    <id>https://poznan.radoskop.pl/profil/tomasz-wierzbicki/#interpelacja</id>
-    <published>2026-01-08T12:00:00+01:00</published>
-    <updated>2026-01-08T12:00:00+01:00</updated>
-    <summary type="html">Tomasz Wierzbicki. Interpelacja ws. dodania możliwości zgłoszeń z zakresu transportu publicznego w aplikacji Smart City Poznań</summary>
-    <category term="interpelacja"/>
   </entry>
   <entry>
     <title>XXIX sesja budżetowa Rady Miasta Poznania</title>

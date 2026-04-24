@@ -5,7 +5,7 @@
   <link href="https://lublin.radoskop.pl/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://lublin.radoskop.pl/" rel="alternate" type="text/html"/>
   <id>https://lublin.radoskop.pl/</id>
-  <updated>2026-04-17T12:56:29Z</updated>
+  <updated>2026-04-24T22:23:55Z</updated>
   <author>
     <name>Radoskop</name>
     <uri>https://radoskop.pl</uri>
@@ -29,12 +29,39 @@
     <category term="interpelacja"/>
   </entry>
   <entry>
-    <title>Interpelacja: Interpelacja w sprawie oznaczeń tras na Placu Litewskim dla ruchu rowerowego</title>
+    <title>Sesja XIX Rady Miasta Lublin</title>
+    <link href="https://lublin.radoskop.pl/sesja/XIX/" rel="alternate" type="text/html"/>
+    <id>https://lublin.radoskop.pl/sesja/XIX/#session</id>
+    <published>2026-04-30T12:00:00+01:00</published>
+    <updated>2026-04-30T12:00:00+01:00</updated>
+    <summary type="html">0 glosowan.</summary>
+    <category term="session"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: Interpelacja w sprawie wpisania ul. Cienistej do Wieloletniej Prognozy Finansowej Miasta Lublin oraz</title>
+    <link href="https://lublin.radoskop.pl/interpelacje/" rel="alternate" type="text/html"/>
+    <id>https://lublin.radoskop.pl/interpelacje/#interpelacja</id>
+    <published>2026-04-24T12:00:00+01:00</published>
+    <updated>2026-04-24T12:00:00+01:00</updated>
+    <summary type="html">Leszek Daniewski, Konrad Wcisło - Radni Rady Miasta Lublin. Interpelacja w sprawie wpisania ul. Cienistej do Wieloletniej Prognozy Finansowej Miasta Lublin oraz podjęcia działań zmierzających do jej kompleksowe</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: Interpelacja w sprawie remontu ulicy Głównej</title>
     <link href="https://lublin.radoskop.pl/profil/robert-derewenda/" rel="alternate" type="text/html"/>
     <id>https://lublin.radoskop.pl/profil/robert-derewenda/#interpelacja</id>
-    <published>2026-04-14T12:00:00+01:00</published>
-    <updated>2026-04-14T12:00:00+01:00</updated>
-    <summary type="html">Robert Derewenda. Interpelacja w sprawie oznaczeń tras na Placu Litewskim dla ruchu rowerowego</summary>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Robert Derewenda. Interpelacja w sprawie remontu ulicy Głównej</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: Interpelacja w sprawie remontu podjazdu dla wózków przy ul. Nowowiejskiego 2</title>
+    <link href="https://lublin.radoskop.pl/profil/elzbieta-boczkowska/" rel="alternate" type="text/html"/>
+    <id>https://lublin.radoskop.pl/profil/elzbieta-boczkowska/#interpelacja</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Elżbieta Boczkowska. Interpelacja w sprawie remontu podjazdu dla wózków przy ul. Nowowiejskiego 2</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>
@@ -881,33 +908,6 @@
     <published>2026-02-05T12:00:00+01:00</published>
     <updated>2026-02-05T12:00:00+01:00</updated>
     <summary type="html">Wynik: przyjete (za 21, przeciw 0, wstrzym. 3). Sesja XVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>wydzierżawienia nieruchomości Gminy Lublin będących w zarządzie Zarządu Nieruchomości Komunalnych w </title>
-    <link href="https://lublin.radoskop.pl/glosowanie/vote_968/" rel="alternate" type="text/html"/>
-    <id>https://lublin.radoskop.pl/glosowanie/vote_968/#vote</id>
-    <published>2026-02-05T12:00:00+01:00</published>
-    <updated>2026-02-05T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 22, przeciw 0, wstrzym. 2). Sesja XVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>wyrażenia zgody na oddanie w najem lokalu użytkowego usytuowanego na nieruchomości położonej w Lubli</title>
-    <link href="https://lublin.radoskop.pl/glosowanie/vote_969/" rel="alternate" type="text/html"/>
-    <id>https://lublin.radoskop.pl/glosowanie/vote_969/#vote</id>
-    <published>2026-02-05T12:00:00+01:00</published>
-    <updated>2026-02-05T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 25, przeciw 0, wstrzym. 1). Sesja XVII.</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>wyrażenia zgody na oddanie w najem części nieruchomości Gminy Lublin położonej przy ul. Lwowskiej 38</title>
-    <link href="https://lublin.radoskop.pl/glosowanie/vote_970/" rel="alternate" type="text/html"/>
-    <id>https://lublin.radoskop.pl/glosowanie/vote_970/#vote</id>
-    <published>2026-02-05T12:00:00+01:00</published>
-    <updated>2026-02-05T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 25, przeciw 0, wstrzym. 1). Sesja XVII.</summary>
     <category term="vote"/>
   </entry>
 </feed>

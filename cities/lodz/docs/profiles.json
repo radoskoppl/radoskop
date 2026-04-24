@@ -9,12 +9,12 @@
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
           "zgodnosc_z_klubem": 98.5,
-          "votes_za": 1191,
+          "votes_za": 1209,
           "votes_przeciw": 70,
           "votes_wstrzymal": 19,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 1280,
+          "votes_total": 1298,
           "rebellion_count": 13,
           "rebellions": [
             {
@@ -126,14 +126,14 @@
           "club": "KO",
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
-          "zgodnosc_z_klubem": 99.2,
-          "votes_za": 1151,
-          "votes_przeciw": 69,
+          "zgodnosc_z_klubem": 99.0,
+          "votes_za": 1216,
+          "votes_przeciw": 85,
           "votes_wstrzymal": 4,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 1224,
-          "rebellion_count": 10,
+          "votes_total": 1305,
+          "rebellion_count": 13,
           "rebellions": [
             {
               "vote_id": "2024-10-16_334_000",
@@ -204,6 +204,27 @@
               "topic": "Odesłanie projektu do Komisji Planowania Przestrzennego i Architektury",
               "their_vote": "przeciw",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1676_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie skargi na bezczynność Dyrektora Zarządu Dróg i Transportu - druk BRM nr 75/2026.",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2026-04-22_1687_000",
+              "session": "2026-04-22",
+              "topic": "29C. dr Agnieszka Katarzyna Gębora",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1693_000",
+              "session": "2026-04-22",
+              "topic": "29C. Leszek Jan Piąstka",
+              "their_vote": "za",
+              "club_majority": "przeciw"
             }
           ],
           "has_voting_data": true,
@@ -223,14 +244,14 @@
           "club": "KO",
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
-          "zgodnosc_z_klubem": 92.2,
-          "votes_za": 855,
-          "votes_przeciw": 42,
-          "votes_wstrzymal": 48,
+          "zgodnosc_z_klubem": 92.0,
+          "votes_za": 863,
+          "votes_przeciw": 44,
+          "votes_wstrzymal": 50,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 945,
-          "rebellion_count": 74,
+          "votes_total": 957,
+          "rebellion_count": 77,
           "rebellions": [
             {
               "vote_id": "2024-05-22_012_000",
@@ -749,6 +770,27 @@
               "topic": "Rozpatrzenie projektu uchwały w sprawie ustalenia lokalizacji inwestycji mieszkaniowej i inwestycji towarzyszących przy ulicy Tylnej 7 w Łodzi - druk nr 48/2026.",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1670_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie skargi na bezczynność Prezydenta Miasta Łodzi - druk BRM nr 71/2026.",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1672_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie skargi na działania Dyrektora Miejskiej Pracowni Urbanistycznej - druk BRM nr 72/2026.",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1688_000",
+              "session": "2026-04-22",
+              "topic": "29C. dr Agnieszka Katarzyna Gębora",
+              "their_vote": "za",
+              "club_majority": "przeciw"
             }
           ],
           "has_voting_data": true,
@@ -768,14 +810,14 @@
           "club": "KO",
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
-          "zgodnosc_z_klubem": 98.9,
-          "votes_za": 793,
-          "votes_przeciw": 47,
-          "votes_wstrzymal": 2,
+          "zgodnosc_z_klubem": 98.5,
+          "votes_za": 828,
+          "votes_przeciw": 65,
+          "votes_wstrzymal": 3,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 842,
-          "rebellion_count": 9,
+          "votes_total": 896,
+          "rebellion_count": 13,
           "rebellions": [
             {
               "vote_id": "2024-05-22_019_000",
@@ -839,6 +881,34 @@
               "topic": "Rozpatrzenie projektu uchwały w sprawie ustalenia lokalizacji inwestycji mieszkaniowej przy ulicy Piotrkowskiej 293-305 w Łodzi - druk nr 89/2025.",
               "their_vote": "przeciw",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1676_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie skargi na bezczynność Dyrektora Zarządu Dróg i Transportu - druk BRM nr 75/2026.",
+              "their_vote": "przeciw",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2026-04-22_1678_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie skargi na działania Dyrektora Zarządu Dróg i Transportu - druk BRM nr 77/2026.",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1687_000",
+              "session": "2026-04-22",
+              "topic": "29C. dr Agnieszka Katarzyna Gębora",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1727_000",
+              "session": "2026-04-22",
+              "topic": "30B. Wprowadzenie do porządku obrad punktu 31c Rozpatrzenie projektu uchwały w sprawie zaliczenia dróg wewnętrznych do kategorii dróg gminnych - druk nr 80/2026.",
+              "their_vote": "przeciw",
+              "club_majority": "za"
             }
           ],
           "has_voting_data": true,
@@ -858,14 +928,14 @@
           "club": "KO",
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
-          "zgodnosc_z_klubem": 92.4,
-          "votes_za": 939,
-          "votes_przeciw": 33,
-          "votes_wstrzymal": 46,
+          "zgodnosc_z_klubem": 92.6,
+          "votes_za": 994,
+          "votes_przeciw": 47,
+          "votes_wstrzymal": 49,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 1018,
-          "rebellion_count": 77,
+          "votes_total": 1090,
+          "rebellion_count": 81,
           "rebellions": [
             {
               "vote_id": "2024-05-22_019_000",
@@ -1405,6 +1475,34 @@
               "topic": "Rozpatrzenie projektu uchwały w sprawie ustalenia lokalizacji inwestycji mieszkaniowej i inwestycji towarzyszących przy ulicy Tylnej 7 w Łodzi - druk nr 48/2026.",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1672_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie skargi na działania Dyrektora Miejskiej Pracowni Urbanistycznej - druk BRM nr 72/2026.",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1678_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie skargi na działania Dyrektora Zarządu Dróg i Transportu - druk BRM nr 77/2026.",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1688_000",
+              "session": "2026-04-22",
+              "topic": "29C. dr Agnieszka Katarzyna Gębora",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-22_1706_000",
+              "session": "2026-04-22",
+              "topic": "29D. Żaneta Bernadeta Iwańczyk",
+              "their_vote": "za",
+              "club_majority": "przeciw"
             }
           ],
           "has_voting_data": true,
@@ -1424,14 +1522,14 @@
           "club": "Lewica",
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
-          "zgodnosc_z_klubem": 98.8,
-          "votes_za": 1256,
-          "votes_przeciw": 71,
+          "zgodnosc_z_klubem": 98.7,
+          "votes_za": 1304,
+          "votes_przeciw": 86,
           "votes_wstrzymal": 17,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 1344,
-          "rebellion_count": 4,
+          "votes_total": 1407,
+          "rebellion_count": 6,
           "rebellions": [
             {
               "vote_id": "2025-01-15_614_000",
@@ -1460,6 +1558,20 @@
               "topic": "18B. Rozpatrzenie projektu uchwały w sprawie skargi p. … na działania Dyrektora Pogotowia Opiekuńczego Nr 1 w Łodzi - druk BRM nr 2/2026.",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1688_000",
+              "session": "2026-04-22",
+              "topic": "29C. dr Agnieszka Katarzyna Gębora",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1726_000",
+              "session": "2026-04-22",
+              "topic": "30B. Wprowadzenie do porządku obrad punktu 31b - Rozpatrzenie projektu uchwały w sprawie zmian w składach osobowych komisji Rady Miejskiej w Łodzi - druk BRM nr 84/2026.",
+              "their_vote": "za",
+              "club_majority": "przeciw"
             }
           ],
           "has_voting_data": true,
@@ -1480,12 +1592,12 @@
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
           "zgodnosc_z_klubem": 0.0,
-          "votes_za": 1088,
-          "votes_przeciw": 36,
-          "votes_wstrzymal": 34,
+          "votes_za": 1157,
+          "votes_przeciw": 48,
+          "votes_wstrzymal": 36,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 1158,
+          "votes_total": 1241,
           "rebellion_count": 0,
           "rebellions": [],
           "has_voting_data": true,
@@ -1506,13 +1618,13 @@
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
           "zgodnosc_z_klubem": 99.6,
-          "votes_za": 1254,
-          "votes_przeciw": 55,
+          "votes_za": 1316,
+          "votes_przeciw": 70,
           "votes_wstrzymal": 2,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 1311,
-          "rebellion_count": 5,
+          "votes_total": 1388,
+          "rebellion_count": 6,
           "rebellions": [
             {
               "vote_id": "2024-09-18_242_000",
@@ -1548,6 +1660,13 @@
               "topic": "Informacja Prezydenta Miasta nt. sytuacji mieszkańców ul. Nowej 26 w pkt. 5a.",
               "their_vote": "za",
               "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-22_1726_000",
+              "session": "2026-04-22",
+              "topic": "30B. Wprowadzenie do porządku obrad punktu 31b - Rozpatrzenie projektu uchwały w sprawie zmian w składach osobowych komisji Rady Miejskiej w Łodzi - druk BRM nr 84/2026.",
+              "their_vote": "za",
+              "club_majority": "przeciw"
             }
           ],
           "has_voting_data": true,
@@ -1567,14 +1686,14 @@
           "club": "Niezrzeszeni",
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
-          "zgodnosc_z_klubem": 52.8,
-          "votes_za": 465,
-          "votes_przeciw": 113,
-          "votes_wstrzymal": 236,
+          "zgodnosc_z_klubem": 54.1,
+          "votes_za": 489,
+          "votes_przeciw": 118,
+          "votes_wstrzymal": 241,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 814,
-          "rebellion_count": 263,
+          "votes_total": 848,
+          "rebellion_count": 267,
           "rebellions": [
             {
               "vote_id": "2024-07-03_119_000",
@@ -3416,6 +3535,34 @@
               "topic": "27B. Rozpatrzenie projektu uchwały w sprawie skargi na działania Prezydenta Miasta Łodzi - druk BRM nr 45/2026.",
               "their_vote": "przeciw",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1664_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie uchwalenia miejscowego planu zagospodarowania przestrzennego dla części obszaru miasta Łodzi położonej w rejonie ulic: Henryka Sienkiewicza, Brzeźnej i Piotrkowskiej - druk nr 65/2026.",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1667_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały zmieniającej uchwałę w sprawie Wieloletniej Prognozy Finansowej miasta Łodzi na lata 2026-2050 - druk nr 79/2026 wraz z autopoprawką.",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1673_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie skargi na działania Powiatowego Inspektora Nadzoru Budowlanego - druk BRM nr 73/2026.",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1674_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie skargi na działania Prezydenta Miasta Łodzi - druk BRM nr 74/2026.",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
             }
           ],
           "has_voting_data": true,
@@ -3436,13 +3583,13 @@
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
           "zgodnosc_z_klubem": 99.2,
-          "votes_za": 1161,
-          "votes_przeciw": 65,
+          "votes_za": 1216,
+          "votes_przeciw": 81,
           "votes_wstrzymal": 2,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 1228,
-          "rebellion_count": 10,
+          "votes_total": 1299,
+          "rebellion_count": 11,
           "rebellions": [
             {
               "vote_id": "2025-01-15_614_000",
@@ -3513,6 +3660,13 @@
               "topic": "Wprowadzenie do porządku obrad punktu 27i - Rozpatrzenie projektu uchwały stanowisko - apel w sprawie zapewnienia skutecznego uruchomienia środków programu SAFE oraz ochrony interesu mieszkańców i gospodarki lokalnej - druk BRM nr 61/2026.",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1676_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie skargi na bezczynność Dyrektora Zarządu Dróg i Transportu - druk BRM nr 75/2026.",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
             }
           ],
           "has_voting_data": true,
@@ -3533,12 +3687,12 @@
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
           "zgodnosc_z_klubem": 99.7,
-          "votes_za": 1150,
-          "votes_przeciw": 62,
+          "votes_za": 1212,
+          "votes_przeciw": 77,
           "votes_wstrzymal": 1,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 1213,
+          "votes_total": 1290,
           "rebellion_count": 4,
           "rebellions": [
             {
@@ -3587,14 +3741,14 @@
           "club": "Lewica",
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
-          "zgodnosc_z_klubem": 99.4,
-          "votes_za": 1349,
-          "votes_przeciw": 68,
-          "votes_wstrzymal": 19,
+          "zgodnosc_z_klubem": 99.2,
+          "votes_za": 1415,
+          "votes_przeciw": 83,
+          "votes_wstrzymal": 20,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 1436,
-          "rebellion_count": 5,
+          "votes_total": 1518,
+          "rebellion_count": 8,
           "rebellions": [
             {
               "vote_id": "2025-01-15_614_000",
@@ -3630,6 +3784,27 @@
               "topic": "19K. Rozpatrzenie projektu uchwały w sprawie petycji o niezwłoczne zawieszenie bądź zerwanie umowy o współpracy między Łodzią i Tel-Awiw-Jafa - druk BRM nr 168/2025 wraz z poprawką.",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1672_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie skargi na działania Dyrektora Miejskiej Pracowni Urbanistycznej - druk BRM nr 72/2026.",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1688_000",
+              "session": "2026-04-22",
+              "topic": "29C. dr Agnieszka Katarzyna Gębora",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-22_1726_000",
+              "session": "2026-04-22",
+              "topic": "30B. Wprowadzenie do porządku obrad punktu 31b - Rozpatrzenie projektu uchwały w sprawie zmian w składach osobowych komisji Rady Miejskiej w Łodzi - druk BRM nr 84/2026.",
+              "their_vote": "przeciw",
+              "club_majority": "za"
             }
           ],
           "has_voting_data": true,
@@ -3650,12 +3825,12 @@
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
           "zgodnosc_z_klubem": 0.0,
-          "votes_za": 1330,
-          "votes_przeciw": 72,
+          "votes_za": 1390,
+          "votes_przeciw": 88,
           "votes_wstrzymal": 3,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 1405,
+          "votes_total": 1481,
           "rebellion_count": 0,
           "rebellions": [],
           "has_voting_data": true,
@@ -3676,12 +3851,12 @@
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
           "zgodnosc_z_klubem": 99.8,
-          "votes_za": 1380,
-          "votes_przeciw": 63,
-          "votes_wstrzymal": 0,
+          "votes_za": 1425,
+          "votes_przeciw": 78,
+          "votes_wstrzymal": 1,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 1443,
+          "votes_total": 1504,
           "rebellion_count": 3,
           "rebellions": [
             {
@@ -3723,14 +3898,14 @@
           "club": "Niezrzeszeni",
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
-          "zgodnosc_z_klubem": 58.9,
-          "votes_za": 1020,
-          "votes_przeciw": 58,
-          "votes_wstrzymal": 79,
+          "zgodnosc_z_klubem": 59.6,
+          "votes_za": 1062,
+          "votes_przeciw": 64,
+          "votes_wstrzymal": 81,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 1157,
-          "rebellion_count": 243,
+          "votes_total": 1207,
+          "rebellion_count": 248,
           "rebellions": [
             {
               "vote_id": "2024-05-22_010_000",
@@ -5432,6 +5607,41 @@
               "topic": "27C. Rozpatrzenie projektu uchwały w sprawie skargi na działania Dyrektora Zarządu Dróg i Transportu - druk BRM nr 46/2026.",
               "their_vote": "za",
               "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-22_1667_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały zmieniającej uchwałę w sprawie Wieloletniej Prognozy Finansowej miasta Łodzi na lata 2026-2050 - druk nr 79/2026 wraz z autopoprawką.",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2026-04-22_1684_000",
+              "session": "2026-04-22",
+              "topic": "29C. Propozycja nadania 5 Nagród Miasta Łodzi.",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1691_000",
+              "session": "2026-04-22",
+              "topic": "29C. ks. Wiesław Jan Kamiński",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1715_000",
+              "session": "2026-04-22",
+              "topic": "29D. prof. dr hab. inż. Marek Lefik",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-22_1727_000",
+              "session": "2026-04-22",
+              "topic": "30B. Wprowadzenie do porządku obrad punktu 31c Rozpatrzenie projektu uchwały w sprawie zaliczenia dróg wewnętrznych do kategorii dróg gminnych - druk nr 80/2026.",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
             }
           ],
           "has_voting_data": true,
@@ -5451,14 +5661,14 @@
           "club": "Lewica",
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
-          "zgodnosc_z_klubem": 99.0,
-          "votes_za": 1271,
-          "votes_przeciw": 59,
+          "zgodnosc_z_klubem": 98.9,
+          "votes_za": 1328,
+          "votes_przeciw": 75,
           "votes_wstrzymal": 19,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 1349,
-          "rebellion_count": 7,
+          "votes_total": 1422,
+          "rebellion_count": 9,
           "rebellions": [
             {
               "vote_id": "2024-11-06_404_000",
@@ -5508,6 +5718,20 @@
               "topic": "18B. Rozpatrzenie projektu uchwały w sprawie skargi p. … na działania Dyrektora Pogotowia Opiekuńczego Nr 1 w Łodzi - druk BRM nr 2/2026.",
               "their_vote": "za",
               "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2026-04-22_1688_000",
+              "session": "2026-04-22",
+              "topic": "29C. dr Agnieszka Katarzyna Gębora",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1726_000",
+              "session": "2026-04-22",
+              "topic": "30B. Wprowadzenie do porządku obrad punktu 31b - Rozpatrzenie projektu uchwały w sprawie zmian w składach osobowych komisji Rady Miejskiej w Łodzi - druk BRM nr 84/2026.",
+              "their_vote": "przeciw",
+              "club_majority": "za"
             }
           ],
           "has_voting_data": true,
@@ -5527,14 +5751,14 @@
           "club": "Niezrzeszeni",
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
-          "zgodnosc_z_klubem": 70.4,
-          "votes_za": 793,
-          "votes_przeciw": 106,
-          "votes_wstrzymal": 67,
+          "zgodnosc_z_klubem": 70.2,
+          "votes_za": 844,
+          "votes_przeciw": 111,
+          "votes_wstrzymal": 71,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 966,
-          "rebellion_count": 136,
+          "votes_total": 1026,
+          "rebellion_count": 145,
           "rebellions": [
             {
               "vote_id": "2024-05-22_010_000",
@@ -6487,6 +6711,69 @@
               "topic": "27C. Rozpatrzenie projektu uchwały w sprawie skargi na działania Dyrektora Zarządu Dróg i Transportu - druk BRM nr 46/2026.",
               "their_vote": "przeciw",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1664_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie uchwalenia miejscowego planu zagospodarowania przestrzennego dla części obszaru miasta Łodzi położonej w rejonie ulic: Henryka Sienkiewicza, Brzeźnej i Piotrkowskiej - druk nr 65/2026.",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2026-04-22_1666_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie zmian budżetu oraz zmian w budżecie miasta Łodzi na 2026 rok - druk nr 78/2026 wraz z autopoprawką.",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1667_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały zmieniającej uchwałę w sprawie Wieloletniej Prognozy Finansowej miasta Łodzi na lata 2026-2050 - druk nr 79/2026 wraz z autopoprawką.",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1673_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie skargi na działania Powiatowego Inspektora Nadzoru Budowlanego - druk BRM nr 73/2026.",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2026-04-22_1674_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie skargi na działania Prezydenta Miasta Łodzi - druk BRM nr 74/2026.",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2026-04-22_1684_000",
+              "session": "2026-04-22",
+              "topic": "29C. Propozycja nadania 5 Nagród Miasta Łodzi.",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2026-04-22_1691_000",
+              "session": "2026-04-22",
+              "topic": "29C. ks. Wiesław Jan Kamiński",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-22_1715_000",
+              "session": "2026-04-22",
+              "topic": "29D. prof. dr hab. inż. Marek Lefik",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1727_000",
+              "session": "2026-04-22",
+              "topic": "30B. Wprowadzenie do porządku obrad punktu 31c Rozpatrzenie projektu uchwały w sprawie zaliczenia dróg wewnętrznych do kategorii dróg gminnych - druk nr 80/2026.",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
             }
           ],
           "has_voting_data": true,
@@ -6632,13 +6919,13 @@
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
           "zgodnosc_z_klubem": 95.8,
-          "votes_za": 1071,
-          "votes_przeciw": 44,
-          "votes_wstrzymal": 26,
+          "votes_za": 1094,
+          "votes_przeciw": 45,
+          "votes_wstrzymal": 27,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 1141,
-          "rebellion_count": 48,
+          "votes_total": 1166,
+          "rebellion_count": 49,
           "rebellions": [
             {
               "vote_id": "2024-05-22_012_000",
@@ -6975,6 +7262,13 @@
               "topic": "15A. Rozpatrzenie projektu uchwały w sprawie uchwalenia miejscowego planu zagospodarowania przestrzennego dla części obszaru miasta Łodzi obejmującej Park im. Marszałka Józefa Piłsudskiego, położonej w rejonie ulic Krzemienieckiej i Konstantynowskiej oraz alei Unii Lubelskiej - druk nr 32/2026.",
               "their_vote": "przeciw",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1670_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie skargi na bezczynność Prezydenta Miasta Łodzi - druk BRM nr 71/2026.",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
             }
           ],
           "has_voting_data": true,
@@ -6995,12 +7289,12 @@
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
           "zgodnosc_z_klubem": 98.1,
-          "votes_za": 743,
+          "votes_za": 760,
           "votes_przeciw": 35,
           "votes_wstrzymal": 5,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 783,
+          "votes_total": 800,
           "rebellion_count": 15,
           "rebellions": [
             {
@@ -7126,14 +7420,14 @@
           "club": "KO",
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
-          "zgodnosc_z_klubem": 98.1,
-          "votes_za": 1032,
-          "votes_przeciw": 44,
-          "votes_wstrzymal": 19,
+          "zgodnosc_z_klubem": 98.0,
+          "votes_za": 1074,
+          "votes_przeciw": 58,
+          "votes_wstrzymal": 20,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 1095,
-          "rebellion_count": 21,
+          "votes_total": 1152,
+          "rebellion_count": 23,
           "rebellions": [
             {
               "vote_id": "2024-07-03_148_000",
@@ -7281,6 +7575,20 @@
               "topic": "19K. Rozpatrzenie projektu uchwały w sprawie petycji o niezwłoczne zawieszenie bądź zerwanie umowy o współpracy między Łodzią i Tel-Awiw-Jafa - druk BRM nr 168/2025 wraz z poprawką.",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1688_000",
+              "session": "2026-04-22",
+              "topic": "29C. dr Agnieszka Katarzyna Gębora",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-22_1701_000",
+              "session": "2026-04-22",
+              "topic": "29D. prof. dr hab. n.med. Adam Ryszard Durczyński",
+              "their_vote": "za",
+              "club_majority": "przeciw"
             }
           ],
           "has_voting_data": true,
@@ -7300,13 +7608,13 @@
           "club": "PiS",
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
-          "zgodnosc_z_klubem": 96.5,
-          "votes_za": 660,
-          "votes_przeciw": 168,
-          "votes_wstrzymal": 278,
+          "zgodnosc_z_klubem": 96.7,
+          "votes_za": 714,
+          "votes_przeciw": 182,
+          "votes_wstrzymal": 282,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 1106,
+          "votes_total": 1178,
           "rebellion_count": 37,
           "rebellions": [
             {
@@ -7586,14 +7894,14 @@
           "club": "KO",
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
-          "zgodnosc_z_klubem": 88.6,
-          "votes_za": 520,
-          "votes_przeciw": 28,
-          "votes_wstrzymal": 40,
+          "zgodnosc_z_klubem": 88.7,
+          "votes_za": 559,
+          "votes_przeciw": 36,
+          "votes_wstrzymal": 44,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 588,
-          "rebellion_count": 67,
+          "votes_total": 639,
+          "rebellion_count": 72,
           "rebellions": [
             {
               "vote_id": "2024-08-28_174_000",
@@ -8063,6 +8371,41 @@
               "topic": "38A. Rozpatrzenie projektu uchwały zmieniającej uchwałę w sprawie zasad gospodarowania lokalami użytkowymi - druk BRM nr 43/2026.",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1672_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie skargi na działania Dyrektora Miejskiej Pracowni Urbanistycznej - druk BRM nr 72/2026.",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1677_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie skargi Rady Osiedla Stoki-Sikawa-Podgórze na działania Dyrektora Zarządu Lokali Miejskich - druk BRM nr 76/2026.",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1678_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie skargi na działania Dyrektora Zarządu Dróg i Transportu - druk BRM nr 77/2026.",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1688_000",
+              "session": "2026-04-22",
+              "topic": "29C. dr Agnieszka Katarzyna Gębora",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-22_1706_000",
+              "session": "2026-04-22",
+              "topic": "29D. Żaneta Bernadeta Iwańczyk",
+              "their_vote": "za",
+              "club_majority": "przeciw"
             }
           ],
           "has_voting_data": true,
@@ -8082,14 +8425,14 @@
           "club": "KO",
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
-          "zgodnosc_z_klubem": 98.0,
-          "votes_za": 741,
-          "votes_przeciw": 38,
-          "votes_wstrzymal": 4,
+          "zgodnosc_z_klubem": 97.4,
+          "votes_za": 772,
+          "votes_przeciw": 43,
+          "votes_wstrzymal": 7,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 783,
-          "rebellion_count": 16,
+          "votes_total": 822,
+          "rebellion_count": 21,
           "rebellions": [
             {
               "vote_id": "2024-08-28_220_000",
@@ -8202,6 +8545,41 @@
               "topic": "Rozpatrzenie projektu uchwały w sprawie ustalenia lokalizacji inwestycji mieszkaniowej i inwestycji towarzyszących przy ulicy Tylnej 7 w Łodzi - druk nr 48/2026.",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1672_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie skargi na działania Dyrektora Miejskiej Pracowni Urbanistycznej - druk BRM nr 72/2026.",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1678_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie skargi na działania Dyrektora Zarządu Dróg i Transportu - druk BRM nr 77/2026.",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1688_000",
+              "session": "2026-04-22",
+              "topic": "29C. dr Agnieszka Katarzyna Gębora",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-22_1692_000",
+              "session": "2026-04-22",
+              "topic": "29C. Liliana Leszner",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-22_1706_000",
+              "session": "2026-04-22",
+              "topic": "29D. Żaneta Bernadeta Iwańczyk",
+              "their_vote": "za",
+              "club_majority": "przeciw"
             }
           ],
           "has_voting_data": true,
@@ -8221,14 +8599,14 @@
           "club": "KO",
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
-          "zgodnosc_z_klubem": 99.5,
-          "votes_za": 1082,
-          "votes_przeciw": 67,
+          "zgodnosc_z_klubem": 99.3,
+          "votes_za": 1147,
+          "votes_przeciw": 81,
           "votes_wstrzymal": 1,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 1150,
-          "rebellion_count": 6,
+          "votes_total": 1229,
+          "rebellion_count": 8,
           "rebellions": [
             {
               "vote_id": "2025-01-15_584_000",
@@ -8271,6 +8649,20 @@
               "topic": "Odesłanie projektu do Komisji Planowania Przestrzennego i Architektury",
               "their_vote": "przeciw",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1676_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie skargi na bezczynność Dyrektora Zarządu Dróg i Transportu - druk BRM nr 75/2026.",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2026-04-22_1688_000",
+              "session": "2026-04-22",
+              "topic": "29C. dr Agnieszka Katarzyna Gębora",
+              "their_vote": "za",
+              "club_majority": "przeciw"
             }
           ],
           "has_voting_data": true,
@@ -8290,14 +8682,14 @@
           "club": "PiS",
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
-          "zgodnosc_z_klubem": 92.0,
-          "votes_za": 726,
-          "votes_przeciw": 199,
-          "votes_wstrzymal": 267,
+          "zgodnosc_z_klubem": 92.2,
+          "votes_za": 783,
+          "votes_przeciw": 212,
+          "votes_wstrzymal": 273,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 1192,
-          "rebellion_count": 57,
+          "votes_total": 1268,
+          "rebellion_count": 60,
           "rebellions": [
             {
               "vote_id": "2024-05-22_001_000",
@@ -8697,6 +9089,27 @@
               "topic": "27J. Rozpatrzenie projektu uchwały stanowisko - apel do mieszkańców Łodzi o przekazywanie 1,5% swojego podatku na rzecz organizacji działających na terenie Miasta Łodzi - druk BRM nr 62/2026.",
               "their_vote": "za",
               "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2026-04-22_1666_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie zmian budżetu oraz zmian w budżecie miasta Łodzi na 2026 rok - druk nr 78/2026 wraz z autopoprawką.",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2026-04-22_1718_000",
+              "session": "2026-04-22",
+              "topic": "29D. prof. dr hab. inż. Tadeusz Urban",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-22_1730_000",
+              "session": "2026-04-22",
+              "topic": "31A. Rozpatrzenie projektu uchwały zmieniającej uchwałę w sprawie określenia zasad sprzedaży, na rzecz najemców, samodzielnych lokali mieszkalnych i garaży oraz nieruchomości zabudowanych domami jednorodzinnymi- druk BRM nr 70/2026.",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
             }
           ],
           "has_voting_data": true,
@@ -8716,14 +9129,14 @@
           "club": "KO",
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
-          "zgodnosc_z_klubem": 97.5,
-          "votes_za": 832,
-          "votes_przeciw": 36,
-          "votes_wstrzymal": 15,
+          "zgodnosc_z_klubem": 97.3,
+          "votes_za": 866,
+          "votes_przeciw": 49,
+          "votes_wstrzymal": 17,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 883,
-          "rebellion_count": 22,
+          "votes_total": 932,
+          "rebellion_count": 25,
           "rebellions": [
             {
               "vote_id": "2024-05-22_019_000",
@@ -8878,6 +9291,27 @@
               "topic": "43B. Rozpatrzenie projektu uchwały w sprawie uznania terenu zieleni usytuowanego przy ul. Skalnej, Potokowej, Kasprowy Wierch, Dębowskiego, Zaruskiego, Giewont w Łodzi za park gminny, nadania mu nazwy „Park im. Generała Mariusza Zaruskiego” oraz zmiany uchwały w sprawie nadania nazw ulicom, alejom, placom i parkom - druk BRM nr 13/2026.",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1677_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie skargi Rady Osiedla Stoki-Sikawa-Podgórze na działania Dyrektora Zarządu Lokali Miejskich - druk BRM nr 76/2026.",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1688_000",
+              "session": "2026-04-22",
+              "topic": "29C. dr Agnieszka Katarzyna Gębora",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-22_1702_000",
+              "session": "2026-04-22",
+              "topic": "29D. Robert Piotr Gajewski",
+              "their_vote": "za",
+              "club_majority": "przeciw"
             }
           ],
           "has_voting_data": true,
@@ -8897,14 +9331,14 @@
           "club": "KO",
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
-          "zgodnosc_z_klubem": 99.5,
-          "votes_za": 1411,
-          "votes_przeciw": 71,
+          "zgodnosc_z_klubem": 99.4,
+          "votes_za": 1476,
+          "votes_przeciw": 88,
           "votes_wstrzymal": 1,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 1483,
-          "rebellion_count": 8,
+          "votes_total": 1565,
+          "rebellion_count": 10,
           "rebellions": [
             {
               "vote_id": "2024-12-19_540_000",
@@ -8961,6 +9395,20 @@
               "topic": "Odesłanie projektu do Komisji Planowania Przestrzennego i Architektury",
               "their_vote": "przeciw",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1676_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie skargi na bezczynność Dyrektora Zarządu Dróg i Transportu - druk BRM nr 75/2026.",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2026-04-22_1687_000",
+              "session": "2026-04-22",
+              "topic": "29C. dr Agnieszka Katarzyna Gębora",
+              "their_vote": "przeciw",
+              "club_majority": "za"
             }
           ],
           "has_voting_data": true,
@@ -8981,13 +9429,13 @@
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
           "zgodnosc_z_klubem": 99.3,
-          "votes_za": 1437,
-          "votes_przeciw": 57,
-          "votes_wstrzymal": 6,
+          "votes_za": 1499,
+          "votes_przeciw": 73,
+          "votes_wstrzymal": 7,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 1500,
-          "rebellion_count": 10,
+          "votes_total": 1579,
+          "rebellion_count": 11,
           "rebellions": [
             {
               "vote_id": "2024-08-28_210_000",
@@ -9058,6 +9506,13 @@
               "topic": "Odesłanie projektu do Komisji Planowania Przestrzennego i Architektury",
               "their_vote": "przeciw",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1687_000",
+              "session": "2026-04-22",
+              "topic": "29C. dr Agnieszka Katarzyna Gębora",
+              "their_vote": "przeciw",
+              "club_majority": "za"
             }
           ],
           "has_voting_data": true,
@@ -9077,13 +9532,13 @@
           "club": "PiS",
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
-          "zgodnosc_z_klubem": 92.1,
-          "votes_za": 587,
-          "votes_przeciw": 153,
-          "votes_wstrzymal": 318,
+          "zgodnosc_z_klubem": 92.6,
+          "votes_za": 636,
+          "votes_przeciw": 167,
+          "votes_wstrzymal": 325,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 1058,
+          "votes_total": 1128,
           "rebellion_count": 71,
           "rebellions": [
             {
@@ -9601,14 +10056,14 @@
           "club": "KO",
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
-          "zgodnosc_z_klubem": 99.4,
-          "votes_za": 1337,
-          "votes_przeciw": 73,
+          "zgodnosc_z_klubem": 99.3,
+          "votes_za": 1400,
+          "votes_przeciw": 88,
           "votes_wstrzymal": 1,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 1411,
-          "rebellion_count": 8,
+          "votes_total": 1489,
+          "rebellion_count": 10,
           "rebellions": [
             {
               "vote_id": "2024-10-16_334_000",
@@ -9665,6 +10120,20 @@
               "topic": "24A. Poprawka",
               "their_vote": "przeciw",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1687_000",
+              "session": "2026-04-22",
+              "topic": "29C. dr Agnieszka Katarzyna Gębora",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1726_000",
+              "session": "2026-04-22",
+              "topic": "30B. Wprowadzenie do porządku obrad punktu 31b - Rozpatrzenie projektu uchwały w sprawie zmian w składach osobowych komisji Rady Miejskiej w Łodzi - druk BRM nr 84/2026.",
+              "their_vote": "za",
+              "club_majority": "przeciw"
             }
           ],
           "has_voting_data": true,
@@ -9685,13 +10154,13 @@
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
           "zgodnosc_z_klubem": 93.8,
-          "votes_za": 452,
-          "votes_przeciw": 161,
-          "votes_wstrzymal": 175,
+          "votes_za": 466,
+          "votes_przeciw": 163,
+          "votes_wstrzymal": 181,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 788,
-          "rebellion_count": 41,
+          "votes_total": 810,
+          "rebellion_count": 42,
           "rebellions": [
             {
               "vote_id": "2024-05-22_001_000",
@@ -9979,6 +10448,13 @@
               "topic": "27J. Rozpatrzenie projektu uchwały stanowisko - apel do mieszkańców Łodzi o przekazywanie 1,5% swojego podatku na rzecz organizacji działających na terenie Miasta Łodzi - druk BRM nr 62/2026.",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1730_000",
+              "session": "2026-04-22",
+              "topic": "31A. Rozpatrzenie projektu uchwały zmieniającej uchwałę w sprawie określenia zasad sprzedaży, na rzecz najemców, samodzielnych lokali mieszkalnych i garaży oraz nieruchomości zabudowanych domami jednorodzinnymi- druk BRM nr 70/2026.",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
             }
           ],
           "has_voting_data": true,
@@ -9998,14 +10474,14 @@
           "club": "KO",
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
-          "zgodnosc_z_klubem": 99.1,
-          "votes_za": 1360,
-          "votes_przeciw": 66,
+          "zgodnosc_z_klubem": 99.0,
+          "votes_za": 1424,
+          "votes_przeciw": 83,
           "votes_wstrzymal": 2,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 1428,
-          "rebellion_count": 13,
+          "votes_total": 1509,
+          "rebellion_count": 15,
           "rebellions": [
             {
               "vote_id": "2024-10-16_334_000",
@@ -10097,6 +10573,20 @@
               "topic": "43C. Rozpatrzenie projektu uchwały w sprawie zatwierdzenia planu pracy Komisji Rewizyjnej Rady Miejskiej w Łodzi na okres od 25 lutego 2026 roku do 31 grudnia 2026 roku - druk BRM nr 10/2026.",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1676_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie skargi na bezczynność Dyrektora Zarządu Dróg i Transportu - druk BRM nr 75/2026.",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2026-04-22_1687_000",
+              "session": "2026-04-22",
+              "topic": "29C. dr Agnieszka Katarzyna Gębora",
+              "their_vote": "przeciw",
+              "club_majority": "za"
             }
           ],
           "has_voting_data": true,
@@ -10116,13 +10606,13 @@
           "club": "PiS",
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
-          "zgodnosc_z_klubem": 93.1,
-          "votes_za": 462,
-          "votes_przeciw": 128,
-          "votes_wstrzymal": 164,
+          "zgodnosc_z_klubem": 93.7,
+          "votes_za": 514,
+          "votes_przeciw": 140,
+          "votes_wstrzymal": 170,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 754,
+          "votes_total": 824,
           "rebellion_count": 50,
           "rebellions": [
             {
@@ -10493,13 +10983,13 @@
           "club": "PiS",
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
-          "zgodnosc_z_klubem": 94.6,
-          "votes_za": 693,
-          "votes_przeciw": 188,
-          "votes_wstrzymal": 313,
+          "zgodnosc_z_klubem": 94.9,
+          "votes_za": 731,
+          "votes_przeciw": 196,
+          "votes_wstrzymal": 321,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 1194,
+          "votes_total": 1248,
           "rebellion_count": 40,
           "rebellions": [
             {
@@ -10801,12 +11291,12 @@
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
           "zgodnosc_z_klubem": 0.0,
-          "votes_za": 1216,
-          "votes_przeciw": 66,
+          "votes_za": 1280,
+          "votes_przeciw": 82,
           "votes_wstrzymal": 20,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 1302,
+          "votes_total": 1382,
           "rebellion_count": 0,
           "rebellions": [],
           "has_voting_data": true,
@@ -10826,14 +11316,14 @@
           "club": "KO",
           "frekwencja": 100.0,
           "aktywnosc": 0.0,
-          "zgodnosc_z_klubem": 99.6,
-          "votes_za": 982,
-          "votes_przeciw": 67,
-          "votes_wstrzymal": 1,
+          "zgodnosc_z_klubem": 99.2,
+          "votes_za": 1035,
+          "votes_przeciw": 81,
+          "votes_wstrzymal": 2,
           "votes_brak": 0,
           "votes_nieobecny": 0,
-          "votes_total": 1050,
-          "rebellion_count": 4,
+          "votes_total": 1118,
+          "rebellion_count": 9,
           "rebellions": [
             {
               "vote_id": "2025-02-12_623_000",
@@ -10860,6 +11350,41 @@
               "vote_id": "2025-12-17_1425_000",
               "session": "2025-12-17",
               "topic": "24A. Poprawka",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-22_1676_000",
+              "session": "2026-04-22",
+              "topic": "Rozpatrzenie projektu uchwały w sprawie skargi na bezczynność Dyrektora Zarządu Dróg i Transportu - druk BRM nr 75/2026.",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2026-04-22_1699_000",
+              "session": "2026-04-22",
+              "topic": "29D. dr Sebastian Adamkiewicz",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-22_1702_000",
+              "session": "2026-04-22",
+              "topic": "29D. Robert Piotr Gajewski",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-22_1706_000",
+              "session": "2026-04-22",
+              "topic": "29D. Żaneta Bernadeta Iwańczyk",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-22_1716_000",
+              "session": "2026-04-22",
+              "topic": "29D. prof. dr hab. Stefan Konstanty Niesiołowski",
               "their_vote": "przeciw",
               "club_majority": "za"
             }

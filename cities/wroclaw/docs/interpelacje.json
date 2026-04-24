@@ -1,5 +1,137 @@
 [
   {
+    "przedmiot": "nagłego przerwania i braku kontynuacji programu ,,Bezpieczna mama''",
+    "bip_url": "https://bip.um.wroc.pl/interpelacja/89070/interpelacja-w-sprawie-naglego-przerwania-i-braku-kontynuacji-programu-bezpieczna-mama",
+    "typ": "interpelacja",
+    "radny": "Andrzej Kilijanek",
+    "status": "oczekuje na odpowiedź",
+    "kadencja": "IX",
+    "typ_full": "Interpelacja",
+    "data_wplywu": "2026-04-24",
+    "tresc_url": "https://bip.um.wroc.pl/attachments/download/173738",
+    "zalaczniki": [
+      {
+        "nazwa": "Interpelacja",
+        "url": "https://bip.um.wroc.pl/attachments/download/173738"
+      }
+    ],
+    "kategoria": "bezpieczeństwo",
+    "odpowiedz_status": "oczekuje na odpowiedź",
+    "data_odpowiedzi": "",
+    "odpowiedz_url": "",
+    "nr_sprawy": ""
+  },
+  {
+    "przedmiot": "ponownego odmalowania pasów: przejście dla pieszych ul. Rogowska",
+    "bip_url": "https://bip.um.wroc.pl/interpelacja/89069/interpelacja-w-sprawie-ponownego-odmalowania-pasow-przejscie-dla-pieszych-ul-rogowska",
+    "typ": "interpelacja",
+    "radny": "Łukasz Olbert",
+    "status": "oczekuje na odpowiedź",
+    "kadencja": "IX",
+    "typ_full": "Interpelacja",
+    "data_wplywu": "2026-04-24",
+    "tresc_url": "https://bip.um.wroc.pl/attachments/download/173737",
+    "zalaczniki": [
+      {
+        "nazwa": "Interpelacja",
+        "url": "https://bip.um.wroc.pl/attachments/download/173737"
+      }
+    ],
+    "kategoria": "transport",
+    "odpowiedz_status": "oczekuje na odpowiedź",
+    "data_odpowiedzi": "",
+    "odpowiedz_url": "",
+    "nr_sprawy": ""
+  },
+  {
+    "przedmiot": "poprawy bezpieczeństwa na skrzyżowaniu ulic Pułaskiego i Komuny Paryskiej",
+    "bip_url": "https://bip.um.wroc.pl/interpelacja/89068/interpelacja-w-sprawie-poprawy-bezpieczenstwa-na-skrzyzowaniu-ulic-pulaskiego-i-komuny-paryskiej",
+    "typ": "interpelacja",
+    "radny": "Andrzej Kilijanek",
+    "status": "oczekuje na odpowiedź",
+    "kadencja": "IX",
+    "typ_full": "Interpelacja",
+    "data_wplywu": "2026-04-24",
+    "tresc_url": "https://bip.um.wroc.pl/attachments/download/173736",
+    "zalaczniki": [
+      {
+        "nazwa": "Interpelacja",
+        "url": "https://bip.um.wroc.pl/attachments/download/173736"
+      }
+    ],
+    "kategoria": "transport",
+    "odpowiedz_status": "oczekuje na odpowiedź",
+    "data_odpowiedzi": "",
+    "odpowiedz_url": "",
+    "nr_sprawy": ""
+  },
+  {
+    "przedmiot": "zmiany nazwy przystanku pl. Staszica",
+    "bip_url": "https://bip.um.wroc.pl/interpelacja/89066/zapytanie-w-sprawie-zmiany-nazwy-przystanku-pl-staszica",
+    "typ": "zapytanie",
+    "radny": "Izabela Duchnowska",
+    "status": "oczekuje na odpowiedź",
+    "kadencja": "IX",
+    "typ_full": "Zapytanie",
+    "data_wplywu": "2026-04-24",
+    "tresc_url": "https://bip.um.wroc.pl/attachments/download/173729",
+    "zalaczniki": [
+      {
+        "nazwa": "Zapytanie",
+        "url": "https://bip.um.wroc.pl/attachments/download/173729"
+      }
+    ],
+    "kategoria": "transport",
+    "odpowiedz_status": "oczekuje na odpowiedź",
+    "data_odpowiedzi": "",
+    "odpowiedz_url": "",
+    "nr_sprawy": ""
+  },
+  {
+    "przedmiot": "czasowego wydłużenia linii autobusowej 146 do pętli Brochów w związku z remontami wiaduktów przy ul. Gazowej i Mościckiego",
+    "bip_url": "https://bip.um.wroc.pl/interpelacja/89065/interpelacja-w-sprawie-czasowego-wydluzenia-linii-autobusowej-146-do-petli-brochow-w-zwiazku-z-remontami-wiaduktow-przy-ul-gazowej-i-moscickiego",
+    "typ": "interpelacja",
+    "radny": "Andrzej Kilijanek",
+    "status": "oczekuje na odpowiedź",
+    "kadencja": "IX",
+    "typ_full": "Interpelacja",
+    "data_wplywu": "2026-04-24",
+    "tresc_url": "https://bip.um.wroc.pl/attachments/download/173728",
+    "zalaczniki": [
+      {
+        "nazwa": "Interpelacja",
+        "url": "https://bip.um.wroc.pl/attachments/download/173728"
+      }
+    ],
+    "kategoria": "transport",
+    "odpowiedz_status": "oczekuje na odpowiedź",
+    "data_odpowiedzi": "",
+    "odpowiedz_url": "",
+    "nr_sprawy": ""
+  },
+  {
+    "przedmiot": "planowanych działań w zakresie systemu gospodarowania odpadami komunalnymi we Wrocławiu - budowy spalarni odpadów oraz powołania spółki komunalnej",
+    "bip_url": "https://bip.um.wroc.pl/interpelacja/89063/interpelacja-w-sprawie-planowanych-dzialan-w-zakresie-systemu-gospodarowania-odpadami-komunalnymi-we-wroclawiu-budowy-spalarni-odpadow-oraz-powolania-spolki-komunalnej",
+    "typ": "interpelacja",
+    "radny": "Andrzej Kilijanek",
+    "status": "oczekuje na odpowiedź",
+    "kadencja": "IX",
+    "typ_full": "Interpelacja",
+    "data_wplywu": "2026-04-24",
+    "tresc_url": "https://bip.um.wroc.pl/attachments/download/173719",
+    "zalaczniki": [
+      {
+        "nazwa": "Interpelacja",
+        "url": "https://bip.um.wroc.pl/attachments/download/173719"
+      }
+    ],
+    "kategoria": "infrastruktura",
+    "odpowiedz_status": "oczekuje na odpowiedź",
+    "data_odpowiedzi": "",
+    "odpowiedz_url": "",
+    "nr_sprawy": ""
+  },
+  {
     "przedmiot": "opóźnienia realizacji remontu chodnika przy ul. Jedności Narodowej",
     "bip_url": "https://bip.um.wroc.pl/interpelacja/88936/zapytanie-w-sprawie-opoznienia-realizacji-remontu-chodnika-przy-ul-jednosci-narodowej",
     "typ": "zapytanie",
@@ -26,21 +158,25 @@
     "bip_url": "https://bip.um.wroc.pl/interpelacja/88877/interpelacja-w-sprawie-ustawienia-lustra-drogowego-w-obrebie-skrzyzowania-ulic-wroblej-i-sztabowej",
     "typ": "interpelacja",
     "radny": "Joanna Pieczyńska",
-    "status": "oczekuje na odpowiedź",
+    "status": "udzielono odpowiedzi",
     "kadencja": "IX",
     "typ_full": "Interpelacja",
     "data_wplywu": "2026-04-14",
     "tresc_url": "https://bip.um.wroc.pl/attachments/download/173239",
+    "odpowiedz_url": "https://bip.um.wroc.pl/attachments/download/173610",
     "zalaczniki": [
       {
         "nazwa": "Interpelacja",
         "url": "https://bip.um.wroc.pl/attachments/download/173239"
+      },
+      {
+        "nazwa": "Odpowiedź na interpelację",
+        "url": "https://bip.um.wroc.pl/attachments/download/173610"
       }
     ],
     "kategoria": "transport",
-    "odpowiedz_status": "oczekuje na odpowiedź",
+    "odpowiedz_status": "udzielono odpowiedzi",
     "data_odpowiedzi": "",
-    "odpowiedz_url": "",
     "nr_sprawy": ""
   },
   {
@@ -136,21 +272,29 @@
     "bip_url": "https://bip.um.wroc.pl/interpelacja/88825/interpelacja-w-sprawie-przebudowy-skrzyzowania-ulic-na-grobli-okolnej-i-miedzyrzeckiej",
     "typ": "interpelacja",
     "radny": "Jakub Janas",
-    "status": "oczekuje na odpowiedź",
+    "status": "udzielono odpowiedzi",
     "kadencja": "IX",
     "typ_full": "Interpelacja",
     "data_wplywu": "2026-04-13",
     "tresc_url": "https://bip.um.wroc.pl/attachments/download/173165",
+    "odpowiedz_url": "https://bip.um.wroc.pl/attachments/download/173505",
     "zalaczniki": [
       {
         "nazwa": "Interpelacja",
         "url": "https://bip.um.wroc.pl/attachments/download/173165"
+      },
+      {
+        "nazwa": "Odpowiedź na interpelację",
+        "url": "https://bip.um.wroc.pl/attachments/download/173472"
+      },
+      {
+        "nazwa": "Odpowiedź na interpelację (wersja tekstowa)",
+        "url": "https://bip.um.wroc.pl/attachments/download/173505"
       }
     ],
     "kategoria": "transport",
-    "odpowiedz_status": "oczekuje na odpowiedź",
+    "odpowiedz_status": "udzielono odpowiedzi",
     "data_odpowiedzi": "",
-    "odpowiedz_url": "",
     "nr_sprawy": ""
   },
   {
@@ -224,21 +368,25 @@
     "bip_url": "https://bip.um.wroc.pl/interpelacja/88821/interpelacja-w-sprawie-poprawy-bezpieczenstwa-na-drodze-w-poblizu-xv-lo-przy-ul-wojrowickiej-58",
     "typ": "interpelacja",
     "radny": "Łukasz Olbert",
-    "status": "oczekuje na odpowiedź",
+    "status": "udzielono odpowiedzi",
     "kadencja": "IX",
     "typ_full": "Interpelacja",
     "data_wplywu": "2026-04-13",
     "tresc_url": "https://bip.um.wroc.pl/attachments/download/173161",
+    "odpowiedz_url": "https://bip.um.wroc.pl/attachments/download/173611",
     "zalaczniki": [
       {
         "nazwa": "Interpelacja",
         "url": "https://bip.um.wroc.pl/attachments/download/173161"
+      },
+      {
+        "nazwa": "Odpowiedź na interpelację",
+        "url": "https://bip.um.wroc.pl/attachments/download/173611"
       }
     ],
     "kategoria": "bezpieczeństwo",
-    "odpowiedz_status": "oczekuje na odpowiedź",
+    "odpowiedz_status": "udzielono odpowiedzi",
     "data_odpowiedzi": "",
-    "odpowiedz_url": "",
     "nr_sprawy": ""
   },
   {
@@ -290,21 +438,25 @@
     "bip_url": "https://bip.um.wroc.pl/interpelacja/88769/interpelacja-w-sprawie-punktow-socjalnych-dla-kierowcow-i-motorniczych-mpk-wroclaw-oraz-innych-przewoznikow-na-petlach-tramwajowych-i-autobusowych",
     "typ": "interpelacja",
     "radny": "Jakub Nowotarski",
-    "status": "oczekuje na odpowiedź",
+    "status": "udzielono odpowiedzi",
     "kadencja": "IX",
     "typ_full": "Interpelacja",
     "data_wplywu": "2026-04-09",
     "tresc_url": "https://bip.um.wroc.pl/attachments/download/173071",
+    "odpowiedz_url": "https://bip.um.wroc.pl/attachments/download/173477",
     "zalaczniki": [
       {
         "nazwa": "Interpelacja",
         "url": "https://bip.um.wroc.pl/attachments/download/173071"
+      },
+      {
+        "nazwa": "Odpowiedź na interpelację",
+        "url": "https://bip.um.wroc.pl/attachments/download/173477"
       }
     ],
     "kategoria": "transport",
-    "odpowiedz_status": "oczekuje na odpowiedź",
+    "odpowiedz_status": "udzielono odpowiedzi",
     "data_odpowiedzi": "",
-    "odpowiedz_url": "",
     "nr_sprawy": ""
   },
   {
@@ -312,21 +464,25 @@
     "bip_url": "https://bip.um.wroc.pl/interpelacja/88768/interpelacja-w-sprawie-rozkladow-jazdy-komunikacji-miejskiej-na-stronie-internetowej-wroclaw-pl",
     "typ": "interpelacja",
     "radny": "Jakub Nowotarski",
-    "status": "oczekuje na odpowiedź",
+    "status": "udzielono odpowiedzi",
     "kadencja": "IX",
     "typ_full": "Interpelacja",
     "data_wplywu": "2026-04-09",
     "tresc_url": "https://bip.um.wroc.pl/attachments/download/173070",
+    "odpowiedz_url": "https://bip.um.wroc.pl/attachments/download/173469",
     "zalaczniki": [
       {
         "nazwa": "Interpelacja",
         "url": "https://bip.um.wroc.pl/attachments/download/173070"
+      },
+      {
+        "nazwa": "Odpowiedź na interpelację",
+        "url": "https://bip.um.wroc.pl/attachments/download/173469"
       }
     ],
     "kategoria": "transport",
-    "odpowiedz_status": "oczekuje na odpowiedź",
+    "odpowiedz_status": "udzielono odpowiedzi",
     "data_odpowiedzi": "",
-    "odpowiedz_url": "",
     "nr_sprawy": ""
   },
   {
@@ -356,21 +512,25 @@
     "bip_url": "https://bip.um.wroc.pl/interpelacja/88765/interpelacja-w-sprawie-tablic-dynamicznej-informacji-pasazerskiej",
     "typ": "interpelacja",
     "radny": "Jakub Nowotarski",
-    "status": "oczekuje na odpowiedź",
+    "status": "udzielono odpowiedzi",
     "kadencja": "IX",
     "typ_full": "Interpelacja",
     "data_wplywu": "2026-04-09",
     "tresc_url": "https://bip.um.wroc.pl/attachments/download/173068",
+    "odpowiedz_url": "https://bip.um.wroc.pl/attachments/download/173471",
     "zalaczniki": [
       {
         "nazwa": "Interpelacja",
         "url": "https://bip.um.wroc.pl/attachments/download/173068"
+      },
+      {
+        "nazwa": "Odpowiedź na interpelację",
+        "url": "https://bip.um.wroc.pl/attachments/download/173471"
       }
     ],
     "kategoria": "inne",
-    "odpowiedz_status": "oczekuje na odpowiedź",
+    "odpowiedz_status": "udzielono odpowiedzi",
     "data_odpowiedzi": "",
-    "odpowiedz_url": "",
     "nr_sprawy": ""
   },
   {
@@ -654,21 +814,25 @@
     "bip_url": "https://bip.um.wroc.pl/interpelacja/88257/interpelacja-w-sprawie-dzialan-majacych-na-celu-dokonczenie-prac-zwiazanych-z-wykonaniem-nawierzchni-asfaltowej-na-dwoch-odcinkach-drog-na-terenie-wroclawia-ul-anyzowej-oraz-ul-tymiankowej",
     "typ": "interpelacja",
     "radny": "Mateusz Żak",
-    "status": "oczekuje na odpowiedź",
+    "status": "udzielono odpowiedzi",
     "kadencja": "IX",
     "typ_full": "Interpelacja",
     "data_wplywu": "2026-03-19",
     "tresc_url": "https://bip.um.wroc.pl/attachments/download/172349",
+    "odpowiedz_url": "https://bip.um.wroc.pl/attachments/download/173713",
     "zalaczniki": [
       {
         "nazwa": "Interpelacja",
         "url": "https://bip.um.wroc.pl/attachments/download/172349"
+      },
+      {
+        "nazwa": "Odpowiedź na interpelację",
+        "url": "https://bip.um.wroc.pl/attachments/download/173713"
       }
     ],
     "kategoria": "infrastruktura",
-    "odpowiedz_status": "oczekuje na odpowiedź",
+    "odpowiedz_status": "udzielono odpowiedzi",
     "data_odpowiedzi": "",
-    "odpowiedz_url": "",
     "nr_sprawy": ""
   },
   {
