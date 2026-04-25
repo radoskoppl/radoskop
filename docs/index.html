@@ -470,8 +470,13 @@ var VIS_SHOWN = 24;
 var PAGE_SIZES = { comp: 20, interp: 15, budget: 15, sessions: 30, controversial: 10 };
 var SHOWN = { comp: 20, interp: 15, budget: 15, sessions: 30, controversial: 10 };
 
+// Cloudflare Worker routes apex radoskop.pl/{html,assets} to s3://radoskop-public/radoskop/
+// but does NOT route arbitrary JSON paths. data.radoskop.pl is the canonical data
+// channel with explicit CORS, so we fetch all manifests from there.
+var DATA_BASE = 'https://data.radoskop.pl/radoskop';
+
 function loadCities(){
-  return fetch('/cities.json')
+  return fetch(DATA_BASE + '/cities.json')
     .then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();})
     .then(function(data){
       CITIES = Array.isArray(data)?data:(data.cities||[]);
@@ -693,7 +698,7 @@ function rankingRender(){
   input.addEventListener('focus',function(){if(this.value.trim().length>=2&&idx)render(this.value);});
   input.addEventListener('keydown',function(e){if(e.key==='Escape')results.classList.remove('visible');});
   document.addEventListener('click',function(e){if(!e.target.closest('#councilor-search'))results.classList.remove('visible');});
-  fetch('/councilors-index.json').then(function(r){return r.json();}).then(function(d){idx=d;count.textContent=formatInt(d.length)+' radnych z '+CITIES.length+' miast';rankingInit(d);}).catch(function(){document.getElementById('councilor-search').style.display='none';});
+  fetch(DATA_BASE + '/councilors-index.json').then(function(r){return r.json();}).then(function(d){idx=d;count.textContent=formatInt(d.length)+' radnych z '+CITIES.length+' miast';rankingInit(d);}).catch(function(){document.getElementById('councilor-search').style.display='none';});
 })();
 
 // ── Vote search ──
@@ -736,10 +741,10 @@ function rankingRender(){
     count.textContent=txt;
   }
   function ensure(cb){if(idx){cb();return;}if(failed){showError();return;}if(loading)return;loading=true;showLoading();
-    fetch('/votes-index.json').then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(function(d){idx=d;loading=false;count.textContent=formatInt(d.length)+' głosowań z '+CITIES.length+' miast';cb();}).catch(function(){loading=false;failed=true;showError();});
+    fetch(DATA_BASE + '/votes-index.json').then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(function(d){idx=d;loading=false;count.textContent=formatInt(d.length)+' głosowań z '+CITIES.length+' miast';cb();}).catch(function(){loading=false;failed=true;showError();});
   }
   input.addEventListener('input',function(){var v=this.value;clearTimeout(timer);if(v.trim().length<2){results.classList.remove('visible');if(idx)count.textContent=formatInt(idx.length)+' głosowań z '+CITIES.length+' miast';return;}timer=setTimeout(function(){ensure(function(){render(v);});},150);});
-  input.addEventListener('focus',function(){if(!idx&&!loading&&!failed){loading=true;fetch('/votes-index.json').then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(function(d){idx=d;loading=false;count.textContent=formatInt(d.length)+' głosowań z '+CITIES.length+' miast';}).catch(function(){loading=false;failed=true;});}if(this.value.trim().length>=2&&idx)render(this.value);});
+  input.addEventListener('focus',function(){if(!idx&&!loading&&!failed){loading=true;fetch(DATA_BASE + '/votes-index.json').then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(function(d){idx=d;loading=false;count.textContent=formatInt(d.length)+' głosowań z '+CITIES.length+' miast';}).catch(function(){loading=false;failed=true;});}if(this.value.trim().length>=2&&idx)render(this.value);});
   input.addEventListener('keydown',function(e){if(e.key==='Escape'){results.classList.remove('visible');this.blur();}});
   document.addEventListener('click',function(e){if(!e.target.closest('#vote-search'))results.classList.remove('visible');});
 })();
@@ -900,7 +905,7 @@ document.addEventListener('DOMContentLoaded',function(){
   });
 
   // Optional separate feed for controversial votes (top N by lowest % za across all cities)
-  fetch('/controversial-votes.json').then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(d){
+  fetch(DATA_BASE + '/controversial-votes.json').then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(d){
     CONTROV=Array.isArray(d)?d:(d.votes||[]);
     renderControversial();
   }).catch(function(){
