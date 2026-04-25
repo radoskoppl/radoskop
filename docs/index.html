@@ -470,10 +470,10 @@ var VIS_SHOWN = 24;
 var PAGE_SIZES = { comp: 20, interp: 15, budget: 15, sessions: 30, controversial: 10 };
 var SHOWN = { comp: 20, interp: 15, budget: 15, sessions: 30, controversial: 10 };
 
-// Cloudflare Worker routes apex radoskop.pl/{html,assets} to s3://radoskop-public/radoskop/
-// but does NOT route arbitrary JSON paths. data.radoskop.pl is the canonical data
-// channel with explicit CORS, so we fetch all manifests from there.
-var DATA_BASE = 'https://data.radoskop.pl/radoskop';
+// The apex page lives at s3://radoskop-public/_main/ (Cloudflare Worker convention).
+// data.radoskop.pl serves the same prefix with explicit CORS, so we fetch all
+// manifests through it for cross-origin safety.
+var DATA_BASE = 'https://data.radoskop.pl/_main';
 
 function loadCities(){
   return fetch(DATA_BASE + '/cities.json')
