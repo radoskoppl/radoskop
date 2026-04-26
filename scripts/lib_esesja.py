@@ -174,6 +174,50 @@ def load_profiles(profiles_path: str | Path) -> dict:
         return {}
 
 
+def _decompact_named_votes(named: dict, councilor_index: list) -> dict:
+    """Inverse of compact_named_votes: int indexes → name strings."""
+    if not councilor_index:
+        return {k: list(v) for k, v in named.items()}
+    out: dict[str, list] = {}
+    for cat, ids in named.items():
+        if ids and isinstance(ids[0], int):
+            out[cat] = [councilor_index[i] for i in ids if 0 <= i < len(councilor_index)]
+        else:
+            out[cat] = list(ids)
+    return out
+
+
+def load_previous_votes_by_date(kadencja_file: Path) -> dict[str, list[dict]]:
+    """Read the previously-saved kadencja JSON and index its votes by session date.
+
+    Returned dict can be indexed in `EsesjaScraper.run()` /
+    `BipScraper.run()` to skip re-scraping sessions whose votes are already
+    known. Empty dict when file is missing or unreadable, so callers fall
+    back to a full scrape.
+    """
+    p = Path(kadencja_file)
+    if not p.exists():
+        return {}
+    try:
+        with p.open(encoding="utf-8") as f:
+            kad = json.load(f)
+    except Exception:
+        return {}
+    index = kad.get("councilor_index") or []
+    by_date: dict[str, list[dict]] = {}
+    for v in kad.get("votes") or []:
+        date = v.get("session_date") or ""
+        if not date:
+            continue
+        nv = v.get("named_votes") or {}
+        # Older runs stored full names, newer runs store compact int indexes;
+        # decompact transparently so callers always see name strings.
+        v_copy = dict(v)
+        v_copy["named_votes"] = _decompact_named_votes(nv, index)
+        by_date.setdefault(date, []).append(v_copy)
+    return by_date
+
+
 def _write_empty_outputs(
     output_path: str | Path,
     profiles_path: str | Path,
@@ -607,6 +651,8 @@ class EsesjaScraper:
         profiles_path: str | Path,
         max_sessions: int = 0,
         dry_run: bool = False,
+        incremental_window_days: int = 30,
+        force_full: bool = False,
     ) -> int:
         self._init_session()
         slug = self.base_url.split("//", 1)[-1].split(".", 1)[0]
@@ -626,12 +672,40 @@ class EsesjaScraper:
             print("Dry-run: Zatrzymuję się tutaj.")
             return 0
 
+        # Load previously-saved votes and re-scrape only sessions newer than
+        # the safety window (defaults to 30d). Older sessions are immutable
+        # in practice — votes get registered minutes after the session ends
+        # and corrections, when they happen, land within the first weeks.
+        prev_votes_by_date: dict[str, list[dict]] = {}
+        if not force_full:
+            kad_file = Path(output_path).parent / f"kadencja-{self.default_kadencja}.json"
+            prev_votes_by_date = load_previous_votes_by_date(kad_file)
+            if prev_votes_by_date:
+                print(
+                    f"  Cache: {sum(len(v) for v in prev_votes_by_date.values())} "
+                    f"głosowań z poprzedniego runu ({len(prev_votes_by_date)} sesji)"
+                )
+
+        from datetime import date, timedelta
+        cutoff = (date.today() - timedelta(days=incremental_window_days)).isoformat()
+        print(f"  Incremental window: re-scrape sesji od {cutoff} (granica {incremental_window_days} dni)")
+
         print("[2/4] Pobieranie głosowań z sesji...")
         all_votes: list[dict] = []
+        fresh_count = 0
+        cached_count = 0
         for i, session in enumerate(sessions):
-            print(f"  [{i+1}/{len(sessions)}] Sesja {session['id']} ({session['date']})")
-            all_votes.extend(self.scrape_votes_from_session(session))
-        print(f"  Pobrano {len(all_votes)} głosowań\n")
+            cached = prev_votes_by_date.get(session["date"])
+            if cached and session["date"] < cutoff:
+                print(f"  [{i+1}/{len(sessions)}] CACHED Sesja {session['date']} ({len(cached)} głosowań)")
+                all_votes.extend(cached)
+                cached_count += len(cached)
+            else:
+                print(f"  [{i+1}/{len(sessions)}] Sesja {session['id']} ({session['date']})")
+                fresh = self.scrape_votes_from_session(session)
+                all_votes.extend(fresh)
+                fresh_count += len(fresh)
+        print(f"  Pobrano {fresh_count} fresh + {cached_count} cached = {len(all_votes)} głosowań\n")
 
         print("[3/4] Budowanie danych...")
         existing_profiles = load_profiles(profiles_path)
@@ -686,10 +760,20 @@ class EsesjaScraper:
         # `--cache-dir` accepted but ignored, kept for compatibility with
         # scrape_all.sh's per-city CLI conventions.
         parser.add_argument("--cache-dir", default=None)
+        parser.add_argument(
+            "--incremental-window", type=int, default=30,
+            help="Re-scrape sessions newer than N days (default 30); older sessions reuse cached votes",
+        )
+        parser.add_argument(
+            "--full", action="store_true",
+            help="Force full re-scrape, ignoring previous kadencja JSON",
+        )
         args = parser.parse_args()
         if args.delay != 1.0:
             self.delay = args.delay
         return self.run(
+            incremental_window_days=args.incremental_window,
+            force_full=args.full,
             output_path=args.output,
             profiles_path=args.profiles,
             max_sessions=args.max_sessions,

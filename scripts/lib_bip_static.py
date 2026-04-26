@@ -82,6 +82,7 @@ from lib_esesja import (  # noqa: E402
     save_split_output,
     load_profiles,
     build_profiles_json,
+    load_previous_votes_by_date,
 )
 
 
@@ -361,6 +362,8 @@ class BipScraper(ABC):
         profiles_path: str | Path,
         max_sessions: int = 0,
         dry_run: bool = False,
+        incremental_window_days: int = 30,
+        force_full: bool = False,
     ) -> int:
         self._init_session()
         slug = self.base_url.split("//", 1)[-1].split("/", 1)[0].split(".", 1)[0]
@@ -383,9 +386,34 @@ class BipScraper(ABC):
             print("Dry-run: Zatrzymuję się tutaj.")
             return 0
 
+        # Incremental: skip parsing closed sessions whose votes are already cached.
+        # Stale safety window protects against late corrections / retroactive
+        # vote registrations.
+        prev_votes_by_date: dict[str, list[dict]] = {}
+        if not force_full:
+            kad_file = Path(output_path).parent / f"kadencja-{self.default_kadencja}.json"
+            prev_votes_by_date = load_previous_votes_by_date(kad_file)
+            if prev_votes_by_date:
+                print(
+                    f"  Cache: {sum(len(v) for v in prev_votes_by_date.values())} "
+                    f"głosowań z poprzedniego runu ({len(prev_votes_by_date)} sesji)"
+                )
+
+        from datetime import date, timedelta
+        cutoff = (date.today() - timedelta(days=incremental_window_days)).isoformat()
+        print(f"  Incremental window: re-scrape sesji od {cutoff} (granica {incremental_window_days} dni)")
+
         print("[2/4] Pobieranie głosowań z sesji...")
         all_votes: list[dict] = []
+        fresh_count = 0
+        cached_count = 0
         for i, session in enumerate(sessions):
+            cached = prev_votes_by_date.get(session["date"])
+            if cached and session["date"] < cutoff:
+                print(f"  [{i+1}/{len(sessions)}] CACHED Sesja {session['date']} ({len(cached)} głosowań)")
+                all_votes.extend(cached)
+                cached_count += len(cached)
+                continue
             print(f"  [{i+1}/{len(sessions)}] Sesja {session.get('id') or session['date']} ({session['date']})")
             try:
                 raw_votes = list(self.parse_session_votes(session))
@@ -396,7 +424,8 @@ class BipScraper(ABC):
                 normalized = self._normalize_vote(v, session, idx)
                 if sum(normalized["counts"].values()) > 0:
                     all_votes.append(normalized)
-        print(f"  Pobrano {len(all_votes)} głosowań\n")
+                    fresh_count += 1
+        print(f"  Pobrano {fresh_count} fresh + {cached_count} cached = {len(all_votes)} głosowań\n")
 
         print("[3/4] Budowanie danych...")
         existing_profiles = load_profiles(profiles_path)
@@ -449,6 +478,14 @@ class BipScraper(ABC):
                             help="Optional cache dir for fetched HTML/PDFs (speeds up reruns)")
         parser.add_argument("--pdf-dir", default=None,
                             help="Alias for --cache-dir, kept for scrape_all.sh compatibility")
+        parser.add_argument(
+            "--incremental-window", type=int, default=30,
+            help="Re-scrape sessions newer than N days (default 30); older sessions reuse cached votes",
+        )
+        parser.add_argument(
+            "--full", action="store_true",
+            help="Force full re-scrape, ignoring previous kadencja JSON",
+        )
         args = parser.parse_args()
         if args.delay != 1.0:
             self.delay = args.delay
@@ -457,6 +494,8 @@ class BipScraper(ABC):
         elif args.pdf_dir:
             self.cache_dir = Path(args.pdf_dir)
         return self.run(
+            incremental_window_days=args.incremental_window,
+            force_full=args.full,
             output_path=args.output,
             profiles_path=args.profiles,
             max_sessions=args.max_sessions,
