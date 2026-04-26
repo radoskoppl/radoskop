@@ -160,11 +160,29 @@ def scrape_session_list_all(oldest_start: str, max_pages: int = 0) -> list[dict]
             highlights = item.select(".search-entry-value-highlight")
             outlines = item.select(".search-entry-value-highlight-outline")
 
-            number = highlights[0].get_text(strip=True) if highlights else ""
+            raw_number = highlights[0].get_text(strip=True) if highlights else ""
             date = outlines[0].get_text(strip=True) if outlines else ""
 
+            # BIP Warszawy często wstawia w highlight tytuł rubryki ("Sesja rady
+            # miasta") zamiast numeru sesji — accept tylko rzymską numerację
+            # albo czystą liczbę. Wszystko inne traktuj jak brak numeru;
+            # pipeline dalej fallbackuje na datę.
+            number = ""
+            if raw_number:
+                m = re.match(r"^[IVXLCDM]+$", raw_number)
+                if m:
+                    number = raw_number
+                elif raw_number.isdigit():
+                    number = raw_number
+                else:
+                    # Czasem highlight ma postać "LXXIII / 2024" albo "nr LX".
+                    # Wyciąg pierwszy IVXLCDM token jeśli jest.
+                    m2 = re.search(r"\b([IVXLCDM]{2,})\b", raw_number)
+                    if m2:
+                        number = m2.group(1)
+
             if date and date < kadencja_start:
-                print(f"  Pominięto sesję {number} ({date}) — przed {oldest_start}")
+                print(f"  Pominięto sesję {number or raw_number} ({date}) — przed {oldest_start}")
                 return sessions
 
             sessions.append({
@@ -571,9 +589,14 @@ def build_sessions(sessions_raw: list[dict], all_votes: list[dict]) -> list[dict
             for cat in ["za", "przeciw", "wstrzymal_sie", "brak_glosu"]:
                 attendees.update(v["named_votes"].get(cat, []))
 
+        # Fallback: per-city HTML/JS template uses session.number as the URL slug
+        # in /sesja/{number}/. Empty or junk numbers break navigation, so use
+        # the date as a stable slug.
+        slug_number = number if number else date
+
         result.append({
             "date": date,
-            "number": number,
+            "number": slug_number,
             "vote_count": len(session_votes),
             "attendee_count": len(attendees),
             "attendees": sorted(attendees),
