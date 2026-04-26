@@ -1,3 +1,21 @@
 .venv
 *.pyc
 .DS_Store
+
+# Per-city scrape outputs and generated assets — large, churn often, durable
+# copy lives in s3://radoskop-public/{slug}/. Monorepo keeps only code and
+# config; rebuild is a single NAS run.
+cities/*/docs/
+cities/*/.cache/
+cities/*/data/
+cities/*/pdfs/
+
+# Apex docs/ are small and central, but generated manifests churn with every
+# run. They go to s3://radoskop-public/_main/ via deploy_main_s3.py; no need
+# to track every regeneration in git.
+docs/cities.json
+docs/controversial-votes.json
+docs/votes-index.json
+docs/councilors-index.json
+docs/sitemap.xml
+docs/sitemap-main.xml

@@ -72,12 +72,18 @@
     "url": "https://bytom.radoskop.pl",
     "voivodeship": "śląskie",
     "population": 150000,
-    "councilors": null,
-    "sessions": null,
-    "votes": null,
-    "frekwencja": null,
+    "councilors": 25,
+    "sessions": 22,
+    "votes": 408,
+    "frekwencja": 99.4,
     "zgodnosc": null,
-    "rebellions": null
+    "rebellions": 0.0,
+    "recentSession": {
+      "label": "2026-04-02",
+      "date": "2026-04-02",
+      "votes": 6,
+      "url": "https://bytom.radoskop.pl/sesja/2026-04-02"
+    }
   },
   {
     "slug": "czestochowa",
@@ -267,10 +273,10 @@
     },
     "interpelacje": {
       "total": 798,
-      "answered": 728,
+      "answered": 729,
       "top": {
         "name": "Konrad Wcisło",
-        "count": 193
+        "count": 194
       }
     }
   },
@@ -427,12 +433,18 @@
     "url": "https://tychy.radoskop.pl",
     "voivodeship": "śląskie",
     "population": 123000,
-    "councilors": null,
-    "sessions": null,
-    "votes": null,
-    "frekwencja": null,
+    "councilors": 27,
+    "sessions": 16,
+    "votes": 374,
+    "frekwencja": 98.6,
     "zgodnosc": null,
-    "rebellions": null
+    "rebellions": 0.0,
+    "recentSession": {
+      "label": "2026-03-26",
+      "date": "2026-03-26",
+      "votes": 20,
+      "url": "https://tychy.radoskop.pl/sesja/2026-03-26"
+    }
   },
   {
     "slug": "warszawa",
