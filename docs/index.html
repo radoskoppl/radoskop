@@ -405,9 +405,12 @@ footer a:hover{text-decoration-color:var(--accent);}
 </div>
 
 <script>
+// ── Cross-subdomain cookie helper (shared with per-city pages) ──
+function _radoskopCookieDomain(){return /(^|\.)radoskop\.pl$/i.test(location.hostname)?'; Domain=.radoskop.pl':'';}
+
 // ── Cookie consent ──
-function getCookieConsent(){var m=document.cookie.match(/(?:^|;\s*)cookie_consent=([^;]*)/);return m?m[1]:null;}
-function setCookieConsent(v){var d=new Date();d.setFullYear(d.getFullYear()+1);document.cookie='cookie_consent='+v+';expires='+d.toUTCString()+';path=/;SameSite=Lax';}
+function getCookieConsent(){var m=document.cookie.match(/(?:^|;\s*)cookie_consent=([^;]*)/);return m?decodeURIComponent(m[1]):null;}
+function setCookieConsent(v){var d=new Date();d.setFullYear(d.getFullYear()+1);document.cookie='cookie_consent='+v+'; expires='+d.toUTCString()+'; path=/; SameSite=Lax'+_radoskopCookieDomain();}
 function acceptCookies(){
   setCookieConsent('accepted');
   document.getElementById('cookie-banner').style.display='none';
