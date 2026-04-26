@@ -543,9 +543,13 @@ def build_sessions(sessions_raw: list[dict], all_votes: list[dict]) -> list[dict
             for cat in ["za", "przeciw", "wstrzymal_sie", "brak_glosu"]:
                 attendees.update(v["named_votes"].get(cat, []))
 
+        # eSesja's session listing typically doesn't expose a stable number.
+        # Without a fallback the per-city template generates /sesja// links
+        # which don't resolve. Use date as the URL slug — every session has one.
+        number = s.get("number", "") or date
         result.append({
             "date": date,
-            "number": s.get("number", ""),
+            "number": number,
             "vote_count": len(session_votes),
             "attendee_count": len(attendees),
             "attendees": sorted(attendees),
