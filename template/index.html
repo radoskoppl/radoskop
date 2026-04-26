@@ -367,8 +367,8 @@ footer a { color:var(--accent); text-decoration:none; }
   <div id="reports-view" style="display:none"></div>
 
   <footer>
-    <div id="footer-cities" style="margin-bottom:10px">
-      <a href="https://radoskop.pl">Radoskop</a>: <span id="footer-cities-list">…</span>
+    <div style="margin-bottom:10px">
+      <a href="https://radoskop.pl">Radoskop</a> · <a href="https://radoskop.pl#cities">wszystkie miasta</a>
     </div>
     Dane źródłowe: <a href="{{BIP_URL}}" target="_blank">{{BIP_NAME}}</a>.
     Kod: <a href="{{GITHUB_URL}}" target="_blank">GitHub</a> (AGPL-3.0).
@@ -661,32 +661,7 @@ async function init() {
     document.getElementById('loading').textContent = 'Błąd ładowania danych: ' + e.message;
   } finally {
     initCookieBanner();
-    initFooterCities();
   }
-}
-
-// --- Dynamic footer city list (shared across all subdomains) ---
-// Fetches the canonical city manifest from the data subdomain so adding a new
-// city only requires a manifest regen, not a per-city HTML rebuild + redeploy.
-function initFooterCities() {
-  var listEl = document.getElementById('footer-cities-list');
-  if (!listEl) return;
-  fetch('https://data.radoskop.pl/_main/cities.json', { cache: 'force-cache' })
-    .then(function(r) { return r.ok ? r.json() : []; })
-    .then(function(cities) {
-      if (!Array.isArray(cities) || !cities.length) {
-        listEl.textContent = '';
-        return;
-      }
-      var sorted = cities.slice().sort(function(a, b) {
-        return (a.name || '').localeCompare(b.name || '', 'pl');
-      });
-      listEl.innerHTML = sorted.map(function(c) {
-        var url = c.url || ('https://' + c.slug + '.radoskop.pl');
-        return '<a href="' + url + '">' + (c.name || c.slug) + '</a>';
-      }).join(' · ');
-    })
-    .catch(function() { /* offline / blocked: leave the placeholder empty */ });
 }
 
 function renderKadencjaBar() {
