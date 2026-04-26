@@ -5,7 +5,7 @@
   <link href="https://tychy.radoskop.pl/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://tychy.radoskop.pl/" rel="alternate" type="text/html"/>
   <id>https://tychy.radoskop.pl/</id>
-  <updated>2026-04-25T20:22:48Z</updated>
+  <updated>2026-04-26T11:55:09Z</updated>
   <author>
     <name>Radoskop</name>
     <uri>https://radoskop.pl</uri>
@@ -194,6 +194,15 @@ ul. Jaros</title>
     <category term="vote"/>
   </entry>
   <entry>
+    <title>Sesja 2026-03-26 Rady Miasta Tychy</title>
+    <link href="https://tychy.radoskop.pl/sesja/2026-03-26/" rel="alternate" type="text/html"/>
+    <id>https://tychy.radoskop.pl/sesja/2026-03-26/#session</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">20 glosowan, 24 obecnych.</summary>
+    <category term="session"/>
+  </entry>
+  <entry>
     <title>Zmiana porządku obrad sesji poprzez wprowadzenie na wniosek radnych do porządku obrad punktu: 
 3a w </title>
     <link href="https://tychy.radoskop.pl/glosowanie/2026-01-29_000_000/" rel="alternate" type="text/html"/>
@@ -337,6 +346,15 @@ ul. Jaros</title>
     <updated>2026-01-29T12:00:00+01:00</updated>
     <summary type="html">Wynik: przyjete (za 22, przeciw 0, wstrzym. 0). Sesja .</summary>
     <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Sesja 2026-01-29 Rady Miasta Tychy</title>
+    <link href="https://tychy.radoskop.pl/sesja/2026-01-29/" rel="alternate" type="text/html"/>
+    <id>https://tychy.radoskop.pl/sesja/2026-01-29/#session</id>
+    <published>2026-01-29T12:00:00+01:00</published>
+    <updated>2026-01-29T12:00:00+01:00</updated>
+    <summary type="html">16 glosowan, 24 obecnych.</summary>
+    <category term="session"/>
   </entry>
   <entry>
     <title>Rozpatrzenie projektu uchwały w sprawie przyjęcia planów pracy komisji Rady Miasta na I półrocze 202</title>
@@ -537,6 +555,15 @@ ul. Jaros</title>
     <category term="vote"/>
   </entry>
   <entry>
+    <title>Sesja 2025-12-18 Rady Miasta Tychy</title>
+    <link href="https://tychy.radoskop.pl/sesja/2025-12-18/" rel="alternate" type="text/html"/>
+    <id>https://tychy.radoskop.pl/sesja/2025-12-18/#session</id>
+    <published>2025-12-18T12:00:00+01:00</published>
+    <updated>2025-12-18T12:00:00+01:00</updated>
+    <summary type="html">22 glosowan, 25 obecnych.</summary>
+    <category term="session"/>
+  </entry>
+  <entry>
     <title>Rozpatrzenie projektu uchwały w sprawie zmiany uchwały Nr VIII/132/24 Rady Miasta Tychy 
 z dnia 19 g</title>
     <link href="https://tychy.radoskop.pl/glosowanie/2025-11-27_000_000/" rel="alternate" type="text/html"/>
@@ -656,6 +683,15 @@ w Tychach</title>
     <updated>2025-11-27T12:00:00+01:00</updated>
     <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 0). Sesja .</summary>
     <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Sesja 2025-11-27 Rady Miasta Tychy</title>
+    <link href="https://tychy.radoskop.pl/sesja/2025-11-27/" rel="alternate" type="text/html"/>
+    <id>https://tychy.radoskop.pl/sesja/2025-11-27/#session</id>
+    <published>2025-11-27T12:00:00+01:00</published>
+    <updated>2025-11-27T12:00:00+01:00</updated>
+    <summary type="html">13 glosowan, 24 obecnych.</summary>
+    <category term="session"/>
   </entry>
   <entry>
     <title>Zmiana porządku dziennego sesji poprzez wprowadzenie punktu 3a w brzmieniu: Rozpatrzenie projektu uc</title>
@@ -877,42 +913,6 @@ w Tychach</title>
     <title>Uwaga nr 10 Uwagę dotyczącą zwiększenia możliwości bilansowania wymaganej liczby miejsc parkingowych</title>
     <link href="https://tychy.radoskop.pl/glosowanie/2025-08-28_024_000/" rel="alternate" type="text/html"/>
     <id>https://tychy.radoskop.pl/glosowanie/2025-08-28_024_000/#vote</id>
-    <published>2025-08-28T12:00:00+01:00</published>
-    <updated>2025-08-28T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 0). Sesja .</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Uwaga nr 11 Uwagę dotyczącą rezygnacji z zakazu realizacji terenowych miejsc parkingowych wewnątrz o</title>
-    <link href="https://tychy.radoskop.pl/glosowanie/2025-08-28_025_000/" rel="alternate" type="text/html"/>
-    <id>https://tychy.radoskop.pl/glosowanie/2025-08-28_025_000/#vote</id>
-    <published>2025-08-28T12:00:00+01:00</published>
-    <updated>2025-08-28T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 0). Sesja .</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Uwaga nr 12 Uwagę dotyczącą zwiększenia maksymalnego udziału powierzchni zabudowy w terenie 1MWK-U z</title>
-    <link href="https://tychy.radoskop.pl/glosowanie/2025-08-28_026_000/" rel="alternate" type="text/html"/>
-    <id>https://tychy.radoskop.pl/glosowanie/2025-08-28_026_000/#vote</id>
-    <published>2025-08-28T12:00:00+01:00</published>
-    <updated>2025-08-28T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 0). Sesja .</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Uwaga nr 13 Uwagę dotyczącą zwiększenia wskaźnika maksymalnej nadziemnej intensywności zabudowy w te</title>
-    <link href="https://tychy.radoskop.pl/glosowanie/2025-08-28_027_000/" rel="alternate" type="text/html"/>
-    <id>https://tychy.radoskop.pl/glosowanie/2025-08-28_027_000/#vote</id>
-    <published>2025-08-28T12:00:00+01:00</published>
-    <updated>2025-08-28T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 0). Sesja .</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Uwaga nr 14 Uwagę dotyczącą zwiększenia maksymalnej liczby kondygnacji nadziemnych w terenie 1MWK-U </title>
-    <link href="https://tychy.radoskop.pl/glosowanie/2025-08-28_028_000/" rel="alternate" type="text/html"/>
-    <id>https://tychy.radoskop.pl/glosowanie/2025-08-28_028_000/#vote</id>
     <published>2025-08-28T12:00:00+01:00</published>
     <updated>2025-08-28T12:00:00+01:00</updated>
     <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 0). Sesja .</summary>

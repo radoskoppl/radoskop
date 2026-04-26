@@ -5,7 +5,7 @@
   <link href="https://bytom.radoskop.pl/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://bytom.radoskop.pl/" rel="alternate" type="text/html"/>
   <id>https://bytom.radoskop.pl/</id>
-  <updated>2026-04-25T20:21:56Z</updated>
+  <updated>2026-04-26T11:56:00Z</updated>
   <author>
     <name>Radoskop</name>
     <uri>https://radoskop.pl</uri>
@@ -63,6 +63,15 @@
     <updated>2026-04-02T12:00:00+01:00</updated>
     <summary type="html">Wynik: przyjete (za 23, przeciw 0, wstrzym. 0). Sesja .</summary>
     <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Sesja 2026-04-02 Rady Miasta Bytom</title>
+    <link href="https://bytom.radoskop.pl/sesja/2026-04-02/" rel="alternate" type="text/html"/>
+    <id>https://bytom.radoskop.pl/sesja/2026-04-02/#session</id>
+    <published>2026-04-02T12:00:00+01:00</published>
+    <updated>2026-04-02T12:00:00+01:00</updated>
+    <summary type="html">6 glosowan, 23 obecnych.</summary>
+    <category term="session"/>
   </entry>
   <entry>
     <title>wprowadzenie do porządku obrad projektu uchwały zmieniającej uchwałę nr XXVI/223/25 Rady Miejskiej w</title>
@@ -344,6 +353,15 @@
     <category term="vote"/>
   </entry>
   <entry>
+    <title>Sesja 2026-03-23 Rady Miasta Bytom</title>
+    <link href="https://bytom.radoskop.pl/sesja/2026-03-23/" rel="alternate" type="text/html"/>
+    <id>https://bytom.radoskop.pl/sesja/2026-03-23/#session</id>
+    <published>2026-03-23T12:00:00+01:00</published>
+    <updated>2026-03-23T12:00:00+01:00</updated>
+    <summary type="html">31 glosowan, 25 obecnych.</summary>
+    <category term="session"/>
+  </entry>
+  <entry>
     <title>wprowadzenie do porządku obrad projektu uchwały w sprawie pokrycia przez Miasto Bytom części straty </title>
     <link href="https://bytom.radoskop.pl/glosowanie/2026-02-12_000_000/" rel="alternate" type="text/html"/>
     <id>https://bytom.radoskop.pl/glosowanie/2026-02-12_000_000/#vote</id>
@@ -378,6 +396,15 @@
     <updated>2026-02-12T12:00:00+01:00</updated>
     <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 0). Sesja .</summary>
     <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Sesja 2026-02-12 Rady Miasta Bytom</title>
+    <link href="https://bytom.radoskop.pl/sesja/2026-02-12/" rel="alternate" type="text/html"/>
+    <id>https://bytom.radoskop.pl/sesja/2026-02-12/#session</id>
+    <published>2026-02-12T12:00:00+01:00</published>
+    <updated>2026-02-12T12:00:00+01:00</updated>
+    <summary type="html">4 glosowan, 24 obecnych.</summary>
+    <category term="session"/>
   </entry>
   <entry>
     <title>Przyjęcie wniosku formalnego prowadzącego obrady o zmianę porządku obrad polegającą na przeniesieniu</title>
@@ -596,6 +623,15 @@
     <category term="vote"/>
   </entry>
   <entry>
+    <title>Sesja 2026-01-26 Rady Miasta Bytom</title>
+    <link href="https://bytom.radoskop.pl/sesja/2026-01-26/" rel="alternate" type="text/html"/>
+    <id>https://bytom.radoskop.pl/sesja/2026-01-26/#session</id>
+    <published>2026-01-26T12:00:00+01:00</published>
+    <updated>2026-01-26T12:00:00+01:00</updated>
+    <summary type="html">24 glosowan, 25 obecnych.</summary>
+    <category term="session"/>
+  </entry>
+  <entry>
     <title>wprowadzenie do porządku obrad projektu uchwały zmieniającej uchwałę nr XII/100/24 Rady Miejskiej w </title>
     <link href="https://bytom.radoskop.pl/glosowanie/2025-12-15_000_000/" rel="alternate" type="text/html"/>
     <id>https://bytom.radoskop.pl/glosowanie/2025-12-15_000_000/#vote</id>
@@ -713,6 +749,15 @@
     <category term="vote"/>
   </entry>
   <entry>
+    <title>Sesja 2025-12-15 Rady Miasta Bytom</title>
+    <link href="https://bytom.radoskop.pl/sesja/2025-12-15/" rel="alternate" type="text/html"/>
+    <id>https://bytom.radoskop.pl/sesja/2025-12-15/#session</id>
+    <published>2025-12-15T12:00:00+01:00</published>
+    <updated>2025-12-15T12:00:00+01:00</updated>
+    <summary type="html">13 glosowan, 25 obecnych.</summary>
+    <category term="session"/>
+  </entry>
+  <entry>
     <title>wprowadzenie do porządku obrad projektu uchwały zmieniającej uchwałę budżetową miasta Bytomia na 202</title>
     <link href="https://bytom.radoskop.pl/glosowanie/2025-12-05_000_000/" rel="alternate" type="text/html"/>
     <id>https://bytom.radoskop.pl/glosowanie/2025-12-05_000_000/#vote</id>
@@ -738,6 +783,15 @@
     <updated>2025-12-05T12:00:00+01:00</updated>
     <summary type="html">Wynik: przyjete (za 20, przeciw 0, wstrzym. 1). Sesja .</summary>
     <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Sesja 2025-12-05 Rady Miasta Bytom</title>
+    <link href="https://bytom.radoskop.pl/sesja/2025-12-05/" rel="alternate" type="text/html"/>
+    <id>https://bytom.radoskop.pl/sesja/2025-12-05/#session</id>
+    <published>2025-12-05T12:00:00+01:00</published>
+    <updated>2025-12-05T12:00:00+01:00</updated>
+    <summary type="html">3 glosowan, 21 obecnych.</summary>
+    <category term="session"/>
   </entry>
   <entry>
     <title>wprowadzenie do porządku obrad projektu uchwały zmieniającej uchwałę nr XII/100/24 Rady Miejskiej w </title>
@@ -854,60 +908,6 @@
     <published>2025-11-24T12:00:00+01:00</published>
     <updated>2025-11-24T12:00:00+01:00</updated>
     <summary type="html">Wynik: przyjete (za 22, przeciw 0, wstrzym. 3). Sesja .</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Podjęcie uchwały w sprawie określenia przystanków komunikacyjnych, dworców i węzłów przesiadkowych, </title>
-    <link href="https://bytom.radoskop.pl/glosowanie/2025-11-24_013_000/" rel="alternate" type="text/html"/>
-    <id>https://bytom.radoskop.pl/glosowanie/2025-11-24_013_000/#vote</id>
-    <published>2025-11-24T12:00:00+01:00</published>
-    <updated>2025-11-24T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 1). Sesja .</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Podjęcie uchwały zmieniającej uchwałę nr XV/129/25 Rady Miejskiej w Bytomiu w sprawie określenia zad</title>
-    <link href="https://bytom.radoskop.pl/glosowanie/2025-11-24_014_000/" rel="alternate" type="text/html"/>
-    <id>https://bytom.radoskop.pl/glosowanie/2025-11-24_014_000/#vote</id>
-    <published>2025-11-24T12:00:00+01:00</published>
-    <updated>2025-11-24T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 25, przeciw 0, wstrzym. 0). Sesja .</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Podjęcie uchwały w sprawie przyjęcia „Programu współpracy miasta Bytomia z organizacjami pozarządowy</title>
-    <link href="https://bytom.radoskop.pl/glosowanie/2025-11-24_015_000/" rel="alternate" type="text/html"/>
-    <id>https://bytom.radoskop.pl/glosowanie/2025-11-24_015_000/#vote</id>
-    <published>2025-11-24T12:00:00+01:00</published>
-    <updated>2025-11-24T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 1). Sesja .</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Podjęcie uchwały w sprawie przekazania petycji (R-219).</title>
-    <link href="https://bytom.radoskop.pl/glosowanie/2025-11-24_016_000/" rel="alternate" type="text/html"/>
-    <id>https://bytom.radoskop.pl/glosowanie/2025-11-24_016_000/#vote</id>
-    <published>2025-11-24T12:00:00+01:00</published>
-    <updated>2025-11-24T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 23, przeciw 0, wstrzym. 2). Sesja .</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>Podjęcie uchwały w sprawie stanowiska Rady Miejskiej dotyczącego skargi na działalność Dyrektora Szk</title>
-    <link href="https://bytom.radoskop.pl/glosowanie/2025-11-24_017_000/" rel="alternate" type="text/html"/>
-    <id>https://bytom.radoskop.pl/glosowanie/2025-11-24_017_000/#vote</id>
-    <published>2025-11-24T12:00:00+01:00</published>
-    <updated>2025-11-24T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 20, przeciw 0, wstrzym. 4). Sesja .</summary>
-    <category term="vote"/>
-  </entry>
-  <entry>
-    <title>wprowadzenie do porządku obrad projektu uchwały zmieniającej uchwałę nr XII/100/24 Rady Miejskiej w </title>
-    <link href="https://bytom.radoskop.pl/glosowanie/2025-08-25_000_000/" rel="alternate" type="text/html"/>
-    <id>https://bytom.radoskop.pl/glosowanie/2025-08-25_000_000/#vote</id>
-    <published>2025-08-25T12:00:00+01:00</published>
-    <updated>2025-08-25T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 16, przeciw 8, wstrzym. 0). Sesja .</summary>
     <category term="vote"/>
   </entry>
 </feed>

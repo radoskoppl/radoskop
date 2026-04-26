@@ -391,8 +391,7 @@ footer a { color:var(--accent); text-decoration:none; }
 
   <footer>
     <div style="margin-bottom:10px">
-      <a href="https://radoskop.pl">Radoskop</a>:
-      <a href="https://bialystok.radoskop.pl">Białystok</a> · <a href="https://bydgoszcz.radoskop.pl">Bydgoszcz</a> · <a href="https://gdansk.radoskop.pl">Gdańsk</a> · <a href="https://gdynia.radoskop.pl">Gdynia</a> · <a href="https://katowice.radoskop.pl">Katowice</a> · <a href="https://krakow.radoskop.pl">Kraków</a> · <a href="https://lublin.radoskop.pl">Lublin</a> · <a href="https://lodz.radoskop.pl">Łódź</a> · <a href="https://poznan.radoskop.pl">Poznań</a> · <a href="https://lublin.radoskop.pl">Lublin</a> · <a href="https://szczecin.radoskop.pl">Szczecin</a> · <a href="https://warszawa.radoskop.pl">Warszawa</a> · <a href="https://wroclaw.radoskop.pl">Wrocław</a>
+      <a href="https://radoskop.pl">Radoskop</a> · <a href="https://radoskop.pl#cities">wszystkie miasta</a>
     </div>
     Dane źródłowe: <a href="https://bip.lublin.eu/rada-miasta-lublin/" target="_blank">BIP Lublin</a>.
     Kod: <a href="https://github.com/radoskoppl/radoskop" target="_blank">GitHub</a> (AGPL-3.0).
@@ -413,8 +412,32 @@ footer a { color:var(--accent); text-decoration:none; }
 </div>
 
 <script>
-// Theme management
+// --- Cross-subdomain cookie helpers ---
+// Theme + cookie consent must persist across {slug}.radoskop.pl AND radoskop.pl,
+// so we set them with Domain=.radoskop.pl. Local fallback (e.g. dev on localhost)
+// drops the Domain attribute since cookies with explicit Domain don't work
+// outside that domain.
+function _radoskopCookieDomain() {
+  return /(^|\.)radoskop\.pl$/i.test(location.hostname) ? '; Domain=.radoskop.pl' : '';
+}
+function radoskopGetCookie(name) {
+  var m = document.cookie.match(new RegExp('(?:^|;\\s*)' + name + '=([^;]*)'));
+  return m ? decodeURIComponent(m[1]) : null;
+}
+function radoskopSetCookie(name, value, daysToLive) {
+  var d = new Date(); d.setTime(d.getTime() + (daysToLive || 365) * 86400000);
+  document.cookie = name + '=' + encodeURIComponent(value)
+    + '; expires=' + d.toUTCString()
+    + '; path=/; SameSite=Lax'
+    + _radoskopCookieDomain();
+}
+
+// Theme management (shared across all radoskop.pl subdomains)
 function getTheme() {
+  // Cookie first (cross-subdomain). LocalStorage second (legacy fallback —
+  // pages migrated from old per-origin storage). System pref last.
+  var c = radoskopGetCookie('radoskop_theme');
+  if (c === 'dark' || c === 'light') return c;
   try { const s = localStorage.getItem('radoskop_theme'); if (s) return s; } catch(e) {}
   return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 }
@@ -433,7 +456,9 @@ function toggleTheme() {
   const current = document.documentElement.getAttribute('data-theme') || 'light';
   const next = current === 'dark' ? 'light' : 'dark';
   applyTheme(next);
-  try { localStorage.setItem('radoskop_theme', next); } catch(e) {}
+  radoskopSetCookie('radoskop_theme', next, 365);
+  // Best-effort: also drop legacy local copy so it doesn't override on next visit.
+  try { localStorage.removeItem('radoskop_theme'); } catch(e) {}
   if (K) render();
 }
 applyTheme(getTheme());
@@ -867,14 +892,15 @@ function sessionLinkStop(number, content) {
   return '<a ' + 'href="/sesja/' + enc + '/" onclick="event.preventDefault();event.stopPropagation();showSession(\'' + number + '\')">' + content + '</a>';
 }
 
-// --- Cookie consent ---
+// --- Cookie consent (shared across all radoskop.pl subdomains) ---
 function getCookieConsent() {
-  var m = document.cookie.match(/(?:^|;\s*)cookie_consent=([^;]*)/);
-  return m ? m[1] : null;
+  // Use the helper that also reads cross-subdomain cookies.
+  return radoskopGetCookie('cookie_consent');
 }
 function setCookieConsent(val) {
-  var d = new Date(); d.setFullYear(d.getFullYear() + 1);
-  document.cookie = 'cookie_consent=' + val + ';expires=' + d.toUTCString() + ';path=/;SameSite=Lax';
+  // Use the helper that sets Domain=.radoskop.pl so accept/reject persists
+  // when navigating between gdansk.radoskop.pl and bytom.radoskop.pl etc.
+  radoskopSetCookie('cookie_consent', val, 365);
 }
 function acceptCookies() {
   setCookieConsent('accepted');
