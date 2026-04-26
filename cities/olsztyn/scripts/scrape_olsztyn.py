@@ -1,50 +1,39 @@
 #!/usr/bin/env python3
 """
-Scraper sesji i głosowań Rady Miasta Olsztyn.
+Radoskop Olsztyn — STUB scraper.
 
-Status: STUB (TODO).
-Custom BIP — własne parsowanie HTML/PDF.
-BIP: https://bip.olsztyn.eu/
-eSesja: brak.
+This council does not use eSesja. A custom BIP scraper needs to be written
+(see lib_bip_static.py — subclass BipScraper, implement discover_sessions()
+and parse_session_votes()). Until then this stub emits valid-but-empty
+outputs so downstream generators don't crash. The city appears on
+radoskop.pl with population + link to BIP, no per-session data.
 
-Konwencja wyjścia: docs/data.json + docs/profiles.json (jak inne miasta).
-
-Stub zapisuje pusty data.json żeby pipeline nie wywalał się — miasto
-pojawia się na głównej z populacją + linkiem do BIP, bez danych głosowań.
-Scraper zaimplementować na podstawie scrape_bialystok.py (eSesja) lub
-custom per BIP.
+BIP URL: https://bip.olsztyn.eu/
 """
 
 import argparse
-import json
-from datetime import datetime
+import sys
 from pathlib import Path
 
+HERE = Path(__file__).resolve()
+sys.path.insert(0, str(HERE.parents[3] / "scripts"))
+from lib_esesja import _write_empty_outputs
 
-def write_empty(path: Path, kind: str) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    payload = {
-        "scraped_at": datetime.utcnow().isoformat() + "Z",
-        "default_kadencja": "2024-2029",
-        "kadencje": [],
-        "_status": "scraper_not_implemented",
-    } if kind == "data" else []
-    with path.open("w", encoding="utf-8") as f:
-        json.dump(payload, f, ensure_ascii=False, indent=2)
+KADENCJE = {
+    "2024-2029": {"label": "IX kadencja (2024–2029)", "start": "2024-05-07"},
+}
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Scraper Radoskop Olsztyn (stub)")
+    parser = argparse.ArgumentParser(description="Radoskop Olsztyn (stub)")
     parser.add_argument("--output", required=True, type=Path)
     parser.add_argument("--profiles", required=True, type=Path)
-    parser.add_argument("--cache-dir", type=Path, default=Path(".cache"))
+    parser.add_argument("--cache-dir", type=Path, default=None)
     parser.add_argument("--max-sessions", type=int, default=None)
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
-
-    print(f"[Olsztyn] stub scraper, writing empty payloads")
-    write_empty(args.output, "data")
-    write_empty(args.profiles, "profiles")
+    print("[Olsztyn] stub scraper — writing empty valid outputs.")
+    _write_empty_outputs(args.output, args.profiles, KADENCJE, "2024-2029")
     return 0
 
 

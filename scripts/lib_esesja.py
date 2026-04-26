@@ -174,6 +174,58 @@ def load_profiles(profiles_path: str | Path) -> dict:
         return {}
 
 
+def _write_empty_outputs(
+    output_path: str | Path,
+    profiles_path: str | Path,
+    kadencje: dict,
+    default_kadencja: str,
+) -> None:
+    """Write a valid-but-empty trio of files when scrape produced no data.
+
+    Generators downstream (generate_reports.py, generate_main_manifest.py)
+    expect specific JSON shapes — missing files cause hard FileNotFoundError
+    failures. Emitting empty-but-valid versions lets the pipeline continue.
+    """
+    out = Path(output_path)
+    prof = Path(profiles_path)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    prof.parent.mkdir(parents=True, exist_ok=True)
+
+    kid = default_kadencja
+    label = kadencje[kid].get("label", f"Kadencja {kid}")
+
+    # data.json: index pointing at the kadencja stub
+    index = {
+        "generated": datetime.now().isoformat(),
+        "default_kadencja": kid,
+        "kadencje": [{"id": kid, "label": label}],
+        "_status": "no_data",
+    }
+    with out.open("w", encoding="utf-8") as f:
+        json.dump(index, f, ensure_ascii=False, separators=(",", ":"))
+
+    # kadencja-{id}.json: empty but well-formed
+    kad_stub = {
+        "id": kid,
+        "label": label,
+        "clubs": {},
+        "sessions": [],
+        "total_sessions": 0,
+        "total_votes": 0,
+        "total_councilors": 0,
+        "councilors": [],
+        "votes": [],
+        "similarity_top": [],
+        "similarity_bottom": [],
+    }
+    with (out.parent / f"kadencja-{kid}.json").open("w", encoding="utf-8") as f:
+        json.dump(kad_stub, f, ensure_ascii=False, separators=(",", ":"))
+
+    # profiles.json: shape `{"profiles": []}` (load_city_data expects dict)
+    with prof.open("w", encoding="utf-8") as f:
+        json.dump({"profiles": []}, f, ensure_ascii=False, indent=2)
+
+
 def build_profiles_json(output: dict, profiles_path: str | Path) -> None:
     profiles = []
     for kad in output["kadencje"]:
@@ -563,8 +615,9 @@ class EsesjaScraper:
         print("[1/4] Pobieranie listy sesji...")
         sessions = self.scrape_session_list()
         if not sessions:
-            print("BŁĄD: Nie znaleziono sesji.")
-            return 1
+            print("UWAGA: Nie znaleziono sesji — zapisuję pusty wynik.")
+            _write_empty_outputs(output_path, profiles_path, self.kadencje, self.default_kadencja)
+            return 0
         if max_sessions > 0:
             sessions = sessions[:max_sessions]
         print(f"  Znaleziono {len(sessions)} sesji\n")
