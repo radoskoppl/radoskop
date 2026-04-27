@@ -5,7 +5,7 @@
   <link href="https://krakow.radoskop.pl/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://krakow.radoskop.pl/" rel="alternate" type="text/html"/>
   <id>https://krakow.radoskop.pl/</id>
-  <updated>2026-04-26T21:46:15Z</updated>
+  <updated>2026-04-27T22:20:32Z</updated>
   <author>
     <name>Radoskop</name>
     <uri>https://radoskop.pl</uri>
@@ -17,6 +17,15 @@
     <published>2026-04-24T12:00:00+01:00</published>
     <updated>2026-04-24T12:00:00+01:00</updated>
     <summary type="html">Małgorzata Potocka. poprawy jakości wody w stawie na terenie Parku  Duchackiego</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: ROD Drożdżownia</title>
+    <link href="https://krakow.radoskop.pl/profil/lukasz-gibala/" rel="alternate" type="text/html"/>
+    <id>https://krakow.radoskop.pl/profil/lukasz-gibala/#interpelacja</id>
+    <published>2026-04-24T12:00:00+01:00</published>
+    <updated>2026-04-24T12:00:00+01:00</updated>
+    <summary type="html">Łukasz Gibała. ROD Drożdżownia</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>
@@ -98,15 +107,6 @@
     <published>2026-04-21T12:00:00+01:00</published>
     <updated>2026-04-21T12:00:00+01:00</updated>
     <summary type="html">Agnieszka Paderewska. budżetu obywatelskiego</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
-    <title>Interpelacja: rozrostu struktur zarządczych i kosztów funkcjonowania spółek miejskich</title>
-    <link href="https://krakow.radoskop.pl/profil/lukasz-gibala/" rel="alternate" type="text/html"/>
-    <id>https://krakow.radoskop.pl/profil/lukasz-gibala/#interpelacja</id>
-    <published>2026-04-21T12:00:00+01:00</published>
-    <updated>2026-04-21T12:00:00+01:00</updated>
-    <summary type="html">Łukasz Gibała. rozrostu struktur zarządczych i kosztów funkcjonowania spółek miejskich</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>

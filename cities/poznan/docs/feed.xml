@@ -5,11 +5,20 @@
   <link href="https://poznan.radoskop.pl/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://poznan.radoskop.pl/" rel="alternate" type="text/html"/>
   <id>https://poznan.radoskop.pl/</id>
-  <updated>2026-04-26T22:02:46Z</updated>
+  <updated>2026-04-27T22:27:57Z</updated>
   <author>
     <name>Radoskop</name>
     <uri>https://radoskop.pl</uri>
   </author>
+  <entry>
+    <title>Interpelacja: Interpelacja ws. naruszania przepisów ruchu drogowego oraz zagrożenia bezpieczeństwa w strefie przyl</title>
+    <link href="https://poznan.radoskop.pl/profil/justyna-kuberka/" rel="alternate" type="text/html"/>
+    <id>https://poznan.radoskop.pl/profil/justyna-kuberka/#interpelacja</id>
+    <published>2026-04-27T12:00:00+01:00</published>
+    <updated>2026-04-27T12:00:00+01:00</updated>
+    <summary type="html">Justyna Kuberka. Interpelacja ws. naruszania przepisów ruchu drogowego oraz zagrożenia bezpieczeństwa w strefie przylegajacej do obiektu Term Maltańskich w Poznaniu</summary>
+    <category term="interpelacja"/>
+  </entry>
   <entry>
     <title>Interpelacja: Interpelacja ws. wycinki części lasu w obrębie ulicy Baraniaka i Chartowo</title>
     <link href="https://poznan.radoskop.pl/profil/monika-danelska/" rel="alternate" type="text/html"/>
@@ -116,15 +125,6 @@
     <published>2026-03-26T12:00:00+01:00</published>
     <updated>2026-03-26T12:00:00+01:00</updated>
     <summary type="html">Małgorzata Woźniak. Interpelacja ws. awarii gazowego systemu grzewczego w Szkole Podstawowej nr 28 w Poznaniu</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
-    <title>Interpelacja: Interpelacja ws. nielegalnej ekspozycji reklam na elewacji budynku przy ul. Półwiejskiej w Poznaniu</title>
-    <link href="https://poznan.radoskop.pl/profil/justyna-kuberka/" rel="alternate" type="text/html"/>
-    <id>https://poznan.radoskop.pl/profil/justyna-kuberka/#interpelacja</id>
-    <published>2026-03-23T12:00:00+01:00</published>
-    <updated>2026-03-23T12:00:00+01:00</updated>
-    <summary type="html">Justyna Kuberka. Interpelacja ws. nielegalnej ekspozycji reklam na elewacji budynku przy ul. Półwiejskiej w Poznaniu</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>

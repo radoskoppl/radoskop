@@ -1,5 +1,49 @@
 [
   {
+    "przedmiot": "oznakowania skrzyżowania ul. Kruszyńskiej z ul. Podmiejską",
+    "bip_url": "https://bip.um.bydgoszcz.pl/interpelacja/10000/interpelacja-w-sprawie-oznakowania-skrzyzowania-ul-kruszynskiej-z-ul-podmiejska",
+    "typ": "interpelacja",
+    "nr_sprawy": "RM.0003.218.2.2026",
+    "radny": "Radosław Ginther",
+    "status": "",
+    "kadencja": "IX",
+    "typ_full": "Interpelacja",
+    "data_wplywu": "2026-04-23",
+    "tresc_url": "https://bip.um.bydgoszcz.pl/attachments/download/31365",
+    "zalaczniki": [
+      {
+        "nazwa": "Interpelacja",
+        "url": "https://bip.um.bydgoszcz.pl/attachments/download/31365"
+      }
+    ],
+    "kategoria": "transport",
+    "odpowiedz_status": "",
+    "data_odpowiedzi": "",
+    "odpowiedz_url": ""
+  },
+  {
+    "przedmiot": "zabytkowej wieży ciśnień przy ul. Inwalidów w Bydgoszczy",
+    "bip_url": "https://bip.um.bydgoszcz.pl/interpelacja/9999/interpelacja-w-sprawie-zabytkowej-wiezy-cisnien-przy-ul-inwalidow-w-bydgoszczy",
+    "typ": "interpelacja",
+    "nr_sprawy": "RM.0003.218.1.2026",
+    "radny": "Radosław Ginther",
+    "status": "",
+    "kadencja": "IX",
+    "typ_full": "Interpelacja",
+    "data_wplywu": "2026-04-23",
+    "tresc_url": "https://bip.um.bydgoszcz.pl/attachments/download/31364",
+    "zalaczniki": [
+      {
+        "nazwa": "Interpelacja",
+        "url": "https://bip.um.bydgoszcz.pl/attachments/download/31364"
+      }
+    ],
+    "kategoria": "kultura",
+    "odpowiedz_status": "",
+    "data_odpowiedzi": "",
+    "odpowiedz_url": ""
+  },
+  {
     "przedmiot": "uciążliwego zapachu wydobywającego się z terenu Remondis Bydgoszcz S.A.",
     "bip_url": "https://bip.um.bydgoszcz.pl/interpelacja/9935/interpelacja-w-sprawie-uciazliwego-zapachu-wydobywajacego-sie-z-terenu-remondis-bydgoszcz-s-a",
     "typ": "interpelacja",
@@ -28,6 +72,50 @@
     "kategoria": "inne",
     "odpowiedz_status": "",
     "data_odpowiedzi": ""
+  },
+  {
+    "przedmiot": "finansowania Hospicjum Perinatalnego",
+    "bip_url": "https://bip.um.bydgoszcz.pl/interpelacja/10003/interpelacja-w-sprawie-finansowania-hospicjum-perinatalnego",
+    "typ": "interpelacja",
+    "nr_sprawy": "RM.0003.217.1.2026",
+    "radny": "Jędrzej Gralik",
+    "status": "",
+    "kadencja": "IX",
+    "typ_full": "Interpelacja",
+    "data_wplywu": "2026-04-20",
+    "tresc_url": "https://bip.um.bydgoszcz.pl/attachments/download/31368",
+    "zalaczniki": [
+      {
+        "nazwa": "Interpelacja",
+        "url": "https://bip.um.bydgoszcz.pl/attachments/download/31368"
+      }
+    ],
+    "kategoria": "budżet",
+    "odpowiedz_status": "",
+    "data_odpowiedzi": "",
+    "odpowiedz_url": ""
+  },
+  {
+    "przedmiot": "postawienia znaków, luster oraz progów zwalniających  na ul. Gersona",
+    "bip_url": "https://bip.um.bydgoszcz.pl/interpelacja/10001/interpelacja-w-sprawie-postawienia-znakow-luster-oraz-progow-zwalniajacych-na-ul-gersona",
+    "typ": "interpelacja",
+    "nr_sprawy": "RM.0003.217.2.2026",
+    "radny": "Jędrzej Gralik",
+    "status": "",
+    "kadencja": "IX",
+    "typ_full": "Interpelacja",
+    "data_wplywu": "2026-04-20",
+    "tresc_url": "https://bip.um.bydgoszcz.pl/attachments/download/31369",
+    "zalaczniki": [
+      {
+        "nazwa": "Interpelacja",
+        "url": "https://bip.um.bydgoszcz.pl/attachments/download/31369"
+      }
+    ],
+    "kategoria": "inne",
+    "odpowiedz_status": "",
+    "data_odpowiedzi": "",
+    "odpowiedz_url": ""
   },
   {
     "przedmiot": "odpowiedzi na interpelację dot. planowanej naprawy ul. Wiśniowej",

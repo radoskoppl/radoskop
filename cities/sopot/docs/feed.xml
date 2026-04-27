@@ -5,11 +5,20 @@
   <link href="https://sopot.radoskop.pl/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://sopot.radoskop.pl/" rel="alternate" type="text/html"/>
   <id>https://sopot.radoskop.pl/</id>
-  <updated>2026-04-26T21:53:20Z</updated>
+  <updated>2026-04-27T22:18:14Z</updated>
   <author>
     <name>Radoskop</name>
     <uri>https://radoskop.pl</uri>
   </author>
+  <entry>
+    <title>Interpelacja: dot. renowacji i uporządkowania pomnika Adama Mickiewicza w górnym Sopocie wraz z terenem zielonym, </title>
+    <link href="https://sopot.radoskop.pl/profil/barbara-brzezicka/" rel="alternate" type="text/html"/>
+    <id>https://sopot.radoskop.pl/profil/barbara-brzezicka/#interpelacja</id>
+    <published>2026-04-27T12:00:00+01:00</published>
+    <updated>2026-04-27T12:00:00+01:00</updated>
+    <summary type="html">Barbara Brzezicka. dot. renowacji i uporządkowania pomnika Adama Mickiewicza w górnym Sopocie wraz z terenem zielonym, na którym się znajduje</summary>
+    <category term="interpelacja"/>
+  </entry>
   <entry>
     <title>Interpelacja: dot. sytuacji w wąwozie Hermana oraz oświetlenia przy al. Niepodległości 809A</title>
     <link href="https://sopot.radoskop.pl/profil/grazyna-czajkowska/" rel="alternate" type="text/html"/>
@@ -17,15 +26,6 @@
     <published>2026-04-24T12:00:00+01:00</published>
     <updated>2026-04-24T12:00:00+01:00</updated>
     <summary type="html">Grażyna Czajkowska. dot. sytuacji w wąwozie Hermana oraz oświetlenia przy al. Niepodległości 809A</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
-    <title>Interpelacja: dot. renowacji i uporządkowania pomnika Adama Mickiewicza w górnym Sopocie wraz z terenem zielonym, </title>
-    <link href="https://sopot.radoskop.pl/profil/barbara-brzezicka/" rel="alternate" type="text/html"/>
-    <id>https://sopot.radoskop.pl/profil/barbara-brzezicka/#interpelacja</id>
-    <published>2026-04-21T12:00:00+01:00</published>
-    <updated>2026-04-21T12:00:00+01:00</updated>
-    <summary type="html">Barbara Brzezicka. dot. renowacji i uporządkowania pomnika Adama Mickiewicza w górnym Sopocie wraz z terenem zielonym, na którym się znajduje</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>

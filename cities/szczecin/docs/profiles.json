@@ -8,19 +8,26 @@
           "club": "KO",
           "frekwencja": 100.0,
           "aktywnosc": 99.6,
-          "zgodnosc_z_klubem": 99.8,
-          "votes_za": 443,
-          "votes_przeciw": 29,
+          "zgodnosc_z_klubem": 99.6,
+          "votes_za": 484,
+          "votes_przeciw": 27,
           "votes_wstrzymal": 0,
           "votes_brak": 5,
           "votes_nieobecny": 2,
-          "votes_total": 479,
-          "rebellion_count": 1,
+          "votes_total": 518,
+          "rebellion_count": 2,
           "rebellions": [
             {
               "vote_id": "2024-12-18_000",
               "session": "2024-12-18",
               "topic": "Wniosku Komisji ds. Skarg, Wniosków i Petycji o wprowadzenie do porządku obrad projektu uchwały nr 243/24 w sprawie rozp",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-21_051",
+              "session": "2026-04-21",
+              "topic": "przyjęcia projektu uchwały nr 104/26 w sprawie skargi na Dyrektora Zakładu Usług Komunalnych w Szczecinie",
               "their_vote": "przeciw",
               "club_majority": "za"
             }
@@ -41,15 +48,15 @@
         "2024-2029": {
           "club": "OK",
           "frekwencja": 73.3,
-          "aktywnosc": 67.8,
-          "zgodnosc_z_klubem": 98.8,
-          "votes_za": 298,
-          "votes_przeciw": 20,
-          "votes_wstrzymal": 2,
-          "votes_brak": 5,
-          "votes_nieobecny": 154,
-          "votes_total": 479,
-          "rebellion_count": 4,
+          "aktywnosc": 71.4,
+          "zgodnosc_z_klubem": 98.6,
+          "votes_za": 340,
+          "votes_przeciw": 19,
+          "votes_wstrzymal": 3,
+          "votes_brak": 8,
+          "votes_nieobecny": 148,
+          "votes_total": 518,
+          "rebellion_count": 5,
           "rebellions": [
             {
               "vote_id": "2025-01-28_010",
@@ -78,6 +85,13 @@
               "topic": "wniosku radnego Dariusza Smolińskiego o odesłanie projektu uchwały nr 8/26 do projektodawcy",
               "their_vote": "za",
               "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-21_042",
+              "session": "2026-04-21",
+              "topic": "przyjęcia projektu uchwały nr 95/26 w sprawie zlecenia przeprowadzenia kontroli przez Komisję Rewizyjną Rady Miasta Szcz",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
             }
           ],
           "has_voting_data": true,
@@ -98,12 +112,12 @@
           "frekwencja": 100.0,
           "aktywnosc": 100.0,
           "zgodnosc_z_klubem": 99.4,
-          "votes_za": 444,
-          "votes_przeciw": 27,
+          "votes_za": 486,
+          "votes_przeciw": 24,
           "votes_wstrzymal": 2,
           "votes_brak": 6,
           "votes_nieobecny": 0,
-          "votes_total": 479,
+          "votes_total": 518,
           "rebellion_count": 3,
           "rebellions": [
             {
@@ -138,47 +152,21 @@
       }
     },
     {
-      "name": "Biskupski Marcin",
-      "slug": "biskupski-marcin",
-      "kadencje": {
-        "2024-2029": {
-          "club": "KO",
-          "frekwencja": 13.3,
-          "aktywnosc": 7.5,
-          "zgodnosc_z_klubem": 100.0,
-          "votes_za": 30,
-          "votes_przeciw": 2,
-          "votes_wstrzymal": 0,
-          "votes_brak": 4,
-          "votes_nieobecny": 0,
-          "votes_total": 479,
-          "rebellion_count": 0,
-          "rebellions": [],
-          "has_voting_data": true,
-          "has_activity_data": false,
-          "roles": [],
-          "notes": "",
-          "former": false,
-          "mid_term": false
-        }
-      }
-    },
-    {
       "name": "Bohuń Maria",
       "slug": "bohun-maria",
       "kadencje": {
         "2024-2029": {
           "club": "KO",
-          "frekwencja": 86.7,
-          "aktywnosc": 91.9,
-          "zgodnosc_z_klubem": 98.9,
-          "votes_za": 408,
-          "votes_przeciw": 27,
-          "votes_wstrzymal": 4,
-          "votes_brak": 1,
-          "votes_nieobecny": 3,
-          "votes_total": 479,
-          "rebellion_count": 5,
+          "frekwencja": 100.0,
+          "aktywnosc": 100.0,
+          "zgodnosc_z_klubem": 98.8,
+          "votes_za": 484,
+          "votes_przeciw": 26,
+          "votes_wstrzymal": 5,
+          "votes_brak": 3,
+          "votes_nieobecny": 0,
+          "votes_total": 518,
+          "rebellion_count": 6,
           "rebellions": [
             {
               "vote_id": "2024-11-26_006",
@@ -214,6 +202,13 @@
               "topic": "wniosku Przewodniczącego Rady Miasta o wprowadzenie do porządku obrad projektu uchwały nr 175/25 w sprawie powołania zes",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-03-24_016",
+              "session": "2026-03-24",
+              "topic": "przyjęcia projektu uchwały nr 41/26 w sprawie udzielenia bonifikaty od cen netto nieruchomości gruntowych niezabudowanyc",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
             }
           ],
           "has_voting_data": true,
@@ -231,16 +226,16 @@
       "kadencje": {
         "2024-2029": {
           "club": "PiS",
-          "frekwencja": 93.3,
-          "aktywnosc": 84.6,
+          "frekwencja": 100.0,
+          "aktywnosc": 92.3,
           "zgodnosc_z_klubem": 96.0,
-          "votes_za": 317,
-          "votes_przeciw": 46,
-          "votes_wstrzymal": 15,
-          "votes_brak": 27,
-          "votes_nieobecny": 74,
-          "votes_total": 479,
-          "rebellion_count": 15,
+          "votes_za": 369,
+          "votes_przeciw": 60,
+          "votes_wstrzymal": 20,
+          "votes_brak": 29,
+          "votes_nieobecny": 40,
+          "votes_total": 518,
+          "rebellion_count": 18,
           "rebellions": [
             {
               "vote_id": "2024-11-26_015",
@@ -346,6 +341,27 @@
               "topic": "przyjęcia projektu uchwały nr 273/25 w sprawie rozpatrzenia odwołania od uchwały Miejskiej Komisji Wyborczej w Szczecini",
               "their_vote": "przeciw",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-03-24_008",
+              "session": "2026-03-24",
+              "topic": "przyjęcia projektu uchwały nr 34/26 w sprawie udzielenia z budżetu Miasta Szczecin pomocy finansowej w formie dotacji ce",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-03-24_017",
+              "session": "2026-03-24",
+              "topic": "przyjęcia projektu uchwały nr 42/26 w sprawie wyrażenia zgody na sprzedaż w drodze przetargu nieruchomości gruntowej zab",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-03-24_033",
+              "session": "2026-03-24",
+              "topic": "przyjęcia projektu uchwały nr 58/26 zmieniającej uchwałę w sprawie powołania komisji stałych Rady Miasta Szczecin oraz i",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
             }
           ],
           "has_voting_data": true,
@@ -363,15 +379,15 @@
       "kadencje": {
         "2024-2029": {
           "club": "KO",
-          "frekwencja": 80.0,
-          "aktywnosc": 78.3,
+          "frekwencja": 73.3,
+          "aktywnosc": 69.7,
           "zgodnosc_z_klubem": 99.7,
-          "votes_za": 316,
-          "votes_przeciw": 25,
+          "votes_za": 295,
+          "votes_przeciw": 21,
           "votes_wstrzymal": 0,
-          "votes_brak": 34,
-          "votes_nieobecny": 104,
-          "votes_total": 479,
+          "votes_brak": 45,
+          "votes_nieobecny": 157,
+          "votes_total": 518,
           "rebellion_count": 1,
           "rebellions": [
             {
@@ -399,43 +415,15 @@
           "club": "PiS",
           "frekwencja": 100.0,
           "aktywnosc": 99.4,
-          "zgodnosc_z_klubem": 89.6,
-          "votes_za": 297,
-          "votes_przeciw": 62,
-          "votes_wstrzymal": 44,
-          "votes_brak": 73,
+          "zgodnosc_z_klubem": 89.9,
+          "votes_za": 325,
+          "votes_przeciw": 70,
+          "votes_wstrzymal": 49,
+          "votes_brak": 71,
           "votes_nieobecny": 3,
-          "votes_total": 479,
-          "rebellion_count": 42,
+          "votes_total": 518,
+          "rebellion_count": 45,
           "rebellions": [
-            {
-              "vote_id": "2024-05-28_010",
-              "session": "2024-05-28",
-              "topic": "przyjęcia projektu uchwały nr 81/24 w sprawie zmiany uchwały w sprawie przystąpienia do sporządzenia miejscowego planu z",
-              "their_vote": "przeciw",
-              "club_majority": "za"
-            },
-            {
-              "vote_id": "2024-05-28_011",
-              "session": "2024-05-28",
-              "topic": "przyjęcia projektu uchwały nr 82/24 w sprawie miejscowego planu zagospodarowania przestrzennego „Zdroje – Zachód 2” w Sz",
-              "their_vote": "wstrzymal_sie",
-              "club_majority": "za"
-            },
-            {
-              "vote_id": "2024-05-28_020",
-              "session": "2024-05-28",
-              "topic": "przyjęcia projektu uchwały nr 89/24 zmieniającej uchwałę w sprawie nadania nazwy urzędowej ulicy w mieście Szczecinie (u",
-              "their_vote": "przeciw",
-              "club_majority": "wstrzymal_sie"
-            },
-            {
-              "vote_id": "2024-06-18_033",
-              "session": "2024-06-18",
-              "topic": "przyjęcia projektu uchwały nr 126/24 w sprawie skargi na Prezydenta Miasta Szczecin",
-              "their_vote": "przeciw",
-              "club_majority": "za"
-            },
             {
               "vote_id": "2024-11-26_023",
               "session": "2024-11-26",
@@ -701,6 +689,55 @@
               "topic": "przyjęcia projektu uchwały nr 14/26 w sprawie skargi na Prezydenta Miasta Szczecin",
               "their_vote": "przeciw",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-02-24_009",
+              "session": "2026-02-24",
+              "topic": "przyjęcia projektu uchwały nr 24/26 w sprawie wyrażenia zgody na sprzedaż w drodze bezprzetargowej nieruchomości gruntow",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-03-24_004",
+              "session": "2026-03-24",
+              "topic": "wniosku Przewodniczącego Rady Miasta o wprowadzenie do porządku obrad projektu uchwały nr 59/26 w sprawie wyboru Przewod",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-03-24_017",
+              "session": "2026-03-24",
+              "topic": "przyjęcia projektu uchwały nr 42/26 w sprawie wyrażenia zgody na sprzedaż w drodze przetargu nieruchomości gruntowej zab",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-21_007",
+              "session": "2026-04-21",
+              "topic": "przyjęcia projektu uchwały nr 61/26 zmieniającej uchwałę w sprawie nadania Statutu Domowi Kultury „13 Muz” w Szczecinie ",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-21_023",
+              "session": "2026-04-21",
+              "topic": "przyjęcia projektu uchwały nr 76/26 zmieniającej uchwałę w sprawie przepisów porządkowych dotyczących przewozu osób i ba",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-21_033",
+              "session": "2026-04-21",
+              "topic": "przyjęcia projektu uchwały nr 86/26 w sprawie przyznania dotacji celowej na prace konserwatorskie, restauratorskie lub r",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-21_045",
+              "session": "2026-04-21",
+              "topic": "przyjęcia projektu uchwały nr 98/26 w sprawie nadania nazwy urzędowej ulicy w mieście Szczecinie (ul. Fantastyczna)",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
             }
           ],
           "has_voting_data": true,
@@ -719,14 +756,14 @@
         "2024-2029": {
           "club": "KO",
           "frekwencja": 86.7,
-          "aktywnosc": 92.1,
-          "zgodnosc_z_klubem": 99.5,
-          "votes_za": 401,
-          "votes_przeciw": 23,
+          "aktywnosc": 92.7,
+          "zgodnosc_z_klubem": 99.6,
+          "votes_za": 442,
+          "votes_przeciw": 20,
           "votes_wstrzymal": 2,
-          "votes_brak": 15,
+          "votes_brak": 16,
           "votes_nieobecny": 38,
-          "votes_total": 479,
+          "votes_total": 518,
           "rebellion_count": 2,
           "rebellions": [
             {
@@ -761,13 +798,13 @@
           "club": "KO",
           "frekwencja": 100.0,
           "aktywnosc": 100.0,
-          "zgodnosc_z_klubem": 99.1,
-          "votes_za": 441,
-          "votes_przeciw": 27,
+          "zgodnosc_z_klubem": 99.2,
+          "votes_za": 481,
+          "votes_przeciw": 25,
           "votes_wstrzymal": 2,
-          "votes_brak": 9,
+          "votes_brak": 10,
           "votes_nieobecny": 0,
-          "votes_total": 479,
+          "votes_total": 518,
           "rebellion_count": 4,
           "rebellions": [
             {
@@ -814,15 +851,15 @@
       "kadencje": {
         "2024-2029": {
           "club": "KO",
-          "frekwencja": 20.0,
-          "aktywnosc": 20.5,
-          "zgodnosc_z_klubem": 96.9,
-          "votes_za": 86,
-          "votes_przeciw": 10,
+          "frekwencja": 40.0,
+          "aktywnosc": 40.0,
+          "zgodnosc_z_klubem": 98.5,
+          "votes_za": 192,
+          "votes_przeciw": 11,
           "votes_wstrzymal": 2,
-          "votes_brak": 0,
+          "votes_brak": 2,
           "votes_nieobecny": 0,
-          "votes_total": 479,
+          "votes_total": 518,
           "rebellion_count": 3,
           "rebellions": [
             {
@@ -863,23 +900,16 @@
         "2024-2029": {
           "club": "KO",
           "frekwencja": 86.7,
-          "aktywnosc": 90.4,
-          "zgodnosc_z_klubem": 99.3,
-          "votes_za": 404,
-          "votes_przeciw": 24,
-          "votes_wstrzymal": 1,
-          "votes_brak": 4,
-          "votes_nieobecny": 46,
-          "votes_total": 479,
-          "rebellion_count": 3,
+          "aktywnosc": 87.5,
+          "zgodnosc_z_klubem": 99.1,
+          "votes_za": 421,
+          "votes_przeciw": 23,
+          "votes_wstrzymal": 3,
+          "votes_brak": 6,
+          "votes_nieobecny": 65,
+          "votes_total": 518,
+          "rebellion_count": 4,
           "rebellions": [
-            {
-              "vote_id": "2024-05-28_014",
-              "session": "2024-05-28",
-              "topic": "wniosku radnego Marka Duklanowskiego o usunięcie § 2 w projekcie uchwały nr 85/24 w sprawie uzgodnienia odstępstw od zak",
-              "their_vote": "za",
-              "club_majority": "przeciw"
-            },
             {
               "vote_id": "2024-12-18_001",
               "session": "2024-12-18",
@@ -891,6 +921,20 @@
               "vote_id": "2026-01-27_008",
               "session": "2026-01-27",
               "topic": "przyjęcia projektu uchwały nr 4/26 w sprawie miejscowego planu zagospodarowania przestrzennego \"Skolwin – Przęsocińska, ",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-02-24_009",
+              "session": "2026-02-24",
+              "topic": "przyjęcia projektu uchwały nr 24/26 w sprawie wyrażenia zgody na sprzedaż w drodze bezprzetargowej nieruchomości gruntow",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-03-24_011",
+              "session": "2026-03-24",
+              "topic": "przyjęcia projektu uchwały nr 36/26 w sprawie miejscowego planu zagospodarowania przestrzennego „Nowe Miasto – Plac Zawi",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
             }
@@ -910,15 +954,15 @@
       "kadencje": {
         "2024-2029": {
           "club": "KO",
-          "frekwencja": 86.7,
-          "aktywnosc": 90.4,
+          "frekwencja": 80.0,
+          "aktywnosc": 79.5,
           "zgodnosc_z_klubem": 99.8,
-          "votes_za": 402,
-          "votes_przeciw": 25,
+          "votes_za": 385,
+          "votes_przeciw": 21,
           "votes_wstrzymal": 1,
           "votes_brak": 5,
-          "votes_nieobecny": 46,
-          "votes_total": 479,
+          "votes_nieobecny": 106,
+          "votes_total": 518,
           "rebellion_count": 1,
           "rebellions": [
             {
@@ -945,15 +989,15 @@
         "2024-2029": {
           "club": "OK",
           "frekwencja": 93.3,
-          "aktywnosc": 88.9,
-          "zgodnosc_z_klubem": 99.5,
-          "votes_za": 401,
-          "votes_przeciw": 20,
-          "votes_wstrzymal": 1,
-          "votes_brak": 4,
-          "votes_nieobecny": 53,
-          "votes_total": 479,
-          "rebellion_count": 2,
+          "aktywnosc": 88.4,
+          "zgodnosc_z_klubem": 99.1,
+          "votes_za": 434,
+          "votes_przeciw": 17,
+          "votes_wstrzymal": 2,
+          "votes_brak": 5,
+          "votes_nieobecny": 60,
+          "votes_total": 518,
+          "rebellion_count": 4,
           "rebellions": [
             {
               "vote_id": "2025-04-23_040",
@@ -966,6 +1010,20 @@
               "vote_id": "2025-11-25_004",
               "session": "2025-11-25",
               "topic": "wniosku Klubu Radnych Prawo i Sprawiedliwość o zdjęcie z porządku obrad projektu uchwały nr 258/25 w sprawie zamiaru prz",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-21_042",
+              "session": "2026-04-21",
+              "topic": "przyjęcia projektu uchwały nr 95/26 w sprawie zlecenia przeprowadzenia kontroli przez Komisję Rewizyjną Rady Miasta Szcz",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-21_049",
+              "session": "2026-04-21",
+              "topic": "przyjęcia projektu uchwały nr 102/26 w sprawie petycji dot. wprowadzenia zmiany do regulaminu Szczecińskiego Budżetu Oby",
               "their_vote": "wstrzymal_sie",
               "club_majority": "przeciw"
             }
@@ -986,14 +1044,14 @@
         "2024-2029": {
           "club": "KO",
           "frekwencja": 100.0,
-          "aktywnosc": 96.5,
+          "aktywnosc": 99.6,
           "zgodnosc_z_klubem": 99.8,
-          "votes_za": 420,
-          "votes_przeciw": 28,
+          "votes_za": 478,
+          "votes_przeciw": 26,
           "votes_wstrzymal": 0,
-          "votes_brak": 14,
-          "votes_nieobecny": 17,
-          "votes_total": 479,
+          "votes_brak": 12,
+          "votes_nieobecny": 2,
+          "votes_total": 518,
           "rebellion_count": 1,
           "rebellions": [
             {
@@ -1020,14 +1078,14 @@
         "2024-2029": {
           "club": "OK",
           "frekwencja": 93.3,
-          "aktywnosc": 93.7,
-          "zgodnosc_z_klubem": 99.3,
-          "votes_za": 419,
-          "votes_przeciw": 25,
+          "aktywnosc": 94.2,
+          "zgodnosc_z_klubem": 99.4,
+          "votes_za": 459,
+          "votes_przeciw": 22,
           "votes_wstrzymal": 2,
-          "votes_brak": 3,
+          "votes_brak": 5,
           "votes_nieobecny": 30,
-          "votes_total": 479,
+          "votes_total": 518,
           "rebellion_count": 3,
           "rebellions": [
             {
@@ -1069,14 +1127,14 @@
           "club": "PiS",
           "frekwencja": 100.0,
           "aktywnosc": 97.9,
-          "zgodnosc_z_klubem": 95.6,
-          "votes_za": 348,
-          "votes_przeciw": 52,
+          "zgodnosc_z_klubem": 95.5,
+          "votes_za": 372,
+          "votes_przeciw": 61,
           "votes_wstrzymal": 32,
-          "votes_brak": 37,
-          "votes_nieobecny": 10,
-          "votes_total": 479,
-          "rebellion_count": 19,
+          "votes_brak": 42,
+          "votes_nieobecny": 11,
+          "votes_total": 518,
+          "rebellion_count": 21,
           "rebellions": [
             {
               "vote_id": "2024-11-26_025",
@@ -1210,6 +1268,20 @@
               "topic": "przyjęcia projektu uchwały nr 273/25 w sprawie rozpatrzenia odwołania od uchwały Miejskiej Komisji Wyborczej w Szczecini",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-03-24_008",
+              "session": "2026-03-24",
+              "topic": "przyjęcia projektu uchwały nr 34/26 w sprawie udzielenia z budżetu Miasta Szczecin pomocy finansowej w formie dotacji ce",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-03-24_017",
+              "session": "2026-03-24",
+              "topic": "przyjęcia projektu uchwały nr 42/26 w sprawie wyrażenia zgody na sprzedaż w drodze przetargu nieruchomości gruntowej zab",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
             }
           ],
           "has_voting_data": true,
@@ -1230,12 +1302,12 @@
           "frekwencja": 100.0,
           "aktywnosc": 100.0,
           "zgodnosc_z_klubem": 99.8,
-          "votes_za": 432,
-          "votes_przeciw": 27,
+          "votes_za": 458,
+          "votes_przeciw": 24,
           "votes_wstrzymal": 0,
-          "votes_brak": 20,
+          "votes_brak": 36,
           "votes_nieobecny": 0,
-          "votes_total": 479,
+          "votes_total": 518,
           "rebellion_count": 1,
           "rebellions": [
             {
@@ -1261,15 +1333,15 @@
       "kadencje": {
         "2024-2029": {
           "club": "OK",
-          "frekwencja": 93.3,
-          "aktywnosc": 71.0,
-          "zgodnosc_z_klubem": 99.3,
-          "votes_za": 265,
-          "votes_przeciw": 22,
+          "frekwencja": 100.0,
+          "aktywnosc": 73.2,
+          "zgodnosc_z_klubem": 99.4,
+          "votes_za": 294,
+          "votes_przeciw": 20,
           "votes_wstrzymal": 1,
-          "votes_brak": 52,
+          "votes_brak": 64,
           "votes_nieobecny": 139,
-          "votes_total": 479,
+          "votes_total": 518,
           "rebellion_count": 2,
           "rebellions": [
             {
@@ -1303,14 +1375,14 @@
         "2024-2029": {
           "club": "KO",
           "frekwencja": 100.0,
-          "aktywnosc": 100.0,
+          "aktywnosc": 94.0,
           "zgodnosc_z_klubem": 98.7,
-          "votes_za": 434,
-          "votes_przeciw": 25,
+          "votes_za": 445,
+          "votes_przeciw": 21,
           "votes_wstrzymal": 5,
-          "votes_brak": 15,
-          "votes_nieobecny": 0,
-          "votes_total": 479,
+          "votes_brak": 16,
+          "votes_nieobecny": 31,
+          "votes_total": 518,
           "rebellion_count": 6,
           "rebellions": [
             {
@@ -1372,23 +1444,16 @@
         "2024-2029": {
           "club": "PiS",
           "frekwencja": 100.0,
-          "aktywnosc": 99.2,
-          "zgodnosc_z_klubem": 98.5,
-          "votes_za": 371,
-          "votes_przeciw": 55,
-          "votes_wstrzymal": 32,
-          "votes_brak": 17,
-          "votes_nieobecny": 4,
-          "votes_total": 479,
-          "rebellion_count": 7,
+          "aktywnosc": 98.3,
+          "zgodnosc_z_klubem": 98.8,
+          "votes_za": 396,
+          "votes_przeciw": 64,
+          "votes_wstrzymal": 31,
+          "votes_brak": 18,
+          "votes_nieobecny": 9,
+          "votes_total": 518,
+          "rebellion_count": 6,
           "rebellions": [
-            {
-              "vote_id": "2024-05-28_020",
-              "session": "2024-05-28",
-              "topic": "przyjęcia projektu uchwały nr 89/24 zmieniającej uchwałę w sprawie nadania nazwy urzędowej ulicy w mieście Szczecinie (u",
-              "their_vote": "za",
-              "club_majority": "wstrzymal_sie"
-            },
             {
               "vote_id": "2025-03-25_011",
               "session": "2025-03-25",
@@ -1448,15 +1513,15 @@
         "2024-2029": {
           "club": "KO",
           "frekwencja": 100.0,
-          "aktywnosc": 89.8,
-          "zgodnosc_z_klubem": 98.3,
-          "votes_za": 378,
-          "votes_przeciw": 23,
-          "votes_wstrzymal": 6,
-          "votes_brak": 23,
-          "votes_nieobecny": 49,
-          "votes_total": 479,
-          "rebellion_count": 7,
+          "aktywnosc": 93.2,
+          "zgodnosc_z_klubem": 98.2,
+          "votes_za": 423,
+          "votes_przeciw": 22,
+          "votes_wstrzymal": 7,
+          "votes_brak": 31,
+          "votes_nieobecny": 35,
+          "votes_total": 518,
+          "rebellion_count": 8,
           "rebellions": [
             {
               "vote_id": "2024-12-18_026",
@@ -1506,6 +1571,13 @@
               "topic": "przyjęcia projektu uchwały nr 170/25 w sprawie nadania nazwy urzędowej dla parku w Szczecinie (Ogród Różanka im. Ireny B",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-21_001",
+              "session": "2026-04-21",
+              "topic": "wniosku Komisji ds. Skarg, Wniosków i Petycji o wprowadzenie do porządku obrad projektu uchwały nr 100/26 w sprawie pety",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
             }
           ],
           "has_voting_data": true,
@@ -1524,15 +1596,15 @@
         "2024-2029": {
           "club": "KO",
           "frekwencja": 93.3,
-          "aktywnosc": 89.6,
-          "zgodnosc_z_klubem": 98.8,
-          "votes_za": 394,
-          "votes_przeciw": 25,
+          "aktywnosc": 90.3,
+          "zgodnosc_z_klubem": 98.7,
+          "votes_za": 427,
+          "votes_przeciw": 21,
           "votes_wstrzymal": 4,
-          "votes_brak": 6,
+          "votes_brak": 16,
           "votes_nieobecny": 50,
-          "votes_total": 479,
-          "rebellion_count": 5,
+          "votes_total": 518,
+          "rebellion_count": 6,
           "rebellions": [
             {
               "vote_id": "2024-12-18_001",
@@ -1568,6 +1640,13 @@
               "topic": "przyjęcia projektu uchwały nr 42/25 w sprawie wyrażenia zgody na sprzedaż w drodze przetargu nieruchomości gruntowej zab",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-21_049",
+              "session": "2026-04-21",
+              "topic": "przyjęcia projektu uchwały nr 102/26 w sprawie petycji dot. wprowadzenia zmiany do regulaminu Szczecińskiego Budżetu Oby",
+              "their_vote": "za",
+              "club_majority": "przeciw"
             }
           ],
           "has_voting_data": true,
@@ -1586,15 +1665,15 @@
         "2024-2029": {
           "club": "KO",
           "frekwencja": 100.0,
-          "aktywnosc": 96.7,
-          "zgodnosc_z_klubem": 99.1,
-          "votes_za": 422,
-          "votes_przeciw": 29,
-          "votes_wstrzymal": 3,
-          "votes_brak": 9,
-          "votes_nieobecny": 16,
-          "votes_total": 479,
-          "rebellion_count": 4,
+          "aktywnosc": 98.3,
+          "zgodnosc_z_klubem": 99.0,
+          "votes_za": 467,
+          "votes_przeciw": 26,
+          "votes_wstrzymal": 4,
+          "votes_brak": 12,
+          "votes_nieobecny": 9,
+          "votes_total": 518,
+          "rebellion_count": 5,
           "rebellions": [
             {
               "vote_id": "2024-12-18_001",
@@ -1623,6 +1702,13 @@
               "topic": "przyjęcia projektu uchwały nr 4/26 w sprawie miejscowego planu zagospodarowania przestrzennego \"Skolwin – Przęsocińska, ",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-03-24_011",
+              "session": "2026-03-24",
+              "topic": "przyjęcia projektu uchwały nr 36/26 w sprawie miejscowego planu zagospodarowania przestrzennego „Nowe Miasto – Plac Zawi",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
             }
           ],
           "has_voting_data": true,
@@ -1641,15 +1727,15 @@
         "2024-2029": {
           "club": "KO",
           "frekwencja": 100.0,
-          "aktywnosc": 94.4,
-          "zgodnosc_z_klubem": 99.1,
-          "votes_za": 416,
-          "votes_przeciw": 19,
-          "votes_wstrzymal": 4,
-          "votes_brak": 13,
+          "aktywnosc": 94.8,
+          "zgodnosc_z_klubem": 98.9,
+          "votes_za": 453,
+          "votes_przeciw": 16,
+          "votes_wstrzymal": 5,
+          "votes_brak": 17,
           "votes_nieobecny": 27,
-          "votes_total": 479,
-          "rebellion_count": 4,
+          "votes_total": 518,
+          "rebellion_count": 5,
           "rebellions": [
             {
               "vote_id": "2025-03-25_035",
@@ -1678,6 +1764,13 @@
               "topic": "przyjęcia projektu uchwały nr 4/26 w sprawie miejscowego planu zagospodarowania przestrzennego \"Skolwin – Przęsocińska, ",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-03-24_011",
+              "session": "2026-03-24",
+              "topic": "przyjęcia projektu uchwały nr 36/26 w sprawie miejscowego planu zagospodarowania przestrzennego „Nowe Miasto – Plac Zawi",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
             }
           ],
           "has_voting_data": true,
@@ -1696,14 +1789,14 @@
         "2024-2029": {
           "club": "PiS",
           "frekwencja": 100.0,
-          "aktywnosc": 99.4,
-          "zgodnosc_z_klubem": 98.2,
-          "votes_za": 368,
-          "votes_przeciw": 52,
-          "votes_wstrzymal": 34,
-          "votes_brak": 22,
-          "votes_nieobecny": 3,
-          "votes_total": 479,
+          "aktywnosc": 98.6,
+          "zgodnosc_z_klubem": 98.4,
+          "votes_za": 394,
+          "votes_przeciw": 62,
+          "votes_wstrzymal": 32,
+          "votes_brak": 23,
+          "votes_nieobecny": 7,
+          "votes_total": 518,
           "rebellion_count": 8,
           "rebellions": [
             {
@@ -1778,15 +1871,15 @@
       "kadencje": {
         "2024-2029": {
           "club": "KO",
-          "frekwencja": 66.7,
-          "aktywnosc": 49.1,
-          "zgodnosc_z_klubem": 99.1,
-          "votes_za": 225,
-          "votes_przeciw": 5,
+          "frekwencja": 46.7,
+          "aktywnosc": 37.3,
+          "zgodnosc_z_klubem": 98.9,
+          "votes_za": 186,
+          "votes_przeciw": 3,
           "votes_wstrzymal": 1,
-          "votes_brak": 4,
-          "votes_nieobecny": 146,
-          "votes_total": 479,
+          "votes_brak": 3,
+          "votes_nieobecny": 118,
+          "votes_total": 518,
           "rebellion_count": 2,
           "rebellions": [
             {
@@ -1821,22 +1914,15 @@
           "club": "PiS",
           "frekwencja": 100.0,
           "aktywnosc": 99.0,
-          "zgodnosc_z_klubem": 97.0,
-          "votes_za": 349,
-          "votes_przeciw": 50,
-          "votes_wstrzymal": 36,
-          "votes_brak": 39,
+          "zgodnosc_z_klubem": 96.8,
+          "votes_za": 374,
+          "votes_przeciw": 60,
+          "votes_wstrzymal": 37,
+          "votes_brak": 42,
           "votes_nieobecny": 5,
-          "votes_total": 479,
-          "rebellion_count": 13,
+          "votes_total": 518,
+          "rebellion_count": 15,
           "rebellions": [
-            {
-              "vote_id": "2024-06-18_000",
-              "session": "2024-06-18",
-              "topic": "Wniosku Prezydenta Miasta o wprowadzenie do porządku obrad projektu uchwały nr 124/24 w sprawie wyrażenia stanowiska apr",
-              "their_vote": "za",
-              "club_majority": "przeciw"
-            },
             {
               "vote_id": "2024-11-26_024",
               "session": "2024-11-26",
@@ -1920,6 +2006,27 @@
               "topic": "przyjęcia projektu uchwały nr 289/25 w sprawie przyjęcia \"Gminnego Programu Profilaktyki i Rozwiązywania Problemów Alkoh",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-02-24_014",
+              "session": "2026-02-24",
+              "topic": "przyjęcia projektu uchwały nr 29/26 w sprawie Programu Ochrony Środowiska Miasta Szczecin na lata 2025-2031 z uwzględnie",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-21_016",
+              "session": "2026-04-21",
+              "topic": "przyjęcia projektu uchwały nr 70/26 w sprawie miejscowego planu zagospodarowania przestrzennego „Warszewo 6” w Szczecini",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-21_049",
+              "session": "2026-04-21",
+              "topic": "przyjęcia projektu uchwały nr 102/26 w sprawie petycji dot. wprowadzenia zmiany do regulaminu Szczecińskiego Budżetu Oby",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
             }
           ],
           "has_voting_data": true,
@@ -1937,16 +2044,16 @@
       "kadencje": {
         "2024-2029": {
           "club": "PiS",
-          "frekwencja": 93.3,
-          "aktywnosc": 80.8,
-          "zgodnosc_z_klubem": 97.2,
-          "votes_za": 283,
-          "votes_przeciw": 44,
-          "votes_wstrzymal": 26,
-          "votes_brak": 34,
-          "votes_nieobecny": 92,
-          "votes_total": 479,
-          "rebellion_count": 10,
+          "frekwencja": 100.0,
+          "aktywnosc": 88.8,
+          "zgodnosc_z_klubem": 97.4,
+          "votes_za": 335,
+          "votes_przeciw": 61,
+          "votes_wstrzymal": 29,
+          "votes_brak": 35,
+          "votes_nieobecny": 58,
+          "votes_total": 518,
+          "rebellion_count": 11,
           "rebellions": [
             {
               "vote_id": "2025-01-28_026",
@@ -2017,6 +2124,13 @@
               "topic": "przyjęcia projektu uchwały nr 42/25 w sprawie wyrażenia zgody na sprzedaż w drodze przetargu nieruchomości gruntowej zab",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-02-24_014",
+              "session": "2026-02-24",
+              "topic": "przyjęcia projektu uchwały nr 29/26 w sprawie Programu Ochrony Środowiska Miasta Szczecin na lata 2025-2031 z uwzględnie",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
             }
           ],
           "has_voting_data": true,
@@ -2035,15 +2149,15 @@
         "2024-2029": {
           "club": "KO",
           "frekwencja": 93.3,
-          "aktywnosc": 97.5,
-          "zgodnosc_z_klubem": 99.1,
-          "votes_za": 431,
-          "votes_przeciw": 26,
-          "votes_wstrzymal": 3,
-          "votes_brak": 7,
-          "votes_nieobecny": 12,
-          "votes_total": 479,
-          "rebellion_count": 4,
+          "aktywnosc": 97.9,
+          "zgodnosc_z_klubem": 98.6,
+          "votes_za": 466,
+          "votes_przeciw": 24,
+          "votes_wstrzymal": 5,
+          "votes_brak": 12,
+          "votes_nieobecny": 11,
+          "votes_total": 518,
+          "rebellion_count": 7,
           "rebellions": [
             {
               "vote_id": "2025-04-23_030",
@@ -2072,6 +2186,27 @@
               "topic": "wniosku radnego Krzysztofa Romianowskiego o odesłanie do projektodawcy projektu uchwały nr 19/26 w sprawie delegowania r",
               "their_vote": "za",
               "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-21_001",
+              "session": "2026-04-21",
+              "topic": "wniosku Komisji ds. Skarg, Wniosków i Petycji o wprowadzenie do porządku obrad projektu uchwały nr 100/26 w sprawie pety",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-21_037",
+              "session": "2026-04-21",
+              "topic": "przyjęcia projektu uchwały nr 90/26 w sprawie przyznania Parafii Rzymskokatolickiej p.w. Świętej Rodziny w Szczecinie do",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-21_040",
+              "session": "2026-04-21",
+              "topic": "przyjęcia projektu uchwały nr 93/26 w sprawie przyznania Parafii Rzymskokatolickiej p.w. św. Jakuba Apostoła w Szczecini",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
             }
           ],
           "has_voting_data": true,
@@ -2090,15 +2225,15 @@
         "2024-2029": {
           "club": "KO",
           "frekwencja": 100.0,
-          "aktywnosc": 99.4,
-          "zgodnosc_z_klubem": 98.8,
-          "votes_za": 402,
-          "votes_przeciw": 29,
+          "aktywnosc": 98.3,
+          "zgodnosc_z_klubem": 98.7,
+          "votes_za": 427,
+          "votes_przeciw": 26,
           "votes_wstrzymal": 1,
-          "votes_brak": 44,
-          "votes_nieobecny": 3,
-          "votes_total": 479,
-          "rebellion_count": 5,
+          "votes_brak": 55,
+          "votes_nieobecny": 9,
+          "votes_total": 518,
+          "rebellion_count": 6,
           "rebellions": [
             {
               "vote_id": "2025-04-23_040",
@@ -2134,6 +2269,13 @@
               "topic": "przyjęcia projektu uchwały nr 170/25 w sprawie nadania nazwy urzędowej dla parku w Szczecinie (Ogród Różanka im. Ireny B",
               "their_vote": "przeciw",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-21_001",
+              "session": "2026-04-21",
+              "topic": "wniosku Komisji ds. Skarg, Wniosków i Petycji o wprowadzenie do porządku obrad projektu uchwały nr 100/26 w sprawie pety",
+              "their_vote": "przeciw",
+              "club_majority": "za"
             }
           ],
           "has_voting_data": true,
@@ -2152,24 +2294,16 @@
         "2024-2029": {
           "club": "KO",
           "frekwencja": 86.7,
-          "aktywnosc": 82.0,
-          "zgodnosc_z_klubem": 99.7,
-          "votes_za": 361,
-          "votes_przeciw": 22,
-          "votes_wstrzymal": 1,
-          "votes_brak": 9,
-          "votes_nieobecny": 86,
-          "votes_total": 479,
-          "rebellion_count": 1,
-          "rebellions": [
-            {
-              "vote_id": "2024-06-18_014",
-              "session": "2024-06-18",
-              "topic": "przyjęcia projektu uchwały nr 101/24 w sprawie wyrażenia zgody na sprzedaż w drodze przetargu nieruchomości gruntowej ni",
-              "their_vote": "wstrzymal_sie",
-              "club_majority": "za"
-            }
-          ],
+          "aktywnosc": 83.2,
+          "zgodnosc_z_klubem": 100.0,
+          "votes_za": 403,
+          "votes_przeciw": 20,
+          "votes_wstrzymal": 0,
+          "votes_brak": 8,
+          "votes_nieobecny": 87,
+          "votes_total": 518,
+          "rebellion_count": 0,
+          "rebellions": [],
           "has_voting_data": true,
           "has_activity_data": false,
           "roles": [],
@@ -2186,15 +2320,15 @@
         "2024-2029": {
           "club": "OK",
           "frekwencja": 100.0,
-          "aktywnosc": 99.2,
-          "zgodnosc_z_klubem": 98.1,
-          "votes_za": 439,
-          "votes_przeciw": 25,
-          "votes_wstrzymal": 6,
-          "votes_brak": 5,
-          "votes_nieobecny": 4,
-          "votes_total": 479,
-          "rebellion_count": 9,
+          "aktywnosc": 99.6,
+          "zgodnosc_z_klubem": 98.0,
+          "votes_za": 480,
+          "votes_przeciw": 22,
+          "votes_wstrzymal": 7,
+          "votes_brak": 7,
+          "votes_nieobecny": 2,
+          "votes_total": 518,
+          "rebellion_count": 10,
           "rebellions": [
             {
               "vote_id": "2025-03-25_013",
@@ -2258,6 +2392,13 @@
               "topic": "przyjęcia poprawki nr 5 klubu radnych PiS do projektu uchwały nr 270/25 w sprawie budżetu Miasta Szczecin na 2026 rok",
               "their_vote": "za",
               "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-21_052",
+              "session": "2026-04-21",
+              "topic": "przyjęcia projektu uchwały nr 105/26 w sprawie wskazania przedstawiciela Rady Miasta Szczecin do komisji konkursowej pow",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
             }
           ],
           "has_voting_data": true,

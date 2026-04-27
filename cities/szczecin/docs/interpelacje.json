@@ -1,5 +1,29 @@
 [
   {
+    "cri": "szczecin-2024-2029-1983",
+    "miasto": "szczecin",
+    "kadencja": "2024-2029",
+    "numer": "1983",
+    "typ": "interpelacja",
+    "tytul": "Dot. decyzji środowiskowej w sprawie Bazy Paliw w Podjuchach",
+    "radny": "Romianowski Krzysztof",
+    "data_wplywu": "2026-04-27",
+    "data_odpowiedzi": null,
+    "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=8CD04736E0EB4E1D8B7EB7E36B297D2C"
+  },
+  {
+    "cri": "szczecin-2024-2029-1982",
+    "miasto": "szczecin",
+    "kadencja": "2024-2029",
+    "numer": "1982",
+    "typ": "interpelacja",
+    "tytul": "Dot. planów względem nieruchomości przy al. Jana Pawła II 1",
+    "radny": "Słowik Przemysław",
+    "data_wplywu": "2026-04-27",
+    "data_odpowiedzi": null,
+    "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=16B97BA536274F5EBB9382C9D161F0EE"
+  },
+  {
     "cri": "szczecin-2024-2029-1981",
     "miasto": "szczecin",
     "kadencja": "2024-2029",
@@ -332,7 +356,7 @@
     "tytul": "Dot. przebiegu i dostępności konsultacji społecznych dotyczących projektu planu ogólnego miasta Szczecin",
     "radny": "Smoliński Dariusz",
     "data_wplywu": "2026-04-15",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-27",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=364E742C50C34C1A83A301900972BACF"
   },
   {
@@ -572,7 +596,7 @@
     "tytul": "Dot. zasadności i przygotowania Miasta Szczecin do realizacji zadań związanych z resocjalizacją nieletnich",
     "radny": "Smoliński Dariusz",
     "data_wplywu": "2026-04-10",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-27",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=AFDB4E55DB56482CBFF2B0E7AA9222E9"
   },
   {
@@ -716,7 +740,7 @@
     "tytul": "Dot. budowy bazy paliwowej przy ul. Szklanej w Szczecinie (Podjuchy)",
     "radny": "Smoliński Dariusz",
     "data_wplywu": "2026-04-03",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-27",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=46CCAD2EC9BD4AAB8914DFC8C27DE8EE"
   },
   {
