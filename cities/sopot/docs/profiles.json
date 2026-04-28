@@ -8,16 +8,16 @@
           "club": "Koalicja Dla Sopotu",
           "okręg": "III",
           "has_voting_data": true,
-          "frekwencja": 95.2,
-          "aktywnosc": 90.0,
-          "zgodnosc_z_klubem": 95.0,
-          "votes_total": 560,
-          "votes_za": 381,
-          "votes_przeciw": 99,
+          "frekwencja": 95.5,
+          "aktywnosc": 90.4,
+          "zgodnosc_z_klubem": 94.6,
+          "votes_total": 585,
+          "votes_za": 398,
+          "votes_przeciw": 107,
           "votes_wstrzymal": 17,
           "votes_brak": 7,
           "votes_nieobecny": 0,
-          "rebellion_count": 25,
+          "rebellion_count": 28,
           "rebellions": [
             {
               "vote_id": "2024-06-27_016",
@@ -193,6 +193,27 @@
               "topic": "wniosek formalny Pana Radnego Zbigniewa Duzinkiewicza o zakończenie dyskusji po wyczerpaniu listy mówców",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_007",
+              "session": "2026-04-23",
+              "topic": "wniosek formalny Pana Radnego Grzegorza Wendykowskiego, aby każdorazowo w punkcie dot. projektów uchwał każdy Radny mógł",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_008",
+              "session": "2026-04-23",
+              "topic": "wniosek formalny Pana Radnego Jarosława Zawady o to, aby od tego momentu każdy Radny miał 4 ad vocem",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_018",
+              "session": "2026-04-23",
+              "topic": "wniosek formalny Pani Radnej Barbary Brzezickiej o zakończenie dyskusji po wyczerpaniu listy mówców",
+              "their_vote": "przeciw",
+              "club_majority": "za"
             }
           ],
           "has_activity_data": false,
@@ -209,15 +230,15 @@
           "okręg": "III",
           "has_voting_data": true,
           "frekwencja": 100.0,
-          "aktywnosc": 95.4,
+          "aktywnosc": 95.6,
           "zgodnosc_z_klubem": 93.6,
-          "votes_total": 560,
-          "votes_za": 410,
-          "votes_przeciw": 82,
-          "votes_wstrzymal": 27,
+          "votes_total": 585,
+          "votes_za": 428,
+          "votes_przeciw": 87,
+          "votes_wstrzymal": 29,
           "votes_brak": 15,
           "votes_nieobecny": 1,
-          "rebellion_count": 33,
+          "rebellion_count": 35,
           "rebellions": [
             {
               "vote_id": "2024-06-27_028",
@@ -449,6 +470,20 @@
               "topic": "wniosek formalny Pani Przewodniczącej Rady Miasta Aleksandry Gosk o zakończenie dyskusji nad poprawką 2",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_007",
+              "session": "2026-04-23",
+              "topic": "wniosek formalny Pana Radnego Grzegorza Wendykowskiego, aby każdorazowo w punkcie dot. projektów uchwał każdy Radny mógł",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_026",
+              "session": "2026-04-23",
+              "topic": "wniosek o zdjęcie z porządku obrad projektu rezolucji w sprawie stanowczego sprzeciwu wobec planów utworzenia rezerwatu ",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
             }
           ],
           "has_activity_data": false,
@@ -465,16 +500,16 @@
           "okręg": "I",
           "rola": "Wiceprzewodnicząca Rady Miasta",
           "has_voting_data": true,
-          "frekwencja": 95.2,
-          "aktywnosc": 95.7,
-          "zgodnosc_z_klubem": 87.8,
-          "votes_total": 560,
-          "votes_za": 381,
-          "votes_przeciw": 67,
-          "votes_wstrzymal": 43,
-          "votes_brak": 45,
+          "frekwencja": 95.5,
+          "aktywnosc": 95.9,
+          "zgodnosc_z_klubem": 87.9,
+          "votes_total": 585,
+          "votes_za": 397,
+          "votes_przeciw": 72,
+          "votes_wstrzymal": 44,
+          "votes_brak": 48,
           "votes_nieobecny": 9,
-          "rebellion_count": 60,
+          "rebellion_count": 62,
           "rebellions": [
             {
               "vote_id": "2024-05-16_009",
@@ -895,6 +930,20 @@
               "topic": "przeprowadzenia konsultacji społecznych z mieszkańcami Sopotu na temat modelu zarządzania obszarami leśnymi, z uwzględni",
               "their_vote": "przeciw",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_006",
+              "session": "2026-04-23",
+              "topic": "wniosek formalny Pani Radnej Karoliny Niemczyk-Bałtowskiej, żeby wypowiedzi w dyskusji nie przekraczały 4 minut",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-23_026",
+              "session": "2026-04-23",
+              "topic": "wniosek o zdjęcie z porządku obrad projektu rezolucji w sprawie stanowczego sprzeciwu wobec planów utworzenia rezerwatu ",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
             }
           ],
           "has_activity_data": false,
@@ -910,16 +959,16 @@
           "club": "Koalicja Dla Sopotu",
           "okręg": "I",
           "has_voting_data": true,
-          "frekwencja": 95.2,
-          "aktywnosc": 91.1,
-          "zgodnosc_z_klubem": 98.9,
-          "votes_total": 560,
-          "votes_za": 385,
-          "votes_przeciw": 77,
-          "votes_wstrzymal": 2,
-          "votes_brak": 46,
+          "frekwencja": 95.5,
+          "aktywnosc": 91.5,
+          "zgodnosc_z_klubem": 98.8,
+          "votes_total": 585,
+          "votes_za": 403,
+          "votes_przeciw": 82,
+          "votes_wstrzymal": 3,
+          "votes_brak": 47,
           "votes_nieobecny": 42,
-          "rebellion_count": 5,
+          "rebellion_count": 6,
           "rebellions": [
             {
               "vote_id": "2024-06-27_035",
@@ -955,6 +1004,13 @@
               "topic": "wniosek formalny Pana Radnego Jakuba Świderskiego o zakończenie dyskusji",
               "their_vote": "przeciw",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_007",
+              "session": "2026-04-23",
+              "topic": "wniosek formalny Pana Radnego Grzegorza Wendykowskiego, aby każdorazowo w punkcie dot. projektów uchwał każdy Radny mógł",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
             }
           ],
           "has_activity_data": false,
@@ -971,15 +1027,15 @@
           "okręg": "III",
           "has_voting_data": true,
           "frekwencja": 100.0,
-          "aktywnosc": 96.4,
-          "zgodnosc_z_klubem": 83.2,
-          "votes_total": 560,
-          "votes_za": 355,
-          "votes_przeciw": 41,
-          "votes_wstrzymal": 93,
-          "votes_brak": 51,
+          "aktywnosc": 96.6,
+          "zgodnosc_z_klubem": 83.3,
+          "votes_total": 585,
+          "votes_za": 367,
+          "votes_przeciw": 44,
+          "votes_wstrzymal": 98,
+          "votes_brak": 56,
           "votes_nieobecny": 1,
-          "rebellion_count": 82,
+          "rebellion_count": 85,
           "rebellions": [
             {
               "vote_id": "2024-05-07_003",
@@ -1554,6 +1610,27 @@
               "topic": "przeprowadzenia konsultacji społecznych z mieszkańcami Sopotu na temat modelu zarządzania obszarami leśnymi, z uwzględni",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_004",
+              "session": "2026-04-23",
+              "topic": "wniosek Pana Radnego Jakuba Świderskiego o zmianę porządku obrad poprzez przeniesienie projektu Druku 288 z pkt 10 do pk",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-23_019",
+              "session": "2026-04-23",
+              "topic": "zmieniająca uchwałę w sprawie wzniesienia pomnika Paula Puchmiillera (Druk Nr 287 z autopoprawką, ref. Radny Klubu Radny",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-23_024",
+              "session": "2026-04-23",
+              "topic": "wyznaczenia osoby do udziału w negocjacjach poprzedzających zawarcie umowy urbanistycznej (Druk Nr 292 z autopoprawką, r",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
             }
           ],
           "has_activity_data": false,
@@ -1570,13 +1647,13 @@
           "okręg": "IV",
           "has_voting_data": true,
           "frekwencja": 100.0,
-          "aktywnosc": 97.5,
+          "aktywnosc": 97.6,
           "zgodnosc_z_klubem": 99.0,
-          "votes_total": 560,
-          "votes_za": 417,
-          "votes_przeciw": 91,
+          "votes_total": 585,
+          "votes_za": 426,
+          "votes_przeciw": 95,
           "votes_wstrzymal": 4,
-          "votes_brak": 34,
+          "votes_brak": 46,
           "votes_nieobecny": 1,
           "rebellion_count": 5,
           "rebellions": [
@@ -1631,15 +1708,15 @@
           "rola": "Przewodnicząca Rady Miasta",
           "has_voting_data": true,
           "frekwencja": 100.0,
-          "aktywnosc": 95.7,
-          "zgodnosc_z_klubem": 98.7,
-          "votes_total": 560,
-          "votes_za": 441,
-          "votes_przeciw": 91,
-          "votes_wstrzymal": 2,
+          "aktywnosc": 95.9,
+          "zgodnosc_z_klubem": 98.2,
+          "votes_total": 585,
+          "votes_za": 458,
+          "votes_przeciw": 98,
+          "votes_wstrzymal": 3,
           "votes_brak": 2,
           "votes_nieobecny": 7,
-          "rebellion_count": 7,
+          "rebellion_count": 10,
           "rebellions": [
             {
               "vote_id": "2024-09-26_022",
@@ -1689,6 +1766,27 @@
               "topic": "wniosek formalny Pana Radnego Zbigniewa Duzinkiewicza o zakończenie dyskusji po wyczerpaniu listy mówców",
               "their_vote": "przeciw",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_007",
+              "session": "2026-04-23",
+              "topic": "wniosek formalny Pana Radnego Grzegorza Wendykowskiego, aby każdorazowo w punkcie dot. projektów uchwał każdy Radny mógł",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_008",
+              "session": "2026-04-23",
+              "topic": "wniosek formalny Pana Radnego Jarosława Zawady o to, aby od tego momentu każdy Radny miał 4 ad vocem",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_025",
+              "session": "2026-04-23",
+              "topic": "wskazania przedstawicieli Rady Miasta Sopotu do Gminnej Rady Działalności Pożytku Publicznego w Sopocie (Druk Nr 293 uzu",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
             }
           ],
           "has_activity_data": false,
@@ -1705,15 +1803,15 @@
           "okręg": "IV",
           "has_voting_data": true,
           "frekwencja": 100.0,
-          "aktywnosc": 96.4,
-          "zgodnosc_z_klubem": 99.0,
-          "votes_total": 560,
-          "votes_za": 426,
-          "votes_przeciw": 86,
+          "aktywnosc": 96.6,
+          "zgodnosc_z_klubem": 98.7,
+          "votes_total": 585,
+          "votes_za": 444,
+          "votes_przeciw": 93,
           "votes_wstrzymal": 2,
           "votes_brak": 26,
           "votes_nieobecny": 1,
-          "rebellion_count": 5,
+          "rebellion_count": 7,
           "rebellions": [
             {
               "vote_id": "2024-06-27_040",
@@ -1749,6 +1847,20 @@
               "topic": "powołania komisji skrutacyjnej",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_007",
+              "session": "2026-04-23",
+              "topic": "wniosek formalny Pana Radnego Grzegorza Wendykowskiego, aby każdorazowo w punkcie dot. projektów uchwał każdy Radny mógł",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_008",
+              "session": "2026-04-23",
+              "topic": "wniosek formalny Pana Radnego Jarosława Zawady o to, aby od tego momentu każdy Radny miał 4 ad vocem",
+              "their_vote": "przeciw",
+              "club_majority": "za"
             }
           ],
           "has_activity_data": false,
@@ -1764,16 +1876,16 @@
           "club": "Prawo i Sprawiedliwość",
           "okręg": "IV",
           "has_voting_data": true,
-          "frekwencja": 95.2,
-          "aktywnosc": 91.1,
-          "zgodnosc_z_klubem": 93.4,
-          "votes_total": 560,
-          "votes_za": 301,
-          "votes_przeciw": 99,
-          "votes_wstrzymal": 99,
-          "votes_brak": 11,
+          "frekwencja": 95.5,
+          "aktywnosc": 91.5,
+          "zgodnosc_z_klubem": 93.3,
+          "votes_total": 585,
+          "votes_za": 309,
+          "votes_przeciw": 105,
+          "votes_wstrzymal": 105,
+          "votes_brak": 16,
           "votes_nieobecny": 28,
-          "rebellion_count": 33,
+          "rebellion_count": 35,
           "rebellions": [
             {
               "vote_id": "2024-05-16_003",
@@ -2005,6 +2117,20 @@
               "topic": "poprawka nr 3 do Druku Nr 268 zgłoszona przez Radnych Klubu PiS",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_002",
+              "session": "2026-04-23",
+              "topic": "dodanie do porządku obrad projektu uchwały w sprawie: wyznaczenia osoby do udziału w negocjacjach poprzedzających zawarc",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_022",
+              "session": "2026-04-23",
+              "topic": "wniosek formalny Pana Radnego Jarosława Zawady o zakończenie dyskusji po wyczerpaniu listy mówców",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
             }
           ],
           "has_activity_data": false,
@@ -2021,15 +2147,15 @@
           "okręg": "IV",
           "has_voting_data": true,
           "frekwencja": 100.0,
-          "aktywnosc": 89.5,
-          "zgodnosc_z_klubem": 93.0,
-          "votes_total": 560,
-          "votes_za": 347,
-          "votes_przeciw": 44,
-          "votes_wstrzymal": 55,
-          "votes_brak": 55,
+          "aktywnosc": 89.9,
+          "zgodnosc_z_klubem": 92.5,
+          "votes_total": 585,
+          "votes_za": 355,
+          "votes_przeciw": 49,
+          "votes_wstrzymal": 60,
+          "votes_brak": 62,
           "votes_nieobecny": 37,
-          "rebellion_count": 31,
+          "rebellion_count": 35,
           "rebellions": [
             {
               "vote_id": "2024-05-16_036",
@@ -2247,6 +2373,34 @@
               "topic": "ustalenia strefy płatnego parkowania i śródmiejskiej strefy płatnego parkowania na drogach publicznych na terenie Gminy ",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_008",
+              "session": "2026-04-23",
+              "topic": "wniosek formalny Pana Radnego Jarosława Zawady o to, aby od tego momentu każdy Radny miał 4 ad vocem",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_012",
+              "session": "2026-04-23",
+              "topic": "uchwalenia miejscowego planu zagospodarowania przestrzennego dla jednostek strukturalnych „M” w mieście Sopocie, Etap II",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_013",
+              "session": "2026-04-23",
+              "topic": "uchwalenia miejscowego planu zagospodarowania przestrzennego dla jednostek strukturalnych „R” w mieście Sopocie, Etap II",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_014",
+              "session": "2026-04-23",
+              "topic": "uchwalenia miejscowego planu zagospodarowania przestrzennego dla terenu położonego w rejonie ulic Lipowej, Władysława IV",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
             }
           ],
           "has_activity_data": false,
@@ -2262,16 +2416,16 @@
           "club": "Koalicja Dla Sopotu",
           "okręg": "III",
           "has_voting_data": true,
-          "frekwencja": 95.2,
-          "aktywnosc": 74.5,
-          "zgodnosc_z_klubem": 99.2,
-          "votes_total": 560,
-          "votes_za": 324,
-          "votes_przeciw": 72,
+          "frekwencja": 95.5,
+          "aktywnosc": 75.6,
+          "zgodnosc_z_klubem": 99.0,
+          "votes_total": 585,
+          "votes_za": 342,
+          "votes_przeciw": 77,
           "votes_wstrzymal": 2,
-          "votes_brak": 19,
+          "votes_brak": 21,
           "votes_nieobecny": 63,
-          "rebellion_count": 3,
+          "rebellion_count": 4,
           "rebellions": [
             {
               "vote_id": "2025-11-27_021",
@@ -2293,6 +2447,13 @@
               "topic": "wniosek formalny Pana Radnego Zbigniewa Duzinkiewicza o zakończenie dyskusji po wyczerpaniu listy mówców",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_007",
+              "session": "2026-04-23",
+              "topic": "wniosek formalny Pana Radnego Grzegorza Wendykowskiego, aby każdorazowo w punkcie dot. projektów uchwał każdy Radny mógł",
+              "their_vote": "przeciw",
+              "club_majority": "za"
             }
           ],
           "has_activity_data": false,
@@ -2309,13 +2470,13 @@
           "okręg": "III",
           "has_voting_data": true,
           "frekwencja": 100.0,
-          "aktywnosc": 97.5,
-          "zgodnosc_z_klubem": 99.4,
-          "votes_total": 560,
-          "votes_za": 439,
-          "votes_przeciw": 92,
+          "aktywnosc": 97.6,
+          "zgodnosc_z_klubem": 99.5,
+          "votes_total": 585,
+          "votes_za": 458,
+          "votes_przeciw": 96,
           "votes_wstrzymal": 2,
-          "votes_brak": 13,
+          "votes_brak": 15,
           "votes_nieobecny": 1,
           "rebellion_count": 3,
           "rebellions": [
@@ -2356,14 +2517,14 @@
           "has_voting_data": true,
           "frekwencja": 100.0,
           "aktywnosc": 97.9,
-          "zgodnosc_z_klubem": 96.3,
-          "votes_total": 560,
-          "votes_za": 329,
-          "votes_przeciw": 96,
-          "votes_wstrzymal": 95,
-          "votes_brak": 28,
+          "zgodnosc_z_klubem": 95.6,
+          "votes_total": 585,
+          "votes_za": 338,
+          "votes_przeciw": 102,
+          "votes_wstrzymal": 102,
+          "votes_brak": 31,
           "votes_nieobecny": 0,
-          "rebellion_count": 19,
+          "rebellion_count": 24,
           "rebellions": [
             {
               "vote_id": "2024-06-27_017",
@@ -2497,6 +2658,41 @@
               "topic": "wyrażenia zgody na przystąpienie do sporządzenia zintegrowanego planu inwestycyjnego dla rejonu ulicy 3 Maja w mieście S",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_002",
+              "session": "2026-04-23",
+              "topic": "dodanie do porządku obrad projektu uchwały w sprawie: wyznaczenia osoby do udziału w negocjacjach poprzedzających zawarc",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_018",
+              "session": "2026-04-23",
+              "topic": "wniosek formalny Pani Radnej Barbary Brzezickiej o zakończenie dyskusji po wyczerpaniu listy mówców",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-23_019",
+              "session": "2026-04-23",
+              "topic": "zmieniająca uchwałę w sprawie wzniesienia pomnika Paula Puchmiillera (Druk Nr 287 z autopoprawką, ref. Radny Klubu Radny",
+              "their_vote": "przeciw",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2026-04-23_020",
+              "session": "2026-04-23",
+              "topic": "wniosek formalny Pana Radnego Jarosława Zawady o zakończenie dyskusji po wykorzystaniu listy mówców",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-23_022",
+              "session": "2026-04-23",
+              "topic": "wniosek formalny Pana Radnego Jarosława Zawady o zakończenie dyskusji po wyczerpaniu listy mówców",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
             }
           ],
           "has_activity_data": false,
@@ -2512,12 +2708,12 @@
           "club": "Koalicja Dla Sopotu",
           "okręg": "I",
           "has_voting_data": true,
-          "frekwencja": 95.2,
-          "aktywnosc": 92.5,
-          "zgodnosc_z_klubem": 99.2,
-          "votes_total": 560,
-          "votes_za": 418,
-          "votes_przeciw": 92,
+          "frekwencja": 95.5,
+          "aktywnosc": 92.8,
+          "zgodnosc_z_klubem": 99.3,
+          "votes_total": 585,
+          "votes_za": 438,
+          "votes_przeciw": 97,
           "votes_wstrzymal": 2,
           "votes_brak": 6,
           "votes_nieobecny": 32,
@@ -2567,15 +2763,15 @@
           "rola": "Wiceprzewodniczący Rady Miasta",
           "has_voting_data": true,
           "frekwencja": 100.0,
-          "aktywnosc": 96.2,
-          "zgodnosc_z_klubem": 89.8,
-          "votes_total": 560,
-          "votes_za": 333,
-          "votes_przeciw": 106,
-          "votes_wstrzymal": 92,
-          "votes_brak": 8,
+          "aktywnosc": 96.4,
+          "zgodnosc_z_klubem": 89.7,
+          "votes_total": 585,
+          "votes_za": 343,
+          "votes_przeciw": 115,
+          "votes_wstrzymal": 97,
+          "votes_brak": 9,
           "votes_nieobecny": 1,
-          "rebellion_count": 54,
+          "rebellion_count": 57,
           "rebellions": [
             {
               "vote_id": "2024-05-16_009",
@@ -2954,6 +3150,27 @@
               "topic": "przekazania petycji do Prezydenta Miasta Sopotu (Druk Nr 276)",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_011",
+              "session": "2026-04-23",
+              "topic": "zmiany wieloletniej prognozy finansowej Miasta Sopotu na lata 2026-2042 (Druk Nr 290, ref. Pan Mirosław Goślicki Skarbni",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-04-23_013",
+              "session": "2026-04-23",
+              "topic": "uchwalenia miejscowego planu zagospodarowania przestrzennego dla jednostek strukturalnych „R” w mieście Sopocie, Etap II",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_019",
+              "session": "2026-04-23",
+              "topic": "zmieniająca uchwałę w sprawie wzniesienia pomnika Paula Puchmiillera (Druk Nr 287 z autopoprawką, ref. Radny Klubu Radny",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
             }
           ],
           "has_activity_data": false,
@@ -2970,15 +3187,15 @@
           "okręg": "II",
           "has_voting_data": true,
           "frekwencja": 100.0,
-          "aktywnosc": 95.7,
-          "zgodnosc_z_klubem": 98.8,
-          "votes_total": 560,
-          "votes_za": 420,
-          "votes_przeciw": 94,
-          "votes_wstrzymal": 4,
-          "votes_brak": 18,
+          "aktywnosc": 95.9,
+          "zgodnosc_z_klubem": 98.5,
+          "votes_total": 585,
+          "votes_za": 437,
+          "votes_przeciw": 100,
+          "votes_wstrzymal": 5,
+          "votes_brak": 19,
           "votes_nieobecny": 1,
-          "rebellion_count": 6,
+          "rebellion_count": 8,
           "rebellions": [
             {
               "vote_id": "2024-11-21_019",
@@ -3021,6 +3238,20 @@
               "topic": "wniosek formalny Pana Radnego Zbigniewa Duzinkiewicza o zakończenie dyskusji po wyczerpaniu listy mówców",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_006",
+              "session": "2026-04-23",
+              "topic": "wniosek formalny Pani Radnej Karoliny Niemczyk-Bałtowskiej, żeby wypowiedzi w dyskusji nie przekraczały 4 minut",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_008",
+              "session": "2026-04-23",
+              "topic": "wniosek formalny Pana Radnego Jarosława Zawady o to, aby od tego momentu każdy Radny miał 4 ad vocem",
+              "their_vote": "przeciw",
+              "club_majority": "za"
             }
           ],
           "has_activity_data": false,
@@ -3036,14 +3267,14 @@
           "club": "Koalicja Dla Sopotu",
           "okręg": "II",
           "has_voting_data": true,
-          "frekwencja": 90.5,
-          "aktywnosc": 87.0,
-          "zgodnosc_z_klubem": 98.5,
-          "votes_total": 560,
-          "votes_za": 388,
-          "votes_przeciw": 85,
+          "frekwencja": 90.9,
+          "aktywnosc": 87.5,
+          "zgodnosc_z_klubem": 98.6,
+          "votes_total": 585,
+          "votes_za": 406,
+          "votes_przeciw": 90,
           "votes_wstrzymal": 2,
-          "votes_brak": 12,
+          "votes_brak": 14,
           "votes_nieobecny": 60,
           "rebellion_count": 7,
           "rebellions": [
@@ -3111,15 +3342,15 @@
           "okręg": "I",
           "has_voting_data": true,
           "frekwencja": 100.0,
-          "aktywnosc": 96.8,
-          "zgodnosc_z_klubem": 99.6,
-          "votes_total": 560,
-          "votes_za": 431,
-          "votes_przeciw": 91,
-          "votes_wstrzymal": 1,
-          "votes_brak": 19,
+          "aktywnosc": 96.9,
+          "zgodnosc_z_klubem": 99.5,
+          "votes_total": 585,
+          "votes_za": 449,
+          "votes_przeciw": 96,
+          "votes_wstrzymal": 2,
+          "votes_brak": 20,
           "votes_nieobecny": 1,
-          "rebellion_count": 2,
+          "rebellion_count": 3,
           "rebellions": [
             {
               "vote_id": "2026-02-19_017",
@@ -3132,6 +3363,13 @@
               "vote_id": "2026-02-19_024",
               "session": "2026-02-19",
               "topic": "powołania komisji skrutacyjnej",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_006",
+              "session": "2026-04-23",
+              "topic": "wniosek formalny Pani Radnej Karoliny Niemczyk-Bałtowskiej, żeby wypowiedzi w dyskusji nie przekraczały 4 minut",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
             }
@@ -3150,15 +3388,15 @@
           "okręg": "II",
           "has_voting_data": true,
           "frekwencja": 100.0,
-          "aktywnosc": 97.7,
-          "zgodnosc_z_klubem": 79.0,
-          "votes_total": 560,
-          "votes_za": 253,
-          "votes_przeciw": 137,
-          "votes_wstrzymal": 110,
-          "votes_brak": 47,
+          "aktywnosc": 97.8,
+          "zgodnosc_z_klubem": 79.4,
+          "votes_total": 585,
+          "votes_za": 261,
+          "votes_przeciw": 146,
+          "votes_wstrzymal": 112,
+          "votes_brak": 53,
           "votes_nieobecny": 1,
-          "rebellion_count": 105,
+          "rebellion_count": 107,
           "rebellions": [
             {
               "vote_id": "2024-05-16_001",
@@ -3894,6 +4132,20 @@
               "topic": "przekazania petycji do Prezydenta Miasta Sopotu (Druk Nr 276)",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_003",
+              "session": "2026-04-23",
+              "topic": "dodanie do porządku obrad projektu uchwały w sprawie: wskazania przedstawicieli Rady Miasta Sopotu do Gminnej Rady Dział",
+              "their_vote": "przeciw",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2026-04-23_012",
+              "session": "2026-04-23",
+              "topic": "uchwalenia miejscowego planu zagospodarowania przestrzennego dla jednostek strukturalnych „M” w mieście Sopocie, Etap II",
+              "their_vote": "przeciw",
+              "club_majority": "wstrzymal_sie"
             }
           ],
           "has_activity_data": false,
@@ -3911,11 +4163,11 @@
           "rola": "Wiceprzewodniczący Rady Miasta",
           "has_voting_data": true,
           "frekwencja": 100.0,
-          "aktywnosc": 97.0,
-          "zgodnosc_z_klubem": 97.8,
-          "votes_total": 560,
-          "votes_za": 435,
-          "votes_przeciw": 96,
+          "aktywnosc": 97.1,
+          "zgodnosc_z_klubem": 97.9,
+          "votes_total": 585,
+          "votes_za": 455,
+          "votes_przeciw": 101,
           "votes_wstrzymal": 4,
           "votes_brak": 8,
           "votes_nieobecny": 1,
@@ -4020,15 +4272,15 @@
           "okręg": "II",
           "has_voting_data": true,
           "frekwencja": 100.0,
-          "aktywnosc": 95.2,
-          "zgodnosc_z_klubem": 97.9,
-          "votes_total": 560,
-          "votes_za": 424,
-          "votes_przeciw": 92,
-          "votes_wstrzymal": 7,
+          "aktywnosc": 95.4,
+          "zgodnosc_z_klubem": 97.6,
+          "votes_total": 585,
+          "votes_za": 442,
+          "votes_przeciw": 97,
+          "votes_wstrzymal": 9,
           "votes_brak": 10,
           "votes_nieobecny": 1,
-          "rebellion_count": 11,
+          "rebellion_count": 13,
           "rebellions": [
             {
               "vote_id": "2025-10-23_032",
@@ -4104,6 +4356,20 @@
               "vote_id": "2026-03-19_031",
               "session": "2026-03-19",
               "topic": "wniosek formalny Pana Radnego Zbigniewa Duzinkiewicza o zakończenie dyskusji po wyczerpaniu listy mówców",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_006",
+              "session": "2026-04-23",
+              "topic": "wniosek formalny Pani Radnej Karoliny Niemczyk-Bałtowskiej, żeby wypowiedzi w dyskusji nie przekraczały 4 minut",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-04-23_007",
+              "session": "2026-04-23",
+              "topic": "wniosek formalny Pana Radnego Grzegorza Wendykowskiego, aby każdorazowo w punkcie dot. projektów uchwał każdy Radny mógł",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
             }

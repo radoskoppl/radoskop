@@ -172,16 +172,24 @@
     "typ_full": "Interpelacja",
     "data_wplywu": "2026-04-10",
     "tresc_url": "https://bip.um.bydgoszcz.pl/attachments/download/31187",
+    "odpowiedz_url": "https://bip.um.bydgoszcz.pl/attachments/download/31405",
     "zalaczniki": [
       {
         "nazwa": "Interpelacja",
         "url": "https://bip.um.bydgoszcz.pl/attachments/download/31187"
+      },
+      {
+        "nazwa": "Odpowiedź",
+        "url": "https://bip.um.bydgoszcz.pl/attachments/download/31404"
+      },
+      {
+        "nazwa": "Odpowiedź",
+        "url": "https://bip.um.bydgoszcz.pl/attachments/download/31405"
       }
     ],
     "kategoria": "środowisko",
     "odpowiedz_status": "",
-    "data_odpowiedzi": "",
-    "odpowiedz_url": ""
+    "data_odpowiedzi": ""
   },
   {
     "przedmiot": "odmowy przyznania asystenta osoby niepełnosprawnej dla Mieszkanki Bydgoszczy",
@@ -622,16 +630,24 @@
     "typ_full": "Interpelacja",
     "data_wplywu": "2026-03-13",
     "tresc_url": "https://bip.um.bydgoszcz.pl/attachments/download/30675",
+    "odpowiedz_url": "https://bip.um.bydgoszcz.pl/attachments/download/31396",
     "zalaczniki": [
       {
         "nazwa": "Interpelacja",
         "url": "https://bip.um.bydgoszcz.pl/attachments/download/30675"
+      },
+      {
+        "nazwa": "Odpowiedź",
+        "url": "https://bip.um.bydgoszcz.pl/attachments/download/31395"
+      },
+      {
+        "nazwa": "Odpowiedź",
+        "url": "https://bip.um.bydgoszcz.pl/attachments/download/31396"
       }
     ],
     "kategoria": "infrastruktura",
     "odpowiedz_status": "",
-    "data_odpowiedzi": "",
-    "odpowiedz_url": ""
+    "data_odpowiedzi": ""
   },
   {
     "przedmiot": "ponownego podłączenia  do kanalizacji - Grunwaldzka 80a",

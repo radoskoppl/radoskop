@@ -1,5 +1,20 @@
 [
   {
+    "przedmiot": "oddania do ruchu ulicy Pomorskiej od 1 czerwca 2024 r.",
+    "bip_url": "https://bip.um.wroc.pl/interpelacja/73834/interpelacja-w-sprawie-oddania-do-ruchu-ulicy-pomorskiej-od-1-czerwca-2024-r",
+    "typ": "interpelacja",
+    "radny": "Izabela Duchnowska",
+    "status": "udzielono odpowiedzi",
+    "kadencja": "IX",
+    "kategoria": "transport",
+    "odpowiedz_status": "udzielono odpowiedzi",
+    "data_wplywu": "",
+    "data_odpowiedzi": "",
+    "tresc_url": "",
+    "odpowiedz_url": "",
+    "nr_sprawy": ""
+  },
+  {
     "przedmiot": "montażu tablic DIP/elektroniczne tablice komunikacji miejskiej/ na przystanku: Chociebuska (C.K. Nowy Pafawag)",
     "bip_url": "https://bip.um.wroc.pl/interpelacja/89104/interpelacja-w-sprawie-montazu-tablic-dip-elektroniczne-tablice-komunikacji-miejskiej-na-przystanku-chociebuska-c-k-nowy-pafawag",
     "typ": "interpelacja",
@@ -16953,36 +16968,6 @@
       }
     ],
     "kategoria": "administracja",
-    "odpowiedz_status": "udzielono odpowiedzi",
-    "data_odpowiedzi": "",
-    "nr_sprawy": ""
-  },
-  {
-    "przedmiot": "oddania do ruchu ulicy Pomorskiej od 1 czerwca 2024 r.",
-    "bip_url": "https://bip.um.wroc.pl/interpelacja/73834/interpelacja-w-sprawie-oddania-do-ruchu-ulicy-pomorskiej-od-1-czerwca-2024-r",
-    "typ": "interpelacja",
-    "radny": "Izabela Duchnowska",
-    "status": "udzielono odpowiedzi",
-    "kadencja": "IX",
-    "typ_full": "Interpelacja",
-    "data_wplywu": "2024-06-17",
-    "tresc_url": "https://bip.um.wroc.pl/attachments/download/146224",
-    "odpowiedz_url": "https://bip.um.wroc.pl/attachments/download/147078",
-    "zalaczniki": [
-      {
-        "nazwa": "Interpelacja",
-        "url": "https://bip.um.wroc.pl/attachments/download/146224"
-      },
-      {
-        "nazwa": "Odpowiedź na interpelację",
-        "url": "https://bip.um.wroc.pl/attachments/download/147077"
-      },
-      {
-        "nazwa": "Odpowiedź na interpelację (wersja tekstowa)",
-        "url": "https://bip.um.wroc.pl/attachments/download/147078"
-      }
-    ],
-    "kategoria": "transport",
     "odpowiedz_status": "udzielono odpowiedzi",
     "data_odpowiedzi": "",
     "nr_sprawy": ""

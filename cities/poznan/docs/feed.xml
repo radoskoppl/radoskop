@@ -5,11 +5,20 @@
   <link href="https://poznan.radoskop.pl/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://poznan.radoskop.pl/" rel="alternate" type="text/html"/>
   <id>https://poznan.radoskop.pl/</id>
-  <updated>2026-04-28T07:30:38Z</updated>
+  <updated>2026-04-28T15:32:35Z</updated>
   <author>
     <name>Radoskop</name>
     <uri>https://radoskop.pl</uri>
   </author>
+  <entry>
+    <title>Interpelacja: Interpelacja ws. budowy drogi przy ulicy Sobolowej</title>
+    <link href="https://poznan.radoskop.pl/profil/monika-danelska/" rel="alternate" type="text/html"/>
+    <id>https://poznan.radoskop.pl/profil/monika-danelska/#interpelacja</id>
+    <published>2026-04-28T12:00:00+01:00</published>
+    <updated>2026-04-28T12:00:00+01:00</updated>
+    <summary type="html">Monika Danelska. Interpelacja ws. budowy drogi przy ulicy Sobolowej</summary>
+    <category term="interpelacja"/>
+  </entry>
   <entry>
     <title>Interpelacja: Interpelacja ws. naruszania przepisów ruchu drogowego oraz zagrożenia bezpieczeństwa w strefie przyl</title>
     <link href="https://poznan.radoskop.pl/profil/justyna-kuberka/" rel="alternate" type="text/html"/>
@@ -20,12 +29,12 @@
     <category term="interpelacja"/>
   </entry>
   <entry>
-    <title>Interpelacja: Interpelacja ws. wycinki części lasu w obrębie ulicy Baraniaka i Chartowo</title>
-    <link href="https://poznan.radoskop.pl/profil/monika-danelska/" rel="alternate" type="text/html"/>
-    <id>https://poznan.radoskop.pl/profil/monika-danelska/#interpelacja</id>
-    <published>2026-04-24T12:00:00+01:00</published>
-    <updated>2026-04-24T12:00:00+01:00</updated>
-    <summary type="html">Monika Danelska. Interpelacja ws. wycinki części lasu w obrębie ulicy Baraniaka i Chartowo</summary>
+    <title>Interpelacja: Interpelacja ws. porządku przy budowie mostu Chrobrego</title>
+    <link href="https://poznan.radoskop.pl/profil/przemyslaw-plewinski/" rel="alternate" type="text/html"/>
+    <id>https://poznan.radoskop.pl/profil/przemyslaw-plewinski/#interpelacja</id>
+    <published>2026-04-22T12:00:00+01:00</published>
+    <updated>2026-04-22T12:00:00+01:00</updated>
+    <summary type="html">Przemysław Plewiński. Interpelacja ws. porządku przy budowie mostu Chrobrego</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>
@@ -35,15 +44,6 @@
     <published>2026-04-22T12:00:00+01:00</published>
     <updated>2026-04-22T12:00:00+01:00</updated>
     <summary type="html">Magdalena Antolczyk. Interpelacja ws. stanu nawierzchni ul. Promienistej na Osiedlu Kopernika</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
-    <title>Interpelacja: Interpelacja ws. porządku przy budowie mostu Chrobrego</title>
-    <link href="https://poznan.radoskop.pl/profil/przemyslaw-plewinski/" rel="alternate" type="text/html"/>
-    <id>https://poznan.radoskop.pl/profil/przemyslaw-plewinski/#interpelacja</id>
-    <published>2026-04-22T12:00:00+01:00</published>
-    <updated>2026-04-22T12:00:00+01:00</updated>
-    <summary type="html">Przemysław Plewiński. Interpelacja ws. porządku przy budowie mostu Chrobrego</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>
@@ -83,15 +83,6 @@
     <category term="interpelacja"/>
   </entry>
   <entry>
-    <title>Interpelacja: Interpelacja ws. uporządkowania działki przy skrzyżowaniu ul. Sikorskiego i ul. Roboczej</title>
-    <link href="https://poznan.radoskop.pl/profil/dorota-bonk-hammermeister/" rel="alternate" type="text/html"/>
-    <id>https://poznan.radoskop.pl/profil/dorota-bonk-hammermeister/#interpelacja</id>
-    <published>2026-04-14T12:00:00+01:00</published>
-    <updated>2026-04-14T12:00:00+01:00</updated>
-    <summary type="html">Dorota Bonk-Hammermeister. Interpelacja ws. uporządkowania działki przy skrzyżowaniu ul. Sikorskiego i ul. Roboczej</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
     <title>Interpelacja: Interpelacja ws. organizacji ruchu na Górczynie - rejon wiaduktu Kosynierów Górczyńskich</title>
     <link href="https://poznan.radoskop.pl/profil/tomasz-stachowiak/" rel="alternate" type="text/html"/>
     <id>https://poznan.radoskop.pl/profil/tomasz-stachowiak/#interpelacja</id>
@@ -107,6 +98,15 @@
     <published>2026-04-14T12:00:00+01:00</published>
     <updated>2026-04-14T12:00:00+01:00</updated>
     <summary type="html">Maria Lisiecka-Pawełczak. Interpelacja ws. dostosowania sygnalizacji świetlnej na skrzyżowaniu Aleja Praw Kobiet - ul. Łużycka w Poznaniu</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: Interpelacja ws. przebudowy ul. Kilińskiego</title>
+    <link href="https://poznan.radoskop.pl/profil/dorota-bonk-hammermeister/" rel="alternate" type="text/html"/>
+    <id>https://poznan.radoskop.pl/profil/dorota-bonk-hammermeister/#interpelacja</id>
+    <published>2026-04-14T12:00:00+01:00</published>
+    <updated>2026-04-14T12:00:00+01:00</updated>
+    <summary type="html">Dorota Bonk-Hammermeister. Interpelacja ws. przebudowy ul. Kilińskiego</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>
@@ -200,12 +200,12 @@
     <category term="interpelacja"/>
   </entry>
   <entry>
-    <title>Interpelacja: Interpelacja ws. opóźnień w procesie modernizacji boiska piłkarskiego ze sztuczną nawierzchnią na Wi</title>
+    <title>Interpelacja: Interpelacja ws. budowy wielorodzinnej przy ul. Winiarskiej</title>
     <link href="https://poznan.radoskop.pl/profil/halina-owsianna/" rel="alternate" type="text/html"/>
     <id>https://poznan.radoskop.pl/profil/halina-owsianna/#interpelacja</id>
     <published>2026-02-11T12:00:00+01:00</published>
     <updated>2026-02-11T12:00:00+01:00</updated>
-    <summary type="html">Halina Owsianna. Interpelacja ws. opóźnień w procesie modernizacji boiska piłkarskiego ze sztuczną nawierzchnią na Winogradach</summary>
+    <summary type="html">Halina Owsianna. Interpelacja ws. budowy wielorodzinnej przy ul. Winiarskiej</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>

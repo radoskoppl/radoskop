@@ -5,11 +5,47 @@
   <link href="https://krakow.radoskop.pl/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://krakow.radoskop.pl/" rel="alternate" type="text/html"/>
   <id>https://krakow.radoskop.pl/</id>
-  <updated>2026-04-28T07:21:42Z</updated>
+  <updated>2026-04-28T15:23:34Z</updated>
   <author>
     <name>Radoskop</name>
     <uri>https://radoskop.pl</uri>
   </author>
+  <entry>
+    <title>Interpelacja: ROD Drożdżownia</title>
+    <link href="https://krakow.radoskop.pl/profil/lukasz-gibala/" rel="alternate" type="text/html"/>
+    <id>https://krakow.radoskop.pl/profil/lukasz-gibala/#interpelacja</id>
+    <published>2026-04-28T12:00:00+01:00</published>
+    <updated>2026-04-28T12:00:00+01:00</updated>
+    <summary type="html">Łukasz Gibała. ROD Drożdżownia</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: współpracy Gminy Miejskiej Kraków z parafią pw. Wszystkich Świętych w Krakowie, w zakresie utrzymani</title>
+    <link href="https://krakow.radoskop.pl/profil/agnieszka-paderewska/" rel="alternate" type="text/html"/>
+    <id>https://krakow.radoskop.pl/profil/agnieszka-paderewska/#interpelacja</id>
+    <published>2026-04-28T12:00:00+01:00</published>
+    <updated>2026-04-28T12:00:00+01:00</updated>
+    <summary type="html">Agnieszka Paderewska. współpracy Gminy Miejskiej Kraków z parafią pw. Wszystkich Świętych w Krakowie, w zakresie utrzymania Panteonu Narodowego w Kościele św. Piotra i Pawł</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: dawnego punktu sprzedaży biletów przy ul. Podwale</title>
+    <link href="https://krakow.radoskop.pl/profil/lukasz-maslona/" rel="alternate" type="text/html"/>
+    <id>https://krakow.radoskop.pl/profil/lukasz-maslona/#interpelacja</id>
+    <published>2026-04-28T12:00:00+01:00</published>
+    <updated>2026-04-28T12:00:00+01:00</updated>
+    <summary type="html">Łukasz Maślona. dawnego punktu sprzedaży biletów przy ul. Podwale</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: braku dostępu do podstawowej infrastruktury sanitarnej przy placach zabaw oraz terenach rekreacyjnyc</title>
+    <link href="https://krakow.radoskop.pl/profil/agnieszka-pogoda-tota/" rel="alternate" type="text/html"/>
+    <id>https://krakow.radoskop.pl/profil/agnieszka-pogoda-tota/#interpelacja</id>
+    <published>2026-04-28T12:00:00+01:00</published>
+    <updated>2026-04-28T12:00:00+01:00</updated>
+    <summary type="html">Agnieszka Pogoda-Tota. braku dostępu do podstawowej infrastruktury sanitarnej przy placach zabaw oraz terenach rekreacyjnych na terenie Krakowa</summary>
+    <category term="interpelacja"/>
+  </entry>
   <entry>
     <title>Interpelacja: poprawy jakości wody w stawie na terenie Parku  Duchackiego</title>
     <link href="https://krakow.radoskop.pl/profil/malgorzata-potocka/" rel="alternate" type="text/html"/>
@@ -17,15 +53,6 @@
     <published>2026-04-24T12:00:00+01:00</published>
     <updated>2026-04-24T12:00:00+01:00</updated>
     <summary type="html">Małgorzata Potocka. poprawy jakości wody w stawie na terenie Parku  Duchackiego</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
-    <title>Interpelacja: ROD Drożdżownia</title>
-    <link href="https://krakow.radoskop.pl/profil/lukasz-gibala/" rel="alternate" type="text/html"/>
-    <id>https://krakow.radoskop.pl/profil/lukasz-gibala/#interpelacja</id>
-    <published>2026-04-24T12:00:00+01:00</published>
-    <updated>2026-04-24T12:00:00+01:00</updated>
-    <summary type="html">Łukasz Gibała. ROD Drożdżownia</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>
@@ -101,15 +128,6 @@
     <category term="interpelacja"/>
   </entry>
   <entry>
-    <title>Interpelacja: budżetu obywatelskiego</title>
-    <link href="https://krakow.radoskop.pl/profil/agnieszka-paderewska/" rel="alternate" type="text/html"/>
-    <id>https://krakow.radoskop.pl/profil/agnieszka-paderewska/#interpelacja</id>
-    <published>2026-04-21T12:00:00+01:00</published>
-    <updated>2026-04-21T12:00:00+01:00</updated>
-    <summary type="html">Agnieszka Paderewska. budżetu obywatelskiego</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
     <title>Interpelacja: stanu czystości trasy po zakończeniu ostatniej edycji Cracovia Maraton</title>
     <link href="https://krakow.radoskop.pl/profil/tomasz-daros/" rel="alternate" type="text/html"/>
     <id>https://krakow.radoskop.pl/profil/tomasz-daros/#interpelacja</id>
@@ -128,30 +146,12 @@
     <category term="interpelacja"/>
   </entry>
   <entry>
-    <title>Interpelacja: rewitalizacji Bulwarów Wiślanych</title>
-    <link href="https://krakow.radoskop.pl/profil/lukasz-maslona/" rel="alternate" type="text/html"/>
-    <id>https://krakow.radoskop.pl/profil/lukasz-maslona/#interpelacja</id>
-    <published>2026-04-14T12:00:00+01:00</published>
-    <updated>2026-04-14T12:00:00+01:00</updated>
-    <summary type="html">Łukasz Maślona. rewitalizacji Bulwarów Wiślanych</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
     <title>Interpelacja: wariantów wschodniego i zachodniego projektowanej drogi ekspresowej S7 Kraków-Myślenice przesłanych </title>
     <link href="https://krakow.radoskop.pl/profil/michal-starobrat/" rel="alternate" type="text/html"/>
     <id>https://krakow.radoskop.pl/profil/michal-starobrat/#interpelacja</id>
     <published>2026-04-14T12:00:00+01:00</published>
     <updated>2026-04-14T12:00:00+01:00</updated>
     <summary type="html">Michał Starobrat. wariantów wschodniego i zachodniego projektowanej drogi ekspresowej S7 Kraków-Myślenice przesłanych do GDDKiA  jako efekt pracy krakowskiego zespołu w</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
-    <title>Interpelacja: śniętych ryb w Parku Duchackim</title>
-    <link href="https://krakow.radoskop.pl/profil/agnieszka-pogoda-tota/" rel="alternate" type="text/html"/>
-    <id>https://krakow.radoskop.pl/profil/agnieszka-pogoda-tota/#interpelacja</id>
-    <published>2026-04-08T12:00:00+01:00</published>
-    <updated>2026-04-08T12:00:00+01:00</updated>
-    <summary type="html">Agnieszka Pogoda-Tota. śniętych ryb w Parku Duchackim</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>

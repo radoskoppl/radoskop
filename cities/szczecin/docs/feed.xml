@@ -5,11 +5,38 @@
   <link href="https://szczecin.radoskop.pl/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://szczecin.radoskop.pl/" rel="alternate" type="text/html"/>
   <id>https://szczecin.radoskop.pl/</id>
-  <updated>2026-04-28T06:44:27Z</updated>
+  <updated>2026-04-28T14:46:53Z</updated>
   <author>
     <name>Radoskop</name>
     <uri>https://radoskop.pl</uri>
   </author>
+  <entry>
+    <title>Interpelacja (Słowik Przemysław)</title>
+    <link href="https://szczecin.radoskop.pl/profil/slowik-przemyslaw/" rel="alternate" type="text/html"/>
+    <id>https://szczecin.radoskop.pl/profil/slowik-przemyslaw/#interpelacja</id>
+    <published>2026-04-28T12:00:00+01:00</published>
+    <updated>2026-04-28T12:00:00+01:00</updated>
+    <summary type="html">Słowik Przemysław</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja (Romianowski Krzysztof)</title>
+    <link href="https://szczecin.radoskop.pl/profil/romianowski-krzysztof/" rel="alternate" type="text/html"/>
+    <id>https://szczecin.radoskop.pl/profil/romianowski-krzysztof/#interpelacja</id>
+    <published>2026-04-28T12:00:00+01:00</published>
+    <updated>2026-04-28T12:00:00+01:00</updated>
+    <summary type="html">Romianowski Krzysztof</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Zapytanie (Herczyński  Roman)</title>
+    <link href="https://szczecin.radoskop.pl/interpelacje/" rel="alternate" type="text/html"/>
+    <id>https://szczecin.radoskop.pl/interpelacje/#interpelacja</id>
+    <published>2026-04-28T12:00:00+01:00</published>
+    <updated>2026-04-28T12:00:00+01:00</updated>
+    <summary type="html">Herczyński  Roman</summary>
+    <category term="interpelacja"/>
+  </entry>
   <entry>
     <title>Interpelacja (Duklanowski Marek)</title>
     <link href="https://szczecin.radoskop.pl/profil/duklanowski-marek/" rel="alternate" type="text/html"/>
@@ -17,24 +44,6 @@
     <published>2026-04-28T12:00:00+01:00</published>
     <updated>2026-04-28T12:00:00+01:00</updated>
     <summary type="html">Duklanowski Marek</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
-    <title>Interpelacja (Romianowski Krzysztof)</title>
-    <link href="https://szczecin.radoskop.pl/profil/romianowski-krzysztof/" rel="alternate" type="text/html"/>
-    <id>https://szczecin.radoskop.pl/profil/romianowski-krzysztof/#interpelacja</id>
-    <published>2026-04-27T12:00:00+01:00</published>
-    <updated>2026-04-27T12:00:00+01:00</updated>
-    <summary type="html">Romianowski Krzysztof</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
-    <title>Interpelacja (Słowik Przemysław)</title>
-    <link href="https://szczecin.radoskop.pl/profil/slowik-przemyslaw/" rel="alternate" type="text/html"/>
-    <id>https://szczecin.radoskop.pl/profil/slowik-przemyslaw/#interpelacja</id>
-    <published>2026-04-27T12:00:00+01:00</published>
-    <updated>2026-04-27T12:00:00+01:00</updated>
-    <summary type="html">Słowik Przemysław</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>
@@ -575,15 +584,6 @@
     <published>2026-04-20T12:00:00+01:00</published>
     <updated>2026-04-20T12:00:00+01:00</updated>
     <summary type="html">Kaup Stanisław</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
-    <title>Zapytanie (Herczyński  Roman)</title>
-    <link href="https://szczecin.radoskop.pl/interpelacje/" rel="alternate" type="text/html"/>
-    <id>https://szczecin.radoskop.pl/interpelacje/#interpelacja</id>
-    <published>2026-04-15T12:00:00+01:00</published>
-    <updated>2026-04-15T12:00:00+01:00</updated>
-    <summary type="html">Herczyński  Roman</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>

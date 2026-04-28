@@ -2911,6 +2911,131 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://sopot.radoskop.pl/glosowanie/2026-04-23_002/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/glosowanie/2026-04-23_003/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/glosowanie/2026-04-23_004/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/glosowanie/2026-04-23_005/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/glosowanie/2026-04-23_006/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/glosowanie/2026-04-23_007/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/glosowanie/2026-04-23_008/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/glosowanie/2026-04-23_009/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/glosowanie/2026-04-23_010/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/glosowanie/2026-04-23_011/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/glosowanie/2026-04-23_012/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/glosowanie/2026-04-23_013/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/glosowanie/2026-04-23_014/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/glosowanie/2026-04-23_015/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/glosowanie/2026-04-23_016/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/glosowanie/2026-04-23_017/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/glosowanie/2026-04-23_018/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/glosowanie/2026-04-23_019/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/glosowanie/2026-04-23_020/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/glosowanie/2026-04-23_021/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/glosowanie/2026-04-23_022/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/glosowanie/2026-04-23_023/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/glosowanie/2026-04-23_024/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/glosowanie/2026-04-23_025/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/glosowanie/2026-04-23_026/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://sopot.radoskop.pl/sesja/I/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -3012,6 +3137,11 @@
   </url>
   <url>
     <loc>https://sopot.radoskop.pl/sesja/XXI/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/sesja/XXII/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

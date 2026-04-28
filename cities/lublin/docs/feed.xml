@@ -5,7 +5,7 @@
   <link href="https://lublin.radoskop.pl/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://lublin.radoskop.pl/" rel="alternate" type="text/html"/>
   <id>https://lublin.radoskop.pl/</id>
-  <updated>2026-04-28T06:20:56Z</updated>
+  <updated>2026-04-28T14:23:30Z</updated>
   <author>
     <name>Radoskop</name>
     <uri>https://radoskop.pl</uri>
@@ -36,6 +36,15 @@
     <updated>2026-04-30T12:00:00+01:00</updated>
     <summary type="html">0 glosowan.</summary>
     <category term="session"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: Interpelacja w sprawie braku miejsc pochówku oraz wysokich kosztów usług cmentarnych na terenie Mias</title>
+    <link href="https://lublin.radoskop.pl/profil/justyna-budzynska/" rel="alternate" type="text/html"/>
+    <id>https://lublin.radoskop.pl/profil/justyna-budzynska/#interpelacja</id>
+    <published>2026-04-24T12:00:00+01:00</published>
+    <updated>2026-04-24T12:00:00+01:00</updated>
+    <summary type="html">Justyna Budzyńska. Interpelacja w sprawie braku miejsc pochówku oraz wysokich kosztów usług cmentarnych na terenie Miasta Lublin</summary>
+    <category term="interpelacja"/>
   </entry>
   <entry>
     <title>Interpelacja: Interpelacja w sprawie wpisania ul. Cienistej do Wieloletniej Prognozy Finansowej Miasta Lublin oraz</title>
@@ -522,15 +531,6 @@
     <updated>2026-03-26T12:00:00+01:00</updated>
     <summary type="html">47 glosowan, 31 obecnych.</summary>
     <category term="session"/>
-  </entry>
-  <entry>
-    <title>Interpelacja: Interpelacja w sprawie rozbudowy infrastruktury sportowo-rekreacyjnej na zielonym skwerze przy ul. B</title>
-    <link href="https://lublin.radoskop.pl/profil/justyna-budzynska/" rel="alternate" type="text/html"/>
-    <id>https://lublin.radoskop.pl/profil/justyna-budzynska/#interpelacja</id>
-    <published>2026-03-26T12:00:00+01:00</published>
-    <updated>2026-03-26T12:00:00+01:00</updated>
-    <summary type="html">Justyna Budzyńska. Interpelacja w sprawie rozbudowy infrastruktury sportowo-rekreacyjnej na zielonym skwerze przy ul. Bluszczowej w Lublinie</summary>
-    <category term="interpelacja"/>
   </entry>
   <entry>
     <title>Interpelacja: Interpelacja w sprawie uzupełnienia zieleni (krzewy i nasadzenia roślinności niskiej) na skwerze w D</title>

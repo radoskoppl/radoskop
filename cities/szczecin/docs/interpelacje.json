@@ -1,5 +1,65 @@
 [
   {
+    "cri": "szczecin-2024-2029-1989",
+    "miasto": "szczecin",
+    "kadencja": "2024-2029",
+    "numer": "1989",
+    "typ": "interpelacja",
+    "tytul": "Dot. dalszego użytkowania hali pneumatycznej zniszczonej w roku 2023 na obiekcie przy ul. Twardowkiego",
+    "radny": "Słowik Przemysław",
+    "data_wplywu": "2026-04-28",
+    "data_odpowiedzi": null,
+    "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=B9124F8F6EBD4780940C144098DF6973"
+  },
+  {
+    "cri": "szczecin-2024-2029-1988",
+    "miasto": "szczecin",
+    "kadencja": "2024-2029",
+    "numer": "1988",
+    "typ": "interpelacja",
+    "tytul": "Dot. odpowiedzi na interpelację nr 1847",
+    "radny": "Romianowski Krzysztof",
+    "data_wplywu": "2026-04-28",
+    "data_odpowiedzi": null,
+    "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=1F99E24787114490B35CECDD9329B0A4"
+  },
+  {
+    "cri": "szczecin-2024-2029-1987",
+    "miasto": "szczecin",
+    "kadencja": "2024-2029",
+    "numer": "1987",
+    "typ": "interpelacja",
+    "tytul": "Dot. blokowania drogi rowerowej przy al. Wyzwolenia",
+    "radny": "Słowik Przemysław",
+    "data_wplywu": "2026-04-28",
+    "data_odpowiedzi": null,
+    "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=D47AC6FE34A548E9A10376DFE9A1FBA4"
+  },
+  {
+    "cri": "szczecin-2024-2029-1986",
+    "miasto": "szczecin",
+    "kadencja": "2024-2029",
+    "numer": "1986",
+    "typ": "zapytanie",
+    "tytul": "Dot. wyników kontroli  zbiorników bezodpływowych i przydomowych  oczyszczalni ścieków na Prawobrzeżu  w roku 2025",
+    "radny": "Herczyński  Roman",
+    "data_wplywu": "2026-04-28",
+    "data_odpowiedzi": null,
+    "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=DB581849BDD74E0C9B6C33FFC5FC719D"
+  },
+  {
+    "cri": "szczecin-2024-2029-1985",
+    "miasto": "szczecin",
+    "kadencja": "2024-2029",
+    "numer": "1985",
+    "typ": "interpelacja",
+    "tytul": "Dot. oznakowania dróg wyłączonych z obszaru Strefy Czystego Transportu w Szczecinie oraz oceny stanowiska Wojewody Zachodniopomorskiego w przedmiocie niezgodności pomiędzy załącznikami do uchwały Nr XX/520/26 Rady Miasta Szczecin",
+    "radny": "Duklanowski Marek",
+    "data_wplywu": "2026-04-28",
+    "data_odpowiedzi": null,
+    "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=4C640F4727614FA3AF280C6D4236A953"
+  },
+  {
     "cri": "szczecin-2024-2029-1984",
     "miasto": "szczecin",
     "kadencja": "2024-2029",
@@ -200,7 +260,7 @@
     "tytul": "Dot. funkcjonowania Miejskiej Biblioteki Publicznej",
     "radny": "Radziwinowicz Andrzej",
     "data_wplywu": "2026-04-20",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-28",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=B4059CBE6B254450BA51A1D56129D4C5"
   },
   {
@@ -476,7 +536,7 @@
     "tytul": "Dot. hałasu w centrum Szczecina",
     "radny": "Gieryga Mateusz",
     "data_wplywu": "2026-04-13",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-28",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=B807C51EB6A646B685436E1773FDA8D2"
   },
   {
@@ -536,7 +596,7 @@
     "tytul": "Dot. elektrycznych jednośladów niebędących rowerami",
     "radny": "Duklanowski Marek",
     "data_wplywu": "2026-04-13",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-28",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=94EE7A7599C6455A9C2B1FBD65D76383"
   },
   {
@@ -1436,7 +1496,7 @@
     "tytul": "Dot. cyberataku na systemy informatyczne Samodzielnego Publicznego Wojewódzkiego Szpitala Zespolonego przy ul. Arkońskiej w Szczecinie oraz bezpieczeństwa danych Szczecinian",
     "radny": "Smoliński Dariusz",
     "data_wplywu": "2026-03-13",
-    "data_odpowiedzi": null,
+    "data_odpowiedzi": "2026-04-28",
     "url": "https://bip.um.szczecin.pl/chapter_131447.asp?soid=42F204B753714289A7E981FF7E658BE4"
   },
   {
