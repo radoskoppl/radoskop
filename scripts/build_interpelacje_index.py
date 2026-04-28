@@ -12,14 +12,15 @@ Per-city `interpelacje.json` ma jeden z dwóch kształtów:
 Oba obsłużone.
 
 Format wpisu indeksu (kompaktowy):
-    [t, c, r, d, k, i]
+    [t, c, r, d, k, i, rs]
 gdzie:
-    t = przedmiot interpelacji/zapytania (skrócony do 200 znaków)
-    c = slug miasta
-    r = nazwisko radnego (lub "" jeśli wielu autorów)
-    d = data wpływu (YYYY-MM-DD)
-    k = typ: "i" interpelacja, "z" zapytanie
-    i = cri (id interpelacji w BIP-ie miasta)
+    t  = przedmiot interpelacji/zapytania (skrócony do 200 znaków)
+    c  = slug miasta
+    r  = nazwisko radnego (lub "Lastname +" gdy wielu autorów)
+    d  = data wpływu (YYYY-MM-DD)
+    k  = typ: "i" interpelacja, "z" zapytanie
+    i  = cri (id interpelacji w BIP-ie miasta)
+    rs = slug radnego dla URL profilu (lub "" gdy wielu autorów / brak profilu)
 """
 
 from __future__ import annotations
@@ -66,6 +67,38 @@ def load_interpelacje(city_dir: Path) -> list[dict]:
     return []
 
 
+def load_profile_slug_map(city_dir: Path) -> dict[str, str]:
+    """Map councillor name → URL slug from per-city profiles.json.
+
+    Falls back to deterministic slug if profiles.json is missing.
+    """
+    p = city_dir / "docs" / "profiles.json"
+    out: dict[str, str] = {}
+    if not p.exists():
+        return out
+    try:
+        with p.open(encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception:
+        return out
+    profiles = data.get("profiles") if isinstance(data, dict) else (data if isinstance(data, list) else [])
+    for prof in profiles or []:
+        name = (prof.get("name") or "").strip()
+        slug = (prof.get("slug") or "").strip()
+        if name and slug:
+            out[name] = slug
+    return out
+
+
+def fallback_slug(name: str) -> str:
+    """Deterministic slug fallback for radnych missing from profiles.json."""
+    import unicodedata, re
+    s = unicodedata.normalize("NFD", name.lower())
+    s = re.sub(r"[̀-ͯ]", "", s)
+    s = s.replace("ł", "l").replace("Ł", "L")
+    return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+
+
 def normalize_topic(topic: str) -> str:
     if not topic:
         return ""
@@ -83,25 +116,31 @@ def build_index(workspace: Path) -> list[list]:
         if not items:
             print(f"  {slug}: 0 interpelacji", file=sys.stderr)
             continue
+        slug_map = load_profile_slug_map(city_dir)
         added = 0
         for it in items:
             topic = normalize_topic(it.get("przedmiot") or it.get("temat") or "")
             if not topic:
                 continue
-            radny = (it.get("radny") or "").strip()
-            # Multi-author entries can have newline-separated names — keep only
-            # first as primary and signal multi via prefix in the index entry.
-            if "\n" in radny:
-                radny = radny.split("\n", 1)[0].strip() + " +"
+            raw_radny = (it.get("radny") or "").strip()
+            multi = "\n" in raw_radny
+            primary_name = raw_radny.split("\n", 1)[0].strip() if multi else raw_radny
+            radny_label = (primary_name + " +") if multi else primary_name
+            # Resolve slug only when there's a single author — multi-author
+            # entries don't have a clean target profile.
+            radny_slug = ""
+            if primary_name and not multi:
+                radny_slug = slug_map.get(primary_name) or fallback_slug(primary_name)
             typ_raw = (it.get("typ") or "").lower()
             typ_short = "z" if typ_raw.startswith("zap") or (it.get("cri") or "").startswith("Z") else "i"
             index.append([
                 topic,
                 slug,
-                radny,
+                radny_label,
                 it.get("data_wplywu") or "",
                 typ_short,
                 it.get("cri") or "",
+                radny_slug,
             ])
             added += 1
         print(f"  {slug}: {added} interpelacji/zapytań", file=sys.stderr)

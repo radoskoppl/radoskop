@@ -784,11 +784,15 @@ function rankingRender(){
     if(!hits.length){results.innerHTML='<div class="search-empty">Nie znaleziono interpelacji ani zapytań pasujących do „'+esc(q)+'"</div>';results.classList.add('visible');count.textContent='0 wyników';return;}
     var max=hits.length,html='';
     for(var j=0;j<max;j++){
-      var e=hits[j];var topic=e[0],slug=e[1],radny=e[2]||'',date=e[3]||'',kind=e[4]||'i',cri=e[5]||'';
+      var e=hits[j];var topic=e[0],slug=e[1],radny=e[2]||'',date=e[3]||'',kind=e[4]||'i',cri=e[5]||'',radnySlug=e[6]||'';
       var c=CITY_BY_SLUG[slug]||{name:slug,slug:slug,url:'#'};
       var col=cityColor(c.slug);
       var kindLabel=(kind==='z')?'Zapytanie':'Interpelacja';
-      var href=esc(c.url)+'/interpelacje/';
+      // Link to councillor profile (which has their interpelacje in context)
+      // when we have a single-author slug. Multi-author or unknown → city home.
+      var href = radnySlug
+        ? (esc(c.url)+'/profil/'+encodeURIComponent(radnySlug)+'/')
+        : (esc(c.url)+'/');
       html += '<a class="vote-result" href="'+href+'" target="_blank" rel="noopener">'
             + '<div class="vote-result-head">'
             +   '<span class="city-badge" style="background:'+col+'22;color:'+col+'">'+esc(c.name)+'</span>'
