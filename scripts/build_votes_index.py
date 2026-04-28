@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Buduje zagregowany indeks głosowań ze wszystkich miast dla wyszukiwarki na radoskop.pl.
+"""Buduje cross-city indeks głosowań dla wyszukiwarki na radoskop.pl.
 
-Czyta plik `kadencja-2024-2029.json` z folderu `docs/` każdego miasta i generuje
-skompresowany `votes-index.json` umieszczany w `radoskop/docs/` (strona główna).
+Czyta `kadencja-*.json` z każdego `radoskop/cities/{slug}/docs/` (monorepo),
+pisze skompresowany `radoskop/docs/votes-index.json`. Plik jest gitignored,
+deployowany do `s3://radoskop-public/_main/` przez deploy_main_s3.
 
-Format wyjściowy (kompaktowy, jedna tablica na głosowanie aby ograniczyć rozmiar pliku):
+Format wyjściowy (kompaktowy, jedna tablica na głosowanie):
     [t, c, i, d, z, p, w]
 gdzie:
     t = temat głosowania (skrócony do 160 znaków)
@@ -15,43 +16,57 @@ gdzie:
     p = liczba głosów "przeciw"
     w = liczba głosów "wstrzymał się"
 
-Rozmiar surowy: ~1.6 MB. Po gzipie: ~250 KB. Plik ładowany jest dopiero przy
-pierwszym użyciu wyszukiwarki (lazy load).
+Rozmiar surowy: ~1.6 MB dla 24 miast. Po gzipie: ~250 KB. Plik ładowany lazy
+(dopiero przy pierwszym użyciu wyszukiwarki na froncie).
 """
 
 from __future__ import annotations
 
+import argparse
 import json
 import sys
 from pathlib import Path
 
-CITIES = [
-    "bialystok",
-    "bydgoszcz",
-    "gdansk",
-    "gdynia",
-    "katowice",
-    "krakow",
-    "lodz",
-    "lublin",
-    "poznan",
-    "sopot",
-    "szczecin",
-    "warszawa",
-    "wroclaw",
-]
-
 MAX_TOPIC_LEN = 160
 
 
-def load_city_votes(repo_root: Path, city_slug: str) -> list[dict]:
-    path = repo_root / f"radoskop-{city_slug}" / "docs" / "kadencja-2024-2029.json"
-    if not path.exists():
-        print(f"[warn] brak pliku {path}", file=sys.stderr)
+def discover_city_dirs(workspace: Path) -> list[tuple[str, Path]]:
+    """List (slug, city_dir) for every city with a config.json in monorepo.
+
+    Falls back to legacy sibling layout (`radoskop-{slug}/`) only when the
+    monorepo layout is absent — keeps dev environments without the migration
+    still working.
+    """
+    out: list[tuple[str, Path]] = []
+    mono = workspace / "radoskop" / "cities"
+    if mono.is_dir():
+        for d in sorted(mono.iterdir()):
+            if d.is_dir() and (d / "config.json").exists():
+                out.append((d.name, d))
+        return out
+    for d in sorted(workspace.iterdir()):
+        if d.is_dir() and d.name.startswith("radoskop-") and d.name != "radoskop-premium":
+            slug = d.name[len("radoskop-"):]
+            if (d / "config.json").exists():
+                out.append((slug, d))
+    return out
+
+
+def load_city_votes(city_dir: Path) -> list[dict]:
+    """Load all votes from any kadencja-*.json file in the city's docs/."""
+    docs = city_dir / "docs"
+    if not docs.is_dir():
         return []
-    with path.open("r", encoding="utf-8") as fh:
-        data = json.load(fh)
-    return data.get("votes", []) or []
+    votes: list[dict] = []
+    for kad_file in sorted(docs.glob("kadencja-*.json")):
+        try:
+            with kad_file.open(encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception as e:
+            print(f"[warn] {kad_file}: {e}", file=sys.stderr)
+            continue
+        votes.extend(data.get("votes") or [])
+    return votes
 
 
 def normalize_topic(topic: str) -> str:
@@ -59,14 +74,19 @@ def normalize_topic(topic: str) -> str:
         return ""
     collapsed = " ".join(topic.split())
     if len(collapsed) > MAX_TOPIC_LEN:
-        return collapsed[: MAX_TOPIC_LEN - 1] + "\u2026"
+        return collapsed[: MAX_TOPIC_LEN - 1] + "…"
     return collapsed
 
 
-def build_index(repo_root: Path) -> list[list]:
+def build_index(workspace: Path) -> list[list]:
     index: list[list] = []
-    for city in CITIES:
-        votes = load_city_votes(repo_root, city)
+    cities = discover_city_dirs(workspace)
+    for slug, city_dir in cities:
+        votes = load_city_votes(city_dir)
+        if not votes:
+            print(f"  {slug}: 0 votes", file=sys.stderr)
+            continue
+        added = 0
         for v in votes:
             topic = normalize_topic(v.get("topic") or "")
             if not topic:
@@ -75,38 +95,57 @@ def build_index(repo_root: Path) -> list[list]:
             za = int(counts.get("za") or 0)
             przeciw = int(counts.get("przeciw") or 0)
             wstrz = int(counts.get("wstrzymal_sie") or 0)
-            entry = [
+            index.append([
                 topic,
-                city,
+                slug,
                 v.get("id") or "",
                 v.get("session_date") or "",
                 za,
                 przeciw,
                 wstrz,
-            ]
-            index.append(entry)
+            ])
+            added += 1
+        print(f"  {slug}: {added} votes", file=sys.stderr)
     return index
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description="Build cross-city votes index")
+    parser.add_argument(
+        "--workspace",
+        default=None,
+        help="Workspace root containing radoskop/ (default: parent of this script's repo)",
+    )
+    parser.add_argument(
+        "--output",
+        default=None,
+        help="Output path (default: <workspace>/radoskop/docs/votes-index.json)",
+    )
+    args = parser.parse_args()
+
     script_dir = Path(__file__).resolve().parent
-    repo_root = script_dir.parent.parent  # gdansk-network/
-    out_path = script_dir.parent / "docs" / "votes-index.json"
+    workspace = (
+        Path(args.workspace).resolve()
+        if args.workspace
+        else script_dir.parent.parent  # radoskop/scripts → radoskop → workspace
+    )
+    out_path = (
+        Path(args.output).resolve()
+        if args.output
+        else workspace / "radoskop" / "docs" / "votes-index.json"
+    )
 
-    index = build_index(repo_root)
-
-    # Najnowsze głosowania na górze (porządkuj desc po dacie).
+    print(f"workspace: {workspace}", file=sys.stderr)
+    index = build_index(workspace)
+    # Najnowsze głosowania na górze
     index.sort(key=lambda e: (e[3], e[1], e[2]), reverse=True)
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
-    with out_path.open("w", encoding="utf-8") as fh:
-        json.dump(index, fh, ensure_ascii=False, separators=(",", ":"))
+    with out_path.open("w", encoding="utf-8") as f:
+        json.dump(index, f, ensure_ascii=False, separators=(",", ":"))
 
     size_kb = out_path.stat().st_size / 1024
-    print(
-        f"Zapisano {len(index)} głosowań do {out_path} ({size_kb:.1f} KB)",
-        file=sys.stderr,
-    )
+    print(f"Zapisano {len(index)} głosowań do {out_path} ({size_kb:.1f} KB)", file=sys.stderr)
     return 0
 
 

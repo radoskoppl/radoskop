@@ -244,6 +244,16 @@ footer a:hover{text-decoration-color:var(--accent);}
       </div>
       <div class="search-count" id="vote-search-count">Ładowanie…</div>
     </div>
+
+    <div class="search-section" id="interp-search">
+      <div class="search-label">Wyszukaj interpelację lub zapytanie</div>
+      <div class="search-field">
+        <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" class="search-input" id="interp-search-input" placeholder="Np. ścieżka rowerowa, smog, wycinka..." autocomplete="off" aria-label="Wyszukaj interpelację lub zapytanie">
+        <div class="search-results" id="interp-search-results"></div>
+      </div>
+      <div class="search-count" id="interp-search-count">Ładowanie…</div>
+    </div>
   </div>
 
   <!-- City directory -->
@@ -473,10 +483,13 @@ var VIS_SHOWN = 24;
 var PAGE_SIZES = { comp: 20, interp: 15, budget: 15, sessions: 30, controversial: 10 };
 var SHOWN = { comp: 20, interp: 15, budget: 15, sessions: 30, controversial: 10 };
 
-// The apex page lives at s3://radoskop-public/_main/ (Cloudflare Worker convention).
-// data.radoskop.pl serves the same prefix with explicit CORS, so we fetch all
-// manifests through it for cross-origin safety.
+// Apex data lives at s3://radoskop-public/_main/. data.radoskop.pl serves it
+// with CORS — used for small, mostly-static manifests (cities, councilors,
+// controversial). Big indices (votes ~2.5MB, interpelacje ~2MB) go through
+// api.radoskop.pl which keeps them in memory and filters server-side per
+// keystroke (~5 KB response instead of bulk 5 MB on first visit).
 var DATA_BASE = 'https://data.radoskop.pl/_main';
+var API_BASE  = 'https://api.radoskop.pl/api';
 
 function loadCities(){
   return fetch(DATA_BASE + '/cities.json')
@@ -704,25 +717,24 @@ function rankingRender(){
   fetch(DATA_BASE + '/councilors-index.json').then(function(r){return r.json();}).then(function(d){idx=d;count.textContent=formatInt(d.length)+' radnych z '+CITIES.length+' miast';rankingInit(d);}).catch(function(){document.getElementById('councilor-search').style.display='none';});
 })();
 
-// ── Vote search ──
+// ── Vote search (server-side via API) ──
+// Per-keystroke fetch /api/search/votes?q=... → top 30 hits. ~5 KB per query
+// regardless of how many cities the index covers. Status count is loaded
+// once from /api/search/stats.
 (function(){
-  var idx=null,loading=false,failed=false;
   var input=document.getElementById('vote-search-input');
   var results=document.getElementById('vote-search-results');
   var count=document.getElementById('vote-search-count');
-  var timer=null;
-  function showLoading(){results.innerHTML='<div class="search-loading">Ładuję bazę głosowań…</div>';results.classList.add('visible');}
-  function showError(){results.innerHTML='<div class="search-empty">Nie udało się pobrać bazy głosowań.</div>';results.classList.add('visible');}
-  function render(q){
-    if(!idx)return;q=q.trim();
-    if(q.length<2){results.classList.remove('visible');count.textContent=formatInt(idx.length)+' głosowań z '+CITIES.length+' miast';return;}
-    var qn=normalize(q),m=[];
-    for(var i=0;i<idx.length;i++){if(normalize(idx[i][0]).indexOf(qn)!==-1){m.push(idx[i]);if(m.length>=200)break;}}
-    if(!m.length){results.innerHTML='<div class="search-empty">Nie znaleziono głosowań zawierających „'+esc(q)+'"</div>';results.classList.add('visible');count.textContent='0 wyników';return;}
-    m.sort(function(a,b){return a[3]<b[3]?1:(a[3]>b[3]?-1:0);});
-    var max=Math.min(m.length,30),html='';
+  var timer=null, lastReq=0, totalKnown=null;
+  function showLoading(){results.innerHTML='<div class="search-loading">Szukam…</div>';results.classList.add('visible');}
+  function showError(){results.innerHTML='<div class="search-empty">Wyszukiwarka chwilowo niedostępna.</div>';results.classList.add('visible');}
+  function setStatus(){count.textContent=(totalKnown!=null?formatInt(totalKnown):'…')+' głosowań z '+CITIES.length+' miast';}
+  function render(q,hits,total){
+    q=q.trim();
+    if(!hits.length){results.innerHTML='<div class="search-empty">Nie znaleziono głosowań zawierających „'+esc(q)+'"</div>';results.classList.add('visible');count.textContent='0 wyników';return;}
+    var max=hits.length,html='';
     for(var j=0;j<max;j++){
-      var e=m[j];var topic=e[0],slug=e[1],id=e[2],date=e[3],za=e[4]||0,prze=e[5]||0,wst=e[6]||0;
+      var e=hits[j];var topic=e[0],slug=e[1],id=e[2],date=e[3],za=e[4]||0,prze=e[5]||0,wst=e[6]||0;
       var c=CITY_BY_SLUG[slug]||{name:slug,slug:slug,url:'#'};
       var col=cityColor(c.slug);var outcome=(za+prze===0)?null:(za>prze?'Przyjęte':'Odrzucone');
       html += '<a class="vote-result" href="'+esc(c.url)+'/glosowanie/'+encodeURIComponent(id)+'/" target="_blank" rel="noopener">'
@@ -740,16 +752,72 @@ function rankingRender(){
             + '</a>';
     }
     results.innerHTML=html;results.classList.add('visible');
-    var txt=m.length===1?'1 głosowanie':formatInt(m.length)+' głosowań';if(m.length>max)txt+=' (pokazano pierwsze '+max+')';
+    var txt=total===1?'1 głosowanie':formatInt(total)+' głosowań';if(total>max)txt+=' (pokazano pierwsze '+max+')';
     count.textContent=txt;
   }
-  function ensure(cb){if(idx){cb();return;}if(failed){showError();return;}if(loading)return;loading=true;showLoading();
-    fetch(DATA_BASE + '/votes-index.json').then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(function(d){idx=d;loading=false;count.textContent=formatInt(d.length)+' głosowań z '+CITIES.length+' miast';cb();}).catch(function(){loading=false;failed=true;showError();});
+  function search(q){
+    var reqId=++lastReq;
+    showLoading();
+    fetch(API_BASE+'/search/votes?q='+encodeURIComponent(q)+'&limit=30')
+      .then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();})
+      .then(function(d){if(reqId!==lastReq)return;render(q,d.hits||[],d.total||0);})
+      .catch(function(){if(reqId===lastReq)showError();});
   }
-  input.addEventListener('input',function(){var v=this.value;clearTimeout(timer);if(v.trim().length<2){results.classList.remove('visible');if(idx)count.textContent=formatInt(idx.length)+' głosowań z '+CITIES.length+' miast';return;}timer=setTimeout(function(){ensure(function(){render(v);});},150);});
-  input.addEventListener('focus',function(){if(!idx&&!loading&&!failed){loading=true;fetch(DATA_BASE + '/votes-index.json').then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(function(d){idx=d;loading=false;count.textContent=formatInt(d.length)+' głosowań z '+CITIES.length+' miast';}).catch(function(){loading=false;failed=true;});}if(this.value.trim().length>=2&&idx)render(this.value);});
+  input.addEventListener('input',function(){var v=this.value;clearTimeout(timer);if(v.trim().length<2){results.classList.remove('visible');setStatus();return;}timer=setTimeout(function(){search(v.trim());},200);});
   input.addEventListener('keydown',function(e){if(e.key==='Escape'){results.classList.remove('visible');this.blur();}});
   document.addEventListener('click',function(e){if(!e.target.closest('#vote-search'))results.classList.remove('visible');});
+  // Lazy load total count once for the status bar.
+  fetch(API_BASE+'/search/stats').then(function(r){return r.json();}).then(function(d){totalKnown=d.votes||0;setStatus();}).catch(function(){count.textContent='—';});
+})();
+
+// ── Interpelacje / zapytania search (server-side via API) ──
+(function(){
+  var input=document.getElementById('interp-search-input');
+  var results=document.getElementById('interp-search-results');
+  var count=document.getElementById('interp-search-count');
+  var timer=null, lastReq=0, totalKnown=null;
+  function showLoading(){results.innerHTML='<div class="search-loading">Szukam…</div>';results.classList.add('visible');}
+  function showError(){results.innerHTML='<div class="search-empty">Wyszukiwarka chwilowo niedostępna.</div>';results.classList.add('visible');}
+  function setStatus(){count.textContent=(totalKnown!=null?formatInt(totalKnown):'…')+' interpelacji i zapytań z '+CITIES.length+' miast';}
+  function render(q,hits,total){
+    q=q.trim();
+    if(!hits.length){results.innerHTML='<div class="search-empty">Nie znaleziono interpelacji ani zapytań pasujących do „'+esc(q)+'"</div>';results.classList.add('visible');count.textContent='0 wyników';return;}
+    var max=hits.length,html='';
+    for(var j=0;j<max;j++){
+      var e=hits[j];var topic=e[0],slug=e[1],radny=e[2]||'',date=e[3]||'',kind=e[4]||'i',cri=e[5]||'';
+      var c=CITY_BY_SLUG[slug]||{name:slug,slug:slug,url:'#'};
+      var col=cityColor(c.slug);
+      var kindLabel=(kind==='z')?'Zapytanie':'Interpelacja';
+      var href=esc(c.url)+'/interpelacje/';
+      html += '<a class="vote-result" href="'+href+'" target="_blank" rel="noopener">'
+            + '<div class="vote-result-head">'
+            +   '<span class="city-badge" style="background:'+col+'22;color:'+col+'">'+esc(c.name)+'</span>'
+            +   '<span class="vote-result-date">'+(date?formatDatePL(date):'')+'</span>'
+            + '</div>'
+            + '<div class="vote-result-topic">'+highlight(topic,q)+'</div>'
+            + '<div class="vote-result-counts">'
+            +   '<span class="pill pill-outcome">'+kindLabel+'</span>'
+            +   (radny?'<span class="pill">'+esc(radny)+'</span>':'')
+            +   (cri?'<span class="pill">'+esc(cri)+'</span>':'')
+            + '</div>'
+            + '</a>';
+    }
+    results.innerHTML=html;results.classList.add('visible');
+    var txt=total===1?'1 wynik':formatInt(total)+' wyników';if(total>max)txt+=' (pokazano pierwsze '+max+')';
+    count.textContent=txt;
+  }
+  function search(q){
+    var reqId=++lastReq;
+    showLoading();
+    fetch(API_BASE+'/search/interpelacje?q='+encodeURIComponent(q)+'&limit=30')
+      .then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();})
+      .then(function(d){if(reqId!==lastReq)return;render(q,d.hits||[],d.total||0);})
+      .catch(function(){if(reqId===lastReq)showError();});
+  }
+  input.addEventListener('input',function(){var v=this.value;clearTimeout(timer);if(v.trim().length<2){results.classList.remove('visible');setStatus();return;}timer=setTimeout(function(){search(v.trim());},200);});
+  input.addEventListener('keydown',function(e){if(e.key==='Escape'){results.classList.remove('visible');this.blur();}});
+  document.addEventListener('click',function(e){if(!e.target.closest('#interp-search'))results.classList.remove('visible');});
+  fetch(API_BASE+'/search/stats').then(function(r){return r.json();}).then(function(d){totalKnown=d.interpelacje||0;setStatus();}).catch(function(){count.textContent='—';});
 })();
 
 // ── Recent sessions feed (unified cross-city) ──
