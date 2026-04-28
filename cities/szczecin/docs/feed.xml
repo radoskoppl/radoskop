@@ -5,11 +5,20 @@
   <link href="https://szczecin.radoskop.pl/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://szczecin.radoskop.pl/" rel="alternate" type="text/html"/>
   <id>https://szczecin.radoskop.pl/</id>
-  <updated>2026-04-27T21:43:50Z</updated>
+  <updated>2026-04-28T06:44:27Z</updated>
   <author>
     <name>Radoskop</name>
     <uri>https://radoskop.pl</uri>
   </author>
+  <entry>
+    <title>Interpelacja (Duklanowski Marek)</title>
+    <link href="https://szczecin.radoskop.pl/profil/duklanowski-marek/" rel="alternate" type="text/html"/>
+    <id>https://szczecin.radoskop.pl/profil/duklanowski-marek/#interpelacja</id>
+    <published>2026-04-28T12:00:00+01:00</published>
+    <updated>2026-04-28T12:00:00+01:00</updated>
+    <summary type="html">Duklanowski Marek</summary>
+    <category term="interpelacja"/>
+  </entry>
   <entry>
     <title>Interpelacja (Romianowski Krzysztof)</title>
     <link href="https://szczecin.radoskop.pl/profil/romianowski-krzysztof/" rel="alternate" type="text/html"/>
@@ -557,15 +566,6 @@
     <published>2026-04-20T12:00:00+01:00</published>
     <updated>2026-04-20T12:00:00+01:00</updated>
     <summary type="html">Pańka Urszula</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
-    <title>Interpelacja (Duklanowski Marek)</title>
-    <link href="https://szczecin.radoskop.pl/profil/duklanowski-marek/" rel="alternate" type="text/html"/>
-    <id>https://szczecin.radoskop.pl/profil/duklanowski-marek/#interpelacja</id>
-    <published>2026-04-20T12:00:00+01:00</published>
-    <updated>2026-04-20T12:00:00+01:00</updated>
-    <summary type="html">Duklanowski Marek</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>

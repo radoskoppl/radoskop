@@ -290,21 +290,25 @@
     "bip_url": "https://bip.um.wroc.pl/interpelacja/88936/zapytanie-w-sprawie-opoznienia-realizacji-remontu-chodnika-przy-ul-jednosci-narodowej",
     "typ": "zapytanie",
     "radny": "Izabela Duchnowska",
-    "status": "oczekuje na odpowiedź",
+    "status": "udzielono odpowiedzi",
     "kadencja": "IX",
     "typ_full": "Zapytanie",
     "data_wplywu": "2026-04-17",
     "tresc_url": "https://bip.um.wroc.pl/attachments/download/173383",
+    "odpowiedz_url": "https://bip.um.wroc.pl/attachments/download/173831",
     "zalaczniki": [
       {
         "nazwa": "Zapytanie",
         "url": "https://bip.um.wroc.pl/attachments/download/173383"
+      },
+      {
+        "nazwa": "Odpowiedź na zapytanie",
+        "url": "https://bip.um.wroc.pl/attachments/download/173831"
       }
     ],
     "kategoria": "transport",
-    "odpowiedz_status": "oczekuje na odpowiedź",
+    "odpowiedz_status": "udzielono odpowiedzi",
     "data_odpowiedzi": "",
-    "odpowiedz_url": "",
     "nr_sprawy": ""
   },
   {
@@ -363,22 +367,26 @@
     "przedmiot": "budowy infrastruktury pieszo-rowerowej w rejonie wiaduktu przy ul. Krzyckiej",
     "bip_url": "https://bip.um.wroc.pl/interpelacja/88833/interpelacja-w-sprawie-budowy-infrastruktury-pieszo-rowerowej-w-rejonie-wiaduktu-przy-ul-krzyckiej",
     "typ": "interpelacja",
-    "radny": "Mateusz Żak",
-    "status": "oczekuje na odpowiedź",
+    "radny": "Mateusz Żak, Edyta Skuła",
+    "status": "udzielono odpowiedzi",
     "kadencja": "IX",
     "typ_full": "Interpelacja",
     "data_wplywu": "2026-04-13",
     "tresc_url": "https://bip.um.wroc.pl/attachments/download/173174",
+    "odpowiedz_url": "https://bip.um.wroc.pl/attachments/download/173827",
     "zalaczniki": [
       {
         "nazwa": "Interpelacja",
         "url": "https://bip.um.wroc.pl/attachments/download/173174"
+      },
+      {
+        "nazwa": "Odpowiedź na interpelację",
+        "url": "https://bip.um.wroc.pl/attachments/download/173827"
       }
     ],
     "kategoria": "transport",
-    "odpowiedz_status": "oczekuje na odpowiedź",
+    "odpowiedz_status": "udzielono odpowiedzi",
     "data_odpowiedzi": "",
-    "odpowiedz_url": "",
     "nr_sprawy": ""
   },
   {
@@ -386,21 +394,25 @@
     "bip_url": "https://bip.um.wroc.pl/interpelacja/88831/interpelacja-w-sprawie-planow-budowy-kladki-pieszo-rowerowej-laczacej-kowale-oraz-psie-pole-zawidawie-we-wroclawiu",
     "typ": "interpelacja",
     "radny": "Mateusz Żak",
-    "status": "oczekuje na odpowiedź",
+    "status": "udzielono odpowiedzi",
     "kadencja": "IX",
     "typ_full": "Interpelacja",
     "data_wplywu": "2026-04-13",
     "tresc_url": "https://bip.um.wroc.pl/attachments/download/173172",
+    "odpowiedz_url": "https://bip.um.wroc.pl/attachments/download/173826",
     "zalaczniki": [
       {
         "nazwa": "Interpelacja",
         "url": "https://bip.um.wroc.pl/attachments/download/173172"
+      },
+      {
+        "nazwa": "Odpowiedź na interpelację",
+        "url": "https://bip.um.wroc.pl/attachments/download/173826"
       }
     ],
     "kategoria": "transport",
-    "odpowiedz_status": "oczekuje na odpowiedź",
+    "odpowiedz_status": "udzielono odpowiedzi",
     "data_odpowiedzi": "",
-    "odpowiedz_url": "",
     "nr_sprawy": ""
   },
   {
@@ -464,21 +476,25 @@
     "bip_url": "https://bip.um.wroc.pl/interpelacja/88824/interpelacja-w-sprawie-zagospodarowania-skweru-przy-ul-gubinskiej-ar9dz-12-34",
     "typ": "interpelacja",
     "radny": "Łukasz Olbert",
-    "status": "oczekuje na odpowiedź",
+    "status": "udzielono odpowiedzi",
     "kadencja": "IX",
     "typ_full": "Interpelacja",
     "data_wplywu": "2026-04-13",
     "tresc_url": "https://bip.um.wroc.pl/attachments/download/173164",
+    "odpowiedz_url": "https://bip.um.wroc.pl/attachments/download/173828",
     "zalaczniki": [
       {
         "nazwa": "Interpelacja",
         "url": "https://bip.um.wroc.pl/attachments/download/173164"
+      },
+      {
+        "nazwa": "Odpowiedź na interpelację",
+        "url": "https://bip.um.wroc.pl/attachments/download/173828"
       }
     ],
     "kategoria": "inne",
-    "odpowiedz_status": "oczekuje na odpowiedź",
+    "odpowiedz_status": "udzielono odpowiedzi",
     "data_odpowiedzi": "",
-    "odpowiedz_url": "",
     "nr_sprawy": ""
   },
   {

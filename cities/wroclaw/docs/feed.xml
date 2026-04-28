@@ -5,7 +5,7 @@
   <link href="https://wroclaw.radoskop.pl/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://wroclaw.radoskop.pl/" rel="alternate" type="text/html"/>
   <id>https://wroclaw.radoskop.pl/</id>
-  <updated>2026-04-27T21:51:47Z</updated>
+  <updated>2026-04-28T06:56:08Z</updated>
   <author>
     <name>Radoskop</name>
     <uri>https://radoskop.pl</uri>
@@ -57,11 +57,20 @@
   </entry>
   <entry>
     <title>Interpelacja: budowy infrastruktury pieszo-rowerowej w rejonie wiaduktu przy ul. Krzyckiej</title>
+    <link href="https://wroclaw.radoskop.pl/interpelacje/" rel="alternate" type="text/html"/>
+    <id>https://wroclaw.radoskop.pl/interpelacje/#interpelacja</id>
+    <published>2026-04-13T12:00:00+01:00</published>
+    <updated>2026-04-13T12:00:00+01:00</updated>
+    <summary type="html">Mateusz Żak, Edyta Skuła. budowy infrastruktury pieszo-rowerowej w rejonie wiaduktu przy ul. Krzyckiej</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: planów budowy kładki pieszo-rowerowej łączącej Kowale oraz Psie Pole - Zawidawie we Wrocławiu</title>
     <link href="https://wroclaw.radoskop.pl/profil/mateusz-zak/" rel="alternate" type="text/html"/>
     <id>https://wroclaw.radoskop.pl/profil/mateusz-zak/#interpelacja</id>
     <published>2026-04-13T12:00:00+01:00</published>
     <updated>2026-04-13T12:00:00+01:00</updated>
-    <summary type="html">Mateusz Żak. budowy infrastruktury pieszo-rowerowej w rejonie wiaduktu przy ul. Krzyckiej</summary>
+    <summary type="html">Mateusz Żak. planów budowy kładki pieszo-rowerowej łączącej Kowale oraz Psie Pole - Zawidawie we Wrocławiu</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>
@@ -116,15 +125,6 @@
     <published>2026-03-11T12:00:00+01:00</published>
     <updated>2026-03-11T12:00:00+01:00</updated>
     <summary type="html">Michał Kurczewski. okoliczności opróżnienia lokalu komunalnego w grudniu 2025 roku</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
-    <title>Interpelacja: usunięcia nielegalnych pojemników na odzież z przestrzeni miejskiej Wrocławia</title>
-    <link href="https://wroclaw.radoskop.pl/interpelacje/" rel="alternate" type="text/html"/>
-    <id>https://wroclaw.radoskop.pl/interpelacje/#interpelacja</id>
-    <published>2026-03-09T12:00:00+01:00</published>
-    <updated>2026-03-09T12:00:00+01:00</updated>
-    <summary type="html">Sławomir Czerwiński, Izabela Duchnowska, Martyna Stachowiak, Robert Suligowski. usunięcia nielegalnych pojemników na odzież z przestrzeni miejskiej Wrocławia</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>

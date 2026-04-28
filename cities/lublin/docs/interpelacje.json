@@ -4950,21 +4950,6 @@
     "odpowiedz_status": "udzielono odpowiedzi"
   },
   {
-    "przedmiot": "Interpelacja w sprawie procedury umarzania zaległości podatkowych dla seniorów i osób o niskich dochodach",
-    "bip_url": "https://bip.lublin.eu/rada-miasta-lublin/ix-kadencja/interpelacje-i-zapytania-radnych/interpelacja-w-sprawie-procedury-umarzania-zaleglosci-podatkowych-dla-seniorow-i-osob-o-niskich-dochodach,143,28683,2.html",
-    "typ": "interpelacja",
-    "typ_full": "interpelacja",
-    "nr_sprawy": "IR_193_2025",
-    "data_wplywu": "2025-06-06",
-    "data_odpowiedzi": "2025-06-21",
-    "radny": "Konrad Wcisło",
-    "tresc_url": "https://bip.lublin.eu/download/gfx/bip/userfiles/_public/import/rada_miasta_lublin/ix_kadencja/interpelacje_i_zapytania/interpelacje/interp_2025/ir_193_2025.pdf",
-    "odpowiedz_url": "https://bip.lublin.eu/download/gfx/bip/userfiles/_public/import/rada_miasta_lublin/ix_kadencja/interpelacje_i_zapytania/interpelacje/interp_2025/ir_193_2025_odp.pdf",
-    "kategoria": "pomoc społeczna",
-    "kadencja": "IX",
-    "odpowiedz_status": "udzielono odpowiedzi"
-  },
-  {
     "przedmiot": "Interpelacja w sprawie skutków finansowych wprowadzenia zerowej stawki podatku od nieruchomości dla organizacji pozarządowych",
     "bip_url": "https://bip.lublin.eu/rada-miasta-lublin/ix-kadencja/interpelacje-i-zapytania-radnych/interpelacja-w-sprawie-skutkow-finansowych-wprowadzenia-zerowej-stawki-podatku-od-nieruchomosci-dla-organizacji-pozarzadowych,140,28683,2.html",
     "typ": "interpelacja",
@@ -11968,5 +11953,19 @@
     "kadencja": "IX",
     "odpowiedz_status": "udzielono odpowiedzi",
     "data_odpowiedzi": ""
+  },
+  {
+    "przedmiot": "Interpelacja w sprawie procedury umarzania zaległości podatkowych dla seniorów i osób o niskich dochodach",
+    "bip_url": "https://bip.lublin.eu/rada-miasta-lublin/ix-kadencja/interpelacje-i-zapytania-radnych/interpelacja-w-sprawie-procedury-umarzania-zaleglosci-podatkowych-dla-seniorow-i-osob-o-niskich-dochodach,143,28683,2.html",
+    "typ": "interpelacja",
+    "kategoria": "pomoc społeczna",
+    "kadencja": "IX",
+    "odpowiedz_status": "oczekuje na odpowiedź",
+    "radny": "",
+    "data_wplywu": "",
+    "data_odpowiedzi": "",
+    "tresc_url": "",
+    "odpowiedz_url": "",
+    "nr_sprawy": ""
   }
 ]

@@ -10888,11 +10888,11 @@
           "has_voting_data": true,
           "has_activity_data": true,
           "activity": {
-            "sessions_spoke": 87,
-            "total_statements": 7941,
-            "total_words": 429502,
-            "avg_statements_per_session": 91.3,
-            "avg_words_per_session": 4937,
+            "sessions_spoke": 88,
+            "total_statements": 7944,
+            "total_words": 430235,
+            "avg_statements_per_session": 90.3,
+            "avg_words_per_session": 4889,
             "sessions": [
               {
                 "date": "2018-11-22",
@@ -10959,6 +10959,12 @@
                 "session": "2019-04-11",
                 "statements": 67,
                 "words": 2727
+              },
+              {
+                "date": "2019-05-23",
+                "session": "2019-05-23",
+                "statements": 3,
+                "words": 733
               },
               {
                 "date": "2019-05-30",
@@ -12333,11 +12339,11 @@
           "has_voting_data": true,
           "has_activity_data": true,
           "activity": {
-            "sessions_spoke": 62,
-            "total_statements": 422,
-            "total_words": 43954,
-            "avg_statements_per_session": 6.8,
-            "avg_words_per_session": 709,
+            "sessions_spoke": 63,
+            "total_statements": 423,
+            "total_words": 43958,
+            "avg_statements_per_session": 6.7,
+            "avg_words_per_session": 698,
             "sessions": [
               {
                 "date": "2018-11-22",
@@ -12380,6 +12386,12 @@
                 "session": "2019-03-28",
                 "statements": 9,
                 "words": 778
+              },
+              {
+                "date": "2019-05-23",
+                "session": "2019-05-23",
+                "statements": 1,
+                "words": 4
               },
               {
                 "date": "2019-05-30",
@@ -24089,11 +24101,11 @@
           "has_voting_data": true,
           "has_activity_data": true,
           "activity": {
-            "sessions_spoke": 62,
-            "total_statements": 323,
-            "total_words": 50219,
+            "sessions_spoke": 63,
+            "total_statements": 325,
+            "total_words": 51375,
             "avg_statements_per_session": 5.2,
-            "avg_words_per_session": 810,
+            "avg_words_per_session": 815,
             "sessions": [
               {
                 "date": "2018-11-22",
@@ -24136,6 +24148,12 @@
                 "session": "2019-03-28",
                 "statements": 3,
                 "words": 662
+              },
+              {
+                "date": "2019-05-23",
+                "session": "2019-05-23",
+                "statements": 2,
+                "words": 1156
               },
               {
                 "date": "2019-05-30",
@@ -29576,11 +29594,11 @@
           "has_voting_data": true,
           "has_activity_data": true,
           "activity": {
-            "sessions_spoke": 59,
-            "total_statements": 264,
-            "total_words": 23071,
-            "avg_statements_per_session": 4.5,
-            "avg_words_per_session": 391,
+            "sessions_spoke": 60,
+            "total_statements": 278,
+            "total_words": 24024,
+            "avg_statements_per_session": 4.6,
+            "avg_words_per_session": 400,
             "sessions": [
               {
                 "date": "2018-12-06",
@@ -29611,6 +29629,12 @@
                 "session": "2019-04-11",
                 "statements": 6,
                 "words": 58
+              },
+              {
+                "date": "2019-05-23",
+                "session": "2019-05-23",
+                "statements": 14,
+                "words": 953
               },
               {
                 "date": "2019-07-04",
@@ -33085,10 +33109,10 @@
           "has_voting_data": true,
           "has_activity_data": true,
           "activity": {
-            "sessions_spoke": 46,
-            "total_statements": 149,
-            "total_words": 12435,
-            "avg_statements_per_session": 3.2,
+            "sessions_spoke": 47,
+            "total_statements": 156,
+            "total_words": 12667,
+            "avg_statements_per_session": 3.3,
             "avg_words_per_session": 270,
             "sessions": [
               {
@@ -33120,6 +33144,12 @@
                 "session": "2019-04-11",
                 "statements": 1,
                 "words": 54
+              },
+              {
+                "date": "2019-05-23",
+                "session": "2019-05-23",
+                "statements": 7,
+                "words": 232
               },
               {
                 "date": "2019-05-30",
@@ -34103,11 +34133,11 @@
           "has_voting_data": true,
           "has_activity_data": true,
           "activity": {
-            "sessions_spoke": 82,
-            "total_statements": 6056,
-            "total_words": 402078,
-            "avg_statements_per_session": 73.9,
-            "avg_words_per_session": 4903,
+            "sessions_spoke": 83,
+            "total_statements": 6117,
+            "total_words": 408116,
+            "avg_statements_per_session": 73.7,
+            "avg_words_per_session": 4917,
             "sessions": [
               {
                 "date": "2018-11-22",
@@ -34150,6 +34180,12 @@
                 "session": "2019-04-11",
                 "statements": 141,
                 "words": 5173
+              },
+              {
+                "date": "2019-05-23",
+                "session": "2019-05-23",
+                "statements": 61,
+                "words": 6038
               },
               {
                 "date": "2019-05-30",
